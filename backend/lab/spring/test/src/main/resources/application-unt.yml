@@ -1,0 +1,8 @@
+# 单元测试环境(Unit Testing)
+spring:
+  datasource:
+    url: jdbc:h2:mem:unt
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+    schema: classpath:iam.sql
