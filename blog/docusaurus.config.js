@@ -13,7 +13,7 @@ module.exports = {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
-      links: [
+      items: [
         {
           to: 'docs/doc1',
           activeBasePath: 'docs',
@@ -40,7 +40,7 @@ module.exports = {
             },
             {
               label: 'Second Doc',
-              to: 'docs/doc2',
+              to: 'docs/doc1',
             },
           ],
         },

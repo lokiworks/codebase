@@ -1,5 +1,5 @@
 ---
-id: database-version-management
+slug: database-version-management
 title: 工程实践之数据库脚本版本管理
 author: Loki
 author_title: SE
@@ -182,9 +182,4 @@ COMMIT;
 
 ### 联系方式
  * 欢迎订阅我的公众号，这里主要会发表些软件工程上的一些想法及实践
-![微信公众号](../img/weixin.jpg)
-
-* [邮箱号](loki.yen@outlook.com) 欢迎通过邮件的方式与我交流
-* [Microsoft Teams](https://teams.microsoft.com)  账号同邮箱号，欢迎通过Teams与我交流
-* [Github Issues](https://github.com/lokiworks/design/issues) 欢迎通过issues的方式与我交流
-* [我的博客](lokiworks.github.io)
+![微信公众号](../static/img/weixin.jpg)

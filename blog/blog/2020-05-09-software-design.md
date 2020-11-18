@@ -1,5 +1,5 @@
 ---
-id: software-design
+slug: software-design
 title: 软件设计
 author: Loki
 author_title: SE
@@ -36,7 +36,7 @@ tags: [design]
 └── arch-client    # 包含了一系列@FeignClient
 ```
 ### 结构图
-![software-design](../img/software-multitier.jpg)
+![software-design](../static/img/software-multitier.jpg)
 打包时会将**arch-api**及**arch-client**部署到私服中，供其他业务使用方使用
 * **arch-app** 引用了arch-api、arch-domain、arch-intgr，所有的@RestController都实现了arch-api定义的接口
 * **arch-domain** 引用了arch-dal和arch-util
@@ -137,7 +137,7 @@ public abstract  class AbstractFallbackFactory<T> implements FallbackFactory<T> 
 
 ### 优化版本V2
 1. 调整模型的依赖结构，优化[优化版本V1](#优化版本v1)中的优化点1、2，调整后的结构见下图
-![software-design](../img/software-multitier-inner-structure.jpg)
+![software-design](../static/img/software-multitier-inner-structure.jpg)
 ```
 ├─arch-app
 ├─arch-domain
@@ -252,9 +252,4 @@ public class ResponseEntityDTO<T> implements Serializable {
 
 ### 联系方式
  * 欢迎订阅我的公众号，这里主要会发表些软件工程上的一些想法及实践
-![微信公众号](../img/weixin.jpg)
-
-* [邮箱号](loki.yen@outlook.com) 欢迎通过邮件的方式与我交流
-* [Microsoft Teams](https://teams.microsoft.com)  账号同邮箱号，欢迎通过Teams与我交流
-* [Github Issues](https://github.com/lokiworks/design/issues) 欢迎通过issues的方式与我交流
-* [我的博客](lokiworks.github.io) 最近才搭建的，这会是我的第一篇文章
+![微信公众号](../static/img/weixin.jpg)

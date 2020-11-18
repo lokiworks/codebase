@@ -1,5 +1,5 @@
 ---
-id: how-to-read-sourcecode
+slug: how-to-read-sourcecode
 title: 如何阅读源码
 author: Loki
 author_title: SE
@@ -43,11 +43,11 @@ java开发中通常会用到mybatis，mybatis作为ORM框架，有着简单易�
 
 ### 核心功能
 - **加载配置** 加载配置的过程，就是为了构造Configuration类，mybatis中关键的几个类，都跟Configuration类有着千丝万缕的关系。
-![alt](../img/加载配置.jpg)
-![alt](../img/加载配置_seq.jpg)
+![alt](../static/img/加载配置.jpg)
+![alt](../static/img/加载配置_seq.jpg)
 - **执行SQL** 通过SqlSession、Executor、StatementHandler这几个类的协作，最终通过Statement完成SQL的执行。
-![alt](../img/执行SQL.jpg)
-![alt](../img/执行SQL_seq.jpg)
+![alt](../static/img/执行SQL.jpg)
+![alt](../static/img/执行SQL_seq.jpg)
 
 
 ## 结语
@@ -58,9 +58,4 @@ java开发中通常会用到mybatis，mybatis作为ORM框架，有着简单易�
 
 ### 联系方式
  * 欢迎订阅我的公众号，这里主要会发表些软件工程上的一些想法及实践
-![微信公众号](../img/weixin.jpg)
-
-* [邮箱号](loki.yen@outlook.com) 欢迎通过邮件的方式与我交流
-* [Microsoft Teams](https://teams.microsoft.com)  账号同邮箱号，欢迎通过Teams与我交流
-* [Github Issues](https://github.com/lokiworks/design/issues) 欢迎通过issues的方式与我交流
-* [我的博客](lokiworks.github.io)
+![微信公众号](../static/img/weixin.jpg)

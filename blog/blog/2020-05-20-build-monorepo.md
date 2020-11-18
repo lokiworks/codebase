@@ -1,5 +1,5 @@
 ---
-id: build-monorepo
+slug: build-monorepo
 title: 构建单体仓库
 author: Loki
 author_title: SE
@@ -17,7 +17,7 @@ tags: [design]
 
 * **单一版本管理**
 > 可以直接依赖其他团队的代码， 而不是使用其提供的类库。使用类库会存在着钻石依赖问题。
-![alt](../img/monorepo_f8.jpg)
+![alt](../static/img/monorepo_f8.jpg)
 * **方便重构**
 > 可以使用重构工具，对仓库中的类、方法等进行重命名。而不用担心有任何遗漏的地方
 
@@ -42,7 +42,7 @@ $ git sparse-checkout set init/usr # 这里只检出init和usr目录
 
 * VFSForGit
 > 微软开发的产品，本地的Git库副本都是虚拟化的。只包含元数据和必要的源代码文件。
-![alt](../img/gvfs-architecture.png)
+![alt](../static/img/gvfs-architecture.png)
 ```shell
 $ gvfs clone https://lokiworks@dev.azure.com/lokiworks/linux/_git/linux # 只需要将git命令换成gvfs，因为github目前不支持gvfs协议，所以将linux代码克隆到个人的代码仓库下
 $ cd src/ # 所有的代码文件全都放在src文件夹下
@@ -63,9 +63,4 @@ $ cd src/ # 所有的代码文件全都放在src文件夹下
 
 ### 联系方式
  * 欢迎订阅我的公众号，这里主要会发表些软件工程上的一些想法及实践
-![微信公众号](../img/weixin.jpg)
-
-* [邮箱号](loki.yen@outlook.com) 欢迎通过邮件的方式与我交流
-* [Microsoft Teams](https://teams.microsoft.com)  账号同邮箱号，欢迎通过Teams与我交流
-* [Github Issues](https://github.com/lokiworks/design/issues) 欢迎通过issues的方式与我交流
-* [我的博客](lokiworks.github.io)
+![微信公众号](../static/img/weixin.jpg)
