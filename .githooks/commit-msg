@@ -57,9 +57,8 @@ validate_commit_msg() {
         echo "${error_msg} Limit the subject line to 50 characters (${#commit_msg_lines[0]} characters used)"
         exit 1
     fi
-
     # Check if the subject line is capitalized
-    if [[ ! "${subject}" =~ ^[A-Z] ]]; then
+    if [[ "${subject}" =~ ^[A-Z] ]]; then
         echo "${error_msg} Capitalize the subject line"
         exit 1
     fi
