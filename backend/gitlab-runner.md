@@ -25,5 +25,68 @@ job:
     - make build
  ```
 
+ ### custom ci config path
+ ```
+.gitlab-ci.yml (default)
+.my-custom-file.yml
+my/path/.gitlab-ci.yml
+my/path/.my-custom-file.yml
+ ```
+ ### pipeline architectures
+ * basic pipelines
+ * directed acyclic graph pipelines (**needs** keyword)
+ * child/parent pipelines (**trigger** keyword)
+ 
+ .gitlab-ci.yml
+ ```yml
+ stages:
+  - triggers
+
+trigger_a:
+  stage: triggers
+  trigger:
+    include: a/.gitlab-ci.yml
+  rules:
+    - changes:
+        - a/*
+
+trigger_b:
+  stage: triggers
+  trigger:
+    include: b/.gitlab-ci.yml
+  rules:
+    - changes:
+        - b/*
+ ```
+ a/.gitlab-ci.yml
+ ```yml
+ stages:
+  - build
+  - test
+  - deploy
+
+image: alpine
+
+build_a:
+  stage: build
+  script:
+    - echo "This job builds something."
+
+test_a:
+  stage: test
+  needs: [build_a]
+  script:
+    - echo "This job tests something."
+
+deploy_a:
+  stage: deploy
+  needs: [test_a]
+  script:
+    - echo "This job deploys something."
+ ```
+
+ ### pipeline reference
+ 
+
 
 
