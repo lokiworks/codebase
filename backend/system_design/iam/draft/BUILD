@@ -10,7 +10,6 @@ java_library(
         "@maven//:com_google_guava_guava",
     ],
 )
-
 load("//:junit5.bzl", "java_junit5_test")
 java_junit5_test(
     name = "iam-tests",

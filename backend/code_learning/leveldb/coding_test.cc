@@ -1,3 +1,6 @@
+
+#include "gtest/gtest.h"
+
 #include <cstdint>
 #include <cstring>
 #include <string>
@@ -36,8 +39,8 @@ inline uint32_t DecodeFixed32(const char *ptr)
     // Recent clang and gcc optimize this to a single mov / ldr instruction.
     return (static_cast<uint32_t>(buffer[0])) |
            (static_cast<uint32_t>(buffer[1]) << 8) |
-           (static_cast<uint32_t>(buffer[1]) << 16) |
-           (static_cast<uint32_t>(buffer[1]) << 24);
+           (static_cast<uint32_t>(buffer[2]) << 16) |
+           (static_cast<uint32_t>(buffer[3]) << 24);
 }
 
 inline uint64_t DecodeFixed64(const char *ptr)
@@ -47,10 +50,34 @@ inline uint64_t DecodeFixed64(const char *ptr)
     // Recent clang and gcc optimize this to a single mov / ldr instruction.
     return (static_cast<uint64_t>(buffer[0])) |
            (static_cast<uint64_t>(buffer[1]) << 8) |
-           (static_cast<uint64_t>(buffer[1]) << 16) |
-           (static_cast<uint64_t>(buffer[1]) << 24) |
-           (static_cast<uint64_t>(buffer[1]) << 32) |
-           (static_cast<uint64_t>(buffer[1]) << 40) |
-           (static_cast<uint64_t>(buffer[1]) << 48) |
-           (static_cast<uint64_t>(buffer[1]) << 56);
+           (static_cast<uint64_t>(buffer[2]) << 16) |
+           (static_cast<uint64_t>(buffer[3]) << 24) |
+           (static_cast<uint64_t>(buffer[4]) << 32) |
+           (static_cast<uint64_t>(buffer[5]) << 40) |
+           (static_cast<uint64_t>(buffer[6]) << 48) |
+           (static_cast<uint64_t>(buffer[7]) << 56);
+}
+
+TEST(Coding, Fixed32)
+{
+    char buf[32] = {0};
+    uint32_t expectal = 12;
+    EncodeFixed32(buf, expectal);
+    uint32_t actual = DecodeFixed32(buf);
+    ASSERT_EQ(actual, expectal);
+}
+
+TEST(Coding, Fixed64)
+{
+    char buf[64] = {0};
+    uint64_t expectal = 666;
+    EncodeFixed64(buf, expectal);
+    uint64_t actual = DecodeFixed64(buf);
+    ASSERT_EQ(actual, expectal);
+}
+
+int main(int argc, char **argv)
+{
+    testing::InitGoogleTest(&argc, argv);
+    return RUN_ALL_TESTS();
 }

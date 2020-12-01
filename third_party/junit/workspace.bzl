@@ -23,6 +23,11 @@ JUNIT_EXTRA_DEPENDENCIES = [
     ("org.opentest4j", "opentest4j", "1.1.1"),
 ]
 
+def repo():
+    junit_jupiter_java_repositories()
+    junit_platform_java_repositories()
+
+
 def junit_jupiter_java_repositories(
         version = "5.6.2"):
     """Imports dependencies for JUnit Jupiter"""
