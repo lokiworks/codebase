@@ -11,7 +11,6 @@ java_library(
 
 
 load("//:junit5.bzl", "java_junit5_test")
-
 java_junit5_test(
     name = "leetcode-tests",
     srcs = glob(["src/test/java/**/*.java"]),
