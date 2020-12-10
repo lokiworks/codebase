@@ -1,17 +1,15 @@
+#ifndef WRITE_BATCH_H_
+#define WRITE_BATCH_H_
+
 #include <string>
 
 class Slice;
 
+enum ValueType { kTypeDeletion = 0x0, kTypeValue = 0x1 };
+
 class WriteBatch
 {
 public:
-    class Handler
-    {
-    public:
-        virtual ~Handler();
-        virtual void Put(const Slice &key, const Slice &value) = 0;
-        virtual void Delete(const Slice &key) = 0;
-    };
 
     WriteBatch();
     WriteBatch(const WriteBatch &) = default;
@@ -28,6 +26,10 @@ public:
     void Append(const WriteBatch &source);
 
 private:
-    friend class WriteBatchInternal;
+
+    friend class WriteBatchInernal;
     std::string rep_;
 };
+
+
+#endif
