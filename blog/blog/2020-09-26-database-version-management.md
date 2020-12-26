@@ -1,11 +1,11 @@
 ---
 slug: database-version-management
-title: 工程实践之数据库脚本版本管理
+title: 数据库脚本版本管理工程实践
 author: Loki
 author_title: SE
 author_url: https://lokiworks.github.io
 author_image_url: https://avatars1.githubusercontent.com/u/16199375?v=4
-tags: [source code]
+tags: [vcs]
 ---
 
 已经好久没写博客了，最近一直在研读leveldb的源码，进展不是很顺利。想要写出一篇自己的见解还要一段时间。正好最近在数据库脚本版本管理控制方面有一些自己的想法与实践，拿出来与各位分享。
