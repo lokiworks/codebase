@@ -27,7 +27,7 @@ public:
 
 private:
 
-    friend class WriteBatchInernal;
+    friend class WriteBatchInternal;
     std::string rep_;
 };
 

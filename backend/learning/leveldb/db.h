@@ -9,6 +9,8 @@
 #include <string>
 #include "backend/learning/leveldb/options.h"
 #include "backend/learning/leveldb/slice.h"
+#include "backend/learning/leveldb/db_impl.h"
+
 
 class WriteBatch;
 class Snapshot;
@@ -38,6 +40,8 @@ public:
 
 
 };
+
+
 
 
 #endif //DB_H_

@@ -6,10 +6,11 @@
 #include "write_batch.h"
 typedef uint64_t SequenceNumber;
 
+class MemTable;
 
-// WriteBatchInernal provides static methods for manipulating a
+// WriteBatchInternal provides static methods for manipulating a
 // WriteBatch that we don't want in the public WriteBatch interface.
-class WriteBatchInernal
+class WriteBatchInternal
 {
 
 public:
@@ -32,6 +33,9 @@ public:
     static void SetContents(WriteBatch * batch, const Slice& contents);
 
     static void Append(WriteBatch *dst, const WriteBatch *src);
+
+    static  size_t  InsertInto(const WriteBatch* batch, MemTable* memTable);
+
 };
 
 

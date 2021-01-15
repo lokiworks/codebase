@@ -15,6 +15,29 @@ cc_library(
     hdrs=glob(["write_batch.h", "write_batch_internal.h", "slice.h", "coding.h"])
 )
 
+cc_library(
+    name = "log_writer",
+    srcs = glob(["log_writer.cc"]),
+    hdrs = glob(["log_writer.h", "slice.h"]),
+)
+
+cc_library(
+    name = "version_set",
+    srcs = glob(["version_set.cc"]),
+    hdrs = glob(["version_set.h"]),
+)
+
+cc_library(
+    name = "db_impl",
+    srcs = glob(["db_impl.cpp"]),
+    hdrs = glob(["db.h", "db_impl.h", "write_batch.h", "version_set.h", "options.h", "thread_annotations.h"]),
+    deps=[
+        ":write_batch",
+        ":version_set",
+        ":log_writer"
+    ]
+)
+
 
 cc_test(
     name = "coding_test",
