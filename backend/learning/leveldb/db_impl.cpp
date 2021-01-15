@@ -6,6 +6,7 @@
 #include "write_batch.h"
 #include "backend/learning/leveldb/write_batch_internal.h"
 #include "backend/learning/leveldb/version_set.h"
+#include <condition_variable>
 
 struct DBImpl::Writer {
 
