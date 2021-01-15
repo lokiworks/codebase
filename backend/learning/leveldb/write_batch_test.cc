@@ -5,5 +5,5 @@
 TEST(WriteBatchTest, Empty)
 {
     WriteBatch b;
-    ASSERT_EQ(0, WriteBatchInernal::Count(&b));
+    ASSERT_EQ(0, WriteBatchInternal::Count(&b));
 }
