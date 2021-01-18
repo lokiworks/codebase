@@ -33,20 +33,22 @@ size_t DBImpl::Delete(const WriteOptions &options, const Slice &key) {
 }
 
 size_t DBImpl::Write(const WriteOptions &options, WriteBatch *updates) {
+    // 生产者消费者模型
     Writer w(&mutex_);
     w.batch = updates;
     w.sync = options.sync;
     w.done = false;
-
+    // 尝试获取锁
     std::lock_guard<std::mutex> guard(mutex_);
+    // 只有一个线程获取到锁，w插入到队列
     writes_.push_back(&w);
-
+    // 只有w位于队列头部且w没完成才不用等待
     while (!w.done && &w != writes_.front()) {
         std::unique_lock<std::mutex> unique_lock(mutex_, std::adopt_lock);
         w.cv.wait(unique_lock);
         unique_lock.release();
     }
-
+    // 被其他线程通过合并操作完成
     if (w.done) {
         return w.status;
     }
@@ -55,14 +57,14 @@ size_t DBImpl::Write(const WriteOptions &options, WriteBatch *updates) {
     uint64_t last_sequence = 0;
     Writer * last_writer = &w;
     if (status == 0 && updates != nullptr){
+        // 合并队列中各个batch到一个新batch中
         WriteBatch* write_batch = nullptr;
+        // 为合并后的batch赋上全局序列号
         WriteBatchInternal::SetSequence(write_batch, last_sequence + 1);
+        // 计算新的全局序列号
         last_sequence += WriteBatchInternal::Count(write_batch);
 
-        // Add to log and apply to memtable. we can release the lock
-        // during this phase since &w is currently responsible for logging
-        // and protects against concurrent loggers and concurrent writes
-        // into mem_.
+        // 释放锁提高并发，其他线程可以将新的writer插入到队列中
         {
             mutex_.unlock();
             status = log_->AddRecord(WriteBatchInternal::Contents(write_batch));
@@ -78,23 +80,24 @@ size_t DBImpl::Write(const WriteOptions &options, WriteBatch *updates) {
             if (status == 0){
                 status = WriteBatchInternal::InsertInto(write_batch, mem_);
             }
-
+            // 重新加锁
             mutex_.lock();
 
             if (sync_error){
                 RecordBackgroundError(status);
             }
         }
-
+        // 因为write_batch已经写入log和memtable，可以清空
         if (write_batch == tmp_batch_){
             tmp_batch_->Clear();
         }
-
+        // 重新设置全局序列号
         versions_->SetLastSequence(last_sequence);
 
     }
 
     while (true){
+        // 当前线程完成了其他线程的writer，只需唤醒这些已经完成的writer线程
         Writer* ready = writes_.front();
         writes_.pop_front();
         if (ready != &w){
