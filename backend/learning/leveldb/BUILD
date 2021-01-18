@@ -30,7 +30,7 @@ cc_library(
 cc_library(
     name = "db_impl",
     srcs = glob(["db_impl.cpp"]),
-    hdrs = glob(["db.h", "db_impl.h", "write_batch.h", "version_set.h", "options.h", "thread_annotations.h"]),
+    hdrs = glob(["db.h", "db_impl.h",  "options.h", "thread_annotations.h"]),
     deps=[
         ":write_batch",
         ":version_set",
