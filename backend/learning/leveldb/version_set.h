@@ -17,6 +17,10 @@ public:
         last_sequence_ = s;
     }
 
+    uint64_t LastSequence() const {
+        return last_sequence_;
+    }
+
 private:
     uint64_t last_sequence_;
 };

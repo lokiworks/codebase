@@ -29,7 +29,7 @@ cc_library(
 
 cc_library(
     name = "db_impl",
-    srcs = glob(["db_impl.cpp"]),
+    srcs = glob(["db_impl.cc"]),
     hdrs = glob(["db.h", "db_impl.h",  "options.h", "thread_annotations.h"]),
     deps=[
         ":write_batch",
@@ -38,6 +38,21 @@ cc_library(
     ]
 )
 
+cc_library(
+    name = "arena",
+    srcs = glob(["Arena.cc"]),
+    hdrs = glob(["Arena.h"]),
+)
+
+cc_test(
+    name = "arena_test",
+    srcs = glob(["arena_test.cc"]),
+    deps = [
+        ":arena",
+        "@com_google_googletest//:gtest_main",
+
+    ],
+)
 
 cc_test(
     name = "coding_test",
