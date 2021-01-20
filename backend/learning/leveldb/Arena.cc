@@ -3,7 +3,7 @@
 //
 
 #include "Arena.h"
-#include <cassert>
+
 static const int kBlockSize = 4096;
 
 Arena::Arena() :alloc_ptr_(nullptr), alloc_bytes_remaining_(0), memory_usage_(0){}
