@@ -8,6 +8,7 @@
 
 #include <cstddef>
 #include <vector>
+#include <atomic>
 
 class Arena {
 public:
