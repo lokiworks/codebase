@@ -130,6 +130,11 @@ size_t DBImpl::MakeRoomForWrite(bool force) {
 }
 
 size_t DBImpl::Get(const ReadOptions &options, const Slice &key, std::string *value) {
+    size_t size;
+    std::lock_guard<std::mutex> l(mutex_);
+    SequenceNumber  snapshot;
+    snapshot = versions_->LastSequence();
+
     return 0;
 }
 

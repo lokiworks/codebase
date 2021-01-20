@@ -49,6 +49,7 @@ struct ReadOptions {
 
     bool fill_cache = true;
 
+    const Snapshot * snapshot = nullptr;
 
 };
 
