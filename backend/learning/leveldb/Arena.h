@@ -9,6 +9,7 @@
 #include <cstddef>
 #include <vector>
 #include <atomic>
+#include <cassert>
 
 class Arena {
 public:
