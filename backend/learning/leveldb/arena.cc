@@ -2,11 +2,11 @@
 // Created by loki on 2021/1/21.
 //
 
-#include "Arena.h"
+#include "arena.h"
 
 static const int kBlockSize = 4096;
 
-Arena::Arena() :alloc_ptr_(nullptr), alloc_bytes_remaining_(0), memory_usage_(0){}
+Arena::Arena() : alloc_ptr_(nullptr), alloc_bytes_remaining_(0), memory_usage_(0){}
 
 Arena::~Arena() {
     for (int i = 0; i < blocks_.size(); ++i) {

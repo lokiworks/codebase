@@ -40,8 +40,8 @@ cc_library(
 
 cc_library(
     name = "arena",
-    srcs = glob(["Arena.cc"]),
-    hdrs = glob(["Arena.h"]),
+    srcs = glob(["arena.cc"]),
+    hdrs = glob(["arena.h"]),
 )
 
 cc_test(

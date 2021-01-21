@@ -8,6 +8,7 @@
 
 #include <atomic>
 #include <random>
+#include "backend/learning/leveldb/arena.h"
 
 class Arena;
 
@@ -91,7 +92,46 @@ private:
 
 template<typename Key, class Comparator>
 typename SkipList<Key, Comparator>::Node *SkipList<Key, Comparator>::NewNode(const Key &key, int height) {
-    return nullptr;
+    char* const node_memory = arena_->AllocateAligned(sizeof(Node) + sizeof(std::atomic<Node*>)*(height-1));
+    return new (node_memory)Node(key);
+}
+
+template<typename Key, class Comparator>
+SkipList<Key, Comparator>::SkipList(Comparator cmp, Arena* arena)
+:compare_(cmp),
+arena_(arena),
+head_(NewNode(0, kMaxHeight)),
+max_height_(1)
+{
+    for (int i = 0; i < kMaxHeight; ++i) {
+        head_->SetNext(i, nullptr);
+    }
+}
+
+template<typename Key, class Comparator>
+void SkipList<Key,  Comparator>::Insert(const Key &key) {
+    Node* prev[kMaxHeight];
+    Node * x = FindGreaterOrEqual(key, prev);
+    // 不允许插入相同的key
+    assert(x == nullptr || !Equal(key, x->key));
+}
+
+
+template<typename Key, class Comparator>
+int SkipList<Key, Comparator>::RandomHeight(){
+    static const unsigned int kBranching = 4;
+    int height = 1;
+    while (height < kMaxHeight &&((intDistro(defEngine) % kBranching) == 0)){
+        height++;
+    }
+    assert(height > 0);
+    assert(height <= kMaxHeight);
+    return height;
+};
+
+template<typename Key, class Comparator>
+bool SkipList<Key, Comparator>::KeyIsAfterNode(const Key &key, Node *n) const {
+    return (n != nullptr) && (compare_(n->key, key) < 0);
 }
 
 
