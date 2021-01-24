@@ -40,8 +40,8 @@ cc_library(
 
 cc_library(
     name = "arena",
-    srcs = glob(["Arena.cc"]),
-    hdrs = glob(["Arena.h"]),
+    srcs = glob(["arena.cc"]),
+    hdrs = glob(["arena.h"]),
 )
 
 cc_test(
@@ -78,5 +78,20 @@ cc_test(
         ":write_batch",
         ":coding",
         "@com_google_googletest//:gtest_main",
+    ],
+)
+
+cc_library(
+    name = "skiplist",
+    srcs = glob(["arena.h", "skiplist.h"]),
+)
+
+cc_test(
+    name = "skiplist_test",
+    srcs = glob(["skiplist_test.cc"]),
+    deps = [
+        ":arena",
+        ":skiplist",
+        "@com_google_googletest//:gtest_main"
     ],
 )
