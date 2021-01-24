@@ -80,3 +80,18 @@ cc_test(
         "@com_google_googletest//:gtest_main",
     ],
 )
+
+cc_library(
+    name = "skiplist",
+    srcs = glob(["arena.h", "skiplist.h"]),
+)
+
+cc_test(
+    name = "skiplist_test",
+    srcs = glob(["skiplist_test.cc"]),
+    deps = [
+        ":arena",
+        ":skiplist",
+        "@com_google_googletest//:gtest_main"
+    ],
+)
