@@ -61,6 +61,8 @@ private:
 
     VersionSet* const versions_ GUARDED_BY(mutex_);
 
+    void MaybeScheduleCompaction();
+
 
 
 
