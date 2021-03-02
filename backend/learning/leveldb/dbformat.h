@@ -30,12 +30,12 @@ public:
     Slice internal_key() const {return Slice(kstart_, end_-kstart_);}
     Slice user_key() const {return Slice(kstart_, end_-kstart_-8);}
 private:
-    //  |<------------LookupKey------------->|
+    //  |<--------------LookupKey-------------->|
     //  +----------+--------------+-------------+
-    //  ｜key_size ｜  key_data    ｜   seqNum    ｜
-    //  ｜         ｜<--user_key-->｜             ｜
-    //  ｜         ｜<-------internal_key-------->｜
-    //  ｜<------------- memtable_key------------>｜
+    //  ｜key_size ｜  key_data    ｜   seqNum   ｜
+    //  ｜         ｜<--user_key-->｜            ｜
+    //  ｜         ｜<-------internal_key------->｜
+    //  ｜<------------- memtable_key----------->｜
     const char * start_;
     const char * kstart_;
     const char* end_;

@@ -9,6 +9,7 @@
 #include <cstdint>
 #include <cstddef>
 #include "backend/learning/leveldb/slice.h"
+#include "backend/learning/leveldb/log_format.h"
 
 class WritableFile;
 
@@ -30,6 +31,12 @@ namespace log{
         ~Writer();
 
         size_t AddRecord(const Slice & slice);
+
+    private:
+        size_t EmitPhysicalRecord(RecordType type, const char* ptr, size_t length);
+        int block_offset_;
+        WritableFile* dest_;
+
     };
 }
 
