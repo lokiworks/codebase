@@ -25,14 +25,14 @@ public class Q43Solution {
             int n1 = num1.charAt(i) - '0';
             for (int j = num2.length() - 1; j >= 0; j--) {
                 int n2 = num2.charAt(j) - '0';
-                int temp = a[i+j+1]- '0'+ n1 + n2;
-                a[i + j - 1] = (char) (temp % 10 + '0');
-                a[i + j] = (char) (temp / 10 + '0');
+                int temp = a[i + j + 1] - '0' + n1 * n2;
+                a[i + j + 1] = (char) (temp % 10 + '0');
+                a[i + j] += (char) (temp / 10);
             }
         }
 
-        for (int i = 0; i < num1.length()+num2.length();++i){
-            if (a[i] != '0'){
+        for (int i = 0; i < num1.length() + num2.length(); ++i) {
+            if (a[i] != '0') {
                 return new String(a).substring(i);
             }
         }
