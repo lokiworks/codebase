@@ -200,7 +200,6 @@ typename SkipList<Key, Comparator>::Node *SkipList<Key, Comparator>::FindLast() 
 template<typename Key, class Comparator>
 bool SkipList<Key, Comparator>::Contains(const Key &key) const {
     Node *x = FindGreaterOrEqual(key, nullptr);
-    printf("address is %d, key: %d\n", x, x->key);
     if (x != nullptr && Equal(key, x->key)) {
         return true;
     } else {

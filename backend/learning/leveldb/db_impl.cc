@@ -6,6 +6,7 @@
 #include "write_batch.h"
 #include "backend/learning/leveldb/write_batch_internal.h"
 #include "backend/learning/leveldb/version_set.h"
+#include "backend/learning/leveldb/memtable.h"
 #include <condition_variable>
 
 struct DBImpl::Writer {
@@ -55,10 +56,10 @@ size_t DBImpl::Write(const WriteOptions &options, WriteBatch *updates) {
 
     size_t status = MakeRoomForWrite(updates == nullptr);
     uint64_t last_sequence = 0;
-    Writer * last_writer = &w;
-    if (status == 0 && updates != nullptr){
+    Writer *last_writer = &w;
+    if (status == 0 && updates != nullptr) {
         // 合并队列中各个batch到一个新batch中
-        WriteBatch* write_batch = nullptr;
+        WriteBatch *write_batch = nullptr;
         // 为合并后的batch赋上全局序列号
         WriteBatchInternal::SetSequence(write_batch, last_sequence + 1);
         // 计算新的全局序列号
@@ -68,27 +69,27 @@ size_t DBImpl::Write(const WriteOptions &options, WriteBatch *updates) {
         {
             mutex_.unlock();
             status = log_->AddRecord(WriteBatchInternal::Contents(write_batch));
-            bool  sync_error = false;
-            if (status == 0 && options.sync){
+            bool sync_error = false;
+            if (status == 0 && options.sync) {
                 // log file sync
-                if (status){
+                if (status) {
                     sync_error = true;
                 }
             }
 
             // 写入数据
-            if (status == 0){
+            if (status == 0) {
                 status = WriteBatchInternal::InsertInto(write_batch, mem_);
             }
             // 重新加锁
             mutex_.lock();
 
-            if (sync_error){
+            if (sync_error) {
                 RecordBackgroundError(status);
             }
         }
         // 因为write_batch已经写入log和memtable，可以清空
-        if (write_batch == tmp_batch_){
+        if (write_batch == tmp_batch_) {
             tmp_batch_->Clear();
         }
         // 重新设置全局序列号
@@ -96,24 +97,24 @@ size_t DBImpl::Write(const WriteOptions &options, WriteBatch *updates) {
 
     }
 
-    while (true){
+    while (true) {
         // 当前线程完成了其他线程的writer，只需唤醒这些已经完成的writer线程
-        Writer* ready = writes_.front();
+        Writer *ready = writes_.front();
         writes_.pop_front();
-        if (ready != &w){
+        if (ready != &w) {
             ready->status = status;
             ready->done = true;
             ready->cv.notify_one();
         }
 
-        if (ready == last_writer){
+        if (ready == last_writer) {
             break;
         }
     }
 
 
     // Notify new head of write queue
-    if (!writes_.empty()){
+    if (!writes_.empty()) {
         writes_.front()->cv.notify_one();
     }
 
@@ -130,12 +131,52 @@ size_t DBImpl::MakeRoomForWrite(bool force) {
 }
 
 size_t DBImpl::Get(const ReadOptions &options, const Slice &key, std::string *value) {
-    size_t size;
+    size_t s;
     std::lock_guard<std::mutex> l(mutex_);
-    SequenceNumber  snapshot;
+    SequenceNumber snapshot;
     snapshot = versions_->LastSequence();
+    MemTable *mem = mem_;
+    MemTable *imm = imm_;
+    Version *current = versions_->current();
+    mem->Ref();
+    if (imm != nullptr) {
+        imm->Ref();
+    }
+    current->Ref();
 
-    return 0;
+    bool have_stat_update = false;
+    Version::GetStats stats;
+    // Unlock while reading from files and memtables
+    {
+        mutex_.unlock();
+        LookupKey lKey(key, snapshot);
+        if (mem->Get(lKey, value, &s)) {
+            // Done
+        } else if (imm != nullptr && imm->Get(lKey, value, &s)) {
+            // Done
+        } else {
+            s = current->Get(options, lKey, value, &stats);
+            have_stat_update = true;
+        }
+        mutex_.lock();
+    }
+
+    if (have_stat_update && current->UpdateStats(stats)) {
+        MaybeScheduleCompaction();
+    }
+
+    mem->UnRef();
+    if (imm != nullptr) {
+        imm->UnRef();
+    }
+    current->UnRef();
+
+
+    return s;
+}
+
+void DBImpl::MaybeScheduleCompaction() {
+
 }
 
 size_t DB::Put(const WriteOptions &options, const Slice &key, const Slice &value) {

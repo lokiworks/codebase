@@ -8,11 +8,46 @@
 
 #include <cstdint>
 #include <cassert>
+#include "backend/learning/leveldb/options.h"
+#include "backend/learning/leveldb/dbformat.h"
+
+class Version {
+public:
+
+
+
+
+    struct GetStats{
+
+    };
+
+
+    void Ref() {
+
+    }
+
+    void UnRef(){
+
+    }
+
+    size_t Get(const ReadOptions &, const LookupKey & key, std::string * val, GetStats* stats){
+        return 0;
+    }
+    bool UpdateStats(const GetStats& stats){
+        return false;
+    }
+
+};
 
 class VersionSet {
 
 public:
-    void SetLastSequence(uint64_t s){
+
+    Version *current() {
+        return current_;
+    }
+
+    void SetLastSequence(uint64_t s) {
         assert(s >= last_sequence_);
         last_sequence_ = s;
     }
@@ -23,6 +58,7 @@ public:
 
 private:
     uint64_t last_sequence_;
+    Version *current_;
 };
 
 
