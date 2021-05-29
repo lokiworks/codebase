@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "domain.event.producer.enabled",
+    "type": "java.lang.Boolean",
+    "description": "enable domain event provider or not."
+  },
+  {
+    "name": "domain.event.producer.tablePrefix",
+    "type": "java.lang.String",
+    "description": "enable domain event provider table prefix."
+  }
+]}
