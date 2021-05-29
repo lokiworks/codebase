@@ -31,6 +31,7 @@ spring:
     password: pass123456
     driver-class-name: com.mysql.jdbc.Driver
 
+
 logging:
   level: debug
 domain:
