@@ -11,9 +11,7 @@ public interface DomainEvent<T> {
      * 事件ID
      * @return
      */
-    default String eventId(){
-        return UUID.randomUUID().toString().replace("-", "");
-    }
+    String eventId();
 
     /**
      * 事件类型
@@ -29,7 +27,11 @@ public interface DomainEvent<T> {
 
     String entityId();
 
-    String entityVersion();
+    String entityType();
+
+   default String entityVersion(){
+       return "1.0";
+   }
 
 
 

@@ -95,6 +95,35 @@ import java.util.Objects;
         }
     }
 
+    protected <T> int executeUpdate(String sql,ObjectToStatement<T> objectToStatement,T o){
+        Connection connection = null;
+        PreparedStatement stmt = null;
+        try {
+            connection = dataSource.getConnection();
+            if (log.isDebugEnabled()){
+                log.debug("Preparing SQL: {}", sql);
+            }
+
+            stmt = connection.prepareStatement(sql);
+            if (log.isDebugEnabled()){
+                log.debug("setting params to PrepareStatement: {}", o.toString());
+            }
+
+            objectToStatement.toStatement(o,stmt);
+            int count = stmt.executeUpdate();
+            if (!connection.getAutoCommit()){
+                connection.commit();
+            }
+            return count;
+        }catch (SQLException e){
+            throw new RuntimeException(e);
+        }finally {
+            closeSilent(stmt);
+            closeSilent(connection);
+        }
+    }
+
+
     protected int executeUpdate(String sql, Object...args){
         Connection connection = null;
         PreparedStatement stmt = null;

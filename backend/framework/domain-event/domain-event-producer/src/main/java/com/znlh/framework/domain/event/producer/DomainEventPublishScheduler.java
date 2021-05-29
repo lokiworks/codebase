@@ -15,7 +15,7 @@ public class DomainEventPublishScheduler {
     ScheduledExecutorService executor = Executors.newScheduledThreadPool(2, new NamedThreadFactory("DomainEventPublishScheduler", false));
     public DomainEventPublishScheduler(DomainEventPublisher publisher){
         this.publisher = publisher;
-        executor.scheduleAtFixedRate(this::run, 0, 5, TimeUnit.MINUTES);
+        executor.scheduleAtFixedRate(this::run, 5, 5, TimeUnit.MINUTES);
     }
     public void run(){
         log.info("Scheduled trigger domain event backup publish process.");

@@ -15,7 +15,7 @@ public class DomainEventSubscribeHandler {
 
     public void invoke(DomainEvent event){
         try {
-            method.invoke(event);
+            method.invoke(bean,event);
         } catch (IllegalAccessException|InvocationTargetException e) {
             log.error("invoke failed, eventId:{}",event.eventId(), e);
         }

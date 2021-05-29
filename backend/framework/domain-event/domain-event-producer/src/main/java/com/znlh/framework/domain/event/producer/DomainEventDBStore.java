@@ -75,9 +75,9 @@ import java.util.Objects;
             Objects.requireNonNull(event.entity());
             stmt.setString(1, event.eventId());
             stmt.setString(2, event.eventType());
-            stmt.setString(3, event.entity().entityId());
-            stmt.setString(4, JSON.toJSONString(event.entity().getData()));
-            stmt.setString(5, event.entity().version());
+            stmt.setString(3, event.entityId());
+            stmt.setString(4, JSON.toJSONString(event.entity()));
+            stmt.setString(5, event.entityVersion());
         }
     }
     private static class ResultSetToDomainEvent implements AbstractStore.ResultSetToObject<DomainEvent>{
@@ -87,13 +87,10 @@ import java.util.Objects;
             DomainEventImpl event = new DomainEventImpl();
             event.setEventId(resultSet.getString("event_id"));
             event.setEventType(resultSet.getString("event_type"));
-
-            DomainEntityImpl entity = new DomainEntityImpl();
-            entity.setEntityId(resultSet.getString("entity_id"));
-            entity.setEntityData(resultSet.getString("entity_data"));
-            entity.setEntityType(resultSet.getString("event_type"));
-            entity.setVersion(resultSet.getString("entity_version"));
-            event.setEntity(entity);
+            event.setEntityId(resultSet.getString("entity_id"));
+            event.setEntity(JSON.parseObject(resultSet.getString("entity_data")));
+            event.setEntityType(resultSet.getString("event_type"));
+            event.setEntityVersion(resultSet.getString("entity_version"));
             return event;
         }
     }

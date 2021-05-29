@@ -1,14 +1,20 @@
 package com.znlh.framework.domain.event.example;
 
-import com.znlh.framework.domain.event.api.DomainEntity;
-import com.znlh.framework.domain.event.api.DomainEvent;
+import lombok.Builder;
+import lombok.Data;
 
-
-public class OrderCreateEvent implements DomainEvent {
+@Builder
+@Data
+public class OrderCreateEvent extends OrderEvent<OrderDO> {
     public static final String  EVENT_TYPE = "OrderCreateEvent";
+    private OrderDO entity;
+    private String eventId;
+    private String entityVersion;
+
+
     @Override
     public String eventId() {
-        return null;
+        return eventId;
     }
 
     @Override
@@ -17,7 +23,12 @@ public class OrderCreateEvent implements DomainEvent {
     }
 
     @Override
-    public DomainEntity entity() {
-        return null;
+    public OrderDO entity() {
+        return entity;
+    }
+
+    @Override
+    public String entityId() {
+        return entity.getOrderId();
     }
 }

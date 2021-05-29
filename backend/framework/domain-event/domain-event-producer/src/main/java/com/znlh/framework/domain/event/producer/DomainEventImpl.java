@@ -1,6 +1,5 @@
 package com.znlh.framework.domain.event.producer;
 
-import com.znlh.framework.domain.event.api.DomainEntity;
 import com.znlh.framework.domain.event.api.DomainEvent;
 import lombok.Data;
 
@@ -9,8 +8,10 @@ import lombok.Data;
  class DomainEventImpl implements DomainEvent {
     private String eventId;
     private String eventType;
-    private DomainEntity entity;
-
+    private Object entity;
+    private String entityId;
+    private String entityType;
+    private String entityVersion;
 
     @Override
     public String eventId() {
@@ -23,19 +24,21 @@ import lombok.Data;
     }
 
     @Override
-    public DomainEntity entity() {
+    public Object entity() {
         return entity;
     }
 
-    public void setEventId(String eventId) {
-        this.eventId = eventId;
+    @Override
+    public String entityId() {
+        return entityId;
     }
 
-    public void setEventType(String eventType) {
-        this.eventType = eventType;
+    @Override
+    public String entityType() {
+        return entityType;
     }
 
-    public void setEntity(DomainEntity entity) {
-        this.entity = entity;
+   public String entityVersion(){
+        return entityVersion;
     }
 }

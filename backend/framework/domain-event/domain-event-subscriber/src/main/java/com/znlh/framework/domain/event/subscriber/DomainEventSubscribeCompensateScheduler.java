@@ -19,7 +19,7 @@ public class DomainEventSubscribeCompensateScheduler {
 
     public DomainEventSubscribeCompensateScheduler(List<DomainEventRetriever> retrievers) {
         this.retrievers = retrievers;
-        executor.scheduleAtFixedRate(this::run, 0, 5, TimeUnit.MINUTES);
+        executor.scheduleAtFixedRate(this::run, 5, 5, TimeUnit.MINUTES);
     }
 
     public void run() {

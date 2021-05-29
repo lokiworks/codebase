@@ -55,12 +55,12 @@ public class DomainEventPublisherImpl implements DomainEventPublisher {
         int updateSucceed =   store.markStatus(event.eventId(), DomainEventStatus.PROCESSING, DomainEventStatus.NEW);
         // 更新成功
         if (updateSucceed > 0){
-            Message<DomainEvent> message = MessageBuilder.withPayload(event)
+            Message<String> message = MessageBuilder.withPayload(JSON.toJSONString(event))
                     .setHeader(EVENT_TYPE_HEADER, event.eventType()).build();
             try {
                 boolean sendSucceed =  channel.send(message, 1000);
                 if (sendSucceed){
-                    store.markStatus(event.eventId(), DomainEventStatus.PROCESSING, DomainEventStatus.SUCCESS);
+                    store.markStatus(event.eventId(), DomainEventStatus.SUCCESS, DomainEventStatus.PROCESSING);
                 }else {
                     store.incRetryCnt(event.eventId(), MAX_RETRY_COUNT);
                 }
@@ -102,7 +102,7 @@ public class DomainEventPublisherImpl implements DomainEventPublisher {
                   try {
                       boolean sendSucceed =  channel.send(message, 1000);
                       if (sendSucceed){
-                          store.markStatus(event.eventId(), DomainEventStatus.PROCESSING, DomainEventStatus.SUCCESS);
+                          store.markStatus(event.eventId(), DomainEventStatus.SUCCESS, DomainEventStatus.PROCESSING);
                       }else {
                           store.incRetryCnt(event.eventId(), MAX_RETRY_COUNT);
                       }
