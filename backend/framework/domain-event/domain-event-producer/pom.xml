@@ -7,13 +7,13 @@
   <parent>
     <artifactId>domain-event-parent</artifactId>
     <groupId>com.znlh.framework</groupId>
-    <relativePath>../pom.xml</relativePath>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
 
   <groupId>com.znlh.framework</groupId>
   <artifactId>domain-event-producer</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
 
   <name>${project.artifactId}</name>
   <!-- FIXME change it to the project's website -->
