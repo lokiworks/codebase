@@ -50,7 +50,7 @@ public class TransitionImpl<S, E, C> implements Transition<S, E, C> {
 
     @Override
     public void setTarget(State<S, E, C> state) {
-        this.target = target;
+        this.target = state;
     }
 
     @Override
