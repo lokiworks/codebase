@@ -158,6 +158,18 @@ public class StateMachineTest {
 
 
     }
+
+    /**
+     * [
+     *     {
+     *         "sourceState":"S1",
+     *         "targetState":"S2",
+     *         "eventType":"E1",
+     *         "conditon":"",
+     *         "action":""
+     *     }
+     * ]
+     */
     @Test
     public void dsl(){
 
