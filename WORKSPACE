@@ -4,9 +4,9 @@ load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
 #codebase_reporitories()
 
-RULES_JVM_EXTERNAL_TAG = "3.3"
+RULES_JVM_EXTERNAL_TAG = "4.1"
 
-RULES_JVM_EXTERNAL_SHA = "d85951a92c0908c80bd8551002d66cb23c3434409c814179c0ff026b53544dab"
+RULES_JVM_EXTERNAL_SHA = "f36441aa876c4f6427bfb2d1f2d723b48e9d930b62662bf723ddfb8fc80f0140"
 
 http_archive(
     name = "rules_jvm_external",

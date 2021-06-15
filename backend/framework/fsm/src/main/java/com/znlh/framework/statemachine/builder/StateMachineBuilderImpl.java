@@ -2,7 +2,6 @@ package com.znlh.framework.statemachine.builder;
 
 import com.znlh.framework.statemachine.State;
 import com.znlh.framework.statemachine.StateMachine;
-import com.znlh.framework.statemachine.StateMachineFactory;
 import com.znlh.framework.statemachine.TransitionType;
 import com.znlh.framework.statemachine.impl.StateMachineImpl;
 
@@ -29,7 +28,6 @@ public class StateMachineBuilderImpl<S, E, C> implements StateMachineBuilder<S, 
     public StateMachine<S, E, C> build(String machineId) {
         stateMachine.setMachineId(machineId);
         stateMachine.setReady(true);
-        StateMachineFactory.register(stateMachine);
         return stateMachine;
     }
 }
