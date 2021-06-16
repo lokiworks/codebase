@@ -2,11 +2,11 @@ package com.znlh.framework;
 
 import static org.junit.Assert.assertTrue;
 
-import com.znlh.framework.statemachine.PlantUmlGenerator;
-import com.znlh.framework.statemachine.StateMachine;
+import com.znlh.framework.statemachine.*;
 import com.znlh.framework.statemachine.builder.On;
 import com.znlh.framework.statemachine.builder.StateMachineBuilder;
 import com.znlh.framework.statemachine.builder.StateMachineBuilderFactory;
+import com.znlh.framework.statemachine.impl.DefaultStateMachineFactory;
 import org.junit.Assert;
 import org.junit.Test;
 import org.springframework.expression.Expression;
@@ -172,6 +172,16 @@ public class StateMachineTest {
      */
     @Test
     public void dsl(){
+        StateMachineProperties properties = new StateMachineProperties();
+        properties.setAddress("http://192.168.3.200:8848");
+        properties.setGroup("ORDER_GROUP");
+        properties.setNamespaceId("25d3bc09-677c-4b9c-9889-72b5c5e41520");
 
+        StateMachineAutoConfigure autoConfigure = new StateMachineAutoConfigure();
+        autoConfigure.configuration(properties);
+
+        StateMachineFactory stateMachineFactory =  autoConfigure.stateMachineFactory(autoConfigure.configuration(properties),autoConfigure.stateMachineParser());
+       StateMachine s = stateMachineFactory.create("simple");
+       int i = 3;
     }
 }

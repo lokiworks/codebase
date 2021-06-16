@@ -17,7 +17,7 @@ public class StateMachineParserImpl implements StateMachineParser{
     ExpressionParser parser = new SpelExpressionParser();
 
     @Override
-    public StateMachine parser(String machineId,String json) {
+    public StateMachine parse(String machineId, String json) {
 
         List<Map<String, Object>> nodes =    JSON.parseObject(json, List.class);
         StateMachineBuilder stateMachineBuilder =  StateMachineBuilderFactory.create();
