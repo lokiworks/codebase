@@ -9,14 +9,13 @@ import com.znlh.framework.statemachine.builder.StateMachineBuilder;
 import com.znlh.framework.statemachine.builder.StateMachineBuilderFactory;
 import org.springframework.expression.Expression;
 import org.springframework.expression.ExpressionParser;
-import org.springframework.expression.spel.standard.SpelExpressionParser;
 
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 
 public class StateMachineParserImpl implements StateMachineParser {
-    ExpressionParser parser = new SpelExpressionParser();
+    ExpressionParser parser;
     ActionFactory actionFactory;
 
 
@@ -84,5 +83,9 @@ public class StateMachineParserImpl implements StateMachineParser {
 
     public void setActionFactory(ActionFactory actionFactory) {
         this.actionFactory = actionFactory;
+    }
+
+    public void setParser(ExpressionParser parser) {
+        this.parser = parser;
     }
 }
