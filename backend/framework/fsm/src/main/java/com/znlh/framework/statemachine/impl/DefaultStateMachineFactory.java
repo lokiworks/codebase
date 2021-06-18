@@ -4,7 +4,7 @@ import com.znlh.framework.statemachine.Configuration;
 import com.znlh.framework.statemachine.ConfigurationChangeEvent;
 import com.znlh.framework.statemachine.StateMachine;
 import com.znlh.framework.statemachine.StateMachineFactory;
-import com.znlh.framework.statemachine.parser.StateMachineParser;
+import com.znlh.framework.statemachine.StateMachineParser;
 
 import java.util.Map;
 import java.util.Objects;

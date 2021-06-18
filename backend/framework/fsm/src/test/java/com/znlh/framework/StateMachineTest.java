@@ -180,7 +180,7 @@ public class StateMachineTest {
         StateMachineAutoConfigure autoConfigure = new StateMachineAutoConfigure();
         autoConfigure.configuration(properties);
 
-        StateMachineFactory stateMachineFactory =  autoConfigure.stateMachineFactory(autoConfigure.configuration(properties),autoConfigure.stateMachineParser());
+        StateMachineFactory stateMachineFactory =  autoConfigure.stateMachineFactory(autoConfigure.configuration(properties),autoConfigure.stateMachineParser(autoConfigure.actionFactory()));
        StateMachine s = stateMachineFactory.create("simple");
        int i = 3;
     }

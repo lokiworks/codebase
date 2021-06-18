@@ -2,8 +2,8 @@ package com.znlh.framework.statemachine;
 
 import com.znlh.framework.statemachine.impl.DefaultStateMachineFactory;
 import com.znlh.framework.statemachine.impl.NacosConfiguration;
-import com.znlh.framework.statemachine.parser.StateMachineParser;
-import com.znlh.framework.statemachine.parser.StateMachineParserImpl;
+import com.znlh.framework.statemachine.impl.SpringBeanActionFactory;
+import com.znlh.framework.statemachine.impl.StateMachineParserImpl;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
@@ -26,8 +26,15 @@ public class StateMachineAutoConfigure {
     }
     @Bean
     @ConditionalOnMissingBean(StateMachineParser.class)
-    public StateMachineParser stateMachineParser(){
-        return new StateMachineParserImpl();
+    public StateMachineParser stateMachineParser(ActionFactory actionFactory){
+        StateMachineParserImpl parser =  new StateMachineParserImpl();
+        parser.setActionFactory(actionFactory);
+        return parser;
+    }
+    @Bean
+    @ConditionalOnMissingBean(ActionFactory.class)
+    public ActionFactory actionFactory(){
+        return new SpringBeanActionFactory();
     }
 
     @Bean

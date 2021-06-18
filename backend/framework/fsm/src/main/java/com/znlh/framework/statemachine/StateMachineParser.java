@@ -1,4 +1,4 @@
-package com.znlh.framework.statemachine.parser;
+package com.znlh.framework.statemachine;
 
 import com.znlh.framework.statemachine.StateMachine;
 
