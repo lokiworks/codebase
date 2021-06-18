@@ -3,10 +3,11 @@ package com.znlh.framework.statemachine.impl;
 import com.znlh.framework.statemachine.ActionFactory;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.ApplicationContextAware;
 
 import java.util.Objects;
 
-public class SpringBeanActionFactory implements ActionFactory , InitializingBean {
+public class SpringBeanActionFactory implements ActionFactory , ApplicationContextAware,InitializingBean {
     ApplicationContext applicationContext;
 
 
