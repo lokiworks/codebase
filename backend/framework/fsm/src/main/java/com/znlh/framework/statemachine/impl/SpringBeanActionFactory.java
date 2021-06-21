@@ -1,5 +1,6 @@
 package com.znlh.framework.statemachine.impl;
 
+import com.znlh.framework.statemachine.Action;
 import com.znlh.framework.statemachine.ActionFactory;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.context.ApplicationContext;
@@ -12,9 +13,9 @@ public class SpringBeanActionFactory implements ActionFactory , ApplicationConte
 
 
     @Override
-    public Object getBean(String name) {
+    public Action getAction(String name) {
         if (Objects.nonNull(applicationContext)){
-            return applicationContext.getBean(name);
+            return (Action) applicationContext.getBean(name);
         }
         return null;
     }

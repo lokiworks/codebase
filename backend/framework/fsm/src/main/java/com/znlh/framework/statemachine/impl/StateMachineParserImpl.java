@@ -31,7 +31,7 @@ public class StateMachineParserImpl implements StateMachineParser {
             if (Objects.nonNull(condition) && !condition.isEmpty()){
 
                 if (Objects.nonNull(actionName) && !actionName.isEmpty()){
-                    Action action = (Action) actionFactory.getBean(actionName);
+                    Action action = actionFactory.getAction(actionName);
                     if (Objects.isNull(action)){
                         throw new RuntimeException("bean name [" + actionName + "] not found");
                     }
@@ -60,7 +60,7 @@ public class StateMachineParserImpl implements StateMachineParser {
 
             }else {
                 if (Objects.nonNull(actionName) && !actionName.isEmpty()){
-                    Action action = (Action) actionFactory.getBean(actionName);
+                    Action action = (Action) actionFactory.getAction(actionName);
                     if (Objects.isNull(action)){
                         throw new RuntimeException("bean name [" + actionName + "] not found");
                     }
