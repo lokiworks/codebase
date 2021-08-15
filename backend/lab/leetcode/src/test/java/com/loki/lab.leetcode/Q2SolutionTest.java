@@ -1,7 +1,8 @@
 package com.loki.lab.leetcode;
 
-import org.junit.Assert;
 import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.util.Arrays;
 import java.util.List;
@@ -60,7 +61,7 @@ public class Q2SolutionTest {
         List<Integer> actualList = Arrays.asList(8, 9, 9, 9, 0, 0, 0, 1);
         int i = 0;
         while (r != null) {
-            Assert.assertEquals(r.val, (int) actualList.get(i));
+            assertEquals(r.val, (int) actualList.get(i));
             r = r.next;
             ++i;
         }
