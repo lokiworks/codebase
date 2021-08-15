@@ -18,7 +18,7 @@ cc_library(
 cc_library(
     name = "log_writer",
     srcs = glob(["log_writer.cc"]),
-    hdrs = glob(["log_writer.h", "slice.h"]),
+    hdrs = glob(["log_writer.h", "slice.h", "log_format.h"]),
 )
 
 
