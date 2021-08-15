@@ -18,25 +18,9 @@ cc_library(
 cc_library(
     name = "log_writer",
     srcs = glob(["log_writer.cc"]),
-    hdrs = glob(["log_writer.h", "slice.h"]),
+    hdrs = glob(["log_writer.h", "slice.h", "log_format.h", "env.h"]),
 )
 
-cc_library(
-    name = "version_set",
-    srcs = glob(["version_set.cc"]),
-    hdrs = glob(["version_set.h"]),
-)
-
-cc_library(
-    name = "db_impl",
-    srcs = glob(["db_impl.cc"]),
-    hdrs = glob(["db.h", "db_impl.h",  "options.h", "thread_annotations.h"]),
-    deps=[
-        ":write_batch",
-        ":version_set",
-        ":log_writer"
-    ]
-)
 
 cc_library(
     name = "arena",

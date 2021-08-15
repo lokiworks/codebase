@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+
+  <parent>
+    <groupId>com.znlh.framework</groupId>
+    <artifactId>znf-parent</artifactId>
+    <version>0.0.4</version>
+  </parent>
+
+
+  <groupId>com.znlh.framework</groupId>
+  <artifactId>domain-event-parent</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>${project.artifactId}</name>
+  <description>The parent project of domain event</description>
+
+
+  <modules>
+    <module>all</module>
+    <module>domain-event-producer</module>
+    <module>domain-event-subscriber</module>
+    <module>domain-event-api</module>
+    <module>domain-event-example</module>
+  </modules>
+
+
+</project>
