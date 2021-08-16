@@ -1,0 +1,41 @@
+spring:
+  cloud:
+    stream:
+      binders:
+        rabbitmq:
+          type: rabbit
+      bindings:
+        producer:
+          destination: order-publish-x
+          binder: rabbitmq
+          content-type: application/json
+
+        consumer:
+          destination: order-publish-x
+          binder: rabbitmq
+          group: order-recevie-q
+          content-type: application/json
+
+
+        default:
+          content-type: application/json
+  rabbitmq:
+    host: 192.168.2.209
+    port: 5672
+    username: admin
+    password: admin
+    virtual-host: /
+  datasource:
+    url: jdbc:mysql://192.168.2.209:3306/test?useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false&useSSL=false&zeroDateTimeBehavior=convertToNull
+    username: root
+    password: pass123456
+    driver-class-name: com.mysql.jdbc.Driver
+
+
+logging:
+  level: debug
+domain:
+  event:
+    producer:
+      tablePrefix: omc
+      enabled: true
