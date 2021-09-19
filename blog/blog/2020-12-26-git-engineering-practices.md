@@ -165,7 +165,7 @@ tags: [vcs]
 日常开发过程中，有时不小心会污染了**Master**或者**Main**分支。此时需要一种方式来回滚代码
 
 1. gitlab中将**Master**或**Main**分支改成非默认分支
-2. 删除**Master**或Main分支
+2. 删除**Master**或**Main**分支
 3. 从当前稳定的分支中拉出一个全新的 **Master**或**Main**分支
 4. 将**Master**或**Main**分支设置为默认分支
 
