@@ -16,6 +16,20 @@ import { getFakeCaptcha } from '@/services/ant-design-pro/login';
 
 import styles from './index.less';
 // 登录信息
+
+// type FC<P = {}> = FunctionComponent<P>;
+//
+// interface FunctionComponent<P = {}> {
+//     简化后的格式: (props):ReactElement<any, any>
+//     (props: PropsWithChildren<P>, context?: any): ReactElement<any, any> | null;
+//     propTypes?: WeakValidationMap<P> | undefined;
+//     contextTypes?: ValidationMap<any> | undefined;
+//     defaultProps?: Partial<P> | undefined;
+//     displayName?: string | undefined;
+// }
+
+
+
 const LoginMessage: React.FC<{
   content: string;
 }> = ({ content }) => (

@@ -23,7 +23,9 @@ declare namespace API {
     phone?: string;
   };
 
+  // 登录结果
   type LoginResult = {
+    // 
     status?: string;
     type?: string;
     currentAuthority?: string;
