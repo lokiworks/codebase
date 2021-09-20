@@ -1,11 +1,20 @@
 // 联合类型定义
-function printId(id: number| string){
-    console.log("Your ID is: " + id);
+{
+    function printId(id: number | string) {
+        console.log("Your ID is: " + id);
+    }
+
+    printId(101);
+    printId("202");
 }
 
-printId(101);
-printId("202");
-// error
-//printId({myId: 22342});
 
+// 可选参数
+{
+    function fun(x?: number) {
+        console.log("fun " + x?.toString());
 
+    }
+    fun();
+    fun(100);
+}
