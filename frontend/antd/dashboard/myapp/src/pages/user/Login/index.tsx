@@ -29,7 +29,8 @@ import styles from './index.less';
 // }
 
 
-
+// 理解：定义LoginMessage类型，类型为React.FC，
+// 使用匿名函数，函数的返回值为AlertInterface，继承自React.FC
 const LoginMessage: React.FC<{
   content: string;
 }> = ({ content }) => (
@@ -44,14 +45,18 @@ const LoginMessage: React.FC<{
 );
 
 const Login: React.FC = () => {
-  //
+  // React.FC中使用useXXX
+  // 初始值为未提交， 设置提交方法为setSubmitting
   const [submitting, setSubmitting] = useState(false);
+  //
   const [userLoginState, setUserLoginState] = useState<API.LoginResult>({});
+  // 账号类型， 设置类型的方法为setType
   const [type, setType] = useState<string>('account');
+  // 共享模型
   const { initialState, setInitialState } = useModel('@@initialState');
-
+  // 国际化
   const intl = useIntl();
-
+  // 异步获取用户信息
   const fetchUserInfo = async () => {
     const userInfo = await initialState?.fetchUserInfo?.();
     if (userInfo) {

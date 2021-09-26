@@ -17,6 +17,9 @@ export const initialStateConfig = {
 
 /**
  * @see  https://umijs.org/zh-CN/plugins/plugin-initial-state
+ * 约定一个地方用来生产和消费初始化数据
+ * 启动方式src/app.ts 并且导出getInitialState
+ * 需要搭配plugin-model一同使用
  * */
 export async function getInitialState(): Promise<{
   settings?: Partial<LayoutSettings>;
