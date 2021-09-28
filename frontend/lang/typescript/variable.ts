@@ -84,4 +84,22 @@ printName({first:"loki"})
 }
 
 
+// intersection types
+ 
+// ReadonlyArray
+const roArray: ReadonlyArray<string> = ["red", "green", "blue"];
+console.log(roArray);
+
+
+// Tuple Types
+{
+    type StringNumberPair = [string, number];
+    function doSomething(pair:StringNumberPair) {
+        const a = pair[0];
+        const b = pair[1];
+        console.log(a +" "+  b);
+    }
+
+    doSomething(["123", 456]);
+}
 
