@@ -52,3 +52,44 @@
 
     myIdentity({name:"defdefdefdefdefdef"});
 }
+
+// case 5
+{
+    class GenericNumber<NumberType>{
+        zereValue!: NumberType ;
+        add!: (x: NumberType, y: NumberType)=>NumberType;
+
+    }
+
+    const myGenericNumber = new GenericNumber<number>();
+    myGenericNumber.zereValue = 0;
+    myGenericNumber.add = function(x, y){
+        return x + y;
+    };
+    console.log(myGenericNumber.add(1, 2));
+}
+
+// case 6
+{
+    interface Lengthwise{
+        length: number;
+    }
+
+    function loggingIdentify<Type extends Lengthwise>(arg: Type): Type{
+        console.log(arg.length);
+        return arg;
+    }
+
+    loggingIdentify({length:10, value: 3});
+}
+
+
+// case UppperCase
+{
+    type Greeting = "hello, world";
+    type ShoutyGreeting = Uppercase<Greeting>;
+    let v: ShoutyGreeting;
+
+    console.log(v);
+
+}
