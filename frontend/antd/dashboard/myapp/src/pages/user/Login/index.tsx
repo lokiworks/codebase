@@ -99,7 +99,7 @@ const Login: React.FC = () => {
     setSubmitting(false);
   };
   const { status, type: loginType } = userLoginState;
-
+// styles 定义在index.less文件中
   return (
     <div className={styles.container}>
       <div className={styles.lang} data-lang>
@@ -110,7 +110,7 @@ const Login: React.FC = () => {
           <div className={styles.header}>
             <Link to="/">
               <img alt="logo" className={styles.logo} src="/logo.svg" />
-              <span className={styles.title}>Ant Design</span>
+              <span className={styles.title}>Trade System</span>
             </Link>
           </div>
           <div className={styles.desc}>

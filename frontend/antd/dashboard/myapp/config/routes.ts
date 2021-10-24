@@ -4,14 +4,21 @@
     layout: false,
     routes: [
       {
-        path: '/user',
-        routes: [
-          {
-            name: 'login',
-            path: '/user/login',
-            component: './user/Login',
-          },
-        ],
+        path: '/user/login',
+        layout: false,
+        name:'login',
+        component: './user/Login', // 相对路径从src/pages开始找起
+      },
+      {
+        path:'/user',
+        redirect: '/user/login',
+      },
+      {
+        name: 'register-result',
+        icon:'smile',
+        path: '/user/register-result',
+        component:'./user/register-result',
+
       },
       {
         component: './404',
