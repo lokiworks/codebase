@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-14T21:06:20.052Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="S-9B5GgQRQbG8Ufb42vM" version="15.9.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-12-14T21:11:45.216Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="Tcv8kPfQT4rkMg5POlTE" version="15.9.4" type="github" pages="7">
   <diagram id="8lBRIV29XiMTfoeVoKCS" name="Page-1">
     <mxGraphModel dx="946" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1880,12 +1880,20 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WlpGK2in8_8BE21rSCH_" name="订单系统">
-    <mxGraphModel dx="788" dy="446" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="788" dy="1615" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="HF_TbUpQg4MtufVjtYq4-0" />
         <mxCell id="HF_TbUpQg4MtufVjtYq4-1" parent="HF_TbUpQg4MtufVjtYq4-0" />
         <mxCell id="HF_TbUpQg4MtufVjtYq4-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#000000;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="HF_TbUpQg4MtufVjtYq4-1" source="HF_TbUpQg4MtufVjtYq4-2" target="HF_TbUpQg4MtufVjtYq4-5">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HF_TbUpQg4MtufVjtYq4-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;startArrow=classic;startFill=1;endArrow=classic;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="HF_TbUpQg4MtufVjtYq4-1" source="HF_TbUpQg4MtufVjtYq4-2" target="HF_TbUpQg4MtufVjtYq4-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="257" y="3" />
+              <mxPoint x="525" y="3" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="HF_TbUpQg4MtufVjtYq4-2" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontColor=#000000;" vertex="1" parent="HF_TbUpQg4MtufVjtYq4-1">
           <mxGeometry x="143" y="121" width="228" height="317" as="geometry" />
@@ -1942,6 +1950,9 @@
         </mxCell>
         <mxCell id="HF_TbUpQg4MtufVjtYq4-20" value="暴露部分能力给商户订单系统使用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontColor=#000000;" vertex="1" parent="HF_TbUpQg4MtufVjtYq4-1">
           <mxGeometry x="132" y="23" width="110" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="HF_TbUpQg4MtufVjtYq4-24" value="平台后台运营会同时运营平台订单+&lt;b&gt;平台引流&lt;/b&gt;的商户订单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontColor=#000000;" vertex="1" parent="HF_TbUpQg4MtufVjtYq4-1">
+          <mxGeometry x="312" y="-35" width="174" height="21" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
