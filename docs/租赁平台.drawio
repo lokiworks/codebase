@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-23T06:55:16.650Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="d0LrlTC1kn6cKsoCZfNE" version="16.0.0" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-12-23T06:56:17.935Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="85KvTNBYsSdeLyvoPq0E" version="16.0.0" type="github" pages="10">
   <diagram id="8lBRIV29XiMTfoeVoKCS" name="订单核心建模">
     <mxGraphModel dx="1902" dy="997" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2878,6 +2878,15 @@
         </mxCell>
         <mxCell id="J1bxEgcJh9jhU1ILihP9-88" value="2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;" vertex="1" parent="J1bxEgcJh9jhU1ILihP9-1">
           <mxGeometry x="743" y="784" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J1bxEgcJh9jhU1ILihP9-90" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="J1bxEgcJh9jhU1ILihP9-1" source="J1bxEgcJh9jhU1ILihP9-89" target="J1bxEgcJh9jhU1ILihP9-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J1bxEgcJh9jhU1ILihP9-89" value="任务server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;" vertex="1" parent="J1bxEgcJh9jhU1ILihP9-1">
+          <mxGeometry x="440" y="719" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J1bxEgcJh9jhU1ILihP9-91" value="3. 拉取待处理的任务，执行。。。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;" vertex="1" parent="J1bxEgcJh9jhU1ILihP9-1">
+          <mxGeometry x="567" y="752" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
