@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-23T13:00:43.762Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="VGgFmvTAFezpRHFKWqgm" version="16.0.3" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-12-23T13:02:55.735Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="G5166VtWak59GKAKfscM" version="16.0.3" type="github" pages="10">
   <diagram id="8lBRIV29XiMTfoeVoKCS" name="订单核心建模">
     <mxGraphModel dx="1102" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2239,7 +2239,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bwb9wyVSMXAfAFafqPpM" name="商品系统2">
-    <mxGraphModel dx="1102" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1296" dy="682" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="5GXItoHP-jOrhZ1LRA34-0" />
         <mxCell id="5GXItoHP-jOrhZ1LRA34-1" parent="5GXItoHP-jOrhZ1LRA34-0" />
@@ -2301,7 +2301,7 @@
         <mxCell id="b6rJtq9T9NSI2sJr0WFc-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#6F0000;fillColor=#a20025;strokeWidth=2;" parent="5GXItoHP-jOrhZ1LRA34-1" source="aZ8LXJOOFaQVjVinVO6j-21" target="aZ8LXJOOFaQVjVinVO6j-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aZ8LXJOOFaQVjVinVO6j-21" value="商户系统" style="rounded=0;whiteSpace=wrap;html=1;" parent="5GXItoHP-jOrhZ1LRA34-1" vertex="1">
+        <mxCell id="aZ8LXJOOFaQVjVinVO6j-21" value="商户端" style="rounded=0;whiteSpace=wrap;html=1;" parent="5GXItoHP-jOrhZ1LRA34-1" vertex="1">
           <mxGeometry x="760.5" y="214" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="b6rJtq9T9NSI2sJr0WFc-19" value="1.1 后台标品上架" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#000000;" parent="5GXItoHP-jOrhZ1LRA34-1" vertex="1">
@@ -2385,12 +2385,6 @@
         <mxCell id="K7rZEqb3LVHn2zjFlZhz-25" value="商品" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#000000;" parent="5GXItoHP-jOrhZ1LRA34-1" vertex="1">
           <mxGeometry x="543" y="591" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="K7rZEqb3LVHn2zjFlZhz-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.001;entryY=0.085;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;startArrow=none;startFill=0;endArrow=none;endFill=0;strokeColor=#3333FF;" parent="5GXItoHP-jOrhZ1LRA34-1" source="K7rZEqb3LVHn2zjFlZhz-26" target="aZ8LXJOOFaQVjVinVO6j-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="K7rZEqb3LVHn2zjFlZhz-26" value="平台商品与商户商品只是商品系统内部的概念，外部系统与商品系统对接不需要知道这两个概念。平台商品只是一段时间内的产物，一旦平台开放出商户商品，平台商品就没有它的意义了。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#000000;" parent="5GXItoHP-jOrhZ1LRA34-1" vertex="1">
-          <mxGeometry x="1346" y="246" width="298" height="95" as="geometry" />
-        </mxCell>
         <mxCell id="K7rZEqb3LVHn2zjFlZhz-32" value="类目" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#000000;" parent="5GXItoHP-jOrhZ1LRA34-1" vertex="1">
           <mxGeometry x="751" y="420" width="60" height="30" as="geometry" />
         </mxCell>
@@ -2435,8 +2429,8 @@
         <mxCell id="K7rZEqb3LVHn2zjFlZhz-54" value="角色：平台商品运营" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="5GXItoHP-jOrhZ1LRA34-1" vertex="1">
           <mxGeometry x="18" y="464" width="115.5" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="K7rZEqb3LVHn2zjFlZhz-55" value="角色：平台供货商" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="5GXItoHP-jOrhZ1LRA34-1" vertex="1">
-          <mxGeometry x="763" y="195" width="115.5" height="28" as="geometry" />
+        <mxCell id="K7rZEqb3LVHn2zjFlZhz-55" value="角色：商户代表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="5GXItoHP-jOrhZ1LRA34-1" vertex="1">
+          <mxGeometry x="765.5" y="186" width="115.5" height="28" as="geometry" />
         </mxCell>
         <mxCell id="K7rZEqb3LVHn2zjFlZhz-56" value="角色：用户" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="5GXItoHP-jOrhZ1LRA34-1" vertex="1">
           <mxGeometry x="20.25" y="808.5" width="115.5" height="28" as="geometry" />
