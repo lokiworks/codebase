@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-24T01:14:39.593Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="tFi6h8InrTpA5cs2YkMf" version="16.0.3" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-12-24T01:16:18.231Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="1tVPBzMN4SeBDXO7pvA1" version="16.0.3" type="github" pages="10">
   <diagram id="8lBRIV29XiMTfoeVoKCS" name="订单核心建模">
     <mxGraphModel dx="1102" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2443,23 +2443,20 @@
         <mxCell id="mLCq2ked1Dpsblq893bv-4" value="设备资产的所有权" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="5GXItoHP-jOrhZ1LRA34-1">
           <mxGeometry x="970" y="215.5" width="114" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="mLCq2ked1Dpsblq893bv-9" value="商户报价" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5GXItoHP-jOrhZ1LRA34-1">
-          <mxGeometry x="913" y="707" width="53" height="30" as="geometry" />
+        <mxCell id="mLCq2ked1Dpsblq893bv-9" value="修改" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5GXItoHP-jOrhZ1LRA34-1">
+          <mxGeometry x="908" y="709" width="53" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mLCq2ked1Dpsblq893bv-10" value="挂牌价" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5GXItoHP-jOrhZ1LRA34-1">
-          <mxGeometry x="981" y="707" width="53" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="mLCq2ked1Dpsblq893bv-11" value="xxx价" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5GXItoHP-jOrhZ1LRA34-1">
-          <mxGeometry x="1049.5" y="707" width="53" height="30" as="geometry" />
+        <mxCell id="mLCq2ked1Dpsblq893bv-10" value="查看" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5GXItoHP-jOrhZ1LRA34-1">
+          <mxGeometry x="982" y="708" width="53" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mLCq2ked1Dpsblq893bv-12" value="价格" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="5GXItoHP-jOrhZ1LRA34-1">
           <mxGeometry x="972" y="634" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mLCq2ked1Dpsblq893bv-13" value="地域价" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5GXItoHP-jOrhZ1LRA34-1">
-          <mxGeometry x="913" y="661" width="52" height="31" as="geometry" />
+        <mxCell id="mLCq2ked1Dpsblq893bv-13" value="导入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5GXItoHP-jOrhZ1LRA34-1">
+          <mxGeometry x="908.5" y="664" width="52" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="mLCq2ked1Dpsblq893bv-14" value="全国统一价" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5GXItoHP-jOrhZ1LRA34-1">
-          <mxGeometry x="978" y="661" width="52" height="31" as="geometry" />
+        <mxCell id="mLCq2ked1Dpsblq893bv-14" value="新增" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5GXItoHP-jOrhZ1LRA34-1">
+          <mxGeometry x="982" y="664" width="52" height="31" as="geometry" />
         </mxCell>
         <mxCell id="mLCq2ked1Dpsblq893bv-15" value="锁库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5GXItoHP-jOrhZ1LRA34-1">
           <mxGeometry x="487" y="858" width="58" height="27" as="geometry" />
@@ -2511,6 +2508,9 @@
         </mxCell>
         <mxCell id="mLCq2ked1Dpsblq893bv-39" value="商品快照" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5GXItoHP-jOrhZ1LRA34-1">
           <mxGeometry x="570" y="714" width="75" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="mLCq2ked1Dpsblq893bv-40" value="删除" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5GXItoHP-jOrhZ1LRA34-1">
+          <mxGeometry x="1049.5" y="708" width="52" height="31" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
