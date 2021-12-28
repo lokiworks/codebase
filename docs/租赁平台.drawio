@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-28T11:05:43.041Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="2nzv0uM0PLCFq7HPL2-D" version="16.0.3" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-12-28T11:17:27.473Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="7-d1UR2U6dgUqVshU3dg" version="16.0.3" type="github" pages="11">
   <diagram id="8lBRIV29XiMTfoeVoKCS" name="订单核心建模">
     <mxGraphModel dx="1342" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2940,10 +2940,16 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vXxCtL6HxKt2ebnaoW3W" name="订单系统API设计">
-    <mxGraphModel dx="1002" dy="527" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2204" dy="1160" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0vGddebMlt5vBGTMvT3F-0" />
         <mxCell id="0vGddebMlt5vBGTMvT3F-1" parent="0vGddebMlt5vBGTMvT3F-0" />
+        <mxCell id="r9z6VqJ3W-uBFBOCYJSy-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0vGddebMlt5vBGTMvT3F-1">
+          <mxGeometry x="1033" y="63" width="254" height="346" as="geometry" />
+        </mxCell>
+        <mxCell id="r9z6VqJ3W-uBFBOCYJSy-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0vGddebMlt5vBGTMvT3F-1">
+          <mxGeometry x="639" y="528" width="260" height="273" as="geometry" />
+        </mxCell>
         <mxCell id="r9z6VqJ3W-uBFBOCYJSy-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0vGddebMlt5vBGTMvT3F-1">
           <mxGeometry x="100" y="76" width="454" height="461" as="geometry" />
         </mxCell>
@@ -2987,7 +2993,7 @@
           <mxGeometry x="14" y="105" width="71" height="25" as="geometry" />
         </mxCell>
         <mxCell id="r9z6VqJ3W-uBFBOCYJSy-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0vGddebMlt5vBGTMvT3F-1">
-          <mxGeometry x="615" y="105" width="308" height="317" as="geometry" />
+          <mxGeometry x="615" y="105" width="314" height="382" as="geometry" />
         </mxCell>
         <mxCell id="r9z6VqJ3W-uBFBOCYJSy-16" value="订单调度&lt;br&gt;PlatformOrderDispatchxxxApi" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="0vGddebMlt5vBGTMvT3F-1">
           <mxGeometry x="649" y="113" width="250" height="42" as="geometry" />
@@ -3003,6 +3009,33 @@
             <mxPoint x="935" y="292" as="sourcePoint" />
             <mxPoint x="985" y="242" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="r9z6VqJ3W-uBFBOCYJSy-20" value="创建商户订单&lt;br&gt;（create）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0vGddebMlt5vBGTMvT3F-1">
+          <mxGeometry x="654" y="592" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r9z6VqJ3W-uBFBOCYJSy-22" value="商户订单&lt;br&gt;MerchantOrderDomainService" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="0vGddebMlt5vBGTMvT3F-1">
+          <mxGeometry x="665" y="537" width="224" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r9z6VqJ3W-uBFBOCYJSy-23" value="取消商户订单&lt;br&gt;（cancel）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0vGddebMlt5vBGTMvT3F-1">
+          <mxGeometry x="1033" y="477" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r9z6VqJ3W-uBFBOCYJSy-25" value="商户订单&lt;br&gt;MerchatOrderCmdxxxApi" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="0vGddebMlt5vBGTMvT3F-1">
+          <mxGeometry x="1113" y="69" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9z6VqJ3W-uBFBOCYJSy-26" value="确认接单&lt;br&gt;（confirm）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0vGddebMlt5vBGTMvT3F-1">
+          <mxGeometry x="1056" y="135" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r9z6VqJ3W-uBFBOCYJSy-27" value="拒绝接单&lt;br&gt;（reject）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0vGddebMlt5vBGTMvT3F-1">
+          <mxGeometry x="1053" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r9z6VqJ3W-uBFBOCYJSy-28" value="履约确认" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0vGddebMlt5vBGTMvT3F-1">
+          <mxGeometry x="1030" y="579" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r9z6VqJ3W-uBFBOCYJSy-29" value="完成履约" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0vGddebMlt5vBGTMvT3F-1">
+          <mxGeometry x="1033" y="669" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r9z6VqJ3W-uBFBOCYJSy-30" value="订单完成" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0vGddebMlt5vBGTMvT3F-1">
+          <mxGeometry x="1041" y="766" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
