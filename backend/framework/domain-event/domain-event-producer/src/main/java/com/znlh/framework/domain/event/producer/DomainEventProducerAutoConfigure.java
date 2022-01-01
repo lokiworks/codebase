@@ -1,6 +1,7 @@
 package com.znlh.framework.domain.event.producer;
 
 import com.znlh.framework.domain.event.api.DomainEventPublisher;
+import com.znlh.framework.domain.event.api.DomainEventStoreProxyHook;
 import org.springframework.boot.autoconfigure.AutoConfigureAfter;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
@@ -11,6 +12,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 import javax.sql.DataSource;
+import java.util.List;
 
 import static com.znlh.framework.domain.event.api.DomainEventConstants.DOMAIN_EVENT_PREFIX;
 
@@ -34,16 +36,20 @@ public class DomainEventProducerAutoConfigure {
         DomainEventPublisherImpl impl = new DomainEventPublisherImpl(binding.producer(),domainEventStore);
         return impl;
     }
+
     @Bean
     @ConditionalOnMissingBean(DomainEventPublishScheduler.class)
-    public DomainEventPublishScheduler domainEventPublishScheduler(DomainEventPublisher domainEventPublisher){
+    public DomainEventPublishScheduler domainEventPublishScheduler(DomainEventPublisher domainEventPublisher) {
         DomainEventPublishScheduler domainEventPublishScheduler = new DomainEventPublishScheduler(domainEventPublisher);
         return domainEventPublishScheduler;
     }
+
+    @SuppressWarnings("SpringJavaInjectionPointsAutowiringInspection")
     @Bean
     @ConditionalOnMissingBean(DomainEventDBStoreProxy.class)
-    public DomainEventDBStoreProxy domainEventDBStoreProxy(DomainEventStore store, DomainEventPublisher publisher){
-        DomainEventDBStoreProxy proxy = new DomainEventDBStoreProxy(store, publisher);
+    public DomainEventDBStoreProxy domainEventDBStoreProxy(DomainEventStore store, DomainEventPublisher publisher,
+                                                           List<DomainEventStoreProxyHook> hooks) {
+        DomainEventDBStoreProxy proxy = new DomainEventDBStoreProxy(store, publisher, hooks);
         return proxy;
     }
 }
