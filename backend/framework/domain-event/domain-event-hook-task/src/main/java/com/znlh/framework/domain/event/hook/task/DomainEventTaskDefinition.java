@@ -4,6 +4,7 @@ public class DomainEventTaskDefinition {
     private Long id;
     private String eventType;
     private String bean;
+    private String condition;
 
     public String getEventType() {
         return eventType;
@@ -29,12 +30,12 @@ public class DomainEventTaskDefinition {
         this.id = id;
     }
 
-    @Override
-    public String toString() {
-        return "DomainEventTaskDefinition{" +
-                "id=" + id +
-                ", eventType='" + eventType + '\'' +
-                ", bean='" + bean + '\'' +
-                '}';
+
+    public String getCondition() {
+        return condition;
+    }
+
+    public void setCondition(String condition) {
+        this.condition = condition;
     }
 }
