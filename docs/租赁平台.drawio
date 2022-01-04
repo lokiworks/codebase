@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-04T07:42:01.983Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="nBBYaCNT0h_JfDkeqmi-" version="16.1.0" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2022-01-04T07:44:35.056Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="3aPjRVR0MLyUXpKb_SDA" version="16.1.0" type="github" pages="13">
   <diagram id="8lBRIV29XiMTfoeVoKCS" name="订单核心建模">
     <mxGraphModel dx="1102" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3242,6 +3242,12 @@
         </mxCell>
         <mxCell id="E9n2UfmPKUQADRXvZU5Z-20" value="确认取消" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;sketch=1;" vertex="1" parent="E9n2UfmPKUQADRXvZU5Z-1">
           <mxGeometry x="229" y="419" width="52" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="E9n2UfmPKUQADRXvZU5Z-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3333FF;" edge="1" parent="E9n2UfmPKUQADRXvZU5Z-1" source="E9n2UfmPKUQADRXvZU5Z-21" target="E9n2UfmPKUQADRXvZU5Z-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E9n2UfmPKUQADRXvZU5Z-21" value="去取消" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;sketch=1;" vertex="1" parent="E9n2UfmPKUQADRXvZU5Z-1">
+          <mxGeometry x="143.5" y="366" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
