@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-25T03:15:28.056Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="JvFtLnE6GRx5pcQN6Yob" version="16.4.5" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2022-01-25T07:00:45.962Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="9zCvGLeZELDoVWOPVr5j" version="16.4.6" type="github" pages="15">
   <diagram id="8lBRIV29XiMTfoeVoKCS" name="订单核心建模">
-    <mxGraphModel dx="1102" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1902" dy="997" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3387,6 +3387,71 @@
               <mxPoint x="738" y="715" />
             </Array>
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="vfh68VKoLuaYCfyuGO7m" name="Page-15">
+    <mxGraphModel dx="634" dy="332" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="SBB3lSp5t-wf0oPDk2Oy-0" />
+        <mxCell id="SBB3lSp5t-wf0oPDk2Oy-1" parent="SBB3lSp5t-wf0oPDk2Oy-0" />
+        <mxCell id="SBB3lSp5t-wf0oPDk2Oy-3" value="Price" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;glass=1;sketch=1;" vertex="1" parent="SBB3lSp5t-wf0oPDk2Oy-1">
+          <mxGeometry x="255" y="347" width="140" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="SBB3lSp5t-wf0oPDk2Oy-4" value="merchant_code(-1)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="SBB3lSp5t-wf0oPDk2Oy-3">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SBB3lSp5t-wf0oPDk2Oy-5" value="region_id(市)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="SBB3lSp5t-wf0oPDk2Oy-3">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SBB3lSp5t-wf0oPDk2Oy-6" value="sku_code" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="SBB3lSp5t-wf0oPDk2Oy-3">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SBB3lSp5t-wf0oPDk2Oy-12" value="approve_status" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="SBB3lSp5t-wf0oPDk2Oy-3">
+          <mxGeometry y="120" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SBB3lSp5t-wf0oPDk2Oy-15" value="use_status" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="SBB3lSp5t-wf0oPDk2Oy-3">
+          <mxGeometry y="150" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SBB3lSp5t-wf0oPDk2Oy-7" value="Price_ext" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;sketch=1;glass=1;" vertex="1" parent="SBB3lSp5t-wf0oPDk2Oy-1">
+          <mxGeometry x="409" y="347" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="SBB3lSp5t-wf0oPDk2Oy-8" value="price_type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="SBB3lSp5t-wf0oPDk2Oy-7">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SBB3lSp5t-wf0oPDk2Oy-9" value="price" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="SBB3lSp5t-wf0oPDk2Oy-7">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SBB3lSp5t-wf0oPDk2Oy-22" value="calc_type（计价方式;1:按日租;2:按月租;3:按台班;4:按趟）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="SBB3lSp5t-wf0oPDk2Oy-7">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SBB3lSp5t-wf0oPDk2Oy-11" value="1. 平台商品价格到市，即使业务提供的是省的价格，&lt;br&gt;也要将其转成市的价格&lt;br&gt;2. 同时更改对客展示价" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="SBB3lSp5t-wf0oPDk2Oy-1">
+          <mxGeometry x="212" y="269" width="327" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="SBB3lSp5t-wf0oPDk2Oy-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="SBB3lSp5t-wf0oPDk2Oy-1" source="SBB3lSp5t-wf0oPDk2Oy-13" target="SBB3lSp5t-wf0oPDk2Oy-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SBB3lSp5t-wf0oPDk2Oy-13" value="需要配置全局开关，默认为关的状态，如果开关打开，则自动审核通过" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="SBB3lSp5t-wf0oPDk2Oy-1">
+          <mxGeometry x="15" y="385" width="172" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="SBB3lSp5t-wf0oPDk2Oy-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" edge="1" parent="SBB3lSp5t-wf0oPDk2Oy-1" source="SBB3lSp5t-wf0oPDk2Oy-16" target="SBB3lSp5t-wf0oPDk2Oy-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SBB3lSp5t-wf0oPDk2Oy-16" value="审批通过后，即为启用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="SBB3lSp5t-wf0oPDk2Oy-1">
+          <mxGeometry x="127" y="497" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SBB3lSp5t-wf0oPDk2Oy-18" value="新增类型(6)：待确认的标准指导价,审核通过后，改写price_type(2)的值，及对应的前台价格(根据价格系数)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="SBB3lSp5t-wf0oPDk2Oy-1">
+          <mxGeometry x="591" y="345" width="142" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="SBB3lSp5t-wf0oPDk2Oy-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" edge="1" parent="SBB3lSp5t-wf0oPDk2Oy-1" source="SBB3lSp5t-wf0oPDk2Oy-8" target="SBB3lSp5t-wf0oPDk2Oy-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SBB3lSp5t-wf0oPDk2Oy-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.005;entryY=-0.042;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="SBB3lSp5t-wf0oPDk2Oy-1" source="SBB3lSp5t-wf0oPDk2Oy-20" target="SBB3lSp5t-wf0oPDk2Oy-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SBB3lSp5t-wf0oPDk2Oy-20" value="没有插入操作" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=1;sketch=1;" vertex="1" parent="SBB3lSp5t-wf0oPDk2Oy-1">
+          <mxGeometry x="143" y="310" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
