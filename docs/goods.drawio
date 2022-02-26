@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-22T00:09:13.103Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="qkVl8hC4D852zE2cWqeY" version="16.6.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-02-26T03:39:49.303Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="0LBO5CU64NZPLx584NCX" version="16.6.2" type="github" pages="5">
   <diagram id="Cl9Hr2QRYbMqXGNqs11D" name="商品上架流程">
     <mxGraphModel dx="1102" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -85,6 +85,47 @@
         </mxCell>
         <mxCell id="LEz3xAUliw1AeJBdXn3Y-22" value="2. 人工手动关联" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="LEz3xAUliw1AeJBdXn3Y-1" vertex="1">
           <mxGeometry x="234.5" y="261" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p5ps0Y8kZM3xNCXhl5ym" name="价格导入">
+    <mxGraphModel dx="1296" dy="682" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="FErHKWFVpBqNwyjONL80-0" />
+        <mxCell id="FErHKWFVpBqNwyjONL80-1" parent="FErHKWFVpBqNwyjONL80-0" />
+        <mxCell id="FErHKWFVpBqNwyjONL80-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FErHKWFVpBqNwyjONL80-1">
+          <mxGeometry x="29" y="242" width="740" height="602" as="geometry" />
+        </mxCell>
+        <mxCell id="FErHKWFVpBqNwyjONL80-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.225;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="FErHKWFVpBqNwyjONL80-1" source="FErHKWFVpBqNwyjONL80-3" target="FErHKWFVpBqNwyjONL80-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FErHKWFVpBqNwyjONL80-3" value="价格运营" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="FErHKWFVpBqNwyjONL80-1">
+          <mxGeometry x="90" y="40" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FErHKWFVpBqNwyjONL80-6" value="导入价格" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FErHKWFVpBqNwyjONL80-1">
+          <mxGeometry x="210" y="136" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FErHKWFVpBqNwyjONL80-7" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="FErHKWFVpBqNwyjONL80-1">
+          <mxGeometry x="279" y="91" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FErHKWFVpBqNwyjONL80-9" value="sku" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FErHKWFVpBqNwyjONL80-1">
+          <mxGeometry x="305" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FErHKWFVpBqNwyjONL80-10" value="城市" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FErHKWFVpBqNwyjONL80-1">
+          <mxGeometry x="305" y="136" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FErHKWFVpBqNwyjONL80-11" value="指导价" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FErHKWFVpBqNwyjONL80-1">
+          <mxGeometry x="305" y="195" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FErHKWFVpBqNwyjONL80-22" value="SKU是否有效校验" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FErHKWFVpBqNwyjONL80-1">
+          <mxGeometry x="155" y="298" width="120" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="FErHKWFVpBqNwyjONL80-26" value="根据SKU、城市校验价格表中的数据是否存在" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="FErHKWFVpBqNwyjONL80-1">
+          <mxGeometry x="152" y="471" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FErHKWFVpBqNwyjONL80-29" value="校验" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="FErHKWFVpBqNwyjONL80-1">
+          <mxGeometry x="172" y="366" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
