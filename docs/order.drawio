@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-24T07:37:30.993Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="1dB4NpVz6zrvEs2kW5Cb" version="17.1.5" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2022-03-24T07:38:20.496Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="7AX_e9QCNNbtM4hzq7bC" version="17.1.5" type="github" pages="13">
   <diagram id="y_iolCZEPDSHA-SLJ0tp" name="系统上下文">
     <mxGraphModel dx="1102" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1170,7 +1170,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6rypCUlw8g0u30Zqqon1" name="Page-13">
-    <mxGraphModel dx="1378" dy="725" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="787" dy="414" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="SG9srLKQBWHnhdOI9WaB-0" />
         <mxCell id="SG9srLKQBWHnhdOI9WaB-1" parent="SG9srLKQBWHnhdOI9WaB-0" />
@@ -1212,6 +1212,12 @@
         </mxCell>
         <mxCell id="SG9srLKQBWHnhdOI9WaB-22" value="商品" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="SG9srLKQBWHnhdOI9WaB-1">
           <mxGeometry x="238" y="191" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SG9srLKQBWHnhdOI9WaB-23" value="商户入驻平台" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=default;fillColor=none;" vertex="1" parent="SG9srLKQBWHnhdOI9WaB-1">
+          <mxGeometry x="280" y="243" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SG9srLKQBWHnhdOI9WaB-24" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;strokeColor=default;fillColor=none;" vertex="1" parent="SG9srLKQBWHnhdOI9WaB-1">
+          <mxGeometry x="328" y="265.5" width="38" height="15" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
