@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-24T07:26:31.832Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="qDf19IcJSOZL9lTo8JiB" version="17.1.5" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2022-03-24T07:29:04.341Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="lMGKDC22hvmajZVLTVxu" version="17.1.5" type="github" pages="13">
   <diagram id="y_iolCZEPDSHA-SLJ0tp" name="系统上下文">
     <mxGraphModel dx="1102" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1170,7 +1170,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6rypCUlw8g0u30Zqqon1" name="Page-13">
-    <mxGraphModel dx="1102" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="630" dy="331" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="SG9srLKQBWHnhdOI9WaB-0" />
         <mxCell id="SG9srLKQBWHnhdOI9WaB-1" parent="SG9srLKQBWHnhdOI9WaB-0" />
@@ -1179,6 +1179,21 @@
         </mxCell>
         <mxCell id="SG9srLKQBWHnhdOI9WaB-3" value="平台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="SG9srLKQBWHnhdOI9WaB-1">
           <mxGeometry x="265" y="282" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SG9srLKQBWHnhdOI9WaB-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="SG9srLKQBWHnhdOI9WaB-1" source="SG9srLKQBWHnhdOI9WaB-4" target="SG9srLKQBWHnhdOI9WaB-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SG9srLKQBWHnhdOI9WaB-4" value="驻车点" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="SG9srLKQBWHnhdOI9WaB-1">
+          <mxGeometry x="464" y="131" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SG9srLKQBWHnhdOI9WaB-5" value="覆盖区域" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="SG9srLKQBWHnhdOI9WaB-1">
+          <mxGeometry x="583" y="131" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SG9srLKQBWHnhdOI9WaB-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="SG9srLKQBWHnhdOI9WaB-1" source="SG9srLKQBWHnhdOI9WaB-6" target="SG9srLKQBWHnhdOI9WaB-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SG9srLKQBWHnhdOI9WaB-6" value="设备" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="SG9srLKQBWHnhdOI9WaB-1">
+          <mxGeometry x="583" y="50" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
