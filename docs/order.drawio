@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-28T06:20:41.253Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="Bl1pT9rLxTppT3sJ83ka" version="17.2.1" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-03-28T06:21:14.115Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="0wbsgTZjtJhOudE-Ezbz" version="17.2.1" type="github" pages="15">
   <diagram id="y_iolCZEPDSHA-SLJ0tp" name="系统上下文">
     <mxGraphModel dx="1102" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1967,7 +1967,7 @@
           <mxGeometry x="41" y="337" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Wsogf6csoBFdoY7pqH8J-3" value="UC01" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=4;" vertex="1" parent="1">
-          <mxGeometry x="167.25" y="188" width="140" height="70" as="geometry" />
+          <mxGeometry x="167" y="188" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Wsogf6csoBFdoY7pqH8J-5" value="UC02" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=4;" vertex="1" parent="1">
           <mxGeometry x="167" y="288" width="140" height="70" as="geometry" />
@@ -2034,6 +2034,15 @@
         </mxCell>
         <mxCell id="Wsogf6csoBFdoY7pqH8J-45" value="取消订单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="207.25" y="560" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Wsogf6csoBFdoY7pqH8J-49" value="UC04" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="167.25" y="495" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Wsogf6csoBFdoY7pqH8J-50" value="UC04" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="167" y="495" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Wsogf6csoBFdoY7pqH8J-51" value="UC03" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="167" y="390" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
