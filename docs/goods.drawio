@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T06:13:35.473Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="pr3EWtEL1q6UsM5xFcoB" version="17.2.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-03-29T06:53:49.801Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="I1kZG5GtUCWaUq0T2yjs" version="17.2.4" type="github" pages="7">
   <diagram id="Cl9Hr2QRYbMqXGNqs11D" name="商品上架流程">
     <mxGraphModel dx="1102" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -220,7 +220,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="z8gbRlRrntDrJ0b32MMJ" name="Page-7">
-    <mxGraphModel dx="787" dy="414" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1160" dy="611" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -232,8 +232,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Tx0mkNIQD6ieV4CfNpoD-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tx0mkNIQD6ieV4CfNpoD-1" target="Tx0mkNIQD6ieV4CfNpoD-12">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Tx0mkNIQD6ieV4CfNpoD-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="Tx0mkNIQD6ieV4CfNpoD-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="163" y="152" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Tx0mkNIQD6ieV4CfNpoD-1" value="商户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="148" y="67" width="30" height="60" as="geometry" />
@@ -242,34 +244,40 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Tx0mkNIQD6ieV4CfNpoD-2" value="上架设备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="70" width="120" height="60" as="geometry" />
+          <mxGeometry x="294" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Tx0mkNIQD6ieV4CfNpoD-4" value="发布商品" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="446" y="70" width="120" height="60" as="geometry" />
+          <mxGeometry x="500" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Tx0mkNIQD6ieV4CfNpoD-6" value="商户商品系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="446" y="191" width="120" height="60" as="geometry" />
+          <mxGeometry x="500" y="191" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Tx0mkNIQD6ieV4CfNpoD-7" value="平台商品系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="52" y="396" width="120" height="60" as="geometry" />
+          <mxGeometry x="103" y="531" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tx0mkNIQD6ieV4CfNpoD-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="Tx0mkNIQD6ieV4CfNpoD-8" target="Tx0mkNIQD6ieV4CfNpoD-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Tx0mkNIQD6ieV4CfNpoD-8" value="后台类目" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="362" y="396" width="120" height="60" as="geometry" />
+          <mxGeometry x="338" y="531" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Tx0mkNIQD6ieV4CfNpoD-9" value="品牌" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="515" y="396" width="120" height="60" as="geometry" />
+          <mxGeometry x="496" y="531" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Tx0mkNIQD6ieV4CfNpoD-10" value="型号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="668" y="396" width="120" height="60" as="geometry" />
+          <mxGeometry x="655" y="531" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Tx0mkNIQD6ieV4CfNpoD-11" value="属性" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="362" y="529" width="120" height="60" as="geometry" />
+          <mxGeometry x="338" y="709" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Tx0mkNIQD6ieV4CfNpoD-12" value="仓库管理" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="103" y="207" width="120" height="60" as="geometry" />
+        <mxCell id="Tx0mkNIQD6ieV4CfNpoD-12" value="仓库" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="103" y="191" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Tx0mkNIQD6ieV4CfNpoD-14" value="覆盖区域" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="103" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tx0mkNIQD6ieV4CfNpoD-16" value="1个类目对应多个属性，叶子类目的属性集合通常为商品的属性" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="268" y="632" width="122" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
