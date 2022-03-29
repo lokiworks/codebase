@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-29T06:53:49.801Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="I1kZG5GtUCWaUq0T2yjs" version="17.2.4" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-03-29T07:59:46.041Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="89-GOqMjYGLNvgZgldap" version="17.2.4" type="github" pages="7">
   <diagram id="Cl9Hr2QRYbMqXGNqs11D" name="商品上架流程">
     <mxGraphModel dx="1102" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -246,8 +246,19 @@
         <mxCell id="Tx0mkNIQD6ieV4CfNpoD-2" value="上架设备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="294" y="70" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Tx0mkNIQD6ieV4CfNpoD-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="Tx0mkNIQD6ieV4CfNpoD-4" target="Tx0mkNIQD6ieV4CfNpoD-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Tx0mkNIQD6ieV4CfNpoD-4" value="发布商品" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tx0mkNIQD6ieV4CfNpoD-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="Tx0mkNIQD6ieV4CfNpoD-6" target="Tx0mkNIQD6ieV4CfNpoD-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="390" />
+              <mxPoint x="951" y="390" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Tx0mkNIQD6ieV4CfNpoD-6" value="商户商品系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="191" width="120" height="60" as="geometry" />
@@ -262,7 +273,7 @@
           <mxGeometry x="338" y="531" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Tx0mkNIQD6ieV4CfNpoD-9" value="品牌" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="496" y="531" width="120" height="60" as="geometry" />
+          <mxGeometry x="500" y="531" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Tx0mkNIQD6ieV4CfNpoD-10" value="型号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="655" y="531" width="120" height="60" as="geometry" />
@@ -270,14 +281,23 @@
         <mxCell id="Tx0mkNIQD6ieV4CfNpoD-11" value="属性" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="338" y="709" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Tx0mkNIQD6ieV4CfNpoD-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="Tx0mkNIQD6ieV4CfNpoD-12" target="Tx0mkNIQD6ieV4CfNpoD-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Tx0mkNIQD6ieV4CfNpoD-12" value="仓库" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="103" y="191" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Tx0mkNIQD6ieV4CfNpoD-14" value="覆盖区域" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="103" y="310" width="120" height="60" as="geometry" />
+          <mxGeometry x="103" y="327" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Tx0mkNIQD6ieV4CfNpoD-16" value="1个类目对应多个属性，叶子类目的属性集合通常为商品的属性" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="268" y="632" width="122" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Tx0mkNIQD6ieV4CfNpoD-19" value="平台商品系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="891" y="441" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tx0mkNIQD6ieV4CfNpoD-21" value="上架平台商品（商品售卖的区域）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="652" y="371" width="204" height="14" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
