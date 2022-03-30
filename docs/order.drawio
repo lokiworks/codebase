@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-30T07:55:17.653Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="R0A--kF7oj2fR35SN24V" version="17.2.5" type="github" pages="18">
+<mxfile host="app.diagrams.net" modified="2022-03-30T07:56:20.049Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="3CG3p8M5AicIwNGCy8U6" version="17.2.5" type="github" pages="18">
   <diagram id="y_iolCZEPDSHA-SLJ0tp" name="系统上下文">
     <mxGraphModel dx="1902" dy="997" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2088,7 +2088,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RFKqjR6MLwfFZLc6qjNO" name="概念图">
-    <mxGraphModel dx="885" dy="464" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1268" dy="665" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2701,7 +2701,7 @@
           <mxGeometry x="747" y="611" width="24" height="25" as="geometry" />
         </mxCell>
         <mxCell id="Tyo_6EuCzMBEcdM94sDU-275" value="trade_line(主订单行)" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="786" y="1084" width="322" height="559.1029639959432" as="geometry" />
+          <mxGeometry x="789" y="1066.37" width="322" height="561.0741098292766" as="geometry" />
         </mxCell>
         <mxCell id="Tyo_6EuCzMBEcdM94sDU-276" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-275">
           <mxGeometry y="30" width="322" height="33" as="geometry" />
@@ -2847,33 +2847,33 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Tyo_6EuCzMBEcdM94sDU-330" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-275">
-          <mxGeometry y="341" width="322" height="26" as="geometry" />
+          <mxGeometry y="341" width="322" height="28" as="geometry" />
         </mxCell>
         <mxCell id="Tyo_6EuCzMBEcdM94sDU-331" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-330">
-          <mxGeometry width="30" height="26" as="geometry">
-            <mxRectangle width="30" height="26" as="alternateBounds" />
+          <mxGeometry width="30" height="28" as="geometry">
+            <mxRectangle width="30" height="28" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Tyo_6EuCzMBEcdM94sDU-332" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-330">
-          <mxGeometry x="30" width="292" height="26" as="geometry">
-            <mxRectangle width="292" height="26" as="alternateBounds" />
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-332" value="total_price(商品总价)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-330">
+          <mxGeometry x="30" width="292" height="28" as="geometry">
+            <mxRectangle width="292" height="28" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Tyo_6EuCzMBEcdM94sDU-327" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-275">
-          <mxGeometry y="367" width="322" height="26" as="geometry" />
+          <mxGeometry y="369" width="322" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Tyo_6EuCzMBEcdM94sDU-328" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-327">
           <mxGeometry width="30" height="26" as="geometry">
             <mxRectangle width="30" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Tyo_6EuCzMBEcdM94sDU-329" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-327">
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-329" value="status（待补充注释说明）" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontColor=#FF0000;strokeColor=#000000;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-327">
           <mxGeometry x="30" width="292" height="26" as="geometry">
             <mxRectangle width="292" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Tyo_6EuCzMBEcdM94sDU-324" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-275">
-          <mxGeometry y="393" width="322" height="26" as="geometry" />
+          <mxGeometry y="395" width="322" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Tyo_6EuCzMBEcdM94sDU-325" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-324">
           <mxGeometry width="30" height="26" as="geometry">
@@ -2886,7 +2886,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Tyo_6EuCzMBEcdM94sDU-321" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-275">
-          <mxGeometry y="419" width="322" height="26" as="geometry" />
+          <mxGeometry y="421" width="322" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Tyo_6EuCzMBEcdM94sDU-322" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-321">
           <mxGeometry width="30" height="26" as="geometry">
@@ -2899,7 +2899,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Tyo_6EuCzMBEcdM94sDU-318" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-275">
-          <mxGeometry y="445" width="322" height="26" as="geometry" />
+          <mxGeometry y="447" width="322" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Tyo_6EuCzMBEcdM94sDU-319" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-318">
           <mxGeometry width="30" height="26" as="geometry">
@@ -2912,7 +2912,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Tyo_6EuCzMBEcdM94sDU-315" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-275">
-          <mxGeometry y="471" width="322" height="26" as="geometry" />
+          <mxGeometry y="473" width="322" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Tyo_6EuCzMBEcdM94sDU-316" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-315">
           <mxGeometry width="30" height="26" as="geometry">
@@ -2925,7 +2925,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Tyo_6EuCzMBEcdM94sDU-306" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-275">
-          <mxGeometry y="497" width="322" height="26" as="geometry" />
+          <mxGeometry y="499" width="322" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Tyo_6EuCzMBEcdM94sDU-307" style="shape=partialRectangle;connectable=0;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;strokeColor=#6c8ebf;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-306">
           <mxGeometry width="30" height="26" as="geometry">
@@ -2938,7 +2938,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Tyo_6EuCzMBEcdM94sDU-309" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-275">
-          <mxGeometry y="523" width="322" height="26" as="geometry" />
+          <mxGeometry y="525" width="322" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Tyo_6EuCzMBEcdM94sDU-310" value="IDX" style="shape=partialRectangle;connectable=0;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;strokeColor=#6c8ebf;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-309">
           <mxGeometry width="30" height="26" as="geometry">
