@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-30T06:04:03.845Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="mnnamRrb9P6TBxivAx08" version="17.2.5" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2022-03-30T06:46:12.454Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="il2l5Vg1adioFOn6erlS" version="17.2.5" type="github" pages="18">
   <diagram id="y_iolCZEPDSHA-SLJ0tp" name="系统上下文">
     <mxGraphModel dx="1902" dy="997" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2063,6 +2063,292 @@
         </mxCell>
         <mxCell id="YN-i3RD_l9o7nzFMEn-V-19" value="商机分享给平台" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="260" y="184" width="164" height="29" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="UW-vOVtBIj3688zLlZzi" name="类图">
+    <mxGraphModel dx="761" dy="399" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XSOizOuIBEu3xIVw4uw6-1" value="Trade(主订单)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="408" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="XSOizOuIBEu3xIVw4uw6-2" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="XSOizOuIBEu3xIVw4uw6-1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="XSOizOuIBEu3xIVw4uw6-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="XSOizOuIBEu3xIVw4uw6-1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="XSOizOuIBEu3xIVw4uw6-4" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="XSOizOuIBEu3xIVw4uw6-1">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="RFKqjR6MLwfFZLc6qjNO" name="概念图">
+    <mxGraphModel dx="809" dy="424" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-1" value="trade(主订单)" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="248" y="594" width="273.2578125" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-1">
+          <mxGeometry y="30" width="273.2578125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-3" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-2">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-4" value="id(订单编号)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-2">
+          <mxGeometry x="30" width="243.2578125" height="30" as="geometry">
+            <mxRectangle width="243.2578125" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-1">
+          <mxGeometry y="60" width="273.2578125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-6" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-5">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-7" value="trade_code(待废弃)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-5">
+          <mxGeometry x="30" width="243.2578125" height="30" as="geometry">
+            <mxRectangle width="243.2578125" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-8" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-1">
+          <mxGeometry y="90" width="273.2578125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-9" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-8">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-10" value="user_id(用户id)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-8">
+          <mxGeometry x="30" width="243.2578125" height="30" as="geometry">
+            <mxRectangle width="243.2578125" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-11" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-1">
+          <mxGeometry y="120" width="273.2578125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-12" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-11">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-13" value="account_id(账号id)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-11">
+          <mxGeometry x="30" width="243.2578125" height="30" as="geometry">
+            <mxRectangle width="243.2578125" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-18" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-1">
+          <mxGeometry y="150" width="273.2578125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-19" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-18">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-20" value="customer_id(客户id)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-18">
+          <mxGeometry x="30" width="243.2578125" height="30" as="geometry">
+            <mxRectangle width="243.2578125" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-21" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-1">
+          <mxGeometry y="180" width="273.2578125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-22" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-21">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-23" value="biz_id(业务身份ID， 暂时没用)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-21">
+          <mxGeometry x="30" width="243.2578125" height="30" as="geometry">
+            <mxRectangle width="243.2578125" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-24" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-1">
+          <mxGeometry y="210" width="273.2578125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-25" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-24">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-26" value="trade_status(订单状态：)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-24">
+          <mxGeometry x="30" width="243.2578125" height="30" as="geometry">
+            <mxRectangle width="243.2578125" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-27" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-1">
+          <mxGeometry y="240" width="273.2578125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-28" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-27">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-29" value="pay_status（支付状态,状态说明补充）" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontColor=#FF0000;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-27">
+          <mxGeometry x="30" width="243.2578125" height="30" as="geometry">
+            <mxRectangle width="243.2578125" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-30" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-1">
+          <mxGeometry y="270" width="273.2578125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-31" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-30">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-32" value="contact（联系人名称）" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-30">
+          <mxGeometry x="30" width="243.2578125" height="30" as="geometry">
+            <mxRectangle width="243.2578125" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-33" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-1">
+          <mxGeometry y="300" width="273.2578125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-34" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-33">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-35" value="contact_phone（联系人手机号）" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-33">
+          <mxGeometry x="30" width="243.2578125" height="30" as="geometry">
+            <mxRectangle width="243.2578125" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-36" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-1">
+          <mxGeometry y="330" width="273.2578125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-37" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-36">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-38" value="city_code（城市编码）" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-36">
+          <mxGeometry x="30" width="243.2578125" height="30" as="geometry">
+            <mxRectangle width="243.2578125" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-39" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-1">
+          <mxGeometry y="360" width="273.2578125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-40" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-39">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-41" value="total_cost（总金额）" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-39">
+          <mxGeometry x="30" width="243.2578125" height="30" as="geometry">
+            <mxRectangle width="243.2578125" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-42" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-1">
+          <mxGeometry y="390" width="273.2578125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-43" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-42">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-44" value="estimate_cost（预估金额， json类型）" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontColor=#FF0000;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-42">
+          <mxGeometry x="30" width="243.2578125" height="30" as="geometry">
+            <mxRectangle width="243.2578125" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-45" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-1">
+          <mxGeometry y="420" width="273.2578125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-46" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-45">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-47" value="create_user（创建人编号）" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-45">
+          <mxGeometry x="30" width="243.2578125" height="30" as="geometry">
+            <mxRectangle width="243.2578125" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-48" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-1">
+          <mxGeometry y="450" width="273.2578125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-49" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-48">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-50" value="update_user（修改人编号）" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-48">
+          <mxGeometry x="30" width="243.2578125" height="30" as="geometry">
+            <mxRectangle width="243.2578125" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-51" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-1">
+          <mxGeometry y="480" width="273.2578125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-52" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-51">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-53" value="create_time（创建时间）" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-51">
+          <mxGeometry x="30" width="243.2578125" height="30" as="geometry">
+            <mxRectangle width="243.2578125" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-54" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-1">
+          <mxGeometry y="510" width="273.2578125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-55" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-54">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-56" value="update_time（更新时间）" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-54">
+          <mxGeometry x="30" width="243.2578125" height="30" as="geometry">
+            <mxRectangle width="243.2578125" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-57" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-1">
+          <mxGeometry y="540" width="273.2578125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-58" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-57">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-59" value="del_flag（删除标记）" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-57">
+          <mxGeometry x="30" width="243.2578125" height="30" as="geometry">
+            <mxRectangle width="243.2578125" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-60" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-1">
+          <mxGeometry y="570" width="273.2578125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-61" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-60">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-62" value="account_type（客户类型， 待补充注释说明）" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=#FF0000;fontColor=#FF0000;" vertex="1" parent="Tyo_6EuCzMBEcdM94sDU-60">
+          <mxGeometry x="30" width="243.2578125" height="30" as="geometry">
+            <mxRectangle width="243.2578125" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-65" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tyo_6EuCzMBEcdM94sDU-64" target="Tyo_6EuCzMBEcdM94sDU-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="248" y="787" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tyo_6EuCzMBEcdM94sDU-64" value="订单状态：&lt;br&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;未提交:5,待确认:10,待进场:20,租赁中:30,用车完结:40,订单完结:50,已取消:90&lt;/span&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="64" y="594" width="107" height="149" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
