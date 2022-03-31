@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-31T08:31:27.023Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="04RjwWv7l0Nojv4s69Mj" version="17.3.0" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2022-03-31T08:44:32.809Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="IVapfWc_K9vRy5J4TNoJ" version="17.3.0" type="github" pages="20">
   <diagram id="y_iolCZEPDSHA-SLJ0tp" name="系统上下文">
     <mxGraphModel dx="1102" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -5643,12 +5643,30 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Xn9iAAEgMACaiSB4elDn" name="能力图">
-    <mxGraphModel dx="1102" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1160" dy="611" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ELQ656yOM_9AkW0o88mT-1" value="原子能力" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="225" width="233" height="75" as="geometry" />
+        <mxCell id="eKu8l43rduxIdzmziA6a-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="69" y="160" width="619" height="558" as="geometry" />
+        </mxCell>
+        <mxCell id="ELQ656yOM_9AkW0o88mT-1" value="原子能力" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;gradientColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="215" y="577" width="233" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="eKu8l43rduxIdzmziA6a-1" value="组合能力" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;gradientColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="382" y="413" width="233" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="eKu8l43rduxIdzmziA6a-2" value="场景化能力" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;gradientColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="215" y="248" width="233" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="eKu8l43rduxIdzmziA6a-3" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=north;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="243" y="308" width="36" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="eKu8l43rduxIdzmziA6a-6" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=north;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="401" y="308" width="36" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="eKu8l43rduxIdzmziA6a-7" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=north;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="401" y="462" width="36" height="126" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
