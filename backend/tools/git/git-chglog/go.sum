@@ -2,8 +2,6 @@ github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/fatih/color v1.6.0 h1:66qjqZk8kalYAvDRtM1AdAJQI0tj4Wrue3Eq3B3pmFU=
 github.com/fatih/color v1.6.0/go.mod h1:Zm6kSWBoL9eyXnKyktHP6abPY2pDugNf5KwzbycvMj4=
-github.com/frimik/git-chglog v0.0.0-20190923122001-6050f20bcdb0 h1:AkNSF+AApld6Y2kUdjOAaZkFNXiKkmEQK75r0X3pQOs=
-github.com/frimik/git-chglog v0.0.0-20190923122001-6050f20bcdb0/go.mod h1:ZSjZjz60yykp7FcHGVAT9Dc8iaSj8anxEsB2W4tUEpE=
 github.com/git-chglog/git-chglog v0.0.0-20190923120221-40b31a0f6858 h1:FZEjUClSWEWilflsW9WWqxwbIeQg387NWGVHOxPQUzg=
 github.com/git-chglog/git-chglog v0.0.0-20190923120221-40b31a0f6858/go.mod h1:Dcsy1kii/xFyNad5JqY/d0GO5mu91sungp5xotbm3Yk=
 github.com/imdario/mergo v0.0.0-20180119215619-163f41321a19 h1:geJOJJZwkYI1yqxWrAMcgrwDvy4P1XyNNgIyN9d6UXc=
@@ -26,7 +24,9 @@ golang.org/x/sys v0.0.0-20180202135801-37707fdb30a5 h1:MF92a0wJ3gzSUVBpjcwdrDr5+
 golang.org/x/sys v0.0.0-20180202135801-37707fdb30a5/go.mod h1:STP8DvDyc/dI5b8T5hshtkjS+E42TnysNCUPdjciGhY=
 gopkg.in/AlecAivazis/survey.v1 v1.4.2 h1:NEoEoNvr4yJKcBMBBzjv055/d0PkGICGVn+7pQDQdUM=
 gopkg.in/AlecAivazis/survey.v1 v1.4.2/go.mod h1:2Ehl7OqkBl3Xb8VmC4oFW2bItAhnUfzIjrOzwRxCrOU=
+gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405 h1:yhCVgyC4o1eVCa2tZl7eS0r+SDo693bJlVdllGtEeKM=
+gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
 gopkg.in/kyokomi/emoji.v1 v1.0.0-20161123144355-7e06b236c489 h1:QopvtRrvGxC+s1zXl8iQX6pgcwDqXJTpXnqxV+Dg418=
 gopkg.in/kyokomi/emoji.v1 v1.0.0-20161123144355-7e06b236c489/go.mod h1:N9AZ6hi1jHOPn34PsbpufQZUcKftSD7WgS2pgpmH4Lg=
-gopkg.in/yaml.v2 v2.0.0 h1:uUkhRGrsEyx/laRdeS6YIQKIys8pg+lRSRdVMTYjivs=
-gopkg.in/yaml.v2 v2.0.0/go.mod h1:JAlM8MvJe8wmxCU4Bli9HhUf9+ttbYbLASfIpnQbh74=
+gopkg.in/yaml.v2 v2.2.8 h1:obN1ZagJSUGI0Ek/LBmuj4SNLPfIny3KsKFopxRdj10=
+gopkg.in/yaml.v2 v2.2.8/go.mod h1:hI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=
