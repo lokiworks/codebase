@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-01T07:12:40.934Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="J8_ZR24c8DcdYiWg10XX" version="17.4.0" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2022-04-01T07:35:47.277Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="7uJ1bVSwJJ75yiGQrUQm" version="17.4.0" type="github" pages="19">
   <diagram id="5A5lfGYTrCQL1lXl713B" name="订单系统模块图">
     <mxGraphModel dx="1929" dy="1749" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1942,10 +1942,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UW-vOVtBIj3688zLlZzi" name="类图-Trade">
-    <mxGraphModel dx="1102" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2536" dy="1375" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FWedp7bm46qobKqUQgx3-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF0000;dashed=1;strokeWidth=8;" vertex="1" parent="1">
+          <mxGeometry x="16" y="1490" width="1689" height="1052" as="geometry" />
+        </mxCell>
         <mxCell id="LsOPsm9vWMVob5eKlugE-63" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF0000;dashed=1;strokeWidth=8;" parent="1" vertex="1">
           <mxGeometry x="20" y="80" width="1689" height="1052" as="geometry" />
         </mxCell>
@@ -2049,9 +2052,6 @@
         <mxCell id="LsOPsm9vWMVob5eKlugE-29" value="+ cancel(OrderCancelReqDto):Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#FF0000;" parent="LsOPsm9vWMVob5eKlugE-20" vertex="1">
           <mxGeometry y="216" width="680" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="LsOPsm9vWMVob5eKlugE-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF0000;endArrow=open;endFill=0;" parent="1" source="crtmdvm3Y53KunV-OTea-4" target="LsOPsm9vWMVob5eKlugE-25" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="LsOPsm9vWMVob5eKlugE-43" value="DataPassthroughApi(接口的名字是想传递什么？有点太随意了)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="958" y="483" width="680" height="86" as="geometry">
             <mxRectangle x="254" y="68" width="78" height="26" as="alternateBounds" />
@@ -2129,11 +2129,82 @@
         <mxCell id="LsOPsm9vWMVob5eKlugE-76" value="+ finish(MerchantFinishReqDto):Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#FF0000;" parent="LsOPsm9vWMVob5eKlugE-73" vertex="1">
           <mxGeometry y="60" width="680" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="4T6REpKo-xwRmkWSFJh3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.498;exitY=0.001;exitDx=0;exitDy=0;entryX=0.496;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=24;endArrow=block;endFill=0;exitPerimeter=0;strokeWidth=1;fillColor=#6a00ff;strokeColor=#000000;" edge="1" parent="1" source="FWedp7bm46qobKqUQgx3-1" target="LsOPsm9vWMVob5eKlugE-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4T6REpKo-xwRmkWSFJh3-2" value="TradeController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1563" width="680" height="554" as="geometry">
+            <mxRectangle x="70" y="1563" width="78" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4T6REpKo-xwRmkWSFJh3-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="4T6REpKo-xwRmkWSFJh3-2">
+          <mxGeometry y="26" width="680" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="4T6REpKo-xwRmkWSFJh3-4" value="订单列表通用搜索（通用搜索范围有点大， 不能准确的get到搜索的词组，接口的职责应该是清晰的）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4T6REpKo-xwRmkWSFJh3-2">
+          <mxGeometry y="34" width="680" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4T6REpKo-xwRmkWSFJh3-5" value="+ searchGeneral(TradeSearchGeneralReqDTO): TradeSearchQueryRespDTO" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#FF0000;" vertex="1" parent="4T6REpKo-xwRmkWSFJh3-2">
+          <mxGeometry y="60" width="680" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4T6REpKo-xwRmkWSFJh3-6" value="订单详情+未匹配的需求+已取消的需求（接口能力描述应该与订单的定义保持一致，TradePreDTO怎么理解？）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4T6REpKo-xwRmkWSFJh3-2">
+          <mxGeometry y="86" width="680" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4T6REpKo-xwRmkWSFJh3-7" value="+ detailWithGroupByLineStatus(Long):TradePreDTO" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#FF0000;" vertex="1" parent="4T6REpKo-xwRmkWSFJh3-2">
+          <mxGeometry y="112" width="680" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4T6REpKo-xwRmkWSFJh3-8" value="订单详情+未匹配的需求+已取消的需求（问题同上，参数1为父订单编号， 参数2为业务规则：0：不检验 1：创建用户可查看）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4T6REpKo-xwRmkWSFJh3-2">
+          <mxGeometry y="138" width="680" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4T6REpKo-xwRmkWSFJh3-9" value="+ detailWithRule（Long，Integer):TradePreDTO" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#FF0000;" vertex="1" parent="4T6REpKo-xwRmkWSFJh3-2">
+          <mxGeometry y="164" width="680" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4T6REpKo-xwRmkWSFJh3-10" value="所有详情" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4T6REpKo-xwRmkWSFJh3-2">
+          <mxGeometry y="190" width="680" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4T6REpKo-xwRmkWSFJh3-11" value="+ tradeAllDetail(Long):TradePreDTO" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#FF0000;" vertex="1" parent="4T6REpKo-xwRmkWSFJh3-2">
+          <mxGeometry y="216" width="680" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4T6REpKo-xwRmkWSFJh3-12" value="批量查询父订单状态(查询状态的接口返回中为什么会包含金额信息)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4T6REpKo-xwRmkWSFJh3-2">
+          <mxGeometry y="242" width="680" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4T6REpKo-xwRmkWSFJh3-13" value="+ tradeBatchStatus(TradeBatchStatusReqDTO):List&lt;TradeDetailStatusDTO&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#FF0000;" vertex="1" parent="4T6REpKo-xwRmkWSFJh3-2">
+          <mxGeometry y="268" width="680" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4T6REpKo-xwRmkWSFJh3-14" value="批量查询父订单详情（业务上需要批量查询详情的场景是什么， 列表不能满足吗）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4T6REpKo-xwRmkWSFJh3-2">
+          <mxGeometry y="294" width="680" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4T6REpKo-xwRmkWSFJh3-15" value="+ tradeBatchDetail(TradeBatchDetailReqDTO):List&lt;TradeDTO&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#FF0000;" vertex="1" parent="4T6REpKo-xwRmkWSFJh3-2">
+          <mxGeometry y="320" width="680" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4T6REpKo-xwRmkWSFJh3-16" value="父订单详情" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4T6REpKo-xwRmkWSFJh3-2">
+          <mxGeometry y="346" width="680" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4T6REpKo-xwRmkWSFJh3-17" value="+ tradeDetail(Long):TradePreDTO" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#FF0000;" vertex="1" parent="4T6REpKo-xwRmkWSFJh3-2">
+          <mxGeometry y="372" width="680" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4T6REpKo-xwRmkWSFJh3-18" value="修改父订单（价格和结算政策）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4T6REpKo-xwRmkWSFJh3-2">
+          <mxGeometry y="398" width="680" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4T6REpKo-xwRmkWSFJh3-19" value="+ modifyPriceAndSettlement(TradeModifyPriceAndSettlementReqDto):Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4T6REpKo-xwRmkWSFJh3-2">
+          <mxGeometry y="424" width="680" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4T6REpKo-xwRmkWSFJh3-20" value="修改父订单（价格）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4T6REpKo-xwRmkWSFJh3-2">
+          <mxGeometry y="450" width="680" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4T6REpKo-xwRmkWSFJh3-21" value="+ modifyPrice(TradeModifyPriceReqDto):Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4T6REpKo-xwRmkWSFJh3-2">
+          <mxGeometry y="476" width="680" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4T6REpKo-xwRmkWSFJh3-22" value="查询父订单下的需求" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4T6REpKo-xwRmkWSFJh3-2">
+          <mxGeometry y="502" width="680" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4T6REpKo-xwRmkWSFJh3-23" value="+ lines(Long):List&lt;TradeLineDemandDTO&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4T6REpKo-xwRmkWSFJh3-2">
+          <mxGeometry y="528" width="680" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="RFKqjR6MLwfFZLc6qjNO" name="概念图">
-    <mxGraphModel dx="1929" dy="2918" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2729" dy="3369" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5627,7 +5698,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="KFBtYD1rHJkAraLi3uR3" name="包图">
-    <mxGraphModel dx="1102" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1902" dy="1031" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5717,7 +5788,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="P_dQIGIs1EOFJtXqcHhM" name="Page-19">
-    <mxGraphModel dx="1837" dy="967" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3170" dy="1718" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
