@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-06T09:51:39.532Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="XBbEkXJmh_0_ccZZjrlT" version="17.4.0" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2022-04-06T09:55:05.563Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="qwkBYeopwPFr_DCOeXwr" version="17.4.0" type="github" pages="20">
   <diagram id="5A5lfGYTrCQL1lXl713B" name="订单系统模块图">
     <mxGraphModel dx="2889" dy="2244" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6441,6 +6441,15 @@
         </mxCell>
         <mxCell id="PkImdEw5BeqzRRj4YUwd-25" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="168" y="999" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PkImdEw5BeqzRRj4YUwd-27" value="客户" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A680B8;" vertex="1" parent="1">
+          <mxGeometry x="346" y="10" width="202" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="PkImdEw5BeqzRRj4YUwd-30" value="客户BD" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="567" y="10" width="202" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="PkImdEw5BeqzRRj4YUwd-31" value="订单运营专员" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="788" y="10" width="202" height="42" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
