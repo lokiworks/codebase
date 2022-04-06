@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-06T02:50:55.720Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="Amj9EWy0dD4aAIjfUBBE" version="17.4.0" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2022-04-06T03:02:45.634Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="Qzhg2j9ZgWGG1VESloZu" version="17.4.0" type="github" pages="19">
   <diagram id="5A5lfGYTrCQL1lXl713B" name="订单系统模块图">
     <mxGraphModel dx="2889" dy="2244" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2366,10 +2366,10 @@
         <mxCell id="6i40-zV47Tf71fz-kQRh-1" value="SettingController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;strokeColor=default;strokeWidth=2;fillColor=default;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="625.5" y="2171" width="478" height="424" as="geometry" />
         </mxCell>
-        <mxCell id="6i40-zV47Tf71fz-kQRh-2" value="+ shoppingCartQueryService: ShoppingCartQueryServiceImpl" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="6i40-zV47Tf71fz-kQRh-1">
+        <mxCell id="6i40-zV47Tf71fz-kQRh-2" value="+ labelApi: LabelApi" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="6i40-zV47Tf71fz-kQRh-1">
           <mxGeometry y="26" width="478" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="6i40-zV47Tf71fz-kQRh-3" value="+ shoppingCartCmdService: ShoppingCartCmdServiceImpl" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="6i40-zV47Tf71fz-kQRh-1">
+        <mxCell id="6i40-zV47Tf71fz-kQRh-3" value="+ identityClient: IdentityClient" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="6i40-zV47Tf71fz-kQRh-1">
           <mxGeometry y="52" width="478" height="26" as="geometry" />
         </mxCell>
         <mxCell id="6i40-zV47Tf71fz-kQRh-4" value="+ userContext: UserContext" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="6i40-zV47Tf71fz-kQRh-1">
