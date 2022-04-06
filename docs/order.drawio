@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-06T10:05:06.754Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="8waZNxVcTZUdJioy1vil" version="17.4.0" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2022-04-06T10:13:48.682Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="G-JCzZYg6Ecuguo8y9Ko" version="17.4.0" type="github" pages="20">
   <diagram id="5A5lfGYTrCQL1lXl713B" name="订单系统模块图">
     <mxGraphModel dx="2889" dy="2244" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6301,7 +6301,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="fagsDlki87eZBKZbjyUR" name="状态图">
-    <mxGraphModel dx="1099" dy="540" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2015" dy="990" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6495,7 +6495,7 @@
         <mxCell id="PkImdEw5BeqzRRj4YUwd-30" value="客户BD" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="928" y="402" width="202" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="PkImdEw5BeqzRRj4YUwd-31" value="订单运营专员" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+        <mxCell id="PkImdEw5BeqzRRj4YUwd-31" value="客服" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="1149" y="402" width="202" height="42" as="geometry" />
         </mxCell>
         <mxCell id="PkImdEw5BeqzRRj4YUwd-32" value="客户" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A680B8;" vertex="1" parent="1">
@@ -6517,11 +6517,27 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="PkImdEw5BeqzRRj4YUwd-48" value="（客服）发起取消" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PkImdEw5BeqzRRj4YUwd-39">
+          <mxGeometry x="-0.6878" y="-2" relative="1" as="geometry">
+            <mxPoint x="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PkImdEw5BeqzRRj4YUwd-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#FF0000;" edge="1" parent="1" source="PkImdEw5BeqzRRj4YUwd-36" target="PkImdEw5BeqzRRj4YUwd-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PkImdEw5BeqzRRj4YUwd-47" value="（客服）确认" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PkImdEw5BeqzRRj4YUwd-46">
+          <mxGeometry x="-0.1204" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="PkImdEw5BeqzRRj4YUwd-36" value="待确认" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="1">
           <mxGeometry x="212" y="947" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PkImdEw5BeqzRRj4YUwd-38" value="已取消" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="1">
           <mxGeometry x="212" y="1096" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PkImdEw5BeqzRRj4YUwd-49" value="客户" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A680B8;" vertex="1" parent="1">
+          <mxGeometry x="707" y="518" width="94" height="34" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
