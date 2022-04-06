@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-06T03:43:15.497Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="YIcOCl7dHAzg4jw4HDIu" version="17.4.0" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2022-04-06T03:50:17.822Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="Q2srs0nirto9rfhHMexZ" version="17.4.0" type="github" pages="19">
   <diagram id="5A5lfGYTrCQL1lXl713B" name="订单系统模块图">
     <mxGraphModel dx="2889" dy="2244" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1942,7 +1942,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UW-vOVtBIj3688zLlZzi" name="类图-Trade">
-    <mxGraphModel dx="859" dy="448" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="711" dy="371" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2418,7 +2418,7 @@
           <mxGeometry y="268" width="478" height="26" as="geometry" />
         </mxCell>
         <mxCell id="6i40-zV47Tf71fz-kQRh-36" value="OperateLogController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;strokeColor=default;strokeWidth=2;fillColor=default;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1185" y="1880" width="478" height="164" as="geometry" />
+          <mxGeometry x="625.5" y="2682" width="478" height="164" as="geometry" />
         </mxCell>
         <mxCell id="6i40-zV47Tf71fz-kQRh-37" value="+ operateLogService: OperateLogService" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="6i40-zV47Tf71fz-kQRh-36">
           <mxGeometry y="26" width="478" height="26" as="geometry" />
@@ -2437,6 +2437,72 @@
         </mxCell>
         <mxCell id="6i40-zV47Tf71fz-kQRh-43" value="+ add(OperateLogReqDTO): Result" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="6i40-zV47Tf71fz-kQRh-36">
           <mxGeometry y="138" width="478" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6i40-zV47Tf71fz-kQRh-48" value="CompensationController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;strokeColor=default;strokeWidth=2;fillColor=default;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="625.5" y="2332" width="478" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="6i40-zV47Tf71fz-kQRh-49" value="+ compensationService: CompensationService" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="6i40-zV47Tf71fz-kQRh-48">
+          <mxGeometry y="26" width="478" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6i40-zV47Tf71fz-kQRh-50" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=24;" vertex="1" parent="6i40-zV47Tf71fz-kQRh-48">
+          <mxGeometry y="52" width="478" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="6i40-zV47Tf71fz-kQRh-51" value="推送调度决策商户补偿" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="6i40-zV47Tf71fz-kQRh-48">
+          <mxGeometry y="60" width="478" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6i40-zV47Tf71fz-kQRh-52" value="+ dispatchAssign(Long): Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="6i40-zV47Tf71fz-kQRh-48">
+          <mxGeometry y="86" width="478" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6i40-zV47Tf71fz-kQRh-62" value="推送商户子订单信息补偿" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="6i40-zV47Tf71fz-kQRh-48">
+          <mxGeometry y="112" width="478" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6i40-zV47Tf71fz-kQRh-61" value="+ grabOrderSuccessData(Long,Long): Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="6i40-zV47Tf71fz-kQRh-48">
+          <mxGeometry y="138" width="478" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6i40-zV47Tf71fz-kQRh-60" value="推送履约匹配成功补偿" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="6i40-zV47Tf71fz-kQRh-48">
+          <mxGeometry y="164" width="478" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6i40-zV47Tf71fz-kQRh-59" value="+ acceptOrderInfo(Long): Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="6i40-zV47Tf71fz-kQRh-48">
+          <mxGeometry y="190" width="478" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6i40-zV47Tf71fz-kQRh-58" value="通知财务退款补偿" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="6i40-zV47Tf71fz-kQRh-48">
+          <mxGeometry y="216" width="478" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6i40-zV47Tf71fz-kQRh-57" value="+ fullRefund(Long,String): Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="6i40-zV47Tf71fz-kQRh-48">
+          <mxGeometry y="242" width="478" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6i40-zV47Tf71fz-kQRh-56" value="订单数据同步调度补偿" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="6i40-zV47Tf71fz-kQRh-48">
+          <mxGeometry y="268" width="478" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6i40-zV47Tf71fz-kQRh-55" value="+ dispatchSyncTradeTask(Long): Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="6i40-zV47Tf71fz-kQRh-48">
+          <mxGeometry y="294" width="478" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6i40-zV47Tf71fz-kQRh-63" value="CallbackDispatchController(implements CallbackDispatchApi)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;strokeColor=default;strokeWidth=2;fillColor=default;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="1863" width="478" height="216" as="geometry" />
+        </mxCell>
+        <mxCell id="6i40-zV47Tf71fz-kQRh-64" value="+ tradeCmdService: TradeCmdService" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="6i40-zV47Tf71fz-kQRh-63">
+          <mxGeometry y="26" width="478" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6i40-zV47Tf71fz-kQRh-66" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=24;" vertex="1" parent="6i40-zV47Tf71fz-kQRh-63">
+          <mxGeometry y="52" width="478" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="6i40-zV47Tf71fz-kQRh-67" value="调度中心通知订单中心分派商户结果 (商户接单)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="6i40-zV47Tf71fz-kQRh-63">
+          <mxGeometry y="60" width="478" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6i40-zV47Tf71fz-kQRh-68" value="+ assign(TradeDispatchAssignReqDto): TradeDispatchAssignRespDto" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="6i40-zV47Tf71fz-kQRh-63">
+          <mxGeometry y="86" width="478" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6i40-zV47Tf71fz-kQRh-69" value="调度中心通知订单中心分派商户结果 (匹配商户+运费)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="6i40-zV47Tf71fz-kQRh-63">
+          <mxGeometry y="112" width="478" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6i40-zV47Tf71fz-kQRh-70" value="+ assignWithFeight(TradeAssignWithFeightReqDto): TradeDispatchAssignRespDto" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="6i40-zV47Tf71fz-kQRh-63">
+          <mxGeometry y="138" width="478" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6i40-zV47Tf71fz-kQRh-71" value="分派商户失败通知" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="6i40-zV47Tf71fz-kQRh-63">
+          <mxGeometry y="164" width="478" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6i40-zV47Tf71fz-kQRh-72" value="+ fail(TradeDispatchFailReqDto): Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="6i40-zV47Tf71fz-kQRh-63">
+          <mxGeometry y="190" width="478" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
