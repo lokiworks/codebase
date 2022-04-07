@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-07T05:52:39.463Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="3eA984H3EE7ll_xZrftH" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-07T05:53:16.943Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="Y2TvcAm_xdw5gMpKkClM" version="17.4.0" type="github">
   <diagram id="KDbqyWz5aOWDZNejwCfo" name="类图">
     <mxGraphModel dx="2426" dy="5941" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2472,7 +2472,7 @@
         <mxCell id="yiMzBXgpizN3PwSaVx8E-803" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="yiMzBXgpizN3PwSaVx8E-796">
           <mxGeometry y="164" width="671" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="yiMzBXgpizN3PwSaVx8E-804" value="IMessageRepository" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;fontColor=#000000;strokeColor=default;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="yiMzBXgpizN3PwSaVx8E-804" value="IMessageRepository" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;fontColor=#000000;strokeColor=default;strokeWidth=1;fillColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="5946" y="-2335" width="670" height="372" as="geometry" />
         </mxCell>
         <mxCell id="yiMzBXgpizN3PwSaVx8E-805" value="- messageSendTemplate: MessageSendTemplate" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="yiMzBXgpizN3PwSaVx8E-804">
