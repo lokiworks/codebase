@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-07T07:54:33.852Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="gdAY8S6qM-vICRuzGYJB" version="17.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-07T07:55:11.485Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="fHD2aIC-l14tCK6010U7" version="17.4.0" type="github">
   <diagram id="KDbqyWz5aOWDZNejwCfo" name="类图">
     <mxGraphModel dx="1359" dy="5388" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2162,37 +2162,37 @@
         <mxCell id="yiMzBXgpizN3PwSaVx8E-732" value="添加购物车" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="yiMzBXgpizN3PwSaVx8E-728">
           <mxGeometry y="86" width="672" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="yiMzBXgpizN3PwSaVx8E-733" value="+ add(ShoppingCartAddReqDTO addReqDTO):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="yiMzBXgpizN3PwSaVx8E-728">
+        <mxCell id="yiMzBXgpizN3PwSaVx8E-733" value="+ add(ShoppingCartAddReqDTO ):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="yiMzBXgpizN3PwSaVx8E-728">
           <mxGeometry y="112" width="672" height="26" as="geometry" />
         </mxCell>
         <mxCell id="yiMzBXgpizN3PwSaVx8E-734" value="修改购物车商品" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="yiMzBXgpizN3PwSaVx8E-728">
           <mxGeometry y="138" width="672" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="yiMzBXgpizN3PwSaVx8E-735" value="+ modify(ShoppingCartModifyReqDTO modifyReqDTO):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="yiMzBXgpizN3PwSaVx8E-728">
+        <mxCell id="yiMzBXgpizN3PwSaVx8E-735" value="+ modify(ShoppingCartModifyReqDTO ):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="yiMzBXgpizN3PwSaVx8E-728">
           <mxGeometry y="164" width="672" height="26" as="geometry" />
         </mxCell>
         <mxCell id="yiMzBXgpizN3PwSaVx8E-736" value="删除购物车" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="yiMzBXgpizN3PwSaVx8E-728">
           <mxGeometry y="190" width="672" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="yiMzBXgpizN3PwSaVx8E-737" value="+ remove(ShoppingCartRemoveReqDTO removeReqDTO):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="yiMzBXgpizN3PwSaVx8E-728">
+        <mxCell id="yiMzBXgpizN3PwSaVx8E-737" value="+ remove(ShoppingCartRemoveReqDTO ):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="yiMzBXgpizN3PwSaVx8E-728">
           <mxGeometry y="216" width="672" height="26" as="geometry" />
         </mxCell>
         <mxCell id="yiMzBXgpizN3PwSaVx8E-738" value="清空购物车" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="yiMzBXgpizN3PwSaVx8E-728">
           <mxGeometry y="242" width="672" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="yiMzBXgpizN3PwSaVx8E-739" value="+ clear(ShoppingCartClearReqDTO shoppingCartClearReqDTO):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="yiMzBXgpizN3PwSaVx8E-728">
+        <mxCell id="yiMzBXgpizN3PwSaVx8E-739" value="+ clear(ShoppingCartClearReqDTO ):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="yiMzBXgpizN3PwSaVx8E-728">
           <mxGeometry y="268" width="672" height="26" as="geometry" />
         </mxCell>
         <mxCell id="yiMzBXgpizN3PwSaVx8E-740" value="通过sku编码清空购物车" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="yiMzBXgpizN3PwSaVx8E-728">
           <mxGeometry y="294" width="672" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="yiMzBXgpizN3PwSaVx8E-741" value="+ clearBySkuCodes(ShoppingCartClearReqDTO shoppingCartClearReqDTO):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="yiMzBXgpizN3PwSaVx8E-728">
+        <mxCell id="yiMzBXgpizN3PwSaVx8E-741" value="+ clearBySkuCodes(ShoppingCartClearReqDTO ):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="yiMzBXgpizN3PwSaVx8E-728">
           <mxGeometry y="320" width="672" height="26" as="geometry" />
         </mxCell>
         <mxCell id="yiMzBXgpizN3PwSaVx8E-742" value="通过ids清空购物车" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="yiMzBXgpizN3PwSaVx8E-728">
           <mxGeometry y="346" width="672" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="yiMzBXgpizN3PwSaVx8E-743" value="+ clearByIds(List&lt;Long&gt; ids):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="yiMzBXgpizN3PwSaVx8E-728">
+        <mxCell id="yiMzBXgpizN3PwSaVx8E-743" value="+ clearByIds(List&lt;Long&gt; ):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="yiMzBXgpizN3PwSaVx8E-728">
           <mxGeometry y="372" width="672" height="26" as="geometry" />
         </mxCell>
         <mxCell id="yiMzBXgpizN3PwSaVx8E-744" value="ShoppingCartQueryRepository( implements IShoppingCartQueryRepository)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;fontColor=#000000;strokeColor=default;strokeWidth=1;" vertex="1" parent="1">
@@ -2207,19 +2207,19 @@
         <mxCell id="yiMzBXgpizN3PwSaVx8E-747" value="查看我的购物车" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="yiMzBXgpizN3PwSaVx8E-744">
           <mxGeometry y="60" width="673" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="yiMzBXgpizN3PwSaVx8E-748" value="+ myList(String accountId):List&lt;ShoppingCartDTO&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="yiMzBXgpizN3PwSaVx8E-744">
+        <mxCell id="yiMzBXgpizN3PwSaVx8E-748" value="+ myList(String):List&lt;ShoppingCartDTO&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="yiMzBXgpizN3PwSaVx8E-744">
           <mxGeometry y="86" width="673" height="26" as="geometry" />
         </mxCell>
         <mxCell id="yiMzBXgpizN3PwSaVx8E-749" value="查看购物车记录" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="yiMzBXgpizN3PwSaVx8E-744">
           <mxGeometry y="112" width="673" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="yiMzBXgpizN3PwSaVx8E-750" value="+ getItems(ShoppingCartQueryDTO queryDTO):List&lt;ShoppingCartDTO&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="yiMzBXgpizN3PwSaVx8E-744">
+        <mxCell id="yiMzBXgpizN3PwSaVx8E-750" value="+ getItems(ShoppingCartQueryDTO):List&lt;ShoppingCartDTO&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="yiMzBXgpizN3PwSaVx8E-744">
           <mxGeometry y="138" width="673" height="26" as="geometry" />
         </mxCell>
         <mxCell id="yiMzBXgpizN3PwSaVx8E-751" value="查看购物车记录(通过sku编码集合)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="yiMzBXgpizN3PwSaVx8E-744">
           <mxGeometry y="164" width="673" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="yiMzBXgpizN3PwSaVx8E-752" value="+ getItemsBySkuCodes(List&lt;String&gt; skuCodes, String accountId):List&lt;ShoppingCartDTO&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="yiMzBXgpizN3PwSaVx8E-744">
+        <mxCell id="yiMzBXgpizN3PwSaVx8E-752" value="+ getItemsBySkuCodes(List&lt;String&gt;, String):List&lt;ShoppingCartDTO&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" vertex="1" parent="yiMzBXgpizN3PwSaVx8E-744">
           <mxGeometry y="190" width="673" height="26" as="geometry" />
         </mxCell>
         <mxCell id="yiMzBXgpizN3PwSaVx8E-753" value="OrderRepository（implements IOrderRepository）&#xa;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;fontColor=#000000;strokeColor=default;strokeWidth=1;" vertex="1" parent="1">
