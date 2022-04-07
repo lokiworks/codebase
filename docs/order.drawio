@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-07T02:50:07.585Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="bqBPLzTGsQkUdheTUojr" version="17.4.0" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2022-04-07T02:57:43.246Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="kntRRdazMrMx5GQZ7zn0" version="17.4.0" type="github" pages="20">
   <diagram id="5A5lfGYTrCQL1lXl713B" name="订单系统模块图">
     <mxGraphModel dx="3129" dy="2244" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6644,6 +6644,15 @@
         </mxCell>
         <mxCell id="85zUHKTCz2yU2S6pfqCw-33" value="取消订单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B1DDF0;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1259" y="803.5" width="94" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="85zUHKTCz2yU2S6pfqCw-34" value="查看订单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="928" y="803.5" width="94" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="85zUHKTCz2yU2S6pfqCw-35" value="取消订单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="928" y="850.5" width="94" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="85zUHKTCz2yU2S6pfqCw-36" value="取消订单审核" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B1DDF0;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1259" y="850.5" width="94" height="34" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
