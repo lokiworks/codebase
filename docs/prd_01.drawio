@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-18T07:49:17.311Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="WtKASuSUsimACrG53Yn4" version="17.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-18T07:55:36.434Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="RdWCkp4MGIEzJWDh0aPL" version="17.4.4" type="github" pages="2">
   <diagram id="wmwzS6v5hkIarNa9_CF8" name="Page-1">
     <mxGraphModel dx="1837" dy="967" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -210,6 +210,44 @@
         </mxCell>
         <mxCell id="tpipHvDcS-LkZLoqLxp2-62" value="3.2 返回跟进记录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="1310" y="610" width="76" height="36" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="kgGECItcnNHgbMHZ9rSu" name="Page-2">
+    <mxGraphModel dx="1102" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PhngLuvBfKkD4n4wiiKB-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="119" y="122" width="597" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="PhngLuvBfKkD4n4wiiKB-1" value="订单系统&lt;br&gt;（omc）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="169" y="146" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PhngLuvBfKkD4n4wiiKB-2" value="业务系统" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="161" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PhngLuvBfKkD4n4wiiKB-3" value="交付系统&lt;br&gt;（ser）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="342" y="146" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PhngLuvBfKkD4n4wiiKB-4" value="xx系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="558" y="146" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PhngLuvBfKkD4n4wiiKB-5" value="。。。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PhngLuvBfKkD4n4wiiKB-10" value="运营系统&lt;br&gt;（ZGS）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="169" y="311" width="509" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PhngLuvBfKkD4n4wiiKB-11" value="" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="238" y="220" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PhngLuvBfKkD4n4wiiKB-12" value="" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="503" y="220" width="60" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="PhngLuvBfKkD4n4wiiKB-13" value="由运营系统提供通用的跟进能力：保存、查看跟进" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="304" y="269" width="194" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
