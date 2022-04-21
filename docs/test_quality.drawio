@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-21T06:29:14.955Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="UmmVOrjqAVRL9zwvbQ7S" version="17.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-21T09:08:58.061Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="hOBkJuv3vj5J5bRn9Njr" version="17.4.5" type="github" pages="2">
   <diagram id="YWUcWEbkt-_ADX3Yakw4" name="Page-1">
     <mxGraphModel dx="630" dy="331" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -58,6 +58,137 @@
         </mxCell>
         <mxCell id="JxdfF103rkvicLfLYu_w-11" value="质量报告" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="121" y="411" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1OZtTR0GB5M0UfBcv-1l" name="Page-2">
+    <mxGraphModel dx="1469" dy="773" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WUDf4jmnyScIDs63vGTR-23" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=0;fillColor=none;gradientColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="441" width="187" height="435" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-8" value="" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="44" width="811" height="249" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-1" value="全站业务质量工程回归场景" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="142" y="76" width="346" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-2" value="全站业务质量工程测新场景" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="564" y="76" width="345" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-3" value="用例自动生成" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="141" y="150" width="768" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-4" value="单元测试" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="142" y="227" width="187" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-5" value="接口测试" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="351" y="227" width="176" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-6" value="集成测试" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="547" y="227" width="163" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-7" value="链路测试" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="726" y="227" width="183" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-9" value="业务场景服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="26" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-10" value="AFL-语法级Fuzz-语义级Fuzz" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="115" y="335" width="813" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-11" value="框架能力" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="26" y="636" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-12" value="种子初始化检索引擎" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="456" width="159" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-13" value="Data Generator" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="517" width="159" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-14" value="现实流量" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="578" width="76" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-15" value="随机启动" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="213" y="578" width="76" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-16" value="配置输入" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="639" width="76" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-17" value="历史数据" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="213" y="639" width="76" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-18" value="在线数据自动合成生成器" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="698" width="159" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-19" value="比特基因变异" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="757" width="76" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-20" value="结构化数据变异" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="213" y="757" width="76" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-21" value="组合测试覆盖率提升" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="815" width="159" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-22" value="测试数据自动生成" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;glass=0;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="890" width="159" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-24" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=0;fillColor=none;gradientColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="322" y="441" width="187" height="435" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-25" value="基于随机生成方法序列来产生对象状态" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="336" y="456" width="159" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-26" value="基于搜索生成方法序列" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="334" y="757" width="159" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-27" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=0;fillColor=none;gradientColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="441" width="187" height="435" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-28" value="被测试方法序列生成" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;glass=0;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="331" y="890" width="159" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-29" value="测试断言自动生成" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;glass=0;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="546" y="890" width="159" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-30" value="异常" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="544" y="456" width="159" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-31" value="预跑返填" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="542" y="514" width="159" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-32" value="属性规约" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="542" y="573" width="159" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-33" value="观测方法合成实体类对象返回值&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E5%B1%9E%E6%80%A7%E8%A7%84%E7%BA%A6%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BgradientColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22542%22%20y%3D%22573%22%20width%3D%22159%22%20height%3D%2244%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="542" y="636" width="159" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-34" value="在线数据插桩方法序列的不变量学习" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="542" y="696" width="159" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-36" value="" style="rounded=0;whiteSpace=wrap;html=1;glass=0;fillColor=none;gradientColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="743" y="441" width="187" height="435" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-37" value="算法服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;glass=0;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="759" y="890" width="159" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-38" value="CGF覆盖率目标" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="757" y="456" width="159" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-39" value="多目标帕累托最优" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="755" y="514" width="159" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-40" value="进化过程收敛early stopping" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="755" y="573" width="159" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-41" value="遗传算法服务" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="755" y="636" width="159" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="WUDf4jmnyScIDs63vGTR-42" value="深度强化学习算法服务" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="755" y="696" width="159" height="44" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
