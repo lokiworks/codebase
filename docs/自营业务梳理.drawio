@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-28T08:44:33.720Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="tIrbN-aXBkzmMUl1Tf1R" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-28T08:48:55.555Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="bZc67xUsDDu_DAC91fBM" version="17.4.6" type="github">
   <diagram id="7Y3RIJCCnIWRhDjnqblm" name="Page-1">
     <mxGraphModel dx="848" dy="446" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -53,6 +53,22 @@
         <mxCell id="G-gA-zy2fr1U9oVcSnIG-7" value="核销系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="447" y="452" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="G-gA-zy2fr1U9oVcSnIG-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="G-gA-zy2fr1U9oVcSnIG-9" target="G-gA-zy2fr1U9oVcSnIG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G-gA-zy2fr1U9oVcSnIG-23" value="RPC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G-gA-zy2fr1U9oVcSnIG-19">
+          <mxGeometry x="0.463" relative="1" as="geometry">
+            <mxPoint y="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G-gA-zy2fr1U9oVcSnIG-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.55;entryY=0.981;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="G-gA-zy2fr1U9oVcSnIG-9" target="G-gA-zy2fr1U9oVcSnIG-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G-gA-zy2fr1U9oVcSnIG-24" value="RPC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G-gA-zy2fr1U9oVcSnIG-20">
+          <mxGeometry x="0.543" y="3" relative="1" as="geometry">
+            <mxPoint x="3" y="23" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="G-gA-zy2fr1U9oVcSnIG-9" value="账单系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="609" width="120" height="60" as="geometry" />
         </mxCell>
@@ -64,6 +80,12 @@
         </mxCell>
         <mxCell id="G-gA-zy2fr1U9oVcSnIG-15" value="查询计费数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="343" y="447" width="89" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G-gA-zy2fr1U9oVcSnIG-22" value="查询计费数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="534" width="20" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="G-gA-zy2fr1U9oVcSnIG-25" value="查询核销数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="529" y="532" width="20" height="91" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
