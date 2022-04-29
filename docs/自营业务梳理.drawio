@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-29T07:01:56.959Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="dYOyFm3spu3Le4lDHaBX" version="17.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-29T07:05:07.430Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="WNnw_aB1qzvJUaSXcB6Y" version="17.4.6" type="github" pages="2">
   <diagram id="7Y3RIJCCnIWRhDjnqblm" name="财务业务系统建设">
     <mxGraphModel dx="1102" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -119,7 +119,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zCUhMsVsqHq10eLYD8Ml" name="核销业务梳理">
-    <mxGraphModel dx="787" dy="414" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="848" dy="446" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -172,7 +172,7 @@
         <mxCell id="btxUzPN__GPZAzBibj8x-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="111" y="561" width="538" height="235" as="geometry" />
         </mxCell>
-        <mxCell id="btxUzPN__GPZAzBibj8x-17" value="核销主逻辑" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="btxUzPN__GPZAzBibj8x-17" value="核销主流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="111" y="561" width="82" height="30" as="geometry" />
         </mxCell>
         <mxCell id="btxUzPN__GPZAzBibj8x-23" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="btxUzPN__GPZAzBibj8x-18" target="btxUzPN__GPZAzBibj8x-22">
@@ -190,11 +190,19 @@
         <mxCell id="btxUzPN__GPZAzBibj8x-25" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.001;entryY=0.805;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="btxUzPN__GPZAzBibj8x-22" target="btxUzPN__GPZAzBibj8x-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="btxUzPN__GPZAzBibj8x-26" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="btxUzPN__GPZAzBibj8x-25">
+          <mxGeometry x="0.614" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="btxUzPN__GPZAzBibj8x-22" value="是否删除数据" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="319" y="709.5" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="btxUzPN__GPZAzBibj8x-24" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="739" y="561" width="538" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="btxUzPN__GPZAzBibj8x-27" value="删除数据流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="739" y="561" width="82" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
