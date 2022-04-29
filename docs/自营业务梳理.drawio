@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-29T07:00:04.420Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="1BbY_mvAb-qzU6NUopWe" version="17.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-29T07:01:18.634Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="tbje1ZfKMSoM5pvALgXt" version="17.4.6" type="github" pages="2">
   <diagram id="7Y3RIJCCnIWRhDjnqblm" name="财务业务系统建设">
     <mxGraphModel dx="1102" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -175,6 +175,9 @@
         <mxCell id="btxUzPN__GPZAzBibj8x-17" value="核销主逻辑" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="111" y="561" width="82" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="btxUzPN__GPZAzBibj8x-23" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="btxUzPN__GPZAzBibj8x-18" target="btxUzPN__GPZAzBibj8x-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="btxUzPN__GPZAzBibj8x-18" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: #871094&quot;&gt;reportformsService&lt;/span&gt;.incomeAndWriteOffAndReportFormsByDate&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="139" y="599" width="440" height="47" as="geometry" />
         </mxCell>
@@ -183,6 +186,12 @@
         </mxCell>
         <mxCell id="btxUzPN__GPZAzBibj8x-20" value="入参：&lt;br&gt;1. 开始统计时间&lt;br&gt;2. 结束统计时间&lt;br&gt;3. 是否删除数据" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="11" y="350" width="120" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="btxUzPN__GPZAzBibj8x-22" value="是否删除数据" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="319" y="709.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="btxUzPN__GPZAzBibj8x-24" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="739" y="561" width="538" height="235" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
