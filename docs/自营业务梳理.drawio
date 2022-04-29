@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-29T06:11:11.566Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="NjsA7UY4lfCYr-MZqoxF" version="17.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-29T07:00:04.420Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="1BbY_mvAb-qzU6NUopWe" version="17.4.6" type="github" pages="2">
   <diagram id="7Y3RIJCCnIWRhDjnqblm" name="财务业务系统建设">
     <mxGraphModel dx="1102" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -119,24 +119,27 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zCUhMsVsqHq10eLYD8Ml" name="核销业务梳理">
-    <mxGraphModel dx="760" dy="400" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="958" dy="504" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="btxUzPN__GPZAzBibj8x-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="btxUzPN__GPZAzBibj8x-14" target="btxUzPN__GPZAzBibj8x-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="btxUzPN__GPZAzBibj8x-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
-          <mxGeometry x="113" y="237" width="371" height="235" as="geometry" />
+          <mxGeometry x="194.5" y="245" width="371" height="235" as="geometry" />
         </mxCell>
         <mxCell id="btxUzPN__GPZAzBibj8x-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="btxUzPN__GPZAzBibj8x-2" target="btxUzPN__GPZAzBibj8x-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="btxUzPN__GPZAzBibj8x-2" value="定时任务启动" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="210.25" y="4" width="84.5" height="83" as="geometry" />
+          <mxGeometry x="271.75" y="12" width="84.5" height="83" as="geometry" />
         </mxCell>
         <mxCell id="btxUzPN__GPZAzBibj8x-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="btxUzPN__GPZAzBibj8x-3" target="btxUzPN__GPZAzBibj8x-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="btxUzPN__GPZAzBibj8x-3" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: #000000&quot;&gt;FbiDevIncomeJobHandler#&lt;/span&gt;execute&lt;/pre&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="133" y="134" width="239" height="60" as="geometry" />
+          <mxGeometry x="194.5" y="142" width="239" height="60" as="geometry" />
         </mxCell>
         <mxCell id="btxUzPN__GPZAzBibj8x-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="btxUzPN__GPZAzBibj8x-5" target="btxUzPN__GPZAzBibj8x-7">
           <mxGeometry relative="1" as="geometry" />
@@ -155,22 +158,31 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="btxUzPN__GPZAzBibj8x-5" value="s是否空" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="212.5" y="264" width="80" height="80" as="geometry" />
+          <mxGeometry x="274" y="272" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="btxUzPN__GPZAzBibj8x-7" value="&amp;nbsp;统计日为当前时间的前一天" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="192.5" y="388" width="120" height="60" as="geometry" />
+          <mxGeometry x="254" y="396" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="btxUzPN__GPZAzBibj8x-10" value="&amp;nbsp;统计日为xxljob中传递的时间" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="335" y="388" width="120" height="60" as="geometry" />
+          <mxGeometry x="396.5" y="396" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="btxUzPN__GPZAzBibj8x-15" value="获取统计日" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="113" y="237" width="104" height="30" as="geometry" />
+          <mxGeometry x="194.5" y="245" width="104" height="30" as="geometry" />
         </mxCell>
         <mxCell id="btxUzPN__GPZAzBibj8x-16" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="113" y="552" width="371" height="235" as="geometry" />
+          <mxGeometry x="111" y="561" width="538" height="235" as="geometry" />
         </mxCell>
         <mxCell id="btxUzPN__GPZAzBibj8x-17" value="核销主逻辑" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="113" y="552" width="82" height="30" as="geometry" />
+          <mxGeometry x="111" y="561" width="82" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="btxUzPN__GPZAzBibj8x-18" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: #871094&quot;&gt;reportformsService&lt;/span&gt;.incomeAndWriteOffAndReportFormsByDate&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="139" y="599" width="440" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="btxUzPN__GPZAzBibj8x-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0.398;exitY=0.97;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="btxUzPN__GPZAzBibj8x-20" target="btxUzPN__GPZAzBibj8x-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="btxUzPN__GPZAzBibj8x-20" value="入参：&lt;br&gt;1. 开始统计时间&lt;br&gt;2. 结束统计时间&lt;br&gt;3. 是否删除数据" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="11" y="350" width="120" height="92" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
