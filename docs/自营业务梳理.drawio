@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-05T05:49:07.494Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="SimUQFhzhA6mUfGJQYHZ" version="17.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-05T05:56:54.174Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="rfht-pH3WIClmCWbwWgk" version="17.4.6" type="github" pages="2">
   <diagram id="7Y3RIJCCnIWRhDjnqblm" name="财务业务系统建设">
     <mxGraphModel dx="1102" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -119,10 +119,16 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zCUhMsVsqHq10eLYD8Ml" name="核销业务梳理">
-    <mxGraphModel dx="1614" dy="414" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1352" dy="276" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Hee-EKmVgpYue_5ePdgu-14" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-569" y="1100" width="468" height="819" as="geometry" />
+        </mxCell>
+        <mxCell id="Hee-EKmVgpYue_5ePdgu-28" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-537" y="1261" width="409" height="304" as="geometry" />
+        </mxCell>
         <mxCell id="btxUzPN__GPZAzBibj8x-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="btxUzPN__GPZAzBibj8x-14" target="btxUzPN__GPZAzBibj8x-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -307,9 +313,6 @@
         <mxCell id="LyeVvltJgkqsUYYlTAZE-2" value="1. 查询“统计日”之前已合作的自营订单（已签约、进行中、用车完结、订单完成）&lt;br&gt;，剔除测试的订单&lt;br&gt;&lt;br&gt;&lt;br&gt;订单脏数据统计SQL：&lt;br&gt;&lt;div&gt;&lt;div&gt;# 商户编号为空的订单数据&lt;/div&gt;&lt;div&gt;select&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;*&lt;/div&gt;&lt;div&gt;from&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;oms_order o,&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;oms_order_awp a&lt;/div&gt;&lt;div&gt;where&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;o.order_code = a.order_code&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;and o.del_flag = 0&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;and o.`status` in (30, 40, 45, 50)&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;and (o.merchant_no is null&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;or o.merchant_no = &#39;&#39;)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# 捞取脏数据的订单数据&lt;/div&gt;&lt;div&gt;select&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;*&lt;/div&gt;&lt;div&gt;from&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;oms_order o,&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;oms_order_awp a&lt;/div&gt;&lt;div&gt;where&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;o.order_code = a.order_code&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;and o.del_flag = 0&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;and o.`status` in (30, 40, 45, 50)&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;and o.store_code != &#39;DEP1804000084&#39;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;and o.merchant_no = &#39;znlh&#39;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;and ( o.create_by is null&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;or o.payer_code is null&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;or o.store_code is null&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;or a.balance_type_name is null&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;or a.balance_type not in ( 1, 3 )&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;or o.merchant_type not in (&#39;SELF&#39;))&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Hee-EKmVgpYue_5ePdgu-12">
           <mxGeometry x="13" y="139" width="452" height="336" as="geometry" />
         </mxCell>
-        <mxCell id="Hee-EKmVgpYue_5ePdgu-14" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-569" y="1100" width="468" height="647" as="geometry" />
-        </mxCell>
         <mxCell id="Hee-EKmVgpYue_5ePdgu-17" value="S2流程说明" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-556" y="1109" width="77" height="30" as="geometry" />
         </mxCell>
@@ -343,6 +346,36 @@
         </mxCell>
         <mxCell id="Hee-EKmVgpYue_5ePdgu-25" value="不支持跨订单核销，以&lt;font color=&quot;#ff0000&quot;&gt;门店+客户经理+客户+订单标识（真实、虚拟）+&lt;/font&gt;订单号进行分组；实际并未分组" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-459.12" y="1472" width="150.76" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hee-EKmVgpYue_5ePdgu-29" value="&lt;font color=&quot;#000000&quot;&gt;订单分组流程&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="-519" y="1273" width="78" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hee-EKmVgpYue_5ePdgu-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-537" y="1604" width="409" height="304" as="geometry" />
+        </mxCell>
+        <mxCell id="Hee-EKmVgpYue_5ePdgu-31" value="&lt;font color=&quot;#000000&quot;&gt;订单分割流程&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="-531" y="1607" width="78" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hee-EKmVgpYue_5ePdgu-36" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="Hee-EKmVgpYue_5ePdgu-34" target="Hee-EKmVgpYue_5ePdgu-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-317" y="1683" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hee-EKmVgpYue_5ePdgu-37" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="Hee-EKmVgpYue_5ePdgu-36">
+          <mxGeometry x="0.18" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hee-EKmVgpYue_5ePdgu-34" value="订单分组数小于线程的阈值（10）" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-428" y="1643" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Hee-EKmVgpYue_5ePdgu-32" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.364;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;endArrow=classic;endFill=1;exitPerimeter=0;" edge="1" parent="1" source="Hee-EKmVgpYue_5ePdgu-28" target="Hee-EKmVgpYue_5ePdgu-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hee-EKmVgpYue_5ePdgu-35" value="支持跨订单核销，以门店+客户经理+客户+订单标识(真实、虚拟)进行分组" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-283.75" y="1653" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
