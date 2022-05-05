@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-05T05:56:54.174Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="rfht-pH3WIClmCWbwWgk" version="17.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-05T06:00:45.460Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="CxMMRD1a92J__gKaNrWo" version="17.4.6" type="github" pages="2">
   <diagram id="7Y3RIJCCnIWRhDjnqblm" name="财务业务系统建设">
     <mxGraphModel dx="1102" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -119,12 +119,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zCUhMsVsqHq10eLYD8Ml" name="核销业务梳理">
-    <mxGraphModel dx="1352" dy="276" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3031" dy="1160" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Hee-EKmVgpYue_5ePdgu-14" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-569" y="1100" width="468" height="819" as="geometry" />
+          <mxGeometry x="-569" y="1100" width="468" height="776" as="geometry" />
         </mxCell>
         <mxCell id="Hee-EKmVgpYue_5ePdgu-28" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-537" y="1261" width="409" height="304" as="geometry" />
@@ -351,7 +351,7 @@
           <mxGeometry x="-519" y="1273" width="78" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Hee-EKmVgpYue_5ePdgu-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-537" y="1604" width="409" height="304" as="geometry" />
+          <mxGeometry x="-537" y="1604" width="409" height="244" as="geometry" />
         </mxCell>
         <mxCell id="Hee-EKmVgpYue_5ePdgu-31" value="&lt;font color=&quot;#000000&quot;&gt;订单分割流程&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="-531" y="1607" width="78" height="30" as="geometry" />
@@ -368,14 +368,25 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Hee-EKmVgpYue_5ePdgu-39" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="Hee-EKmVgpYue_5ePdgu-34" target="Hee-EKmVgpYue_5ePdgu-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hee-EKmVgpYue_5ePdgu-40" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="Hee-EKmVgpYue_5ePdgu-39">
+          <mxGeometry x="-0.3779" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Hee-EKmVgpYue_5ePdgu-34" value="订单分组数小于线程的阈值（10）" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-428" y="1643" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Hee-EKmVgpYue_5ePdgu-32" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.364;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;endArrow=classic;endFill=1;exitPerimeter=0;" edge="1" parent="1" source="Hee-EKmVgpYue_5ePdgu-28" target="Hee-EKmVgpYue_5ePdgu-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Hee-EKmVgpYue_5ePdgu-35" value="支持跨订单核销，以门店+客户经理+客户+订单标识(真实、虚拟)进行分组" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="Hee-EKmVgpYue_5ePdgu-35" value="子数组的大小为分组数" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-283.75" y="1653" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hee-EKmVgpYue_5ePdgu-38" value="子数组的大小为分组数/线程阈值（10）" style="whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-448" y="1765" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
