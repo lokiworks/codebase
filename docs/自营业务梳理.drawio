@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-05T03:51:37.444Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="SZggfhQ2c7u7ebeE5MNA" version="17.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-05T03:52:38.122Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="P7E69VaDkODZmfIIF7xG" version="17.4.6" type="github" pages="2">
   <diagram id="7Y3RIJCCnIWRhDjnqblm" name="财务业务系统建设">
     <mxGraphModel dx="1102" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -119,7 +119,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zCUhMsVsqHq10eLYD8Ml" name="核销业务梳理">
-    <mxGraphModel dx="1050" dy="552" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3582" dy="1450" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -264,17 +264,11 @@
         <mxCell id="btxUzPN__GPZAzBibj8x-39" value="是否为未来的时间" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="319" y="991" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="Hee-EKmVgpYue_5ePdgu-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="btxUzPN__GPZAzBibj8x-45" target="LyeVvltJgkqsUYYlTAZE-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="btxUzPN__GPZAzBibj8x-45" value="S1: 捞取当前统计日内“已合作过”的订单" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="299" y="1109" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="vm_gzUMmU1D6aRG2YADJ-1" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1844" y="127" width="468" height="587" as="geometry" />
-        </mxCell>
-        <mxCell id="vm_gzUMmU1D6aRG2YADJ-2" value="s1流程说明" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1844" y="127" width="96" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="LyeVvltJgkqsUYYlTAZE-2" value="1. 查询“统计日”之前已合作的自营订单（已签约、进行中、用车完结、订单完成）&lt;br&gt;，剔除测试的订单&lt;br&gt;&lt;br&gt;&lt;br&gt;订单脏数据统计SQL：&lt;br&gt;&lt;div&gt;&lt;div&gt;# 商户编号为空的订单数据&lt;/div&gt;&lt;div&gt;select&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;*&lt;/div&gt;&lt;div&gt;from&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;oms_order o,&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;oms_order_awp a&lt;/div&gt;&lt;div&gt;where&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;o.order_code = a.order_code&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;and o.del_flag = 0&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;and o.`status` in (30, 40, 45, 50)&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;and (o.merchant_no is null&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;or o.merchant_no = &#39;&#39;)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# 捞取脏数据的订单数据&lt;/div&gt;&lt;div&gt;select&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;*&lt;/div&gt;&lt;div&gt;from&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;oms_order o,&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;oms_order_awp a&lt;/div&gt;&lt;div&gt;where&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;o.order_code = a.order_code&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;and o.del_flag = 0&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;and o.`status` in (30, 40, 45, 50)&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;and o.store_code != &#39;DEP1804000084&#39;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;and o.merchant_no = &#39;znlh&#39;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;and ( o.create_by is null&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;or o.payer_code is null&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;or o.store_code is null&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;or a.balance_type_name is null&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;or a.balance_type not in ( 1, 3 )&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;or o.merchant_type not in (&#39;SELF&#39;))&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1857" y="266" width="452" height="336" as="geometry" />
         </mxCell>
         <mxCell id="Hee-EKmVgpYue_5ePdgu-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="172" y="1208" width="397" height="316" as="geometry" />
@@ -297,6 +291,18 @@
         </mxCell>
         <mxCell id="Hee-EKmVgpYue_5ePdgu-11" value="S2: 按客户经理和客户的维度对订单进行分组" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="204.88" y="1341" width="310.12" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hee-EKmVgpYue_5ePdgu-12" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-569" y="456" width="468" height="587" as="geometry" />
+        </mxCell>
+        <mxCell id="vm_gzUMmU1D6aRG2YADJ-1" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="Hee-EKmVgpYue_5ePdgu-12" vertex="1">
+          <mxGeometry width="468" height="587" as="geometry" />
+        </mxCell>
+        <mxCell id="vm_gzUMmU1D6aRG2YADJ-2" value="s1流程说明" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Hee-EKmVgpYue_5ePdgu-12" vertex="1">
+          <mxGeometry width="96" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LyeVvltJgkqsUYYlTAZE-2" value="1. 查询“统计日”之前已合作的自营订单（已签约、进行中、用车完结、订单完成）&lt;br&gt;，剔除测试的订单&lt;br&gt;&lt;br&gt;&lt;br&gt;订单脏数据统计SQL：&lt;br&gt;&lt;div&gt;&lt;div&gt;# 商户编号为空的订单数据&lt;/div&gt;&lt;div&gt;select&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;*&lt;/div&gt;&lt;div&gt;from&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;oms_order o,&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;oms_order_awp a&lt;/div&gt;&lt;div&gt;where&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;o.order_code = a.order_code&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;and o.del_flag = 0&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;and o.`status` in (30, 40, 45, 50)&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;and (o.merchant_no is null&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;or o.merchant_no = &#39;&#39;)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;# 捞取脏数据的订单数据&lt;/div&gt;&lt;div&gt;select&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;*&lt;/div&gt;&lt;div&gt;from&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;oms_order o,&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;oms_order_awp a&lt;/div&gt;&lt;div&gt;where&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;o.order_code = a.order_code&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;and o.del_flag = 0&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;and o.`status` in (30, 40, 45, 50)&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;and o.store_code != &#39;DEP1804000084&#39;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;and o.merchant_no = &#39;znlh&#39;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;and ( o.create_by is null&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;or o.payer_code is null&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;or o.store_code is null&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;or a.balance_type_name is null&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;or a.balance_type not in ( 1, 3 )&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;or o.merchant_type not in (&#39;SELF&#39;))&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Hee-EKmVgpYue_5ePdgu-12">
+          <mxGeometry x="13" y="139" width="452" height="336" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
