@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-05T03:46:45.308Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="0d2TTdXRJv2o8PtzdxLP" version="17.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-05T03:49:00.873Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="1mftoGnxf6E5cty-c-yT" version="17.4.6" type="github" pages="2">
   <diagram id="7Y3RIJCCnIWRhDjnqblm" name="财务业务系统建设">
     <mxGraphModel dx="1102" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -277,18 +277,24 @@
           <mxGeometry x="1857" y="266" width="452" height="336" as="geometry" />
         </mxCell>
         <mxCell id="Hee-EKmVgpYue_5ePdgu-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="172" y="1259" width="397" height="265" as="geometry" />
+          <mxGeometry x="172" y="1208" width="397" height="316" as="geometry" />
+        </mxCell>
+        <mxCell id="Hee-EKmVgpYue_5ePdgu-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Hee-EKmVgpYue_5ePdgu-4" target="Hee-EKmVgpYue_5ePdgu-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Hee-EKmVgpYue_5ePdgu-4" value="订单号中包含“&lt;span style=&quot;color: rgb(6 , 125 , 23) ; background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;HIS&lt;/span&gt;&lt;span&gt;”、“&lt;/span&gt;&lt;span style=&quot;color: rgb(6 , 125 , 23) ; background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;YHJ&lt;/span&gt;&lt;span&gt;”、“&lt;/span&gt;&lt;span style=&quot;color: rgb(6 , 125 , 23) ; background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;DTL&lt;/span&gt;&lt;span&gt;”、“&lt;/span&gt;&lt;span style=&quot;color: rgb(6 , 125 , 23) ; background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;REF&lt;/span&gt;&lt;span&gt;”，则将该订单标记为虚拟订单，否则为真实订单&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="267.5" y="1293" width="183" height="60" as="geometry" />
+          <mxGeometry x="267.5" y="1232" width="183" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Hee-EKmVgpYue_5ePdgu-8" value="过滤&amp;amp;转换流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="177" y="1263" width="86" height="30" as="geometry" />
+          <mxGeometry x="176" y="1211" width="86" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Hee-EKmVgpYue_5ePdgu-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="btxUzPN__GPZAzBibj8x-45" target="Hee-EKmVgpYue_5ePdgu-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="354" y="1225" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Hee-EKmVgpYue_5ePdgu-9" value="按客户经理和客户的维护对订单进行分组" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="267" y="1329" width="183.5" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
