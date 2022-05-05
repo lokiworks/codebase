@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-05T08:28:05.045Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="XJK3o6WkJnPEDhO_NVr5" version="17.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-05T08:31:46.430Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="fDHoIaWvJFPAZ1cN2BCy" version="17.4.6" type="github" pages="2">
   <diagram id="7Y3RIJCCnIWRhDjnqblm" name="财务业务系统建设">
     <mxGraphModel dx="1102" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -119,7 +119,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zCUhMsVsqHq10eLYD8Ml" name="核销业务梳理">
-    <mxGraphModel dx="1929" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1587" dy="400" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -605,6 +605,18 @@
         </mxCell>
         <mxCell id="XySx1qLS07IUAZHu6mIs-58" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;endArrow=classic;endFill=1;" edge="1" parent="1" source="XySx1qLS07IUAZHu6mIs-36" target="XySx1qLS07IUAZHu6mIs-49">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XySx1qLS07IUAZHu6mIs-59" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1880" y="2703" width="397" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="XySx1qLS07IUAZHu6mIs-60" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="XySx1qLS07IUAZHu6mIs-59">
+          <mxGeometry width="397" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="XySx1qLS07IUAZHu6mIs-61" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: #871094&quot;&gt;dssfactDevIncomeService&lt;/span&gt;.&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;listByDateToOrderCode（&lt;/pre&gt;&lt;pre style=&quot;font-size: 9.8pt ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;1、统计日&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;2、线程栅栏&lt;/pre&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;font-size: 9.8pt&quot;&gt;3、订单map&lt;/span&gt;）&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="XySx1qLS07IUAZHu6mIs-59">
+          <mxGeometry x="45.5" y="64" width="310.12" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="XySx1qLS07IUAZHu6mIs-62" value="S3.1.4&amp;nbsp; ：获取统计日有收入的订单，填充订单map" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="XySx1qLS07IUAZHu6mIs-59">
+          <mxGeometry x="14.559999999999945" y="14" width="339" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
