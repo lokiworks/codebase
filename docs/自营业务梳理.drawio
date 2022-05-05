@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-05T03:58:17.978Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="zExrPrWXrgX-QbgBW6dM" version="17.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-05T04:00:02.474Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="l6v1u78ejgYnO9AnNQtH" version="17.4.6" type="github" pages="2">
   <diagram id="7Y3RIJCCnIWRhDjnqblm" name="财务业务系统建设">
     <mxGraphModel dx="1102" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -327,11 +327,22 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Hee-EKmVgpYue_5ePdgu-26" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="Hee-EKmVgpYue_5ePdgu-20" target="Hee-EKmVgpYue_5ePdgu-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hee-EKmVgpYue_5ePdgu-27" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Hee-EKmVgpYue_5ePdgu-26">
+          <mxGeometry x="-0.1684" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Hee-EKmVgpYue_5ePdgu-20" value="统计日在支持“跨订单核销时间”之前" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-434.12" y="1311.75" width="100.75" height="89.5" as="geometry" />
         </mxCell>
-        <mxCell id="Hee-EKmVgpYue_5ePdgu-22" value="" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="Hee-EKmVgpYue_5ePdgu-22" value="以门店+客户经理+客户+订单标识(真实、虚拟)进行分组" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-283.75" y="1326.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hee-EKmVgpYue_5ePdgu-25" value="" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-443.755" y="1467" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
