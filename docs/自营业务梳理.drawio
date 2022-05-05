@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-05T08:01:03.604Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="5uygjEA2TZHtdYWkwOsD" version="17.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-05T08:07:09.070Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="ZE_zMgoxKPQDOG24n9W-" version="17.4.6" type="github" pages="2">
   <diagram id="7Y3RIJCCnIWRhDjnqblm" name="财务业务系统建设">
     <mxGraphModel dx="1102" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -119,7 +119,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zCUhMsVsqHq10eLYD8Ml" name="核销业务梳理">
-    <mxGraphModel dx="8174" dy="3867" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1877" dy="552" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -537,7 +537,7 @@
         <mxCell id="XySx1qLS07IUAZHu6mIs-32" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;SELECT&lt;br&gt;&lt;span style=&quot;color: #000000&quot;&gt;a&lt;/span&gt;.order_code&lt;br&gt;FROM&lt;br&gt;fin_payment_certification &lt;span style=&quot;color: #000000&quot;&gt;a&lt;br&gt;&lt;/span&gt;LEFT JOIN oms_order &lt;span style=&quot;color: #000000&quot;&gt;c &lt;/span&gt;ON &lt;span style=&quot;color: #000000&quot;&gt;a&lt;/span&gt;.order_code = &lt;span style=&quot;color: #000000&quot;&gt;c&lt;/span&gt;.order_code&lt;br&gt;WHERE&lt;br&gt;  &lt;span style=&quot;font-style: italic&quot;&gt;DATE_FORMAT&lt;/span&gt;(&lt;span style=&quot;color: #000000&quot;&gt;a&lt;/span&gt;.create_date, &#39;%Y-%m-%d&#39;) = &lt;span style=&quot;font-style: italic&quot;&gt;DATE_FORMAT&lt;/span&gt;(#{sumDate}, &#39;%Y-%m-%d&#39;)&lt;br&gt;AND &lt;span style=&quot;color: #000000&quot;&gt;a&lt;/span&gt;.del_flag = 0&lt;br&gt;AND &lt;span style=&quot;color: #000000&quot;&gt;c&lt;/span&gt;.status in (30, 40, 50)&lt;br&gt;AND &lt;span style=&quot;color: #000000&quot;&gt;c&lt;/span&gt;.store_code != &#39;DEP1804000084&#39;&lt;br&gt;AND &lt;span style=&quot;color: #000000&quot;&gt;c&lt;/span&gt;.del_flag = 0&lt;br&gt;group BY&lt;br&gt;&lt;span style=&quot;color: #000000&quot;&gt;a&lt;/span&gt;.order_code&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="XySx1qLS07IUAZHu6mIs-29">
           <mxGeometry x="49.71844660194176" y="119.6658415841584" width="464.03883495145635" height="190.3217821782178" as="geometry" />
         </mxCell>
-        <mxCell id="XySx1qLS07IUAZHu6mIs-33" value="获取统计日下客户名下已确认来款的订单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="XySx1qLS07IUAZHu6mIs-29">
+        <mxCell id="XySx1qLS07IUAZHu6mIs-33" value="获取统计日下客户名下已确认来款的订单，备注：&lt;font color=&quot;#ff0000&quot;&gt;代码中假定已合作的订单才有来款，实际存在待合作的订单也可以有来款&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="XySx1qLS07IUAZHu6mIs-29">
           <mxGeometry x="113.80000000000001" y="71.88118811881189" width="341.40000000000003" height="49.009900990099005" as="geometry" />
         </mxCell>
       </root>
