@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-05T07:47:00.553Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="hCc1cHGee6EDOzLnzdvb" version="17.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-05T07:47:13.387Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="95IT-rFHs-wy-hts_D70" version="17.4.6" type="github" pages="2">
   <diagram id="7Y3RIJCCnIWRhDjnqblm" name="财务业务系统建设">
     <mxGraphModel dx="1102" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -499,7 +499,7 @@
         <mxCell id="XySx1qLS07IUAZHu6mIs-20" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;SELECT&lt;br&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;a&lt;/span&gt;.ORDER_CODE_KEY&lt;br&gt;FROM&lt;br&gt;FACT_CUSTOMER_ACCOUNT &lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;a&lt;br&gt;&lt;/span&gt;WHERE&lt;br&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;a&lt;/span&gt;.FINAL_AMOUNT != 0&lt;br&gt;AND &lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;a&lt;/span&gt;.BUS_DATE  = &lt;span style=&quot;font-style: italic&quot;&gt;DATE_FORMAT&lt;/span&gt;(#{beforeDate}, &#39;%Y-%m-%d&#39;)&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="2535" y="564.25" width="420" height="116.5" as="geometry" />
         </mxCell>
-        <mxCell id="XySx1qLS07IUAZHu6mIs-21" value="统计前一天客户名下已确认的来款剩余未核销的订单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="XySx1qLS07IUAZHu6mIs-21" value="统计前一天客户名下已确认来款剩余未核销完的订单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="2593" y="535" width="309" height="30" as="geometry" />
         </mxCell>
       </root>
