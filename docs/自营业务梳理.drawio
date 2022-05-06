@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-06T06:22:36.851Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="PKEch496jcbAihzIvjsZ" version="17.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-06T06:26:10.235Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="UltuErz-F4kmWXlqyxYz" version="17.4.6" type="github" pages="2">
   <diagram id="7Y3RIJCCnIWRhDjnqblm" name="财务业务系统建设">
     <mxGraphModel dx="1102" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1099,6 +1099,23 @@
         </mxCell>
         <mxCell id="XySx1qLS07IUAZHu6mIs-234" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XySx1qLS07IUAZHu6mIs-225" target="XySx1qLS07IUAZHu6mIs-220">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XySx1qLS07IUAZHu6mIs-235" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1457" y="5145" width="397" height="243" as="geometry" />
+        </mxCell>
+        <mxCell id="XySx1qLS07IUAZHu6mIs-236" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="XySx1qLS07IUAZHu6mIs-235">
+          <mxGeometry width="397" height="243" as="geometry" />
+        </mxCell>
+        <mxCell id="XySx1qLS07IUAZHu6mIs-237" value="&lt;font color=&quot;#000000&quot;&gt;S3.2.1.5 ：&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;获取统计日未核销明细&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;信息（设备收入信息）&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#3333FF;" vertex="1" parent="XySx1qLS07IUAZHu6mIs-235">
+          <mxGeometry x="12.799999999999955" y="9.346153846153847" width="367" height="31.153846153846153" as="geometry" />
+        </mxCell>
+        <mxCell id="XySx1qLS07IUAZHu6mIs-238" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;devIncomeService&lt;/pre&gt;&lt;pre style=&quot;color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;.listByCustomerOrders&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt&quot;&gt;(&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;pre style=&quot;color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;1、统计日&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;font color=&quot;#080808&quot;&gt;2、&lt;/font&gt;&lt;font color=&quot;#ff0000&quot;&gt;满足条件的一批订单数据&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: rgb(8 , 8 , 8)&quot;&gt;3、&lt;/span&gt;&lt;font color=&quot;#ff0000&quot;&gt;满足条件的一批订单信息&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;font-size: 9.8pt&quot;&gt;)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/pre&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="XySx1qLS07IUAZHu6mIs-235">
+          <mxGeometry x="52.24" y="50.3619587628866" width="310.12" height="185.9576288659794" as="geometry" />
+        </mxCell>
+        <mxCell id="XySx1qLS07IUAZHu6mIs-239" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="XySx1qLS07IUAZHu6mIs-225">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1657.2105263157896" y="5144.879596910979" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
