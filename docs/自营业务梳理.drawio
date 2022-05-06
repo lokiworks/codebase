@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-06T06:07:30.051Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="rEVSHIePUj7hWYiMAo8J" version="17.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-06T06:11:04.656Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="6joL4cAi-OORGr3P_dk0" version="17.4.6" type="github" pages="2">
   <diagram id="7Y3RIJCCnIWRhDjnqblm" name="财务业务系统建设">
     <mxGraphModel dx="1102" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -119,7 +119,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zCUhMsVsqHq10eLYD8Ml" name="核销业务梳理">
-    <mxGraphModel dx="1877" dy="552" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2123" dy="682" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1033,6 +1033,21 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1660" y="4407" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="XySx1qLS07IUAZHu6mIs-213" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="2021" y="4835" width="569" height="394" as="geometry" />
+        </mxCell>
+        <mxCell id="XySx1qLS07IUAZHu6mIs-214" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="XySx1qLS07IUAZHu6mIs-213">
+          <mxGeometry width="569" height="394" as="geometry" />
+        </mxCell>
+        <mxCell id="XySx1qLS07IUAZHu6mIs-215" value="S3.2.1.4 ：流程说明" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="XySx1qLS07IUAZHu6mIs-213">
+          <mxGeometry x="7" y="3.555956678700361" width="118" height="14.223826714801444" as="geometry" />
+        </mxCell>
+        <mxCell id="XySx1qLS07IUAZHu6mIs-216" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;SELECT&lt;br&gt;&lt;span style=&quot;color: #000000&quot;&gt;a&lt;/span&gt;.id AS &lt;span style=&quot;color: #000000&quot;&gt;id&lt;/span&gt;,&lt;br&gt;&lt;span style=&quot;color: #000000&quot;&gt;a&lt;/span&gt;.UUID AS &lt;span style=&quot;color: #000000&quot;&gt;uuid&lt;/span&gt;,&lt;br&gt;#{sumDate} AS &lt;span style=&quot;color: #000000&quot;&gt;sumDate&lt;/span&gt;,&lt;br&gt;&lt;span style=&quot;color: #000000&quot;&gt;a&lt;/span&gt;.DEPT_CODE_KEY AS &lt;span style=&quot;color: #000000&quot;&gt;deptCodeKey&lt;/span&gt;,&lt;br&gt;&lt;span style=&quot;color: #000000&quot;&gt;a&lt;/span&gt;.CUSTOMER_MGR_CODE_KEY AS &lt;span style=&quot;color: #000000&quot;&gt;customerMgrCodeKey&lt;/span&gt;,&lt;br&gt;&lt;span style=&quot;color: #000000&quot;&gt;a&lt;/span&gt;.CUSTOMER_CODE_KEY AS &lt;span style=&quot;color: #000000&quot;&gt;customerCodeKey&lt;/span&gt;,&lt;br&gt;&lt;span style=&quot;color: #000000&quot;&gt;a&lt;/span&gt;.ORDER_CODE_KEY AS &lt;span style=&quot;color: #000000&quot;&gt;orderCodeKey&lt;/span&gt;,&lt;br&gt;&lt;span style=&quot;color: #000000&quot;&gt;a&lt;/span&gt;.PAYREQ_CODE_KEY AS &lt;span style=&quot;color: #000000&quot;&gt;payreqCodeKey&lt;/span&gt;,&lt;br&gt;&lt;span style=&quot;color: #000000&quot;&gt;a&lt;/span&gt;.CERT_TYPE AS &lt;span style=&quot;color: #000000&quot;&gt;certType&lt;/span&gt;,&lt;br&gt;&lt;span style=&quot;color: #000000&quot;&gt;a&lt;/span&gt;.REMAIN_COUPON_MONEY AS &lt;span style=&quot;color: #000000&quot;&gt;remainCouponMoney&lt;br&gt;&lt;/span&gt;FROM&lt;br&gt;  FACT_CUSTOMER_ORDER_COUPON &lt;span style=&quot;color: #000000&quot;&gt;a&lt;br&gt;&lt;/span&gt;WHERE&lt;br&gt;  SUM_DATE = #{beforeDate}&lt;br&gt;AND &lt;span style=&quot;color: #000000&quot;&gt;a&lt;/span&gt;.REMAIN_COUPON_MONEY &amp;gt;0&lt;br&gt;AND &lt;span style=&quot;color: #000000&quot;&gt;a&lt;/span&gt;.ORDER_CODE_KEY in&lt;br&gt;&amp;lt;&lt;span style=&quot;color: #0033b3&quot;&gt;foreach &lt;/span&gt;&lt;span style=&quot;color: #174ad4&quot;&gt;collection&lt;/span&gt;&lt;span style=&quot;color: #067d17&quot;&gt;=&quot;orderCodes&quot; &lt;/span&gt;&lt;span style=&quot;color: #174ad4&quot;&gt;item&lt;/span&gt;&lt;span style=&quot;color: #067d17&quot;&gt;=&quot;orderCode&quot; &lt;/span&gt;&lt;span style=&quot;color: #174ad4&quot;&gt;open&lt;/span&gt;&lt;span style=&quot;color: #067d17&quot;&gt;=&quot;(&quot; &lt;/span&gt;&lt;span style=&quot;color: #174ad4&quot;&gt;close&lt;/span&gt;&lt;span style=&quot;color: #067d17&quot;&gt;=&quot;)&quot; &lt;/span&gt;&lt;span style=&quot;color: #174ad4&quot;&gt;separator&lt;/span&gt;&lt;span style=&quot;color: #067d17&quot;&gt;=&quot;,&quot;&lt;/span&gt;&amp;gt;&lt;br&gt;    #{orderCode}&lt;br&gt;&amp;lt;/&lt;span style=&quot;color: #0033b3&quot;&gt;foreach&lt;/span&gt;&amp;gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="XySx1qLS07IUAZHu6mIs-213">
+          <mxGeometry x="60.36" y="93.000676731211" width="448.28" height="227.23054545454542" as="geometry" />
+        </mxCell>
+        <mxCell id="XySx1qLS07IUAZHu6mIs-217" value="获取统计日前一天客户券余额信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="XySx1qLS07IUAZHu6mIs-213">
+          <mxGeometry x="71.86" y="17.779783393501805" width="404" height="19.20216606498195" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
