@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-06T06:11:04.656Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="6joL4cAi-OORGr3P_dk0" version="17.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-06T06:11:29.002Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="-sCZu3qkvN24wtvODxlS" version="17.4.6" type="github" pages="2">
   <diagram id="7Y3RIJCCnIWRhDjnqblm" name="财务业务系统建设">
     <mxGraphModel dx="1102" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1048,6 +1048,9 @@
         </mxCell>
         <mxCell id="XySx1qLS07IUAZHu6mIs-217" value="获取统计日前一天客户券余额信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="XySx1qLS07IUAZHu6mIs-213">
           <mxGeometry x="71.86" y="17.779783393501805" width="404" height="19.20216606498195" as="geometry" />
+        </mxCell>
+        <mxCell id="XySx1qLS07IUAZHu6mIs-218" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.001;entryY=0.415;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XySx1qLS07IUAZHu6mIs-201" target="XySx1qLS07IUAZHu6mIs-214">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
