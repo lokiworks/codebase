@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-07T02:41:21.063Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="bSSvYwOAtmQLdDEv8v1Z" version="18.0.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-07T02:46:40.679Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="zbhUVIsBA1VNMaWAGnYf" version="18.0.1" type="github" pages="2">
   <diagram id="7Y3RIJCCnIWRhDjnqblm" name="财务业务系统建设">
     <mxGraphModel dx="1102" dy="580" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1316,11 +1316,20 @@
         <mxCell id="l6f9Tb70Rmm9GNIoVa1G-36" value="其他TODO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="l6f9Tb70Rmm9GNIoVa1G-31">
           <mxGeometry x="259" y="210.99746478873243" width="117" height="17.323943661971832" as="geometry" />
         </mxCell>
-        <mxCell id="l6f9Tb70Rmm9GNIoVa1G-39" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=1.003;exitY=0.435;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="l6f9Tb70Rmm9GNIoVa1G-28" target="l6f9Tb70Rmm9GNIoVa1G-32">
+        <mxCell id="l6f9Tb70Rmm9GNIoVa1G-39" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=1.001;exitY=0.526;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="l6f9Tb70Rmm9GNIoVa1G-28" target="l6f9Tb70Rmm9GNIoVa1G-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l6f9Tb70Rmm9GNIoVa1G-41" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="l6f9Tb70Rmm9GNIoVa1G-17" target="l6f9Tb70Rmm9GNIoVa1G-22">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l6f9Tb70Rmm9GNIoVa1G-42" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1460" y="7349" width="363" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="l6f9Tb70Rmm9GNIoVa1G-43" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="l6f9Tb70Rmm9GNIoVa1G-42">
+          <mxGeometry width="363" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="l6f9Tb70Rmm9GNIoVa1G-45" value="S3.2.1.13 ：&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; color: rgb(140, 140, 140); font-style: italic;&quot;&gt;16.&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; color: rgb(140, 140, 140); font-style: italic; font-family: 宋体, monospace;&quot;&gt;计算往期未核销的逾期&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; color: rgb(140, 140, 140); font-style: italic;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; color: rgb(140, 140, 140); font-style: italic; font-family: 宋体, monospace;&quot;&gt;用于后面核销的时候按照逾期天数排序 （TODO）&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="l6f9Tb70Rmm9GNIoVa1G-42">
+          <mxGeometry x="13.313047858942015" y="14" width="309.96725440806046" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
