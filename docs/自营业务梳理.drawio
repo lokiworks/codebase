@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T09:09:07.189Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="UsPI_B33A4YM2tI6_Mwo" version="18.0.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-05-10T09:10:04.606Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="jaVY53JaWAadL6AjmsmC" version="18.0.2" type="github" pages="3">
   <diagram id="7Y3RIJCCnIWRhDjnqblm" name="财务业务系统建设">
     <mxGraphModel dx="1102" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1350,7 +1350,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Xqtv6ngPVQEMkNJswhQh" name="核销业务逻辑">
-    <mxGraphModel dx="1050" dy="553" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="441" dy="232" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1446,7 +1446,7 @@
           <mxGeometry x="418" y="723" width="284" height="79" as="geometry" />
         </mxCell>
         <mxCell id="ix8Kj-7xfDKUhQbld3XJ-33" value="应收明细日周期事实表&#xa;（DSSFACT_DEV_INCOME）" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="418" y="886" width="290" height="841" as="geometry" />
+          <mxGeometry x="418" y="886" width="290" height="871" as="geometry" />
         </mxCell>
         <mxCell id="ix8Kj-7xfDKUhQbld3XJ-34" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=default;" vertex="1" parent="ix8Kj-7xfDKUhQbld3XJ-33">
           <mxGeometry y="30" width="290" height="30" as="geometry" />
@@ -1768,7 +1768,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ix8Kj-7xfDKUhQbld3XJ-114" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=default;" vertex="1" parent="ix8Kj-7xfDKUhQbld3XJ-112">
+        <mxCell id="ix8Kj-7xfDKUhQbld3XJ-114" value="adjustment_start（调整开始时间）" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=default;" vertex="1" parent="ix8Kj-7xfDKUhQbld3XJ-112">
           <mxGeometry x="30" width="260" height="30" as="geometry">
             <mxRectangle width="260" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -1781,7 +1781,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ix8Kj-7xfDKUhQbld3XJ-111" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=default;" vertex="1" parent="ix8Kj-7xfDKUhQbld3XJ-109">
+        <mxCell id="ix8Kj-7xfDKUhQbld3XJ-111" value="adjustment_end（调整结束时间）" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=default;" vertex="1" parent="ix8Kj-7xfDKUhQbld3XJ-109">
           <mxGeometry x="30" width="260" height="30" as="geometry">
             <mxRectangle width="260" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -1794,7 +1794,20 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ix8Kj-7xfDKUhQbld3XJ-108" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=default;" vertex="1" parent="ix8Kj-7xfDKUhQbld3XJ-106">
+        <mxCell id="ix8Kj-7xfDKUhQbld3XJ-108" value="merchant_no（商户）" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=default;" vertex="1" parent="ix8Kj-7xfDKUhQbld3XJ-106">
+          <mxGeometry x="30" width="260" height="30" as="geometry">
+            <mxRectangle width="260" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ix8Kj-7xfDKUhQbld3XJ-115" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=default;" vertex="1" parent="ix8Kj-7xfDKUhQbld3XJ-33">
+          <mxGeometry y="840" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ix8Kj-7xfDKUhQbld3XJ-116" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;strokeColor=default;" vertex="1" parent="ix8Kj-7xfDKUhQbld3XJ-115">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ix8Kj-7xfDKUhQbld3XJ-117" value="VERSION（版本）" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=default;" vertex="1" parent="ix8Kj-7xfDKUhQbld3XJ-115">
           <mxGeometry x="30" width="260" height="30" as="geometry">
             <mxRectangle width="260" height="30" as="alternateBounds" />
           </mxGeometry>
