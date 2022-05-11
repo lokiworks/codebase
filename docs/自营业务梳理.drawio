@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-11T03:25:20.876Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="9SDBZRSLNL_dxLAZ5yHa" version="18.0.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-05-11T03:34:32.422Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="zp7av2JEjbuagdga8Vfc" version="18.0.2" type="github" pages="3">
   <diagram id="7Y3RIJCCnIWRhDjnqblm" name="财务业务系统建设">
     <mxGraphModel dx="1902" dy="996" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1350,7 +1350,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Xqtv6ngPVQEMkNJswhQh" name="核销业务逻辑">
-    <mxGraphModel dx="1002" dy="497" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1160" dy="576" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2653,7 +2653,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="q-xL7jPSJIiZGjt8JMol-1" value="客户订单券余额事实表&#xa;（FACT_CUSTOMER_ORDER_COUPON）" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1096" y="2096" width="323" height="271" as="geometry" />
+          <mxGeometry x="1096" y="2104" width="323" height="301" as="geometry" />
         </mxCell>
         <mxCell id="q-xL7jPSJIiZGjt8JMol-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;strokeColor=default;" vertex="1" parent="q-xL7jPSJIiZGjt8JMol-1">
           <mxGeometry y="30" width="323" height="30" as="geometry" />
@@ -2676,7 +2676,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="q-xL7jPSJIiZGjt8JMol-7" value="SUM_DATE_KEY（统计日期）" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=default;" vertex="1" parent="q-xL7jPSJIiZGjt8JMol-5">
+        <mxCell id="q-xL7jPSJIiZGjt8JMol-7" value="SUM_DATE（统计日期）" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=default;" vertex="1" parent="q-xL7jPSJIiZGjt8JMol-5">
           <mxGeometry x="30" width="293" height="30" as="geometry">
             <mxRectangle width="293" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -2741,7 +2741,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="q-xL7jPSJIiZGjt8JMol-22" value="REMAIN_BOND_MONEY（保证金余额）" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=default;" vertex="1" parent="q-xL7jPSJIiZGjt8JMol-20">
+        <mxCell id="q-xL7jPSJIiZGjt8JMol-22" value="PAYREQ_CODE_KEY（”券“-来款）" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=default;" vertex="1" parent="q-xL7jPSJIiZGjt8JMol-20">
           <mxGeometry x="30" width="293" height="30" as="geometry">
             <mxRectangle width="293" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -2754,16 +2754,44 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="q-xL7jPSJIiZGjt8JMol-25" value="CREATE_DATE_KEY（创建日期）" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=default;" vertex="1" parent="q-xL7jPSJIiZGjt8JMol-23">
+        <mxCell id="q-xL7jPSJIiZGjt8JMol-25" value="CERT_TYPE（“券”-核销类型，历史&amp;运租&amp;通用）" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=default;" vertex="1" parent="q-xL7jPSJIiZGjt8JMol-23">
           <mxGeometry x="30" width="293" height="30" as="geometry">
             <mxRectangle width="293" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="q-xL7jPSJIiZGjt8JMol-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.008;entryY=0.054;entryDx=0;entryDy=0;endArrow=none;endFill=0;entryPerimeter=0;" edge="1" parent="1" source="q-xL7jPSJIiZGjt8JMol-26" target="ix8Kj-7xfDKUhQbld3XJ-354">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="q-xL7jPSJIiZGjt8JMol-30" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;strokeColor=default;" vertex="1" parent="q-xL7jPSJIiZGjt8JMol-1">
+          <mxGeometry y="270" width="323" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q-xL7jPSJIiZGjt8JMol-31" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;strokeColor=default;" vertex="1" parent="q-xL7jPSJIiZGjt8JMol-30">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q-xL7jPSJIiZGjt8JMol-32" value="REMAIN_COUPON_MONEY（券余额）" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=default;" vertex="1" parent="q-xL7jPSJIiZGjt8JMol-30">
+          <mxGeometry x="30" width="293" height="30" as="geometry">
+            <mxRectangle width="293" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q-xL7jPSJIiZGjt8JMol-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=0;entryY=0.051;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="q-xL7jPSJIiZGjt8JMol-26" target="ix8Kj-7xfDKUhQbld3XJ-354">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1088" y="1797" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1047" y="1797" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="q-xL7jPSJIiZGjt8JMol-26" value="保证金余额" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="888" y="1783" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q-xL7jPSJIiZGjt8JMol-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.056;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="q-xL7jPSJIiZGjt8JMol-28" target="q-xL7jPSJIiZGjt8JMol-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1049" y="2119" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q-xL7jPSJIiZGjt8JMol-28" value="券余额" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="891" y="2104" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
