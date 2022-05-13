@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-13T10:50:32.541Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="MlQoXesk2FGjsm46mECA" version="18.0.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-05-13T10:54:48.316Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="kCNgYTUV-p0ast-fFaR7" version="18.0.2" type="github" pages="4">
   <diagram id="7Y3RIJCCnIWRhDjnqblm" name="财务业务系统建设">
     <mxGraphModel dx="1102" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3107,31 +3107,39 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="SR0TACFRP5PiVne87gSK-1" value="异常中心&lt;br&gt;Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="321" y="497" width="120" height="60" as="geometry" />
+        <mxCell id="SR0TACFRP5PiVne87gSK-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=40;strokeWidth=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="131" y="670" width="450" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="SR0TACFRP5PiVne87gSK-1" value="异常中心&lt;br&gt;Server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="306" y="497" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SR0TACFRP5PiVne87gSK-2" value="业务系统1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="186" y="688" width="120" height="60" as="geometry" />
+          <mxGeometry x="199" y="688" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SR0TACFRP5PiVne87gSK-3" value="业务系统N" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="451" y="688" width="120" height="60" as="geometry" />
+          <mxGeometry x="444" y="688" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SR0TACFRP5PiVne87gSK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SR0TACFRP5PiVne87gSK-4" target="SR0TACFRP5PiVne87gSK-1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="116" y="758" />
+              <mxPoint x="116" y="527" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="SR0TACFRP5PiVne87gSK-10" value="注册异常" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SR0TACFRP5PiVne87gSK-6">
           <mxGeometry x="-0.1878" relative="1" as="geometry">
             <mxPoint y="42" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SR0TACFRP5PiVne87gSK-4" value="异常中心&lt;br&gt;agent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="131" y="726" width="73" height="43" as="geometry" />
+        <mxCell id="SR0TACFRP5PiVne87gSK-4" value="异常中心&lt;br&gt;agent" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="144" y="726" width="73" height="43" as="geometry" />
         </mxCell>
         <mxCell id="SR0TACFRP5PiVne87gSK-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SR0TACFRP5PiVne87gSK-5" target="SR0TACFRP5PiVne87gSK-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="664" y="758" />
-              <mxPoint x="664" y="527" />
+              <mxPoint x="604" y="758" />
+              <mxPoint x="604" y="527" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3142,11 +3150,14 @@
         </mxCell>
         <mxCell id="SR0TACFRP5PiVne87gSK-12" value="注册异常" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SR0TACFRP5PiVne87gSK-7">
           <mxGeometry x="0.1558" y="-1" relative="1" as="geometry">
-            <mxPoint x="-1" y="55" as="offset" />
+            <mxPoint x="-1" y="57" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SR0TACFRP5PiVne87gSK-5" value="异常中心&lt;br&gt;agent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="396" y="726" width="73" height="43" as="geometry" />
+        <mxCell id="SR0TACFRP5PiVne87gSK-5" value="异常中心&lt;br&gt;agent" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="389" y="726" width="73" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="SR0TACFRP5PiVne87gSK-13" value="......" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontSize=40;" vertex="1" parent="1">
+          <mxGeometry x="348" y="688" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
