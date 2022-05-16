@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-16T09:08:21.836Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="gwX-v3XENRHi_VsmHmAM" version="18.0.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-05-16T13:05:37.239Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="PWZ5mqnvQpsfl0MSBkTV" version="18.0.3" type="github" pages="5">
   <diagram id="7Y3RIJCCnIWRhDjnqblm" name="财务业务系统建设">
     <mxGraphModel dx="1102" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3411,7 +3411,7 @@
         <mxCell id="EX2LnbyE-OA9ONirYHMa-3" style="edgeStyle=none;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="EX2LnbyE-OA9ONirYHMa-1" target="YdyweYVmKU_ISlG5z0_o-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EX2LnbyE-OA9ONirYHMa-1" value="第二道防线： 业务数据的生成者对数据的质量负责，数据的生成者监控所生成的数据的正确性" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="EX2LnbyE-OA9ONirYHMa-1" value="第二道防线： 业务数据的生成者对数据的质量负责，数据的生产者监控所生成的数据的正确性" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="252" y="46" width="288" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EX2LnbyE-OA9ONirYHMa-4" value="第一道防线： 监控内核中的所有异常数据" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
