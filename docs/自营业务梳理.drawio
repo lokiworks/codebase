@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-16T08:48:03.448Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="6nk-t98LkEbcaVt1bYk1" version="18.0.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-05-16T09:04:01.695Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="ZDXJkWZRVwkCxWdPVjlh" version="18.0.3" type="github" pages="5">
   <diagram id="7Y3RIJCCnIWRhDjnqblm" name="财务业务系统建设">
     <mxGraphModel dx="1102" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3411,7 +3411,7 @@
         <mxCell id="EX2LnbyE-OA9ONirYHMa-1" value="第二道防线： 数据的生成者对数据的质量负责，数据的生成者监控所生成的数据的正确性" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="252" y="46" width="288" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EX2LnbyE-OA9ONirYHMa-4" value="第二道防线： 数据的生成者对数据的质量负责，数据的生成者监控所生成的数据的正确性" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="EX2LnbyE-OA9ONirYHMa-4" value="第一道防线： 数据的生成者对数据的质量负责，数据的生成者监控所生成的数据的正确性" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="249" y="411" width="288" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EX2LnbyE-OA9ONirYHMa-7" value="订单数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
@@ -3431,6 +3431,12 @@
         </mxCell>
         <mxCell id="EX2LnbyE-OA9ONirYHMa-12" value="索赔数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="269" y="276" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EX2LnbyE-OA9ONirYHMa-13" value="来款" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EX2LnbyE-OA9ONirYHMa-14" value="退款" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="280" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
