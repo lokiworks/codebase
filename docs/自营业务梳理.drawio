@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-16T09:05:48.361Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="6LRrqUf1A7SDAYQUz8ic" version="18.0.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-05-16T09:08:21.836Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="gwX-v3XENRHi_VsmHmAM" version="18.0.3" type="github" pages="5">
   <diagram id="7Y3RIJCCnIWRhDjnqblm" name="财务业务系统建设">
     <mxGraphModel dx="1102" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3166,7 +3166,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="N2klLrEYuEHrn7ZgDU1j" name="监控-02">
-    <mxGraphModel dx="760" dy="401" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="553" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3411,7 +3411,7 @@
         <mxCell id="EX2LnbyE-OA9ONirYHMa-3" style="edgeStyle=none;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="EX2LnbyE-OA9ONirYHMa-1" target="YdyweYVmKU_ISlG5z0_o-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EX2LnbyE-OA9ONirYHMa-1" value="第二道防线： 数据的生成者对数据的质量负责，数据的生成者监控所生成的数据的正确性" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="EX2LnbyE-OA9ONirYHMa-1" value="第二道防线： 业务数据的生成者对数据的质量负责，数据的生成者监控所生成的数据的正确性" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="252" y="46" width="288" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EX2LnbyE-OA9ONirYHMa-4" value="第一道防线： 监控内核中的所有异常数据" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
@@ -3441,14 +3441,38 @@
         <mxCell id="EX2LnbyE-OA9ONirYHMa-14" value="退款" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="280" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EX2LnbyE-OA9ONirYHMa-15" value="......" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="72" y="299" width="60" height="30" as="geometry" />
+        <mxCell id="EX2LnbyE-OA9ONirYHMa-15" value="......" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="72" y="293" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EX2LnbyE-OA9ONirYHMa-16" value="订单数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="495" y="152" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EX2LnbyE-OA9ONirYHMa-18" value="依赖计费产生的收入数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="351" y="214" width="93" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EX2LnbyE-OA9ONirYHMa-19" value="进场数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="663" y="152" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EX2LnbyE-OA9ONirYHMa-20" value="来款" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="472" y="196" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EX2LnbyE-OA9ONirYHMa-21" value="报停数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="678" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EX2LnbyE-OA9ONirYHMa-22" value="......" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="472" y="293" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EX2LnbyE-OA9ONirYHMa-23" value="退款" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="472" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EX2LnbyE-OA9ONirYHMa-24" value="索赔数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="679.5" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EX2LnbyE-OA9ONirYHMa-25" value="合同数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="495" y="323" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EX2LnbyE-OA9ONirYHMa-26" value="退场数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="663" y="319" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
