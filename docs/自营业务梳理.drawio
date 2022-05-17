@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-17T09:23:33.628Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="XTf3LHDpaknhZbv2V6R4" version="18.0.5" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-05-17T09:26:59.886Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="qCsD3qqk0_p30K3hH40s" version="18.0.5" type="github" pages="7">
   <diagram id="7Y3RIJCCnIWRhDjnqblm" name="财务业务系统建设">
     <mxGraphModel dx="1102" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3517,24 +3517,27 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hHuXvw0wWJft49vbVSxQ" name="监控-04">
-    <mxGraphModel dx="630" dy="332" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="538" dy="283" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_bJDUdcvbhi6ToUiFlVx-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;strokeColor=#36393D;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="166" y="154" width="403" height="267" as="geometry" />
+        <mxCell id="_bJDUdcvbhi6ToUiFlVx-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="203" y="177" width="252" height="127" as="geometry" />
         </mxCell>
-        <mxCell id="_bJDUdcvbhi6ToUiFlVx-2" value="&lt;font color=&quot;#36393d&quot;&gt;异常中心&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="337.5" y="160" width="60" height="30" as="geometry" />
+        <mxCell id="_bJDUdcvbhi6ToUiFlVx-2" value="&lt;font color=&quot;#36393d&quot;&gt;异常中心&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="299" y="180" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="_bJDUdcvbhi6ToUiFlVx-3" value="知识库" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#36393D;strokeColor=#36393D;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="417" y="209" width="120" height="60" as="geometry" />
+        <mxCell id="_bJDUdcvbhi6ToUiFlVx-3" value="知识库" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#f5f5f5;dashed=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="345" y="260" width="82" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="_bJDUdcvbhi6ToUiFlVx-4" value="异常列表" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#36393D;strokeColor=#36393D;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="199" y="209" width="120" height="60" as="geometry" />
+        <mxCell id="_bJDUdcvbhi6ToUiFlVx-6" value="异常列表" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="229" y="260" width="82" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="_bJDUdcvbhi6ToUiFlVx-5" value="异常统计" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#36393D;strokeColor=#36393D;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="199" y="300" width="120" height="60" as="geometry" />
+        <mxCell id="_bJDUdcvbhi6ToUiFlVx-7" value="异常统计" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="229" y="209" width="82" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="_bJDUdcvbhi6ToUiFlVx-8" value="告警" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="345" y="209" width="82" height="34" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
