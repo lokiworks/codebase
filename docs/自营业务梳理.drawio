@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-01T09:28:02.648Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="rVTdpeeMG7NfUaoe0xH1" version="18.2.0" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-06-01T09:31:36.662Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="y4NsXc0yqs4CaUJzqNUB" version="18.2.0" type="github" pages="12">
   <diagram id="7Y3RIJCCnIWRhDjnqblm" name="财务业务系统建设">
     <mxGraphModel dx="1102" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3798,6 +3798,35 @@
         </mxCell>
         <mxCell id="wQBAVf_qJmEK5CTE9Po9-8" value="&lt;br&gt;2.1恢复数据完毕，触发核销流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="555" y="46" width="185" height="46" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Q_ZkCkaxVwP1pyPezSR9" name="核销版本化-02">
+    <mxGraphModel dx="918" dy="484" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ukIQHBnVYtiVKUdVSrOT-1" value="核销任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="458" y="232" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ukIQHBnVYtiVKUdVSrOT-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeColor=#FF3333;" edge="1" parent="1" source="ukIQHBnVYtiVKUdVSrOT-2" target="ukIQHBnVYtiVKUdVSrOT-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukIQHBnVYtiVKUdVSrOT-2" value="核销备份任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="182" y="232" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ukIQHBnVYtiVKUdVSrOT-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeColor=#FF3333;" edge="1" parent="1" source="ukIQHBnVYtiVKUdVSrOT-3" target="ukIQHBnVYtiVKUdVSrOT-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ukIQHBnVYtiVKUdVSrOT-3" value="xxljob server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="182" y="26" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ukIQHBnVYtiVKUdVSrOT-5" value="触发核销备份任务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="94" width="16" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="ukIQHBnVYtiVKUdVSrOT-7" value="执行完毕，触发核销任务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="306" y="227" width="139" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
