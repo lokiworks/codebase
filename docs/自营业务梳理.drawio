@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-01T06:00:34.318Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="6eE4s0Cs0X67O6aTvGF8" version="18.2.0" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2022-06-01T09:27:18.376Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="AE2jai4vhYBiUIHeGKFn" version="18.2.0" type="github" pages="11">
   <diagram id="7Y3RIJCCnIWRhDjnqblm" name="财务业务系统建设">
     <mxGraphModel dx="1102" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3688,11 +3688,14 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="NG1EXv0KqS3VeK6yipJe" name="Page-11">
-    <mxGraphModel dx="1102" dy="509" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="NG1EXv0KqS3VeK6yipJe" name="核销版本化">
+    <mxGraphModel dx="1102" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wQBAVf_qJmEK5CTE9Po9-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="201" y="61" width="342" height="159" as="geometry" />
+        </mxCell>
         <mxCell id="Wt_6IDwbQsPD7joiV5C7-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Wt_6IDwbQsPD7joiV5C7-1" target="Wt_6IDwbQsPD7joiV5C7-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -3708,8 +3711,8 @@
         <mxCell id="Wt_6IDwbQsPD7joiV5C7-3" value="核销数据库" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="338" y="324" width="135" height="162" as="geometry" />
         </mxCell>
-        <mxCell id="Wt_6IDwbQsPD7joiV5C7-5" value="&lt;br&gt;2.0插入/更新数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="416" y="224" width="17" height="73" as="geometry" />
+        <mxCell id="Wt_6IDwbQsPD7joiV5C7-5" value="&lt;br&gt;1.2插入/更新数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="412" y="228" width="17" height="73" as="geometry" />
         </mxCell>
         <mxCell id="Wt_6IDwbQsPD7joiV5C7-10" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="632" y="547" width="169" height="200" as="geometry" />
@@ -3741,14 +3744,14 @@
         <mxCell id="Wt_6IDwbQsPD7joiV5C7-17" value="备份表(镜像)N" style="rounded=0;whiteSpace=wrap;html=1;" parent="Wt_6IDwbQsPD7joiV5C7-13" vertex="1">
           <mxGeometry x="50" width="119" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="Wt_6IDwbQsPD7joiV5C7-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#FF3333;" parent="1" source="Wt_6IDwbQsPD7joiV5C7-18" target="Wt_6IDwbQsPD7joiV5C7-3" edge="1">
+        <mxCell id="Wt_6IDwbQsPD7joiV5C7-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#FF3333;" parent="1" source="Wt_6IDwbQsPD7joiV5C7-18" target="Wt_6IDwbQsPD7joiV5C7-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Wt_6IDwbQsPD7joiV5C7-18" value="备份/恢复程序" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="224" y="65" width="120" height="60" as="geometry" />
+        <mxCell id="Wt_6IDwbQsPD7joiV5C7-18" value="备份程序" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="212" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Wt_6IDwbQsPD7joiV5C7-22" value="&lt;br&gt;1.0备份/恢复数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="265" y="228" width="17" height="73" as="geometry" />
+        <mxCell id="Wt_6IDwbQsPD7joiV5C7-22" value="&lt;br&gt;1.1备份数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="277" y="228" width="17" height="73" as="geometry" />
         </mxCell>
         <mxCell id="Wt_6IDwbQsPD7joiV5C7-24" value="备份" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="360" y="809" width="60" height="30" as="geometry" />
@@ -3774,6 +3777,21 @@
         </mxCell>
         <mxCell id="Wt_6IDwbQsPD7joiV5C7-33" value="恢复" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="369" y="501" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wQBAVf_qJmEK5CTE9Po9-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="wQBAVf_qJmEK5CTE9Po9-2" target="wQBAVf_qJmEK5CTE9Po9-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wQBAVf_qJmEK5CTE9Po9-2" value="整体作为核销流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="304.5" y="6" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wQBAVf_qJmEK5CTE9Po9-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeColor=#FF3333;" edge="1" parent="1" source="wQBAVf_qJmEK5CTE9Po9-4" target="Wt_6IDwbQsPD7joiV5C7-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wQBAVf_qJmEK5CTE9Po9-4" value="恢复程序" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="627" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wQBAVf_qJmEK5CTE9Po9-6" value="&lt;br&gt;2.0恢复数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="235" width="17" height="73" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
