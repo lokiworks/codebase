@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-25T07:46:07.234Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="cDY8Jcz5kGHXOkmBy-BF" version="18.1.1" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-06-01T01:42:29.230Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="lQB1MJCsoivBiEQKABO1" version="18.1.3" type="github" pages="11">
   <diagram id="7Y3RIJCCnIWRhDjnqblm" name="财务业务系统建设">
     <mxGraphModel dx="1342" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3684,6 +3684,23 @@
         </mxCell>
         <mxCell id="ed-K_SyR8f2qKFZQsn1C-19" value="核销的顺序" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="201" y="420" width="81" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="NG1EXv0KqS3VeK6yipJe" name="Page-11">
+    <mxGraphModel dx="1296" dy="684" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Wt_6IDwbQsPD7joiV5C7-1" value="核销系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="182" y="218" width="247" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="Wt_6IDwbQsPD7joiV5C7-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="182" y="93" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wt_6IDwbQsPD7joiV5C7-3" value="核销数据库" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="273" y="371" width="107" height="117" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
