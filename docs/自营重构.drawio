@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-21T06:43:44.669Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="cm9edYfqPoSH6LR01xeL" version="20.1.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-07-21T06:48:22.208Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="69M1Y0Z_ICSfEwEfLAwl" version="20.1.1" type="github" pages="2">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="1643" dy="430" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -61,21 +61,30 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IXxofmXMB2RPIc64SxBN" name="链路分析">
-    <mxGraphModel dx="918" dy="484" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="760" dy="401" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="rbUM4tiEoZ0qt8iKaotn-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="312" y="103" width="374" height="252" as="geometry" />
+          <mxGeometry x="231" y="100" width="374" height="252" as="geometry" />
         </mxCell>
-        <mxCell id="rbUM4tiEoZ0qt8iKaotn-2" value="商户SAAS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="545" y="163" width="120" height="60" as="geometry" />
+        <mxCell id="rbUM4tiEoZ0qt8iKaotn-2" value="商端SAAS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="461" y="161" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rbUM4tiEoZ0qt8iKaotn-6" value="“租赁”平台" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="466" y="114" width="60" height="30" as="geometry" />
+          <mxGeometry x="385" y="111" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rbUM4tiEoZ0qt8iKaotn-7" value="三方商户自建系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="773" y="111" width="120" height="60" as="geometry" />
+          <mxGeometry x="665" y="161" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rbUM4tiEoZ0qt8iKaotn-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="252" y="261" width="338" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="rbUM4tiEoZ0qt8iKaotn-9" value="客端SAAS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="252" y="161" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rbUM4tiEoZ0qt8iKaotn-10" value="中台能力" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="391" y="268" width="60" height="17" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
