@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-21T09:09:11.917Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="w1il7zwS8mQPbA4I0ZDB" version="20.1.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-07-21T09:09:49.457Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="DnVBIz4n6DZRPZO9Jek3" version="20.1.1" type="github" pages="3">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="1320" dy="259" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -138,7 +138,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qt0AULjnwaiLlMIHNxGJ" name="交易链路">
-    <mxGraphModel dx="1394" dy="791" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="788" dy="447" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -160,8 +160,8 @@
         <mxCell id="pVMpE5Bg6IyhHie2BeIa-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="O2P9w9WAoNRUnFOtLeJ0-2" target="pVMpE5Bg6IyhHie2BeIa-23">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="303" y="390" />
-              <mxPoint x="193" y="390" />
+              <mxPoint x="303" y="407" />
+              <mxPoint x="193" y="407" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -210,8 +210,11 @@
             <mxPoint x="625" y="444" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pVMpE5Bg6IyhHie2BeIa-23" value="合同" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="pVMpE5Bg6IyhHie2BeIa-23" value="支付" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="133" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pVMpE5Bg6IyhHie2BeIa-25" value="发起支付" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="228" y="378" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
