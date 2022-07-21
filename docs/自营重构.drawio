@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-21T07:03:41.810Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="gzpm2foYLB9J-ghny0uZ" version="20.1.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-07-21T07:23:02.967Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="a6678U7nH_i_Efb4fYP7" version="20.1.1" type="github" pages="2">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="1643" dy="430" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -61,7 +61,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IXxofmXMB2RPIc64SxBN" name="链路分析">
-    <mxGraphModel dx="625" dy="265" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="784" dy="452" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -94,6 +94,15 @@
         </mxCell>
         <mxCell id="rbUM4tiEoZ0qt8iKaotn-11" value="商品" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="511" y="292.5" width="67" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="rbUM4tiEoZ0qt8iKaotn-18" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+          <mxGeometry x="840" y="100" width="187" height="252" as="geometry" />
+        </mxCell>
+        <mxCell id="rbUM4tiEoZ0qt8iKaotn-19" value="版本1" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="461" y="368" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rbUM4tiEoZ0qt8iKaotn-20" value="版本2" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="911" y="368" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
