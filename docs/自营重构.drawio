@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-27T01:26:53.492Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="E2U6cZo8ekBl_YyoFiCJ" version="20.1.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-07-27T01:28:42.484Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="QSFUUQ75jCgzZfQyRb4K" version="20.1.4" type="github" pages="5">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2782" dy="1005" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -301,7 +301,7 @@
           <mxGeometry x="186" y="458" width="272" height="406" as="geometry" />
         </mxCell>
         <mxCell id="XLv9lst1ZCZX44yT5gN--12" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="186" y="293" width="1228" height="126" as="geometry" />
+          <mxGeometry x="186" y="293" width="1392" height="126" as="geometry" />
         </mxCell>
         <mxCell id="XLv9lst1ZCZX44yT5gN--19" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;sketch=0;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="447" y="298" width="302" height="115" as="geometry" />
@@ -380,10 +380,10 @@
           <mxGeometry x="951" y="337" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XLv9lst1ZCZX44yT5gN--31" value="续租" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1106" y="337" width="120" height="60" as="geometry" />
+          <mxGeometry x="1267" y="337" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XLv9lst1ZCZX44yT5gN--32" value="退租" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="1274" y="337" width="120" height="60" as="geometry" />
+          <mxGeometry x="1435" y="337" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XLv9lst1ZCZX44yT5gN--36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;endArrow=none;endFill=0;strokeColor=#0000FF;" edge="1" parent="1" source="XLv9lst1ZCZX44yT5gN--33">
           <mxGeometry relative="1" as="geometry">
@@ -435,6 +435,9 @@
         </mxCell>
         <mxCell id="XLv9lst1ZCZX44yT5gN--51" value="执行报停" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="1147" y="686" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XLv9lst1ZCZX44yT5gN--53" value="报停" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1109" y="337" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
