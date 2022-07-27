@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-27T00:38:59.084Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="80VqX28x_uTEr_13rjm7" version="20.1.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-07-27T00:41:06.960Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="-mrLj7H9OR30By6Dj3dU" version="20.1.4" type="github" pages="5">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2782" dy="1005" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -293,7 +293,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="EI5xHH0c7u_fKFLa_INF" name="租赁业务">
-    <mxGraphModel dx="978" dy="503" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="823" dy="423" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -383,8 +383,20 @@
         <mxCell id="XLv9lst1ZCZX44yT5gN--32" value="退租" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1274" y="337" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="XLv9lst1ZCZX44yT5gN--36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;endArrow=none;endFill=0;strokeColor=#0000FF;" edge="1" parent="1" source="XLv9lst1ZCZX44yT5gN--33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="369.5" y="436.1666793823242" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="275" y="198" />
+              <mxPoint x="275" y="436" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="XLv9lst1ZCZX44yT5gN--33" value="签订框架合同" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;gradientColor=none;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="53" y="168" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XLv9lst1ZCZX44yT5gN--37" value="包含协议价、商务政策" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="53" y="135" width="123" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
