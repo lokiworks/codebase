@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-27T03:45:36.862Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="4l9OAt7FN3KSBvdX4b6m" version="20.1.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-07-27T03:48:06.312Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="OXdm7FY_bvHFPfAnqogS" version="20.1.4" type="github" pages="5">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2782" dy="1005" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -293,7 +293,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="EI5xHH0c7u_fKFLa_INF" name="租赁业务">
-    <mxGraphModel dx="1848" dy="932" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1727" dy="850" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -539,6 +539,33 @@
         </mxCell>
         <mxCell id="XLv9lst1ZCZX44yT5gN--88" value="结算" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="833" y="1067" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XLv9lst1ZCZX44yT5gN--91" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="314" y="950" as="sourcePoint" />
+            <mxPoint x="314" y="869" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XLv9lst1ZCZX44yT5gN--92" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="805.5799999999999" y="950" as="sourcePoint" />
+            <mxPoint x="805.5799999999999" y="869" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XLv9lst1ZCZX44yT5gN--93" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1303.2099999999998" y="950.9999999999998" as="sourcePoint" />
+            <mxPoint x="1303.2099999999998" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XLv9lst1ZCZX44yT5gN--94" value="支撑" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="242" y="899" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XLv9lst1ZCZX44yT5gN--95" value="支撑" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="741" y="899" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XLv9lst1ZCZX44yT5gN--96" value="支撑" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="1240.5" y="899" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
