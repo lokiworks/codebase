@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-27T02:00:17.667Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="8O2hf07Jdf7AvrsKKdJF" version="20.1.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-07-27T02:01:51.207Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="rI87TADUpH6QUg1_vq-U" version="20.1.4" type="github" pages="5">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2782" dy="1005" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -293,7 +293,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="EI5xHH0c7u_fKFLa_INF" name="租赁业务">
-    <mxGraphModel dx="1203" dy="618" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1378" dy="684" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -357,7 +357,7 @@
           <mxGeometry x="236" y="441" width="114" height="31" as="geometry" />
         </mxCell>
         <mxCell id="XLv9lst1ZCZX44yT5gN--23" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;gradientColor=none;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="623" y="458" width="332" height="406" as="geometry" />
+          <mxGeometry x="623" y="458" width="353" height="406" as="geometry" />
         </mxCell>
         <mxCell id="XLv9lst1ZCZX44yT5gN--25" value="交付链路" style="text;html=1;strokeColor=#A50040;fillColor=#d80073;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="732" y="441" width="114" height="31" as="geometry" />
@@ -412,6 +412,9 @@
         <mxCell id="XLv9lst1ZCZX44yT5gN--39" value="物流配送" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="645" y="641" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="XLv9lst1ZCZX44yT5gN--59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeColor=#000000;" edge="1" parent="1" source="XLv9lst1ZCZX44yT5gN--41" target="XLv9lst1ZCZX44yT5gN--58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="XLv9lst1ZCZX44yT5gN--41" value="签收验货" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="645" y="763" width="120" height="60" as="geometry" />
         </mxCell>
@@ -441,6 +444,9 @@
         </mxCell>
         <mxCell id="XLv9lst1ZCZX44yT5gN--57" value="执行维修" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="1325" y="499" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XLv9lst1ZCZX44yT5gN--58" value="使用设备" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="833" y="499" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
