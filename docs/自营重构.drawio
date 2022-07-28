@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-28T09:20:22.259Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="_XpjE0Bos1_vCyIwbBgr" version="20.2.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-07-28T09:20:39.769Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="7yLE5oN4SgTZSRJDFY13" version="20.2.0" type="github" pages="6">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="1929" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -828,6 +828,15 @@
         </mxCell>
         <mxCell id="jJlpfpnZFYaC-njEa_h--7" value="查看需求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="711" y="564" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jJlpfpnZFYaC-njEa_h--8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.997;exitY=0.598;exitDx=0;exitDy=0;entryX=0.001;entryY=0.717;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000000;exitPerimeter=0;" edge="1" parent="1" source="NLjqcTlFzxIjc3dnsf3A-1" target="NLjqcTlFzxIjc3dnsf3A-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="697" y="601.5" as="sourcePoint" />
+            <mxPoint x="806.45" y="600.9780000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jJlpfpnZFYaC-njEa_h--9" value="取消需求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="711" y="594" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
