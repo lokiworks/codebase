@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-28T09:06:37.125Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="SC7_CIAFTF7-dCDxMOVN" version="20.2.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-07-28T09:08:13.283Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="h8dRBiycPD0USCkFPRNQ" version="20.2.0" type="github" pages="6">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="1929" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -590,7 +590,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QVLFB3NNpxiu7ZS30vlp" name="订单">
-    <mxGraphModel dx="319" dy="168" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="787" dy="415" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -650,8 +650,19 @@
         <mxCell id="NLjqcTlFzxIjc3dnsf3A-21" value="取消" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="959" y="589" width="106" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="GYlXNxz6Wpd_xkwb3arg-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NLjqcTlFzxIjc3dnsf3A-22" target="NLjqcTlFzxIjc3dnsf3A-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="634" y="365" />
+              <mxPoint x="868" y="365" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="NLjqcTlFzxIjc3dnsf3A-22" value="换机申请单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="581" y="156" width="106" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GYlXNxz6Wpd_xkwb3arg-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NLjqcTlFzxIjc3dnsf3A-24" target="NLjqcTlFzxIjc3dnsf3A-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NLjqcTlFzxIjc3dnsf3A-24" value="改价申请单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="740" y="156" width="106" height="50" as="geometry" />
@@ -736,6 +747,12 @@
         </mxCell>
         <mxCell id="GYlXNxz6Wpd_xkwb3arg-4" value="计算金额" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="747" y="671" width="23" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="GYlXNxz6Wpd_xkwb3arg-6" value="申请通过，修改订单需求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="647" y="331" width="164" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GYlXNxz6Wpd_xkwb3arg-8" value="申请通过，修改订单需求成交价格" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="797" y="299" width="184" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
