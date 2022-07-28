@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-28T09:11:49.384Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="OnhCPDp86B56HQV0KeoZ" version="20.2.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-07-28T09:13:58.289Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="RGaP4lUH2c3vuokymrZl" version="20.2.0" type="github" pages="6">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="1929" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -590,11 +590,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QVLFB3NNpxiu7ZS30vlp" name="订单">
-    <mxGraphModel dx="1695" dy="894" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="958" dy="505" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="GYlXNxz6Wpd_xkwb3arg-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.943;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="NLjqcTlFzxIjc3dnsf3A-1" target="NLjqcTlFzxIjc3dnsf3A-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GYlXNxz6Wpd_xkwb3arg-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NLjqcTlFzxIjc3dnsf3A-1" target="NLjqcTlFzxIjc3dnsf3A-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NLjqcTlFzxIjc3dnsf3A-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
@@ -672,6 +675,9 @@
         </mxCell>
         <mxCell id="NLjqcTlFzxIjc3dnsf3A-26" value="共享订单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="425.5" y="664" width="106" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GYlXNxz6Wpd_xkwb3arg-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#0000FF;" edge="1" parent="1" source="NLjqcTlFzxIjc3dnsf3A-28" target="NLjqcTlFzxIjc3dnsf3A-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NLjqcTlFzxIjc3dnsf3A-28" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="397" y="923" width="290" height="222" as="geometry" />
@@ -771,6 +777,9 @@
         </mxCell>
         <mxCell id="GYlXNxz6Wpd_xkwb3arg-14" value="追加协议" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="737" y="1176" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GYlXNxz6Wpd_xkwb3arg-17" value="触发状态变更" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="442" y="787" width="23" height="77" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
