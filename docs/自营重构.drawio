@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-29T09:27:21.038Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="AhdxfFfdPjnJhpO_Fm_C" version="20.2.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-07-29T09:28:35.730Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="hooR750rhxA6uoVAuRet" version="20.2.0" type="github" pages="7">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="1929" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -920,7 +920,7 @@
         <mxCell id="v2XcRoDiEtN8UoDJZTdt-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.081;entryY=-0.029;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;strokeColor=#000000;" edge="1" parent="1" source="v2XcRoDiEtN8UoDJZTdt-28" target="v2XcRoDiEtN8UoDJZTdt-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="v2XcRoDiEtN8UoDJZTdt-28" value="指导价分层的维度：销售/电销-&amp;gt;大区-&amp;gt;门店" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="v2XcRoDiEtN8UoDJZTdt-28" value="指导价分层的维度：销售/电销/大客户-&amp;gt;大区-&amp;gt;门店" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="104" y="219" width="128" height="30" as="geometry" />
         </mxCell>
       </root>
