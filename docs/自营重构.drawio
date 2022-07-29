@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-29T09:03:43.327Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="hS0jqO3Z-5nzWTRRabUe" version="20.2.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-07-29T09:08:04.443Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="dtJnlTMwk7UnDlwf67zO" version="20.2.0" type="github" pages="7">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="1929" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -863,6 +863,21 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="v2XcRoDiEtN8UoDJZTdt-1" value="指导价" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="303" y="301" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v2XcRoDiEtN8UoDJZTdt-4" value="公司财务提供指导价" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="129" y="313" width="149" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v2XcRoDiEtN8UoDJZTdt-5" value="对外呈现价" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="303" y="145" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v2XcRoDiEtN8UoDJZTdt-7" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="363" y="285" as="sourcePoint" />
+            <mxPoint x="362.5" y="221" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
