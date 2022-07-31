@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-31T08:19:45.850Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="I2fgcW0w9XBIG6geR1YH" version="18.1.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-07-31T08:21:53.797Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="IyCSTnMYMlwuUsX_46vk" version="18.1.1" type="github" pages="8">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="1773" dy="534" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -927,7 +927,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="l7UrDdIEYwFU8JpB0W32" name="CRM">
-    <mxGraphModel dx="1797" dy="2103" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1530" dy="1965" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1199,7 +1199,7 @@
         <mxCell id="KApxMqRfytAXsANfjnHy-85" value="产品报价库" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#56517e;strokeWidth=1;fillColor=#d0cee2;" vertex="1" parent="1">
           <mxGeometry x="1368" y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KApxMqRfytAXsANfjnHy-86" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;startSize=1;endSize=4;strokeWidth=1;" edge="1" parent="1">
+        <mxCell id="KApxMqRfytAXsANfjnHy-86" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;startSize=1;endSize=4;strokeWidth=1;fillColor=#bac8d3;strokeColor=#23445d;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1326" y="297.12" as="sourcePoint" />
             <mxPoint x="1230" y="297.12" as="targetPoint" />
@@ -1208,23 +1208,29 @@
         <mxCell id="KApxMqRfytAXsANfjnHy-89" value="支撑" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1252" y="250" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KApxMqRfytAXsANfjnHy-90" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="KApxMqRfytAXsANfjnHy-90" value="订单中心" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1328" y="579.5" width="209" height="144" as="geometry" />
         </mxCell>
-        <mxCell id="KApxMqRfytAXsANfjnHy-91" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;startSize=1;endSize=4;strokeWidth=1;" edge="1" parent="1">
+        <mxCell id="KApxMqRfytAXsANfjnHy-91" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;startSize=1;endSize=4;strokeWidth=1;fillColor=#bac8d3;strokeColor=#23445d;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1427.52" y="444" as="sourcePoint" />
-            <mxPoint x="1427.52" y="544.9999999999999" as="targetPoint" />
+            <mxPoint x="1427.7" y="411" as="sourcePoint" />
+            <mxPoint x="1427.7" y="571" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KApxMqRfytAXsANfjnHy-92" value="支撑" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1439" y="480.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="1435" y="481.75" width="36" height="27.5" as="geometry" />
         </mxCell>
-        <mxCell id="KApxMqRfytAXsANfjnHy-93" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;startSize=1;endSize=4;strokeWidth=1;" edge="1" parent="1">
+        <mxCell id="KApxMqRfytAXsANfjnHy-93" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;startSize=1;endSize=4;strokeWidth=1;fillColor=#bac8d3;strokeColor=#23445d;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1217.5" y="661" as="sourcePoint" />
-            <mxPoint x="1333.5" y="660.9999999999999" as="targetPoint" />
+            <mxPoint x="1227" y="658.5" as="sourcePoint" />
+            <mxPoint x="1324.5" y="658.5" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="KApxMqRfytAXsANfjnHy-95" value="促单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="631" width="60" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="KApxMqRfytAXsANfjnHy-96" value="商品中心" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1394" y="192" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
