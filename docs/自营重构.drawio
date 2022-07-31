@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-31T08:09:55.934Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="PoXUzQjeN26BSFCMhFHZ" version="18.1.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-07-31T08:12:55.618Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="dgjfUKJF8khKcuFjQ3pb" version="18.1.1" type="github" pages="8">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="1773" dy="534" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -927,7 +927,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="l7UrDdIEYwFU8JpB0W32" name="CRM">
-    <mxGraphModel dx="1291" dy="1840" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="826" dy="1599" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1172,8 +1172,8 @@
         <mxCell id="KApxMqRfytAXsANfjnHy-77" value="工程/项目" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="391.5" y="868" width="60" height="14" as="geometry" />
         </mxCell>
-        <mxCell id="KApxMqRfytAXsANfjnHy-78" value="客户档案" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="756" y="118" width="60" height="30" as="geometry" />
+        <mxCell id="KApxMqRfytAXsANfjnHy-78" value="过程中不断完善信息，形成客户/工程档案" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="536" y="459" width="116" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KApxMqRfytAXsANfjnHy-79" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="663" y="192.5" width="478" height="534" as="geometry" />
@@ -1184,11 +1184,14 @@
             <mxPoint x="645" y="431" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KApxMqRfytAXsANfjnHy-81" value="跟进" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="563" y="384" width="60" height="30" as="geometry" />
+        <mxCell id="KApxMqRfytAXsANfjnHy-81" value="跟进，寻求产品销售的机会" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="554" y="388" width="88" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KApxMqRfytAXsANfjnHy-82" value="机会" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="862" y="162" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KApxMqRfytAXsANfjnHy-83" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1205" y="297" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
