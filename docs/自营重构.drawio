@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-31T02:57:30.369Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="iudUjJfwZDemMDlWpjuw" version="18.1.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-07-31T02:59:09.043Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="V6X_CVL7YZDMpiFkuYV-" version="18.1.1" type="github" pages="8">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="1773" dy="534" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -927,15 +927,15 @@
     </mxGraphModel>
   </diagram>
   <diagram id="l7UrDdIEYwFU8JpB0W32" name="CRM">
-    <mxGraphModel dx="195" dy="107" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="480" dy="263" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="KApxMqRfytAXsANfjnHy-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="118" y="239" width="328" height="126" as="geometry" />
+        <mxCell id="KApxMqRfytAXsANfjnHy-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="118" y="256" width="384" height="109" as="geometry" />
         </mxCell>
         <mxCell id="KApxMqRfytAXsANfjnHy-2" value="线索" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="230" y="241" width="48" height="14" as="geometry" />
+          <mxGeometry x="60" y="303.5" width="48" height="14" as="geometry" />
         </mxCell>
         <mxCell id="KApxMqRfytAXsANfjnHy-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;endSize=1;startSize=1;" edge="1" parent="1" source="KApxMqRfytAXsANfjnHy-3" target="KApxMqRfytAXsANfjnHy-4">
           <mxGeometry relative="1" as="geometry" />
@@ -995,8 +995,14 @@
         <mxCell id="KApxMqRfytAXsANfjnHy-9" value="覆盖" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="288" y="335" width="46" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="KApxMqRfytAXsANfjnHy-12" value="添加" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="KApxMqRfytAXsANfjnHy-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;startSize=1;endSize=1;strokeWidth=1;" edge="1" parent="1" source="KApxMqRfytAXsANfjnHy-12" target="KApxMqRfytAXsANfjnHy-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KApxMqRfytAXsANfjnHy-12" value="清洗" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="367" y="269" width="46" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="KApxMqRfytAXsANfjnHy-16" value="分级" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="443" y="269" width="46" height="23" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
