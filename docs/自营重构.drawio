@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-01T04:17:24.931Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="zBPihLQDDx5mHg_ye_w-" version="20.2.2" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-08-01T04:18:01.769Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="gqlGLFhb9d7xtPbBEXE0" version="20.2.2" type="github" pages="9">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="1929" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1239,7 +1239,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="K5Nw-HUtTF5Lqa57CMol" name="边界划分">
-    <mxGraphModel dx="1053" dy="537" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="948" dy="483" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1556,11 +1556,23 @@
             <mxPoint x="1572" y="628.5000305175781" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="HDSTpYrXVwrwUh8mE9lO-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HDSTpYrXVwrwUh8mE9lO-11" target="HDSTpYrXVwrwUh8mE9lO-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1559" y="457" />
+              <mxPoint x="1559" y="658" />
+              <mxPoint x="1455" y="658" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="HDSTpYrXVwrwUh8mE9lO-11" value="查看提奖" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1557" y="397.5" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HDSTpYrXVwrwUh8mE9lO-13" value="获取营收数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="1471" y="513" width="11" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="HDSTpYrXVwrwUh8mE9lO-18" value="查看提奖" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1541" y="533.5" width="16" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
