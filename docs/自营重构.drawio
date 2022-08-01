@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-01T07:43:26.041Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="kHwaLCoD3FDn8YTOGXfj" version="20.2.2" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-08-01T07:51:59.873Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="kTgPZQd4IAiuevkEXTZN" version="20.2.2" type="github" pages="10">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2249" dy="725" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1239,7 +1239,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="K5Nw-HUtTF5Lqa57CMol" name="边界划分">
-    <mxGraphModel dx="677" dy="345" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="725" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1273,7 +1273,7 @@
           <mxGeometry x="612" y="86" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="z7M_x81UfYKcsFF79q4v-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="339" y="722" width="248" height="150" as="geometry" />
+          <mxGeometry x="404" y="722" width="118" height="150" as="geometry" />
         </mxCell>
         <mxCell id="z7M_x81UfYKcsFF79q4v-6" value="商品中心" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="436" y="734" width="60" height="30" as="geometry" />
@@ -1353,10 +1353,7 @@
           <mxGeometry x="678.5" y="771" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="z7M_x81UfYKcsFF79q4v-47" value="商品资料库" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="349" y="771" width="90" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="z7M_x81UfYKcsFF79q4v-48" value="商品报价库" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="480" y="771" width="90" height="60" as="geometry" />
+          <mxGeometry x="418" y="771" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="z7M_x81UfYKcsFF79q4v-49" value="业财" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="991" y="722" width="60" height="30" as="geometry" />
@@ -1582,14 +1579,14 @@
         <mxCell id="HDSTpYrXVwrwUh8mE9lO-21" value="生成对账单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="902" y="529" width="19" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="jMnqs46c6KcObB4nUjKJ-1" value="应收" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jMnqs46c6KcObB4nUjKJ-1" value="应收" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="801" y="854" width="90" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="UFDvr2f9lcg-JCZCyayr" name="单据">
-    <mxGraphModel dx="1580" dy="806" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1354" dy="690" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1677,7 +1674,7 @@
           <mxGeometry x="2376" y="240" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1gj95MiQ0nfmirQlWk2r-32" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#f9f7ed;" vertex="1" parent="1">
-          <mxGeometry x="838" y="477" width="1631" height="312" as="geometry" />
+          <mxGeometry x="838" y="477" width="1631" height="272" as="geometry" />
         </mxCell>
         <mxCell id="1gj95MiQ0nfmirQlWk2r-33" value="订单状态图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1630" y="112" width="125" height="30" as="geometry" />
@@ -1686,7 +1683,7 @@
           <mxGeometry x="1654" y="497" width="88" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1gj95MiQ0nfmirQlWk2r-35" value="待xxx分派" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;" vertex="1" parent="1">
-          <mxGeometry x="1023" y="577" width="120" height="80" as="geometry" />
+          <mxGeometry x="1023" y="569" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1gj95MiQ0nfmirQlWk2r-36" value="订单分派工单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="711" y="611" width="104" height="30" as="geometry" />
@@ -1696,6 +1693,12 @@
         </mxCell>
         <mxCell id="1gj95MiQ0nfmirQlWk2r-38" value="已分派" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;" vertex="1" parent="1">
           <mxGeometry x="1575" y="579" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1gj95MiQ0nfmirQlWk2r-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="1gj95MiQ0nfmirQlWk2r-39" target="1gj95MiQ0nfmirQlWk2r-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1gj95MiQ0nfmirQlWk2r-39" value="开始" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="1">
+          <mxGeometry x="877" y="584" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
