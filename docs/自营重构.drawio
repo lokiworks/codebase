@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-01T04:23:20.493Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="xhQRss1yV1-aeeCD_4X5" version="20.2.2" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-08-01T04:25:36.651Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="iQdEXZqpI0ENU_2z1LQH" version="20.2.2" type="github" pages="9">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="1929" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1239,7 +1239,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="K5Nw-HUtTF5Lqa57CMol" name="边界划分">
-    <mxGraphModel dx="2585" dy="1318" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1497" dy="763" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1250,7 +1250,7 @@
           <mxGeometry x="608" y="386" width="255" height="83" as="geometry" />
         </mxCell>
         <mxCell id="z7M_x81UfYKcsFF79q4v-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="331" y="670" width="1494" height="329" as="geometry" />
+          <mxGeometry x="331" y="670" width="1494" height="276" as="geometry" />
         </mxCell>
         <mxCell id="z7M_x81UfYKcsFF79q4v-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="331" y="23" width="1573" height="177" as="geometry" />
@@ -1344,7 +1344,7 @@
           <mxGeometry x="635.5" y="189" width="43" height="71" as="geometry" />
         </mxCell>
         <mxCell id="z7M_x81UfYKcsFF79q4v-42" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="656" y="722" width="858" height="245" as="geometry" />
+          <mxGeometry x="656" y="722" width="858" height="209" as="geometry" />
         </mxCell>
         <mxCell id="z7M_x81UfYKcsFF79q4v-44" value="集团能力" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2217" y="926" width="91" height="30" as="geometry" />
@@ -1391,7 +1391,7 @@
           <mxGeometry x="382" y="518" width="19" height="67" as="geometry" />
         </mxCell>
         <mxCell id="z7M_x81UfYKcsFF79q4v-58" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="1529" y="722" width="272" height="150" as="geometry" />
+          <mxGeometry x="1529" y="722" width="211" height="150" as="geometry" />
         </mxCell>
         <mxCell id="z7M_x81UfYKcsFF79q4v-59" value="账款" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1040" y="771" width="90" height="60" as="geometry" />
@@ -1511,10 +1511,10 @@
           <mxGeometry x="1229" y="516.5" width="19" height="77" as="geometry" />
         </mxCell>
         <mxCell id="HDSTpYrXVwrwUh8mE9lO-1" value="核销" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="801" y="875" width="90" height="60" as="geometry" />
+          <mxGeometry x="676" y="854" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HDSTpYrXVwrwUh8mE9lO-2" value="凭证" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="921" y="875" width="90" height="60" as="geometry" />
+          <mxGeometry x="801" y="854" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HDSTpYrXVwrwUh8mE9lO-3" value="开票" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1169" y="771" width="90" height="60" as="geometry" />
