@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-01T02:01:08.355Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="YW1ZMOazxcBezs8fS8pV" version="20.2.2" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-08-01T02:01:50.307Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="qJjUqaa6m1Ab9qqFtaNz" version="20.2.2" type="github" pages="9">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="1929" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1266,6 +1266,12 @@
         </mxCell>
         <mxCell id="z7M_x81UfYKcsFF79q4v-8" value="商品报价库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="355" y="721" width="129" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="z7M_x81UfYKcsFF79q4v-9" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="319.91" y="658" as="sourcePoint" />
+            <mxPoint x="319.91" y="524" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
