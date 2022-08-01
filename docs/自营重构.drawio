@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-01T12:51:45.562Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="QLB0YA2i0zjiK3FQoJSf" version="20.2.2" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2022-08-01T12:53:16.877Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="tJUuvoyAQTFtBupo7L1m" version="20.2.2" type="github" pages="13">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2249" dy="725" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1887,7 +1887,7 @@
           <mxGeometry x="86" y="225.5" width="60" height="23" as="geometry" />
         </mxCell>
         <mxCell id="h-2lRny6i848Qz-Qgfm5-20" value="订单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="222.5" width="69" height="29" as="geometry" />
+          <mxGeometry x="210" y="225.5" width="69" height="29" as="geometry" />
         </mxCell>
         <mxCell id="h-2lRny6i848Qz-Qgfm5-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="149" y="76" width="559" height="76" as="geometry" />
@@ -1896,22 +1896,28 @@
           <mxGeometry x="89" y="101" width="60" height="23" as="geometry" />
         </mxCell>
         <mxCell id="h-2lRny6i848Qz-Qgfm5-23" value="合同" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="265" y="222.5" width="69" height="29" as="geometry" />
+          <mxGeometry x="295" y="225.5" width="69" height="29" as="geometry" />
         </mxCell>
         <mxCell id="h-2lRny6i848Qz-Qgfm5-24" value="交付" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="222.5" width="69" height="29" as="geometry" />
+          <mxGeometry x="380" y="225.5" width="69" height="29" as="geometry" />
         </mxCell>
         <mxCell id="h-2lRny6i848Qz-Qgfm5-25" value="服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="434" y="222.5" width="69" height="29" as="geometry" />
+          <mxGeometry x="464" y="225.5" width="69" height="29" as="geometry" />
         </mxCell>
         <mxCell id="h-2lRny6i848Qz-Qgfm5-26" value="资产" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="516" y="222.5" width="69" height="29" as="geometry" />
+          <mxGeometry x="546" y="225.5" width="69" height="29" as="geometry" />
         </mxCell>
         <mxCell id="h-2lRny6i848Qz-Qgfm5-27" value="结算" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="598" y="222.5" width="69" height="29" as="geometry" />
+          <mxGeometry x="628" y="225.5" width="69" height="29" as="geometry" />
         </mxCell>
         <mxCell id="h-2lRny6i848Qz-Qgfm5-28" value="业财" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="598" y="352" width="69" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="h-2lRny6i848Qz-Qgfm5-29" value="CRM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="99.5" width="69" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="h-2lRny6i848Qz-Qgfm5-30" value="客端APP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="464" y="101" width="69" height="29" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
