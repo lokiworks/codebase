@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-01T03:59:52.945Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="S8V91FRAyxExhUkfNpJb" version="20.2.2" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-08-01T04:00:54.467Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="rM-obi0njSPHZWDV5f99" version="20.2.2" type="github" pages="9">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="1929" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1239,7 +1239,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="K5Nw-HUtTF5Lqa57CMol" name="边界划分">
-    <mxGraphModel dx="1102" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="630" dy="332" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1493,11 +1493,20 @@
         <mxCell id="z7M_x81UfYKcsFF79q4v-86" value="履约" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="564" y="402" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="z7M_x81UfYKcsFF79q4v-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="z7M_x81UfYKcsFF79q4v-88" target="z7M_x81UfYKcsFF79q4v-59">
+        <mxCell id="z7M_x81UfYKcsFF79q4v-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="z7M_x81UfYKcsFF79q4v-88" target="z7M_x81UfYKcsFF79q4v-59">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="z7M_x81UfYKcsFF79q4v-88" value="发起退款" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1097" y="398" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z7M_x81UfYKcsFF79q4v-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="z7M_x81UfYKcsFF79q4v-91">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1123" y="771" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1251" y="615" />
+              <mxPoint x="1123" y="615" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="z7M_x81UfYKcsFF79q4v-91" value="发起调整" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1206" y="398" width="90" height="60" as="geometry" />
@@ -1506,7 +1515,7 @@
           <mxGeometry x="1008" y="516.5" width="19" height="77" as="geometry" />
         </mxCell>
         <mxCell id="z7M_x81UfYKcsFF79q4v-93" value="创建退款单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="516.5" width="19" height="77" as="geometry" />
+          <mxGeometry x="1093" y="518" width="19" height="77" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
