@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-01T08:47:49.894Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Kt58jIiVWCoS77vqSP-4" version="20.2.2" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-08-01T08:48:37.898Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="xpvUZc4eIHU_4c7EIpoD" version="20.2.2" type="github" pages="12">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2249" dy="725" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1242,7 +1242,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="K5Nw-HUtTF5Lqa57CMol" name="边界划分">
-    <mxGraphModel dx="1444" dy="767" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1191" dy="633" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1312,7 +1312,7 @@
           <mxGeometry x="1291.5" y="87" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="z7M_x81UfYKcsFF79q4v-27" value="销售看板" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1398" y="87" width="90" height="60" as="geometry" />
+          <mxGeometry x="1417" y="86" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="z7M_x81UfYKcsFF79q4v-28" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1586,13 +1586,16 @@
           <mxGeometry x="801" y="854" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fkk-ymvm2xfZV_VFnQEF-1" value="客户" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="87" width="90" height="60" as="geometry" />
+          <mxGeometry x="808" y="87" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fkk-ymvm2xfZV_VFnQEF-2" value="公私海" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1079" y="87" width="90" height="60" as="geometry" />
+          <mxGeometry x="1085" y="86" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fkk-ymvm2xfZV_VFnQEF-3" value="工程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="945" y="87" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fkk-ymvm2xfZV_VFnQEF-4" value="......" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1033" y="102" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
