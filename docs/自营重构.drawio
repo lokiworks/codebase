@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-01T07:58:43.117Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="wOO7bdH8DJpfBby7W3rC" version="20.2.2" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2022-08-01T07:59:26.843Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="N70PxMohcxAgDC4g7BIO" version="20.2.2" type="github" pages="10">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2249" dy="725" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1674,13 +1674,13 @@
           <mxGeometry x="2376" y="240" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1gj95MiQ0nfmirQlWk2r-32" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
-          <mxGeometry x="840" y="595" width="1631" height="291" as="geometry" />
+          <mxGeometry x="840" y="595" width="1072" height="291" as="geometry" />
         </mxCell>
         <mxCell id="1gj95MiQ0nfmirQlWk2r-33" value="订单状态图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1630" y="112" width="125" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1gj95MiQ0nfmirQlWk2r-34" value="工单状态图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1656" y="615" width="88" height="30" as="geometry" />
+          <mxGeometry x="1314" y="603" width="88" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1gj95MiQ0nfmirQlWk2r-35" value="待xxx分派" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;taskMarker=abstract;" vertex="1" parent="1">
           <mxGeometry x="1025" y="687" width="120" height="80" as="geometry" />
@@ -1707,6 +1707,9 @@
               <mxPoint x="904" y="561" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ndNL37Yrm66ZOz_tMynV-3" value="结束" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="1">
+          <mxGeometry x="1794" y="712" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
