@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-01T03:49:32.093Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="rTZ2Ce6t-iOj2FFztq7r" version="20.2.2" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-08-01T03:51:02.914Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="igZvl9ppFaMxEniD3Ww0" version="20.2.2" type="github" pages="9">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="1929" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1239,7 +1239,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="K5Nw-HUtTF5Lqa57CMol" name="边界划分">
-    <mxGraphModel dx="569" dy="290" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="212" dy="112" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1448,19 +1448,7 @@
           <mxGeometry x="1615" y="726" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="z7M_x81UfYKcsFF79q4v-74" value="发起审批" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1302" y="516.5" width="19" height="77" as="geometry" />
-        </mxCell>
-        <mxCell id="z7M_x81UfYKcsFF79q4v-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="z7M_x81UfYKcsFF79q4v-64">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1295" y="497" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="1294" y="497" />
-              <mxPoint x="1294" y="499" />
-              <mxPoint x="1293" y="499" />
-              <mxPoint x="1293" y="619" />
-              <mxPoint x="1720" y="619" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry x="1271" y="516.5" width="19" height="77" as="geometry" />
         </mxCell>
         <mxCell id="z7M_x81UfYKcsFF79q4v-78" value="开始计费" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="627" y="516.5" width="12" height="77" as="geometry" />
@@ -1479,6 +1467,16 @@
         </mxCell>
         <mxCell id="z7M_x81UfYKcsFF79q4v-82" value="结束履约" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="756" y="521.5" width="19" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="z7M_x81UfYKcsFF79q4v-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="z7M_x81UfYKcsFF79q4v-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1295" y="499" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1295" y="499" />
+              <mxPoint x="1295" y="621" />
+              <mxPoint x="1720" y="621" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
