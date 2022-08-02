@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-02T11:57:55.889Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Pdw8IdLElhJ3WqlgeKEV" version="20.2.2" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2022-08-02T11:59:07.426Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="xigpmIjTUTgcdpZwSzCv" version="20.2.2" type="github" pages="15">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2324" dy="763" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2318,6 +2318,20 @@
         </mxCell>
         <mxCell id="dJen0RUn2spvTeEfGuH1-37" value="业务能力下沉" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=48;" vertex="1" parent="1">
           <mxGeometry x="2275" y="1074" width="60" height="441" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="业务终态" id="gd6GY7oUo6zqNeSV4qKJ">
+    <mxGraphModel dx="2687" dy="229" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="VS2Dlc_MiTfa4evLS2Qp-0" />
+        <mxCell id="VS2Dlc_MiTfa4evLS2Qp-1" parent="VS2Dlc_MiTfa4evLS2Qp-0" />
+        <mxCell id="VS2Dlc_MiTfa4evLS2Qp-97" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="VS2Dlc_MiTfa4evLS2Qp-1">
+          <mxGeometry x="350.86" y="1475" width="1840" height="557" as="geometry" />
+        </mxCell>
+        <mxCell id="VS2Dlc_MiTfa4evLS2Qp-98" value="共享能力" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#9673a6;fillColor=#e1d5e7;fontSize=48;" vertex="1" parent="VS2Dlc_MiTfa4evLS2Qp-1">
+          <mxGeometry x="1068.86" y="1438" width="217" height="68" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
