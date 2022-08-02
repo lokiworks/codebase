@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-02T06:36:20.330Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="_ANd2HtzVIfkFL5wJfHu" version="20.2.2" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2022-08-02T06:41:45.853Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Qqw2gRD02oS5sUYEa1Bc" version="20.2.2" type="github" pages="14">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2324" dy="763" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1962,7 +1962,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qBYXlcrHScSw7kJR34P8" name="业务流梳理">
-    <mxGraphModel dx="1134" dy="602" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1643" dy="872" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2030,8 +2030,11 @@
         <mxCell id="qW-X_OPNi8AMIsQoVP0K-36" value="1、流量包含了客户、工程信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="939" y="5" width="174" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qW-X_OPNi8AMIsQoVP0K-37" value="2、流量的获取主要通过内部自营+平台引流" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="942" y="25" width="240" height="30" as="geometry" />
+        <mxCell id="qW-X_OPNi8AMIsQoVP0K-37" value="2、流量的获取包含自营+平台BD自主提报、商户提报、SEM等" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="924" y="28" width="374" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qW-X_OPNi8AMIsQoVP0K-39" value="引流" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="557" y="141" width="33" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
