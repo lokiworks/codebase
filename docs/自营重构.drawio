@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-02T13:46:13.668Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="YkfsfFKkwcOOGVFgA4dX" version="20.2.2" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2022-08-02T13:46:36.726Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="lVr-9MP5YsvD6lBoqnr6" version="20.2.2" type="github" pages="14">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2324" dy="763" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1962,7 +1962,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qBYXlcrHScSw7kJR34P8" name="业务流梳理">
-    <mxGraphModel dx="834" dy="434" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="691" dy="359" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2175,9 +2175,6 @@
         <mxCell id="qW-X_OPNi8AMIsQoVP0K-111" value="交易链路" style="text;html=1;strokeColor=#001DBC;fillColor=#0050ef;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1160.86" y="603" width="60" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="qW-X_OPNi8AMIsQoVP0K-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="qW-X_OPNi8AMIsQoVP0K-114" target="qW-X_OPNi8AMIsQoVP0K-106">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="qW-X_OPNi8AMIsQoVP0K-114" value="下单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1094.86" y="633" width="52" height="25" as="geometry" />
         </mxCell>
@@ -2188,7 +2185,7 @@
           <mxGeometry x="1325.86" y="713" width="52" height="25" as="geometry" />
         </mxCell>
         <mxCell id="qW-X_OPNi8AMIsQoVP0K-95" value="物流运输" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#005700;fillColor=#008a00;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1313.86" y="672" width="120" height="26" as="geometry" />
+          <mxGeometry x="1311.86" y="672" width="120" height="26" as="geometry" />
         </mxCell>
         <mxCell id="qW-X_OPNi8AMIsQoVP0K-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="qW-X_OPNi8AMIsQoVP0K-119" target="qW-X_OPNi8AMIsQoVP0K-121">
           <mxGeometry relative="1" as="geometry" />
