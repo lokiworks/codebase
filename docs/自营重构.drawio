@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-02T13:19:13.047Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="RPSW6mMZlQgFlfgiI_F0" version="20.2.2" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-08-02T13:19:36.277Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="yi7oz3OzimwixpY2z399" version="20.2.2" type="github" pages="14">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2324" dy="763" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1962,7 +1962,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qBYXlcrHScSw7kJR34P8" name="业务流梳理">
-    <mxGraphModel dx="2015" dy="1048" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3023" dy="1573" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2324,29 +2324,6 @@
         </mxCell>
         <mxCell id="dJen0RUn2spvTeEfGuH1-37" value="业务能力下沉" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=48;" vertex="1" parent="1">
           <mxGeometry x="2275" y="1074" width="60" height="441" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram name="业务终态" id="gd6GY7oUo6zqNeSV4qKJ">
-    <mxGraphModel dx="2687" dy="229" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="VS2Dlc_MiTfa4evLS2Qp-0" />
-        <mxCell id="VS2Dlc_MiTfa4evLS2Qp-1" parent="VS2Dlc_MiTfa4evLS2Qp-0" />
-        <mxCell id="VS2Dlc_MiTfa4evLS2Qp-97" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="VS2Dlc_MiTfa4evLS2Qp-1">
-          <mxGeometry x="446" y="1617" width="1840" height="557" as="geometry" />
-        </mxCell>
-        <mxCell id="VS2Dlc_MiTfa4evLS2Qp-98" value="租赁业务开放能力" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#9673a6;fillColor=#e1d5e7;fontSize=48;" vertex="1" parent="VS2Dlc_MiTfa4evLS2Qp-1">
-          <mxGeometry x="1113.1399999999999" y="1584" width="399.14" height="68" as="geometry" />
-        </mxCell>
-        <mxCell id="kPyUYJHwFl3h7puqEol7-0" value="交易" style="rounded=0;whiteSpace=wrap;html=1;fontSize=48;strokeColor=default;fillColor=default;" vertex="1" parent="VS2Dlc_MiTfa4evLS2Qp-1">
-          <mxGeometry x="686" y="1740" width="219" height="323" as="geometry" />
-        </mxCell>
-        <mxCell id="kPyUYJHwFl3h7puqEol7-1" value="履约" style="rounded=0;whiteSpace=wrap;html=1;fontSize=48;strokeColor=default;fillColor=default;" vertex="1" parent="VS2Dlc_MiTfa4evLS2Qp-1">
-          <mxGeometry x="1000" y="1734" width="219" height="323" as="geometry" />
-        </mxCell>
-        <mxCell id="kPyUYJHwFl3h7puqEol7-2" value="流量运营" style="rounded=0;whiteSpace=wrap;html=1;fontSize=48;strokeColor=default;fillColor=default;" vertex="1" parent="VS2Dlc_MiTfa4evLS2Qp-1">
-          <mxGeometry x="457" y="1738" width="219" height="323" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
