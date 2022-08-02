@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-02T08:25:21.863Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="jZ5NroJ9uTWyCJbKBarB" version="20.2.2" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2022-08-02T08:26:49.233Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="EB-YmQxpWmx-Zkyx56uz" version="20.2.2" type="github" pages="14">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2324" dy="763" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1962,7 +1962,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qBYXlcrHScSw7kJR34P8" name="业务流梳理">
-    <mxGraphModel dx="1718" dy="923" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2062" dy="1108" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1973,10 +1973,10 @@
           <mxGeometry x="726" y="455" width="1137" height="176" as="geometry" />
         </mxCell>
         <mxCell id="qW-X_OPNi8AMIsQoVP0K-103" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=none;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="763" y="559" width="753" height="60" as="geometry" />
+          <mxGeometry x="763" y="559" width="1083" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qW-X_OPNi8AMIsQoVP0K-102" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=none;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="763" y="487" width="753" height="60" as="geometry" />
+          <mxGeometry x="763" y="487" width="1084" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qW-X_OPNi8AMIsQoVP0K-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1.001;entryY=0.756;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qW-X_OPNi8AMIsQoVP0K-1" target="qW-X_OPNi8AMIsQoVP0K-42">
           <mxGeometry relative="1" as="geometry">
@@ -2117,7 +2117,7 @@
           <mxGeometry x="1769" y="368" width="42" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qW-X_OPNi8AMIsQoVP0K-100" value="结算" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#005700;fillColor=#008a00;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1466" y="537" width="120" height="26" as="geometry" />
+          <mxGeometry x="1684" y="537" width="120" height="26" as="geometry" />
         </mxCell>
         <mxCell id="qW-X_OPNi8AMIsQoVP0K-101" value="租赁业务流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1109" y="457" width="80" height="30" as="geometry" />
@@ -2126,22 +2126,22 @@
           <mxGeometry x="778" y="537" width="120" height="26" as="geometry" />
         </mxCell>
         <mxCell id="qW-X_OPNi8AMIsQoVP0K-94" value="签约支付" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#005700;fillColor=#008a00;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="893" y="537" width="120" height="26" as="geometry" />
+          <mxGeometry x="905" y="538" width="120" height="26" as="geometry" />
         </mxCell>
         <mxCell id="qW-X_OPNi8AMIsQoVP0K-95" value="物流运输" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#005700;fillColor=#008a00;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="989" y="537" width="120" height="26" as="geometry" />
+          <mxGeometry x="1031" y="538" width="120" height="26" as="geometry" />
         </mxCell>
         <mxCell id="qW-X_OPNi8AMIsQoVP0K-96" value="设备进场" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#005700;fillColor=#008a00;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1071" y="537" width="120" height="26" as="geometry" />
+          <mxGeometry x="1158" y="538" width="120" height="26" as="geometry" />
         </mxCell>
         <mxCell id="qW-X_OPNi8AMIsQoVP0K-97" value="计费" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#005700;fillColor=#008a00;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1153" y="537" width="120" height="26" as="geometry" />
+          <mxGeometry x="1288.5" y="538" width="120" height="26" as="geometry" />
         </mxCell>
         <mxCell id="qW-X_OPNi8AMIsQoVP0K-98" value="巡检维修" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#005700;fillColor=#008a00;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1235" y="537" width="120" height="26" as="geometry" />
+          <mxGeometry x="1419" y="538" width="120" height="26" as="geometry" />
         </mxCell>
         <mxCell id="qW-X_OPNi8AMIsQoVP0K-99" value="设备退场" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#005700;fillColor=#008a00;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1352" y="537" width="120" height="26" as="geometry" />
+          <mxGeometry x="1550" y="538" width="120" height="26" as="geometry" />
         </mxCell>
         <mxCell id="qW-X_OPNi8AMIsQoVP0K-104" value="客户侧" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="733" y="502" width="24" height="30" as="geometry" />
