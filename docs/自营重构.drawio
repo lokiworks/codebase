@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-02T06:30:31.610Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="H1n5Picmc990SWdUG9F1" version="20.2.2" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2022-08-02T06:32:33.968Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="0B7-mPGOX_w2VybuoDKK" version="20.2.2" type="github" pages="14">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2324" dy="763" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1962,7 +1962,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qBYXlcrHScSw7kJR34P8" name="业务流梳理">
-    <mxGraphModel dx="1985" dy="1054" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1134" dy="602" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1979,12 +1979,17 @@
           <mxGeometry x="626" y="73.66" width="450" height="116" as="geometry" />
         </mxCell>
         <mxCell id="qW-X_OPNi8AMIsQoVP0K-8" value="流量运营" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="738" y="73.66" width="170" height="30" as="geometry" />
+          <mxGeometry x="748.5" y="73.66" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qW-X_OPNi8AMIsQoVP0K-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.546;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="qW-X_OPNi8AMIsQoVP0K-7">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="519" y="137" as="sourcePoint" />
             <mxPoint x="624" y="137" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qW-X_OPNi8AMIsQoVP0K-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qW-X_OPNi8AMIsQoVP0K-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="297" y="256.6" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qW-X_OPNi8AMIsQoVP0K-9" value="客端SaaS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
@@ -2012,6 +2017,15 @@
         </mxCell>
         <mxCell id="qW-X_OPNi8AMIsQoVP0K-29" value="订购" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="833" y="206.66" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qW-X_OPNi8AMIsQoVP0K-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.198;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qW-X_OPNi8AMIsQoVP0K-33" target="qW-X_OPNi8AMIsQoVP0K-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qW-X_OPNi8AMIsQoVP0K-33" value="流量" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="685" y="5" width="60" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="qW-X_OPNi8AMIsQoVP0K-35" value="引流" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="679" y="31" width="33" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
