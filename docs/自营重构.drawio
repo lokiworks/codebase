@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-03T01:59:47.347Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ef3bSMmRQ7dRZeMA-QMs" version="20.2.2" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2022-08-03T02:00:39.100Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="R0GK3-DxVtf2Um8Z7le4" version="20.2.2" type="github" pages="16">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2036" dy="629" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2415,23 +2415,17 @@
         <mxCell id="u_GRrWmDK1nQ95adHnSz-5" value="流量运营" style="text;html=1;strokeColor=#3700CC;fillColor=#6a00ff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="u_GRrWmDK1nQ95adHnSz-1">
           <mxGeometry x="337" y="109" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="u_GRrWmDK1nQ95adHnSz-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="u_GRrWmDK1nQ95adHnSz-1" source="u_GRrWmDK1nQ95adHnSz-7" target="u_GRrWmDK1nQ95adHnSz-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="u_GRrWmDK1nQ95adHnSz-7" value="线索" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="u_GRrWmDK1nQ95adHnSz-1">
           <mxGeometry x="191" y="166" width="98" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="u_GRrWmDK1nQ95adHnSz-9" value="商机" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="u_GRrWmDK1nQ95adHnSz-1">
-          <mxGeometry x="442" y="166" width="98" height="44" as="geometry" />
+        <mxCell id="_iRRDVb9YIYUWotZDQbC-3" value="商机" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="u_GRrWmDK1nQ95adHnSz-1">
+          <mxGeometry x="311" y="166" width="98" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="_iRRDVb9YIYUWotZDQbC-0" value="商品" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="u_GRrWmDK1nQ95adHnSz-1">
-          <mxGeometry x="642" y="122" width="98" height="44" as="geometry" />
+        <mxCell id="_iRRDVb9YIYUWotZDQbC-4" value="客户" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="u_GRrWmDK1nQ95adHnSz-1">
+          <mxGeometry x="191" y="235" width="98" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="_iRRDVb9YIYUWotZDQbC-1" value="客户" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="u_GRrWmDK1nQ95adHnSz-1">
-          <mxGeometry x="442" y="232" width="98" height="44" as="geometry" />
-        </mxCell>
-        <mxCell id="_iRRDVb9YIYUWotZDQbC-2" value="工程" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="u_GRrWmDK1nQ95adHnSz-1">
-          <mxGeometry x="442" y="283" width="98" height="44" as="geometry" />
+        <mxCell id="_iRRDVb9YIYUWotZDQbC-5" value="工程" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="u_GRrWmDK1nQ95adHnSz-1">
+          <mxGeometry x="311" y="235" width="98" height="44" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
