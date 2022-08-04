@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T23:24:53.689Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="2U-VK1lONZerBJqQEon8" version="20.2.3" type="github" pages="21">
+<mxfile host="app.diagrams.net" modified="2022-08-04T23:28:43.608Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="v_OaPNKx-ixk_tqUSqlF" version="20.2.3" type="github" pages="21">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2036" dy="629" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3245,7 +3245,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="M0RuFr-IW-PbrOogsQmv" name="Page-21">
-    <mxGraphModel dx="493" dy="257" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="930" dy="484" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3255,18 +3255,14 @@
         <mxCell id="x3HakoE8zgfY8CDnPt2W-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="x3HakoE8zgfY8CDnPt2W-1" target="x3HakoE8zgfY8CDnPt2W-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="x3HakoE8zgfY8CDnPt2W-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="x3HakoE8zgfY8CDnPt2W-1" target="x3HakoE8zgfY8CDnPt2W-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="x3HakoE8zgfY8CDnPt2W-1" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;进场需求&lt;br&gt;&lt;/font&gt;&lt;/b&gt;5台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="209" y="295" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="x3HakoE8zgfY8CDnPt2W-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="x3HakoE8zgfY8CDnPt2W-1" target="x3HakoE8zgfY8CDnPt2W-6">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="90" y="325" />
-              <mxPoint x="90" y="470" />
-              <mxPoint x="91" y="470" />
-              <mxPoint x="91" y="523" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="x3HakoE8zgfY8CDnPt2W-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="x3HakoE8zgfY8CDnPt2W-2" target="x3HakoE8zgfY8CDnPt2W-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="x3HakoE8zgfY8CDnPt2W-2" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;出库申请单&lt;br&gt;&lt;/b&gt;&lt;/font&gt;南京仓&amp;nbsp; 3台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="139" y="395" width="120" height="60" as="geometry" />
@@ -3275,7 +3271,13 @@
           <mxGeometry x="300" y="395" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="x3HakoE8zgfY8CDnPt2W-6" value="&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;物流需求&lt;br&gt;&lt;/font&gt;&lt;/b&gt;发收地&lt;br&gt;收货地" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="209" y="493" width="120" height="60" as="geometry" />
+          <mxGeometry x="468" y="295" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x3HakoE8zgfY8CDnPt2W-9" value="对应的仓收到指令" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="28" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x3HakoE8zgfY8CDnPt2W-13" value="携带出库申请单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="351" y="295" width="96" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
