@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T11:22:57.213Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="34JevhdBFBuSqsEH5wlM" version="20.2.3" type="github" pages="17">
+<mxfile host="app.diagrams.net" modified="2022-08-04T11:51:37.680Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="oEWdvb3jbtkswg8Q--HM" version="20.2.3" type="github" pages="18">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2036" dy="629" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2835,7 +2835,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="流量运营3" id="htPqvACB6Lus9ICYdRO-">
-    <mxGraphModel dx="2066" dy="1129" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1209" dy="629" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="j_i7ST2InMUG63qzlf6s-0" />
         <mxCell id="j_i7ST2InMUG63qzlf6s-1" parent="j_i7ST2InMUG63qzlf6s-0" />
@@ -2919,6 +2919,53 @@
         </mxCell>
         <mxCell id="j_i7ST2InMUG63qzlf6s-34" value="系统支撑" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="j_i7ST2InMUG63qzlf6s-1" vertex="1">
           <mxGeometry x="455" y="513" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="jI9RCW9IfHP0YWpOBdlI" name="合同">
+    <mxGraphModel dx="654" dy="340" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jtxo7J6Rc-DoUw9XnbBe-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jtxo7J6Rc-DoUw9XnbBe-1" target="jtxo7J6Rc-DoUw9XnbBe-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jtxo7J6Rc-DoUw9XnbBe-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jtxo7J6Rc-DoUw9XnbBe-1" target="jtxo7J6Rc-DoUw9XnbBe-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jtxo7J6Rc-DoUw9XnbBe-1" value="订单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="267" y="261" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jtxo7J6Rc-DoUw9XnbBe-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jtxo7J6Rc-DoUw9XnbBe-2" target="jtxo7J6Rc-DoUw9XnbBe-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jtxo7J6Rc-DoUw9XnbBe-2" value="合同" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="267" y="408" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jtxo7J6Rc-DoUw9XnbBe-4" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="328" y="321" width="36" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jtxo7J6Rc-DoUw9XnbBe-5" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="328" y="375" width="36" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jtxo7J6Rc-DoUw9XnbBe-6" value="协议" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="474" y="261" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jtxo7J6Rc-DoUw9XnbBe-8" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="387" y="261" width="36" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jtxo7J6Rc-DoUw9XnbBe-9" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="438" y="261" width="36" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jtxo7J6Rc-DoUw9XnbBe-10" value="合同主体" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="474" y="408" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jtxo7J6Rc-DoUw9XnbBe-12" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="387" y="408" width="36" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jtxo7J6Rc-DoUw9XnbBe-13" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="438" y="408" width="36" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
