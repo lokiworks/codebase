@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T23:09:05.850Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ycJnL2TKdcwN3-50DMvU" version="20.2.3" type="github" pages="20">
+<mxfile host="app.diagrams.net" modified="2022-08-04T23:10:57.262Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="i2AMF8kV5diZhKhsWAPZ" version="20.2.3" type="github" pages="20">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2036" dy="629" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3232,8 +3232,14 @@
         <mxCell id="q3UbB3QVODUNpZW4XdzY-4" value="报废" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="758" y="312" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="q3UbB3QVODUNpZW4XdzY-8" value="待修" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="q3UbB3QVODUNpZW4XdzY-8" value="维修" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="528" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q3UbB3QVODUNpZW4XdzY-10" value="保养" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="528" y="472" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q3UbB3QVODUNpZW4XdzY-11" value="整备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="278" y="140" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
