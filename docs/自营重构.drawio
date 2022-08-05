@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-05T02:47:48.112Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="M6dMdC8FU-DaXsPcXPbR" version="20.2.3" type="github" pages="22">
+<mxfile host="app.diagrams.net" modified="2022-08-05T07:43:43.455Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="7UDsWnWS0y62zlyM07iK" version="20.2.3" type="github" pages="22">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2036" dy="629" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2153,7 +2153,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="单据" id="0sQ3AhjJ3EKfc6xMnH5E">
-    <mxGraphModel dx="1213" dy="652" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="711" dy="370" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="rZsxUxQSABzoxES4qGnh-0" />
         <mxCell id="rZsxUxQSABzoxES4qGnh-1" parent="rZsxUxQSABzoxES4qGnh-0" />
@@ -2871,7 +2871,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="流量运营3" id="htPqvACB6Lus9ICYdRO-">
-    <mxGraphModel dx="2062" dy="1108" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1209" dy="629" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="j_i7ST2InMUG63qzlf6s-0" />
         <mxCell id="j_i7ST2InMUG63qzlf6s-1" parent="j_i7ST2InMUG63qzlf6s-0" />
@@ -2960,7 +2960,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jI9RCW9IfHP0YWpOBdlI" name="合同">
-    <mxGraphModel dx="573" dy="308" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="484" dy="252" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3026,11 +3026,17 @@
         <mxCell id="FZLak5UcCzaQdpgveVRv-7" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="498" y="378" width="36" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="T-porRp5qXPpOm7lH66T-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;endArrow=none;endFill=0;" edge="1" parent="1" source="T-porRp5qXPpOm7lH66T-2" target="jtxo7J6Rc-DoUw9XnbBe-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T-porRp5qXPpOm7lH66T-2" value="1、签字人&lt;br&gt;2、关联人" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="63" y="500" width="135" height="114" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="0ERhppRVkXPp-U6yUWXV" name="合同实体">
-    <mxGraphModel dx="1250" dy="672" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="733" dy="381" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
