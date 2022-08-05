@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-05T02:26:32.846Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="pA6H61O6vojoOsicM61D" version="20.2.3" type="github" pages="22">
+<mxfile host="app.diagrams.net" modified="2022-08-05T02:47:48.112Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="M6dMdC8FU-DaXsPcXPbR" version="20.2.3" type="github" pages="22">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2036" dy="629" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1794,7 +1794,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="订单状态关联动作" id="Hp-1c3wP3f2FHk_XIcKR">
-    <mxGraphModel dx="1473" dy="791" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4124" dy="2216" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Ecffh6PWK8ACvYd6GjAh-0" />
         <mxCell id="Ecffh6PWK8ACvYd6GjAh-1" parent="Ecffh6PWK8ACvYd6GjAh-0" />
@@ -2153,11 +2153,11 @@
     </mxGraphModel>
   </diagram>
   <diagram name="单据" id="0sQ3AhjJ3EKfc6xMnH5E">
-    <mxGraphModel dx="1209" dy="629" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1213" dy="652" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="rZsxUxQSABzoxES4qGnh-0" />
         <mxCell id="rZsxUxQSABzoxES4qGnh-1" parent="rZsxUxQSABzoxES4qGnh-0" />
-        <mxCell id="rZsxUxQSABzoxES4qGnh-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="rZsxUxQSABzoxES4qGnh-1" vertex="1">
+        <mxCell id="rZsxUxQSABzoxES4qGnh-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="rZsxUxQSABzoxES4qGnh-1" vertex="1">
           <mxGeometry x="272" y="368" width="245" height="113" as="geometry" />
         </mxCell>
         <mxCell id="rZsxUxQSABzoxES4qGnh-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="rZsxUxQSABzoxES4qGnh-1" vertex="1">
@@ -2190,7 +2190,7 @@
           <mxGeometry x="324" y="406" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rZsxUxQSABzoxES4qGnh-12" value="单据权限" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="rZsxUxQSABzoxES4qGnh-1" vertex="1">
-          <mxGeometry x="390" y="368" width="60" height="30" as="geometry" />
+          <mxGeometry x="324" y="368" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
