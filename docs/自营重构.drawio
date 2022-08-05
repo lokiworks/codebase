@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-05T02:03:03.376Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Jdm90u9Fx6UcSqUQKLC8" version="20.2.3" type="github" pages="22">
+<mxfile host="app.diagrams.net" modified="2022-08-05T02:04:11.876Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="MJJcYepuR38uuwnmGTnP" version="20.2.3" type="github" pages="22">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2036" dy="629" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -138,7 +138,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qt0AULjnwaiLlMIHNxGJ" name="交易链路">
-    <mxGraphModel dx="1209" dy="629" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="691" dy="359" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -253,11 +253,11 @@
         <mxCell id="s3O5UCPdt91ZPLADc-_f-1" value="库存" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="123" y="482" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="s3O5UCPdt91ZPLADc-_f-3" value="锁定库存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="217" y="414" width="15" height="46" as="geometry" />
+        <mxCell id="s3O5UCPdt91ZPLADc-_f-3" value="下单&lt;br&gt;锁定库存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="217" y="416" width="54" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="s3O5UCPdt91ZPLADc-_f-5" value="释放库存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="155" y="416" width="15" height="46" as="geometry" />
+        <mxCell id="s3O5UCPdt91ZPLADc-_f-5" value="取消订单&lt;br&gt;释放库存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="110" y="416" width="56" height="46" as="geometry" />
         </mxCell>
         <mxCell id="rjtTvVDwDAsf3VueTDPZ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeColor=#0000FF;" parent="1" source="rjtTvVDwDAsf3VueTDPZ-1" target="O2P9w9WAoNRUnFOtLeJ0-2" edge="1">
           <mxGeometry relative="1" as="geometry">
