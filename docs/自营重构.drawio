@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-06T01:16:26.047Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="BpUIgv1Kp8lSIVar6H4S" version="20.2.3" type="github" pages="23">
+<mxfile host="app.diagrams.net" modified="2022-08-06T06:38:55.379Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="5UeGmiiiUCz0SKUn-MxP" version="20.2.3" type="github" pages="23">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2036" dy="629" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2202,6 +2202,33 @@
         </mxCell>
         <mxCell id="rZsxUxQSABzoxES4qGnh-12" value="单据权限" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="rZsxUxQSABzoxES4qGnh-1" vertex="1">
           <mxGeometry x="324" y="368" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WRJ2UfBM52sF7nCXapch-1" value="&lt;b&gt;单据&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="rZsxUxQSABzoxES4qGnh-1">
+          <mxGeometry x="618" y="233" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WRJ2UfBM52sF7nCXapch-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="rZsxUxQSABzoxES4qGnh-1" source="WRJ2UfBM52sF7nCXapch-2" target="WRJ2UfBM52sF7nCXapch-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WRJ2UfBM52sF7nCXapch-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="rZsxUxQSABzoxES4qGnh-1" source="WRJ2UfBM52sF7nCXapch-2" target="WRJ2UfBM52sF7nCXapch-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WRJ2UfBM52sF7nCXapch-2" value="拥有者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontColor=#000000;" vertex="1" parent="rZsxUxQSABzoxES4qGnh-1">
+          <mxGeometry x="633" y="101" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WRJ2UfBM52sF7nCXapch-3" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontColor=#000000;" edge="1" parent="rZsxUxQSABzoxES4qGnh-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="496" y="266" as="sourcePoint" />
+            <mxPoint x="578" y="266" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WRJ2UfBM52sF7nCXapch-4" value="本质" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="rZsxUxQSABzoxES4qGnh-1">
+          <mxGeometry x="500" y="211" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WRJ2UfBM52sF7nCXapch-6" value="对象" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontColor=#000000;" vertex="1" parent="rZsxUxQSABzoxES4qGnh-1">
+          <mxGeometry x="744" y="101" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WRJ2UfBM52sF7nCXapch-8" value="将单据的相关操作权限授权给某一对象" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="rZsxUxQSABzoxES4qGnh-1">
+          <mxGeometry x="673" y="87" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
