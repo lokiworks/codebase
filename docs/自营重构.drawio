@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-05T10:20:47.514Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="5RabpZcBDnzbyaYGlkWf" version="20.2.3" type="github" pages="23">
+<mxfile host="app.diagrams.net" modified="2022-08-06T00:15:50.537Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="y_EZJnF9IRmg2-WdWqPs" version="20.2.3" type="github" pages="23">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2036" dy="629" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1794,7 +1794,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="订单状态关联动作" id="Hp-1c3wP3f2FHk_XIcKR">
-    <mxGraphModel dx="4124" dy="2216" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2418" dy="1258" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Ecffh6PWK8ACvYd6GjAh-0" />
         <mxCell id="Ecffh6PWK8ACvYd6GjAh-1" parent="Ecffh6PWK8ACvYd6GjAh-0" />
@@ -2761,7 +2761,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="流量运营2" id="d1Gx7jHmaJxMIdkD-POm">
-    <mxGraphModel dx="2062" dy="1108" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1209" dy="629" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="u_GRrWmDK1nQ95adHnSz-0" />
         <mxCell id="u_GRrWmDK1nQ95adHnSz-1" parent="u_GRrWmDK1nQ95adHnSz-0" />
@@ -2960,7 +2960,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jI9RCW9IfHP0YWpOBdlI" name="合同">
-    <mxGraphModel dx="1008" dy="524" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="424" dy="221" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2970,6 +2970,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FZLak5UcCzaQdpgveVRv-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="jtxo7J6Rc-DoUw9XnbBe-2" target="FZLak5UcCzaQdpgveVRv-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nJ15dGmU16LLDHOTRINq-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;endArrow=none;endFill=0;" edge="1" parent="1" source="jtxo7J6Rc-DoUw9XnbBe-2" target="GsOYW6acvVdGjzgeva-X-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jtxo7J6Rc-DoUw9XnbBe-2" value="合同" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -3010,6 +3013,15 @@
         </mxCell>
         <mxCell id="T-porRp5qXPpOm7lH66T-2" value="1、签字人&lt;br&gt;2、关联人&lt;br&gt;3、发起人" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="65.5" y="277" width="103" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="GsOYW6acvVdGjzgeva-X-1" value="合同扩展属性" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="267" y="536" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nJ15dGmU16LLDHOTRINq-2" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="327" y="468" width="36" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nJ15dGmU16LLDHOTRINq-3" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="327" y="506" width="36" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -3269,7 +3281,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="M0RuFr-IW-PbrOogsQmv" name="库存">
-    <mxGraphModel dx="1330" dy="715" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="780" dy="406" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
