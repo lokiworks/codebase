@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-08T04:16:31.067Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="W2sz0NC2cqFo6gA1-Fos" version="20.2.3" type="github" pages="23">
+<mxfile host="app.diagrams.net" modified="2022-08-08T04:17:22.452Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="neBbsME6zwFZhQINRjrd" version="20.2.3" type="github" pages="23">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2036" dy="629" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3090,7 +3090,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="smJEdecGb8N4YGwhsHsy-1" value="合同" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="63" y="116" width="307" height="528" as="geometry" />
+          <mxGeometry x="63" y="116" width="307" height="584" as="geometry" />
         </mxCell>
         <mxCell id="smJEdecGb8N4YGwhsHsy-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="smJEdecGb8N4YGwhsHsy-1" vertex="1">
           <mxGeometry y="30" width="307" height="55" as="geometry" />
@@ -3144,8 +3144,21 @@
             <mxRectangle width="153" height="56" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="bogGCObgcWeTRI6JnNt4-4" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="smJEdecGb8N4YGwhsHsy-1">
+          <mxGeometry y="253" width="307" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="bogGCObgcWeTRI6JnNt4-5" value="合同类型" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="bogGCObgcWeTRI6JnNt4-4">
+          <mxGeometry width="154" height="56" as="geometry">
+            <mxRectangle width="154" height="56" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bogGCObgcWeTRI6JnNt4-6" value="公对公" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="bogGCObgcWeTRI6JnNt4-4">
+          <mxGeometry x="154" width="153" height="56" as="geometry">
+            <mxRectangle width="153" height="56" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="smJEdecGb8N4YGwhsHsy-10" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="smJEdecGb8N4YGwhsHsy-1" vertex="1">
-          <mxGeometry y="253" width="307" height="55" as="geometry" />
+          <mxGeometry y="309" width="307" height="55" as="geometry" />
         </mxCell>
         <mxCell id="smJEdecGb8N4YGwhsHsy-11" value="盖章状态" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="smJEdecGb8N4YGwhsHsy-10" vertex="1">
           <mxGeometry width="154" height="55" as="geometry">
@@ -3158,7 +3171,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="smJEdecGb8N4YGwhsHsy-14" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="smJEdecGb8N4YGwhsHsy-1" vertex="1">
-          <mxGeometry y="308" width="307" height="55" as="geometry" />
+          <mxGeometry y="364" width="307" height="55" as="geometry" />
         </mxCell>
         <mxCell id="smJEdecGb8N4YGwhsHsy-15" value="签约方式" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="smJEdecGb8N4YGwhsHsy-14" vertex="1">
           <mxGeometry width="154" height="55" as="geometry">
@@ -3171,7 +3184,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="smJEdecGb8N4YGwhsHsy-17" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="smJEdecGb8N4YGwhsHsy-1" vertex="1">
-          <mxGeometry y="363" width="307" height="55" as="geometry" />
+          <mxGeometry y="419" width="307" height="55" as="geometry" />
         </mxCell>
         <mxCell id="smJEdecGb8N4YGwhsHsy-18" value="审核状态" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="smJEdecGb8N4YGwhsHsy-17" vertex="1">
           <mxGeometry width="154" height="55" as="geometry">
@@ -3184,7 +3197,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="J4IBc9USwyZalx8hQtWr-7" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="smJEdecGb8N4YGwhsHsy-1" vertex="1">
-          <mxGeometry y="418" width="307" height="55" as="geometry" />
+          <mxGeometry y="474" width="307" height="55" as="geometry" />
         </mxCell>
         <mxCell id="J4IBc9USwyZalx8hQtWr-8" value="合同状态" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="J4IBc9USwyZalx8hQtWr-7" vertex="1">
           <mxGeometry width="154" height="55" as="geometry">
@@ -3197,7 +3210,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="J4IBc9USwyZalx8hQtWr-11" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="smJEdecGb8N4YGwhsHsy-1" vertex="1">
-          <mxGeometry y="473" width="307" height="55" as="geometry" />
+          <mxGeometry y="529" width="307" height="55" as="geometry" />
         </mxCell>
         <mxCell id="J4IBc9USwyZalx8hQtWr-12" value="归档状态" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="J4IBc9USwyZalx8hQtWr-11" vertex="1">
           <mxGeometry width="154" height="55" as="geometry">
