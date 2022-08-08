@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-08T12:33:02.751Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="7utkiLpTwCOi0gZX5kNQ" version="20.2.3" type="github" pages="24">
+<mxfile host="app.diagrams.net" modified="2022-08-08T12:33:17.111Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="KAEQ5aOUyqQF2fiLWqaN" version="20.2.3" type="github" pages="24">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2036" dy="629" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3217,7 +3217,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="J4IBc9USwyZalx8hQtWr-14" value="合同签约方" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="467" y="116" width="250" height="306" as="geometry" />
+          <mxGeometry x="467" y="116" width="250" height="251" as="geometry" />
         </mxCell>
         <mxCell id="J4IBc9USwyZalx8hQtWr-15" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="J4IBc9USwyZalx8hQtWr-14" vertex="1">
           <mxGeometry y="30" width="250" height="55" as="geometry" />
@@ -3245,21 +3245,8 @@
             <mxRectangle width="125" height="56" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J4IBc9USwyZalx8hQtWr-24" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="J4IBc9USwyZalx8hQtWr-14" vertex="1">
-          <mxGeometry y="141" width="250" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="J4IBc9USwyZalx8hQtWr-25" value="是否合同发起方" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="J4IBc9USwyZalx8hQtWr-24" vertex="1">
-          <mxGeometry width="125" height="55" as="geometry">
-            <mxRectangle width="125" height="55" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="J4IBc9USwyZalx8hQtWr-26" value="是/否" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" parent="J4IBc9USwyZalx8hQtWr-24" vertex="1">
-          <mxGeometry x="125" width="125" height="55" as="geometry">
-            <mxRectangle width="125" height="55" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="UulxFeUxUdb-5g4JPRms-7" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="J4IBc9USwyZalx8hQtWr-14">
-          <mxGeometry y="196" width="250" height="55" as="geometry" />
+          <mxGeometry y="141" width="250" height="55" as="geometry" />
         </mxCell>
         <mxCell id="UulxFeUxUdb-5g4JPRms-8" value="主体类型" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="UulxFeUxUdb-5g4JPRms-7">
           <mxGeometry width="125" height="55" as="geometry">
@@ -3272,7 +3259,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UulxFeUxUdb-5g4JPRms-10" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="J4IBc9USwyZalx8hQtWr-14">
-          <mxGeometry y="251" width="250" height="55" as="geometry" />
+          <mxGeometry y="196" width="250" height="55" as="geometry" />
         </mxCell>
         <mxCell id="UulxFeUxUdb-5g4JPRms-11" value="主体信息" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;" vertex="1" parent="UulxFeUxUdb-5g4JPRms-10">
           <mxGeometry width="125" height="55" as="geometry">
