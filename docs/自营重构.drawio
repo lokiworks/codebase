@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-08T09:47:53.716Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ghFnl2nFFbx3X1ICHYIE" version="20.2.3" type="github" pages="23">
+<mxfile host="app.diagrams.net" modified="2022-08-08T09:50:38.895Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="8TTzS1K5PdQiSt4TF30d" version="20.2.3" type="github" pages="23">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2036" dy="629" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2998,7 +2998,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jI9RCW9IfHP0YWpOBdlI" name="合同">
-    <mxGraphModel dx="2062" dy="1108" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="825" dy="443" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3022,7 +3022,7 @@
         <mxCell id="jtxo7J6Rc-DoUw9XnbBe-6" value="协议" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="474" y="261" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jtxo7J6Rc-DoUw9XnbBe-10" value="合同主体" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="jtxo7J6Rc-DoUw9XnbBe-10" value="合同发起方" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="57" y="408" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jtxo7J6Rc-DoUw9XnbBe-12" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -3045,12 +3045,6 @@
         </mxCell>
         <mxCell id="FZLak5UcCzaQdpgveVRv-7" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="498" y="378" width="36" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="T-porRp5qXPpOm7lH66T-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;endArrow=none;endFill=0;" parent="1" source="T-porRp5qXPpOm7lH66T-2" target="jtxo7J6Rc-DoUw9XnbBe-10" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="T-porRp5qXPpOm7lH66T-2" value="1、签字人&lt;br&gt;2、发起人" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="65.5" y="277" width="103" height="68" as="geometry" />
         </mxCell>
         <mxCell id="GsOYW6acvVdGjzgeva-X-1" value="合同扩展属性" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="267" y="536" width="120" height="60" as="geometry" />
