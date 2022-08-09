@@ -1,9 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2022-08-09T07:43:01.237Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="rN6BsHSdeRuWTzz1p2Z0" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-09T08:16:24.696Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Cp9MEV-Yk49W73cyCewG" version="20.2.3" type="github">
   <diagram id="jyd061q0N29AtwrCHNUj" name="Page-1">
-    <mxGraphModel dx="1209" dy="629" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="550" dy="286" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="24w_J_6g7qrRopmtUZsV-1" value="&lt;font color=&quot;#ffffff&quot;&gt;业务建模&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#67AB9F;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="234" y="576" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="24w_J_6g7qrRopmtUZsV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FFFFFF;" edge="1" parent="1" source="24w_J_6g7qrRopmtUZsV-2" target="24w_J_6g7qrRopmtUZsV-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="24w_J_6g7qrRopmtUZsV-2" value="&lt;font color=&quot;#ffffff&quot;&gt;应用&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#67AB9F;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="67" y="576" width="107" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
