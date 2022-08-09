@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-09T03:07:44.052Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="VVgDrDzpMhcIymoTL2lv" version="20.2.3" type="github" pages="24">
+<mxfile host="app.diagrams.net" modified="2022-08-09T03:08:59.465Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="rvIeyPTQG-jF_FoL97gp" version="20.2.3" type="github" pages="24">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2889" dy="1074" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -613,7 +613,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QVLFB3NNpxiu7ZS30vlp" name="订单">
-    <mxGraphModel dx="1786" dy="500" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3253" dy="1264" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -747,9 +747,9 @@
         <mxCell id="jJlpfpnZFYaC-njEa_h--11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;" parent="1" source="NLjqcTlFzxIjc3dnsf3A-37" target="NLjqcTlFzxIjc3dnsf3A-44" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-7" y="614" />
-              <mxPoint x="-7" y="1293" />
-              <mxPoint x="1371" y="1293" />
+              <mxPoint x="-7" y="590" />
+              <mxPoint x="-7" y="1216" />
+              <mxPoint x="1371" y="1216" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -804,24 +804,6 @@
         <mxCell id="GYlXNxz6Wpd_xkwb3arg-8" value="申请通过，修改订单需求成交价格" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="797" y="299" width="184" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GYlXNxz6Wpd_xkwb3arg-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="GYlXNxz6Wpd_xkwb3arg-9" target="NLjqcTlFzxIjc3dnsf3A-44" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="GYlXNxz6Wpd_xkwb3arg-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="13" y="1027" width="269" height="177" as="geometry" />
-        </mxCell>
-        <mxCell id="GYlXNxz6Wpd_xkwb3arg-10" value="协议" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="112" y="1032" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="GYlXNxz6Wpd_xkwb3arg-11" value="上传协议" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="31" y="1071" width="106" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="GYlXNxz6Wpd_xkwb3arg-12" value="查看协议" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="158" y="1071" width="106" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="GYlXNxz6Wpd_xkwb3arg-14" value="追加日志" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="737" y="1176" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="GYlXNxz6Wpd_xkwb3arg-17" value="触发状态变更" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="442" y="787" width="23" height="77" as="geometry" />
         </mxCell>
@@ -853,7 +835,7 @@
           <mxGeometry x="711" y="594" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jJlpfpnZFYaC-njEa_h--12" value="追加日志" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="740" y="1260" width="60" height="30" as="geometry" />
+          <mxGeometry x="125" y="1177" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bkuSKSWIH5cUBpgbsefL-1" value="转交" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="558.5" y="664" width="106" height="50" as="geometry" />
