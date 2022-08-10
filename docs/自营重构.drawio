@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-10T10:56:21.563Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="vrUJcz05op0me1WgTZze" version="20.2.3" type="github" pages="25">
+<mxfile host="app.diagrams.net" modified="2022-08-10T10:58:14.236Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="7y3ok0tg_4gcr2TF5iSA" version="20.2.3" type="github" pages="25">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2036" dy="629" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4209,7 +4209,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZHUFr_wrdwFApsp9nrAJ" name="Page-25">
-    <mxGraphModel dx="331" dy="172" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="691" dy="359" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4338,7 +4338,7 @@
           <mxGeometry x="525" y="603" width="34" height="22" as="geometry" />
         </mxCell>
         <mxCell id="q4s2wLjP-uXBSc642mf7-69" value="下达交付需求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="505" y="436" width="25" height="61" as="geometry" />
+          <mxGeometry x="512" y="436" width="18" height="61" as="geometry" />
         </mxCell>
         <mxCell id="q4s2wLjP-uXBSc642mf7-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.349;entryY=0.998;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=open;endFill=0;entryPerimeter=0;exitX=0.347;exitY=0.002;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="q4s2wLjP-uXBSc642mf7-28" target="q4s2wLjP-uXBSc642mf7-25">
           <mxGeometry relative="1" as="geometry">
@@ -4366,6 +4366,24 @@
         </mxCell>
         <mxCell id="q4s2wLjP-uXBSc642mf7-76" value="服务状态同步" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="612" y="436" width="25" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="q4s2wLjP-uXBSc642mf7-77" value="下达物流运输需求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="433.5" width="30" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="q4s2wLjP-uXBSc642mf7-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.717;exitY=1.007;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=open;endFill=0;exitPerimeter=0;entryX=0.717;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="q4s2wLjP-uXBSc642mf7-25" target="q4s2wLjP-uXBSc642mf7-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="616.5000000000001" y="425" as="sourcePoint" />
+            <mxPoint x="616.5000000000001" y="521" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q4s2wLjP-uXBSc642mf7-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.792;entryY=1.002;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=open;endFill=0;entryPerimeter=0;exitX=0.792;exitY=0.002;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="q4s2wLjP-uXBSc642mf7-28" target="q4s2wLjP-uXBSc642mf7-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="646.101" y="521" as="sourcePoint" />
+            <mxPoint x="646.4000000000001" y="424.312" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q4s2wLjP-uXBSc642mf7-80" value="物流状态同步" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="675" y="427.75" width="19" height="77.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
