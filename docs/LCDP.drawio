@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-10T03:29:25.518Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="wWKx2puQMcvat_7UEXdz" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-10T04:12:02.813Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="RbLmSMkBE7V8JrQXXExQ" version="20.2.3" type="github">
   <diagram id="jyd061q0N29AtwrCHNUj" name="业务建模">
-    <mxGraphModel dx="516" dy="699" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-343" dy="252" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -83,7 +83,7 @@
           <mxGeometry x="1146" y="495" width="38" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wdmTi_9Xw0bsXk3dd9Mw-19" value="业务实体对外暴露的统一能力为：&lt;br&gt;1、增&lt;br&gt;2、删&lt;br&gt;3、改&lt;br&gt;4、查" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;horizontal=1;" parent="1" vertex="1">
-          <mxGeometry x="869" y="17" width="256" height="149" as="geometry" />
+          <mxGeometry x="869" y="17" width="701" height="82" as="geometry" />
         </mxCell>
         <mxCell id="wdmTi_9Xw0bsXk3dd9Mw-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontSize=12;fontColor=#FF3333;endArrow=open;endFill=0;strokeColor=#000000;" parent="1" source="wdmTi_9Xw0bsXk3dd9Mw-21" target="wdmTi_9Xw0bsXk3dd9Mw-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -147,6 +147,74 @@
         </mxCell>
         <mxCell id="Q6h7FlRFn7NbS-6PQY-o-7" value="绑定" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="1086" y="719" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6h7FlRFn7NbS-6PQY-o-8" value="业务字段" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;align=center;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1271" y="573" width="380" height="298" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6h7FlRFn7NbS-6PQY-o-9" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dashed=1;strokeColor=default;" vertex="1" parent="Q6h7FlRFn7NbS-6PQY-o-8">
+          <mxGeometry y="30" width="380" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6h7FlRFn7NbS-6PQY-o-10" value="字段类型" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;dashed=1;strokeColor=default;" vertex="1" parent="Q6h7FlRFn7NbS-6PQY-o-9">
+          <mxGeometry width="111" height="54" as="geometry">
+            <mxRectangle width="111" height="54" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q6h7FlRFn7NbS-6PQY-o-11" value="使用场景" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;dashed=1;strokeColor=default;" vertex="1" parent="Q6h7FlRFn7NbS-6PQY-o-9">
+          <mxGeometry x="111" width="269" height="54" as="geometry">
+            <mxRectangle width="269" height="54" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q6h7FlRFn7NbS-6PQY-o-13" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dashed=1;strokeColor=default;" vertex="1" parent="Q6h7FlRFn7NbS-6PQY-o-8">
+          <mxGeometry y="84" width="380" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6h7FlRFn7NbS-6PQY-o-14" value="计算公式" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;dashed=1;strokeColor=default;" vertex="1" parent="Q6h7FlRFn7NbS-6PQY-o-13">
+          <mxGeometry width="111" height="53" as="geometry">
+            <mxRectangle width="111" height="53" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q6h7FlRFn7NbS-6PQY-o-15" value="用于通过对象其他字段计算的场景，如订单行金额=商品单价*商品数量" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;dashed=1;strokeColor=default;" vertex="1" parent="Q6h7FlRFn7NbS-6PQY-o-13">
+          <mxGeometry x="111" width="269" height="53" as="geometry">
+            <mxRectangle width="269" height="53" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q6h7FlRFn7NbS-6PQY-o-17" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dashed=1;strokeColor=default;" vertex="1" parent="Q6h7FlRFn7NbS-6PQY-o-8">
+          <mxGeometry y="137" width="380" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6h7FlRFn7NbS-6PQY-o-18" value="汇总字段" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;dashed=1;strokeColor=default;" vertex="1" parent="Q6h7FlRFn7NbS-6PQY-o-17">
+          <mxGeometry width="111" height="54" as="geometry">
+            <mxRectangle width="111" height="54" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q6h7FlRFn7NbS-6PQY-o-19" value="用于主对象中，用于汇总子对象某个属性的值，如订单汇表中汇总订单行明细表中的行金额" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;dashed=1;strokeColor=default;" vertex="1" parent="Q6h7FlRFn7NbS-6PQY-o-17">
+          <mxGeometry x="111" width="269" height="54" as="geometry">
+            <mxRectangle width="269" height="54" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q6h7FlRFn7NbS-6PQY-o-21" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dashed=1;strokeColor=default;" vertex="1" parent="Q6h7FlRFn7NbS-6PQY-o-8">
+          <mxGeometry y="191" width="380" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6h7FlRFn7NbS-6PQY-o-22" value="关联关系" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;dashed=1;strokeColor=default;" vertex="1" parent="Q6h7FlRFn7NbS-6PQY-o-21">
+          <mxGeometry width="111" height="53" as="geometry">
+            <mxRectangle width="111" height="53" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q6h7FlRFn7NbS-6PQY-o-23" value="用于描述两个对象间的引用关系的字段，如员工上的“所在部门”字段，引用的是“部门”对象" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;dashed=1;strokeColor=default;" vertex="1" parent="Q6h7FlRFn7NbS-6PQY-o-21">
+          <mxGeometry x="111" width="269" height="53" as="geometry">
+            <mxRectangle width="269" height="53" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q6h7FlRFn7NbS-6PQY-o-24" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dashed=1;strokeColor=default;" vertex="1" parent="Q6h7FlRFn7NbS-6PQY-o-8">
+          <mxGeometry y="244" width="380" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6h7FlRFn7NbS-6PQY-o-25" value="主子关系" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;dashed=1;strokeColor=default;" vertex="1" parent="Q6h7FlRFn7NbS-6PQY-o-24">
+          <mxGeometry width="111" height="54" as="geometry">
+            <mxRectangle width="111" height="54" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q6h7FlRFn7NbS-6PQY-o-26" value="用于描述两个对象间的主子关系的字段，在子对象中使用。如员工有多段教育经历，则在“教育经历”对象中新增“所属员工”【主子关系】字段" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;dashed=1;strokeColor=default;" vertex="1" parent="Q6h7FlRFn7NbS-6PQY-o-24">
+          <mxGeometry x="111" width="269" height="54" as="geometry">
+            <mxRectangle width="269" height="54" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
