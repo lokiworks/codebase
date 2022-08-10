@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-10T10:37:47.209Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="cUHdOL1vh2UpNF4hECJw" version="20.2.3" type="github" pages="25">
+<mxfile host="app.diagrams.net" modified="2022-08-10T10:38:51.883Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="aP50J0Z8sKGvyUVG3xSx" version="20.2.3" type="github" pages="25">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2036" dy="629" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4257,9 +4257,9 @@
         <mxCell id="q4s2wLjP-uXBSc642mf7-27" value="订单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#3399FF;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="464" y="279" width="21" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="q4s2wLjP-uXBSc642mf7-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.486;entryY=1.002;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=open;endFill=0;entryPerimeter=0;" edge="1" parent="1" target="q4s2wLjP-uXBSc642mf7-25">
+        <mxCell id="q4s2wLjP-uXBSc642mf7-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.881;entryY=0.998;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=open;endFill=0;entryPerimeter=0;" edge="1" parent="1" target="q4s2wLjP-uXBSc642mf7-25">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="602" y="510" as="sourcePoint" />
+            <mxPoint x="720" y="510" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="q4s2wLjP-uXBSc642mf7-28" value="ZN" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=center;verticalAlign=top;horizontal=1;" vertex="1" parent="1">
@@ -4284,16 +4284,16 @@
           <mxGeometry x="603" y="318" width="30" height="36" as="geometry" />
         </mxCell>
         <mxCell id="q4s2wLjP-uXBSc642mf7-44" value="同步设备信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="607" y="457" width="36" height="30" as="geometry" />
+          <mxGeometry x="720" y="449" width="36" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="q4s2wLjP-uXBSc642mf7-45" value="" style="endArrow=open;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;endFill=0;" edge="1" parent="1" source="q4s2wLjP-uXBSc642mf7-25" target="q4s2wLjP-uXBSc642mf7-28">
+        <mxCell id="q4s2wLjP-uXBSc642mf7-45" value="" style="endArrow=open;html=1;rounded=0;exitX=0.089;exitY=1.002;exitDx=0;exitDy=0;entryX=0.087;entryY=0.002;entryDx=0;entryDy=0;endFill=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="q4s2wLjP-uXBSc642mf7-25" target="q4s2wLjP-uXBSc642mf7-28">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="686" y="487" as="sourcePoint" />
             <mxPoint x="736" y="437" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="q4s2wLjP-uXBSc642mf7-46" value="锁定/释放库存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="684" y="452" width="32" height="40" as="geometry" />
+          <mxGeometry x="448" y="444" width="32" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
