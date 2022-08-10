@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-10T07:49:59.065Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="l7BMapSo8KZnxtpr3YA5" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-10T07:50:41.532Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="gnyVkXy7Odsdpf7rW2-P" version="20.2.3" type="github">
   <diagram id="jyd061q0N29AtwrCHNUj" name="业务建模">
     <mxGraphModel dx="-21" dy="419" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -235,6 +235,9 @@
             <mxPoint x="969" y="1757" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Q6h7FlRFn7NbS-6PQY-o-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;endArrow=open;endFill=0;" edge="1" parent="1" source="Q6h7FlRFn7NbS-6PQY-o-27" target="Q6h7FlRFn7NbS-6PQY-o-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Q6h7FlRFn7NbS-6PQY-o-27" value="&lt;font color=&quot;#ffffff&quot;&gt;aPaaS&lt;br&gt;BFF&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#3399FF;" vertex="1" parent="1">
           <mxGeometry x="1077.5" y="1709" width="107" height="196" as="geometry" />
         </mxCell>
@@ -302,6 +305,9 @@
         </mxCell>
         <mxCell id="Q6h7FlRFn7NbS-6PQY-o-61" value="......" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#000000;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="1270" y="1797.75" width="27" height="18.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Q6h7FlRFn7NbS-6PQY-o-63" value="信息查询" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1184" y="1772" width="36" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
