@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-11T11:47:01.426Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="0i5XdkMsqgIDyf_Li-Xp" version="20.2.3" type="github" pages="27">
+<mxfile host="app.diagrams.net" modified="2022-08-11T11:49:59.354Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="WIRVfUYS9Htd28JTu2NN" version="20.2.3" type="github" pages="27">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2249" dy="740" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4538,7 +4538,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gFXmbtNhzBikOU9g1_c0" name="Page-27">
-    <mxGraphModel dx="1094" dy="558" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="917" dy="468" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4587,6 +4587,11 @@
             <mxPoint x="407" y="139" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="-tlK4nqrFgltxL3LP9Ip-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;startArrow=none;startFill=0;endArrow=open;endFill=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.336;exitY=0.997;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-tlK4nqrFgltxL3LP9Ip-5" target="-tlK4nqrFgltxL3LP9Ip-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="346.0000469501201" y="209.30769230769226" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="-tlK4nqrFgltxL3LP9Ip-5" value="平台" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#eeeeee;" vertex="1" parent="1">
           <mxGeometry x="139" y="81" width="486" height="60" as="geometry" />
         </mxCell>
@@ -4611,7 +4616,7 @@
           <mxGeometry x="172" y="185" width="24" height="78" as="geometry" />
         </mxCell>
         <mxCell id="-tlK4nqrFgltxL3LP9Ip-17" value="同步交付状态" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="196" y="179" width="24" height="78" as="geometry" />
+          <mxGeometry x="196" y="185" width="24" height="78" as="geometry" />
         </mxCell>
         <mxCell id="-tlK4nqrFgltxL3LP9Ip-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;exitX=0.208;exitY=1.006;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.461;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-tlK4nqrFgltxL3LP9Ip-5" target="-tlK4nqrFgltxL3LP9Ip-1">
           <mxGeometry relative="1" as="geometry">
@@ -4629,7 +4634,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-tlK4nqrFgltxL3LP9Ip-23" value="服务状态&lt;br&gt;同步" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="248" y="179" width="24" height="78" as="geometry" />
+          <mxGeometry x="248" y="187.5" width="24" height="78" as="geometry" />
         </mxCell>
         <mxCell id="-tlK4nqrFgltxL3LP9Ip-24" value="下发物流运输单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="513" y="187.5" width="24" height="78" as="geometry" />
@@ -4734,6 +4739,9 @@
         </mxCell>
         <mxCell id="-tlK4nqrFgltxL3LP9Ip-71" value="ZN供应链" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="74" y="427" width="38" height="166" as="geometry" />
+        </mxCell>
+        <mxCell id="-tlK4nqrFgltxL3LP9Ip-73" value="需求单状态同步" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="281" y="190" width="24" height="78" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
