@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-11T11:38:03.674Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Z5-htIf7ln560nXW-PO7" version="20.2.3" type="github" pages="27">
+<mxfile host="app.diagrams.net" modified="2022-08-11T11:41:14.148Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="TAsdp9dOFhFqgon-4h2r" version="20.2.3" type="github" pages="27">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2249" dy="740" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4538,7 +4538,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gFXmbtNhzBikOU9g1_c0" name="Page-27">
-    <mxGraphModel dx="1580" dy="806" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="604" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4568,7 +4568,7 @@
         <mxCell id="-tlK4nqrFgltxL3LP9Ip-1" value="对外屏蔽层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0000FF;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="142" y="344" width="214" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-tlK4nqrFgltxL3LP9Ip-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.875;exitY=0.999;exitDx=0;exitDy=0;endArrow=open;endFill=0;exitPerimeter=0;" edge="1" parent="1" source="-tlK4nqrFgltxL3LP9Ip-5" target="-tlK4nqrFgltxL3LP9Ip-6">
+        <mxCell id="-tlK4nqrFgltxL3LP9Ip-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.815;exitY=0.993;exitDx=0;exitDy=0;endArrow=open;endFill=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-tlK4nqrFgltxL3LP9Ip-5" target="-tlK4nqrFgltxL3LP9Ip-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-tlK4nqrFgltxL3LP9Ip-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;exitX=0.116;exitY=0.999;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-tlK4nqrFgltxL3LP9Ip-5" target="-tlK4nqrFgltxL3LP9Ip-1">
@@ -4632,7 +4632,7 @@
           <mxGeometry x="248" y="179" width="24" height="78" as="geometry" />
         </mxCell>
         <mxCell id="-tlK4nqrFgltxL3LP9Ip-24" value="下发物流运输单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="185" width="24" height="78" as="geometry" />
+          <mxGeometry x="513" y="187.5" width="24" height="78" as="geometry" />
         </mxCell>
         <mxCell id="-tlK4nqrFgltxL3LP9Ip-27" value="物流状态同步" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="572" y="185" width="24" height="78" as="geometry" />
