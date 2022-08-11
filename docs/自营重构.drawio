@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-11T12:32:33.185Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="e3WErCsR8Qkn1-8ExU1F" version="20.2.3" type="github" pages="29">
+<mxfile host="app.diagrams.net" modified="2022-08-11T12:42:59.292Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="yNv3ocnJ_Xxm_pmwV-TK" version="20.2.3" type="github" pages="29">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2036" dy="629" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4761,18 +4761,18 @@
     </mxGraphModel>
   </diagram>
   <diagram id="T8Fgqi5WiAa8LbPLtj_7" name="Page-29">
-    <mxGraphModel dx="677" dy="345" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="569" dy="290" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="x-wcMRn-sk6eO8yb3goS-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;startArrow=none;startFill=0;endArrow=open;endFill=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="x-wcMRn-sk6eO8yb3goS-1" target="x-wcMRn-sk6eO8yb3goS-2">
+        <mxCell id="x-wcMRn-sk6eO8yb3goS-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.633;exitY=0.993;exitDx=0;exitDy=0;fontColor=#000000;startArrow=none;startFill=0;endArrow=open;endFill=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="x-wcMRn-sk6eO8yb3goS-1" target="x-wcMRn-sk6eO8yb3goS-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="x-wcMRn-sk6eO8yb3goS-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;startArrow=none;startFill=0;endArrow=open;endFill=0;" edge="1" parent="1" source="x-wcMRn-sk6eO8yb3goS-1" target="x-wcMRn-sk6eO8yb3goS-2">
+        <mxCell id="x-wcMRn-sk6eO8yb3goS-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.879;exitY=0.978;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;startArrow=none;startFill=0;endArrow=open;endFill=0;exitPerimeter=0;" edge="1" parent="1" source="x-wcMRn-sk6eO8yb3goS-1" target="x-wcMRn-sk6eO8yb3goS-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="x-wcMRn-sk6eO8yb3goS-1" value="平台" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#f9f7ed;" vertex="1" parent="1">
-          <mxGeometry x="354" y="225" width="120" height="60" as="geometry" />
+          <mxGeometry x="231" y="225" width="243" height="60" as="geometry" />
         </mxCell>
         <mxCell id="x-wcMRn-sk6eO8yb3goS-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;startArrow=none;startFill=0;endArrow=open;endFill=0;" edge="1" parent="1" source="x-wcMRn-sk6eO8yb3goS-2" target="x-wcMRn-sk6eO8yb3goS-4">
           <mxGeometry relative="1" as="geometry" />
@@ -4808,6 +4808,9 @@
         </mxCell>
         <mxCell id="x-wcMRn-sk6eO8yb3goS-13" value="状态同步" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="408" y="298" width="34" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x-wcMRn-sk6eO8yb3goS-14" value="统一对外层" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=none;fillColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="230" y="356" width="99" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
