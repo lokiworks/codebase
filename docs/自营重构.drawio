@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-11T11:23:08.306Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="DYOdsTzm8eQbQobEb3Xz" version="20.2.3" type="github" pages="27">
+<mxfile host="app.diagrams.net" modified="2022-08-11T11:24:16.835Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Z7wr_n-y-xUi5aEUAdfX" version="20.2.3" type="github" pages="27">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2249" dy="740" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4556,6 +4556,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="-tlK4nqrFgltxL3LP9Ip-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;startArrow=open;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="-tlK4nqrFgltxL3LP9Ip-1" target="-tlK4nqrFgltxL3LP9Ip-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-tlK4nqrFgltxL3LP9Ip-1" value="对外屏蔽层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0000FF;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="141.5" y="344" width="214.5" height="60" as="geometry" />
         </mxCell>
@@ -4661,6 +4664,9 @@
         <mxCell id="-tlK4nqrFgltxL3LP9Ip-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.809;entryY=0.962;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=open;endFill=0;" edge="1" parent="1" source="-tlK4nqrFgltxL3LP9Ip-38" target="-tlK4nqrFgltxL3LP9Ip-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="-tlK4nqrFgltxL3LP9Ip-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.058;entryY=0.97;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=open;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="-tlK4nqrFgltxL3LP9Ip-38" target="-tlK4nqrFgltxL3LP9Ip-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-tlK4nqrFgltxL3LP9Ip-38" value="服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0000FF;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="340.25" y="590" width="109.5" height="60" as="geometry" />
         </mxCell>
@@ -4684,6 +4690,12 @@
         </mxCell>
         <mxCell id="-tlK4nqrFgltxL3LP9Ip-52" value="状态变更通知" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="346" y="404" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-tlK4nqrFgltxL3LP9Ip-54" value="生成服务工单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="224" y="570" width="92" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-tlK4nqrFgltxL3LP9Ip-56" value="状态变更通知" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="611" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
