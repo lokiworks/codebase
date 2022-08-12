@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-12T12:36:57.537Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="YOHYxpiFSfo9MI4Md4Ep" version="20.2.3" type="github" pages="30">
+<mxfile host="app.diagrams.net" modified="2022-08-12T12:39:17.211Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="WetxfqInVZYTAdQtVbyR" version="20.2.3" type="github" pages="30">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2249" dy="725" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -5006,6 +5006,15 @@
         </mxCell>
         <mxCell id="128wLBBPyuYuQUG8iV3Z-23" value="生成服务计划单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="278" y="296" width="88" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="128wLBBPyuYuQUG8iV3Z-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="128wLBBPyuYuQUG8iV3Z-25" target="128wLBBPyuYuQUG8iV3Z-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="128wLBBPyuYuQUG8iV3Z-25" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=default;strokeWidth=1;fillColor=#ffff88;" vertex="1" parent="1">
+          <mxGeometry x="171" y="141" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="128wLBBPyuYuQUG8iV3Z-27" value="生成订单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="158" y="169" width="17" height="58" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
