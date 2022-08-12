@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-12T01:06:18.871Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="HkwHh_PJLQcz27hmBTxP" version="20.2.3" type="github" pages="29">
+<mxfile host="app.diagrams.net" modified="2022-08-12T03:09:22.963Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="NzkvPQ40js7Wq2roOFVo" version="20.2.3" type="github" pages="29">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2249" dy="725" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4765,7 +4765,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="kPmlgFCrrNnTR_PXwf2c" name="Page-28">
-    <mxGraphModel dx="677" dy="345" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="794" dy="422" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4776,10 +4776,10 @@
           <mxGeometry x="247" y="164" width="161" height="135" as="geometry" />
         </mxCell>
         <mxCell id="MYtdXjjMGgs0OzZmLUrL-1" value="创建需求单" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;strokeColor=none;fillColor=#66B2FF;" parent="1" vertex="1">
-          <mxGeometry x="278.5" y="199" width="95" height="32" as="geometry" />
+          <mxGeometry x="278.5" y="189" width="95" height="32" as="geometry" />
         </mxCell>
         <mxCell id="MYtdXjjMGgs0OzZmLUrL-2" value="查询需求单" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;strokeColor=none;fillColor=#66B2FF;" parent="1" vertex="1">
-          <mxGeometry x="278.5" y="246" width="95" height="32" as="geometry" />
+          <mxGeometry x="278.5" y="226" width="95" height="32" as="geometry" />
         </mxCell>
         <mxCell id="MYtdXjjMGgs0OzZmLUrL-5" value="需求单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="296" y="168" width="60" height="21" as="geometry" />
@@ -4788,10 +4788,10 @@
           <mxGeometry x="477" y="168" width="60" height="21" as="geometry" />
         </mxCell>
         <mxCell id="MYtdXjjMGgs0OzZmLUrL-8" value="变更状态" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;strokeColor=none;fillColor=#66B2FF;" parent="1" vertex="1">
-          <mxGeometry x="463.5" y="199" width="95" height="32" as="geometry" />
+          <mxGeometry x="463.5" y="189" width="95" height="32" as="geometry" />
         </mxCell>
         <mxCell id="MYtdXjjMGgs0OzZmLUrL-9" value="查询状态轨迹" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;strokeColor=none;fillColor=#66B2FF;" parent="1" vertex="1">
-          <mxGeometry x="463.5" y="246" width="95" height="32" as="geometry" />
+          <mxGeometry x="463.5" y="226" width="95" height="32" as="geometry" />
         </mxCell>
         <mxCell id="ZdVlTTRceUbw7MquIxAf-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=default;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="247" y="35" width="345" height="116" as="geometry" />
@@ -4816,6 +4816,9 @@
         </mxCell>
         <mxCell id="ZdVlTTRceUbw7MquIxAf-8" value="通知服务状态变更" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#66B2FF;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="488" y="103" width="95" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="ZdVlTTRceUbw7MquIxAf-9" value="取消需求单" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;strokeColor=none;fillColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="278.5" y="263" width="95" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
