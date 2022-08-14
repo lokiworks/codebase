@@ -5,7 +5,6 @@ go 1.15
 require (
 	github.com/davecgh/go-spew v1.1.0 // indirect
 	github.com/fatih/color v1.6.0
-	github.com/frimik/git-chglog v0.0.0-20190923122001-6050f20bcdb0
 	github.com/git-chglog/git-chglog v0.0.0-20190923120221-40b31a0f6858
 	github.com/imdario/mergo v0.0.0-20180119215619-163f41321a19
 	github.com/mattn/go-colorable v0.0.9
@@ -18,5 +17,5 @@ require (
 	golang.org/x/sys v0.0.0-20180202135801-37707fdb30a5 // indirect
 	gopkg.in/AlecAivazis/survey.v1 v1.4.2
 	gopkg.in/kyokomi/emoji.v1 v1.0.0-20161123144355-7e06b236c489
-	gopkg.in/yaml.v2 v2.0.0
+	gopkg.in/yaml.v2 v2.2.8
 )

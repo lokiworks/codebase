@@ -16,6 +16,21 @@ import { getFakeCaptcha } from '@/services/ant-design-pro/login';
 
 import styles from './index.less';
 // 登录信息
+
+// type FC<P = {}> = FunctionComponent<P>;
+//
+// interface FunctionComponent<P = {}> {
+//     简化后的格式: (props):ReactElement<any, any>
+//     (props: PropsWithChildren<P>, context?: any): ReactElement<any, any> | null;
+//     propTypes?: WeakValidationMap<P> | undefined;
+//     contextTypes?: ValidationMap<any> | undefined;
+//     defaultProps?: Partial<P> | undefined;
+//     displayName?: string | undefined;
+// }
+
+
+// 理解：定义LoginMessage类型，类型为React.FC，
+// 使用匿名函数，函数的返回值为AlertInterface，继承自React.FC
 const LoginMessage: React.FC<{
   content: string;
 }> = ({ content }) => (
@@ -30,13 +45,18 @@ const LoginMessage: React.FC<{
 );
 
 const Login: React.FC = () => {
+  // React.FC中使用useXXX
+  // 初始值为未提交， 设置提交方法为setSubmitting
   const [submitting, setSubmitting] = useState(false);
+  //
   const [userLoginState, setUserLoginState] = useState<API.LoginResult>({});
+  // 账号类型， 设置类型的方法为setType
   const [type, setType] = useState<string>('account');
+  // 共享模型
   const { initialState, setInitialState } = useModel('@@initialState');
-
+  // 国际化
   const intl = useIntl();
-
+  // 异步获取用户信息
   const fetchUserInfo = async () => {
     const userInfo = await initialState?.fetchUserInfo?.();
     if (userInfo) {
@@ -79,7 +99,7 @@ const Login: React.FC = () => {
     setSubmitting(false);
   };
   const { status, type: loginType } = userLoginState;
-
+// styles 定义在index.less文件中
   return (
     <div className={styles.container}>
       <div className={styles.lang} data-lang>
@@ -90,7 +110,7 @@ const Login: React.FC = () => {
           <div className={styles.header}>
             <Link to="/">
               <img alt="logo" className={styles.logo} src="/logo.svg" />
-              <span className={styles.title}>Ant Design</span>
+              <span className={styles.title}>Trade System</span>
             </Link>
           </div>
           <div className={styles.desc}>

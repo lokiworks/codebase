@@ -2,11 +2,17 @@
 /* eslint-disable */
 
 declare namespace API {
+  // 声明当前用户
   type CurrentUser = {
+    // 用户名称
     name?: string;
+    // 用户头像
     avatar?: string;
+    // 用户编码
     userid?: string;
+    // 邮箱
     email?: string;
+    //
     signature?: string;
     title?: string;
     group?: string;
@@ -23,9 +29,13 @@ declare namespace API {
     phone?: string;
   };
 
+  // 登录结果
   type LoginResult = {
+    // 登录状态
     status?: string;
+    // 登录类型
     type?: string;
+    // 当前授权
     currentAuthority?: string;
   };
 
