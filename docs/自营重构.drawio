@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-15T09:15:39.451Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="PMBeRIKdUq_RhMlQVSOr" version="20.2.3" type="github" pages="35">
+<mxfile host="app.diagrams.net" modified="2022-08-15T09:19:07.481Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="mFv36kkrcBHA7Wec3HbE" version="20.2.3" type="github" pages="35">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2249" dy="725" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4942,26 +4942,16 @@
         <mxCell id="ozxw4Tf9-ZRfbqi_EiyP-12" value="变更状态" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="ozxw4Tf9-ZRfbqi_EiyP-1">
           <mxGeometry x="233" y="277" width="29" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ozxw4Tf9-ZRfbqi_EiyP-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;startArrow=none;startFill=0;endArrow=open;endFill=0;strokeColor=#000000;" edge="1" parent="ozxw4Tf9-ZRfbqi_EiyP-1" source="ozxw4Tf9-ZRfbqi_EiyP-14" target="ozxw4Tf9-ZRfbqi_EiyP-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ozxw4Tf9-ZRfbqi_EiyP-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="ozxw4Tf9-ZRfbqi_EiyP-1">
-          <mxGeometry x="471" y="169" width="122" height="141" as="geometry" />
+        <mxCell id="ozxw4Tf9-ZRfbqi_EiyP-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;startArrow=none;startFill=0;endArrow=open;endFill=0;strokeColor=#000000;" edge="1" parent="ozxw4Tf9-ZRfbqi_EiyP-1" source="ozxw4Tf9-ZRfbqi_EiyP-16" target="ozxw4Tf9-ZRfbqi_EiyP-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="532" y="263" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ozxw4Tf9-ZRfbqi_EiyP-15" value="变更状态" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="ozxw4Tf9-ZRfbqi_EiyP-1">
           <mxGeometry x="467" y="337" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ozxw4Tf9-ZRfbqi_EiyP-16" value="进场单状态变更" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ozxw4Tf9-ZRfbqi_EiyP-1">
-          <mxGeometry x="482" y="195" width="102" height="33" as="geometry" />
-        </mxCell>
-        <mxCell id="ozxw4Tf9-ZRfbqi_EiyP-17" value="退场单状态变更" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ozxw4Tf9-ZRfbqi_EiyP-1">
-          <mxGeometry x="482" y="233" width="102" height="33" as="geometry" />
-        </mxCell>
-        <mxCell id="ozxw4Tf9-ZRfbqi_EiyP-18" value="通知" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="ozxw4Tf9-ZRfbqi_EiyP-1">
-          <mxGeometry x="505" y="169" width="56" height="19" as="geometry" />
-        </mxCell>
-        <mxCell id="ozxw4Tf9-ZRfbqi_EiyP-19" value="订单完成" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ozxw4Tf9-ZRfbqi_EiyP-1">
-          <mxGeometry x="482" y="270" width="102" height="33" as="geometry" />
+        <mxCell id="ozxw4Tf9-ZRfbqi_EiyP-16" value="需求单状态变更通知" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ozxw4Tf9-ZRfbqi_EiyP-1">
+          <mxGeometry x="472" y="222" width="120" height="41" as="geometry" />
         </mxCell>
         <mxCell id="ozxw4Tf9-ZRfbqi_EiyP-20" value="需求单状态管理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="ozxw4Tf9-ZRfbqi_EiyP-1">
           <mxGeometry x="292" y="325" width="94" height="30" as="geometry" />
