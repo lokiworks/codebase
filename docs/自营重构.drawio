@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-15T07:51:03.687Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="QMyrdYJ0oKVzrOfaZYKm" version="20.2.3" type="github" pages="33">
+<mxfile host="app.diagrams.net" modified="2022-08-15T07:52:09.989Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="mmDAO12jpPg0upKAlRaB" version="20.2.3" type="github" pages="33">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2249" dy="725" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -5116,11 +5116,11 @@
         <mxCell id="-eJ19q-xlnE1dPaw8KIz-32" value="5.0下发报修指令" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="3p6pztjXlHPxdSNYyqhb-1">
           <mxGeometry x="420" y="197" width="33" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="-eJ19q-xlnE1dPaw8KIz-36" value="3.2通知开始履约" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="3p6pztjXlHPxdSNYyqhb-1">
-          <mxGeometry x="239" y="473" width="101" height="27" as="geometry" />
+        <mxCell id="-eJ19q-xlnE1dPaw8KIz-36" value="3.2通知开始履约（第一台设备进场）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="3p6pztjXlHPxdSNYyqhb-1">
+          <mxGeometry x="234" y="473" width="133" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="-eJ19q-xlnE1dPaw8KIz-38" value="4.2 通知完成履约" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="3p6pztjXlHPxdSNYyqhb-1">
-          <mxGeometry x="234" y="500" width="119" height="27" as="geometry" />
+        <mxCell id="-eJ19q-xlnE1dPaw8KIz-38" value="9.2 通知完成履约（所有设备退场）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="3p6pztjXlHPxdSNYyqhb-1">
+          <mxGeometry x="206" y="500" width="234" height="27" as="geometry" />
         </mxCell>
         <mxCell id="-eJ19q-xlnE1dPaw8KIz-39" value="5.1创建报修需求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="3p6pztjXlHPxdSNYyqhb-1">
           <mxGeometry x="420" y="345.5" width="35" height="72" as="geometry" />
@@ -5181,6 +5181,9 @@
             <mxPoint x="606.752" y="336.21799999999996" as="sourcePoint" />
             <mxPoint x="607" y="440" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="-eJ19q-xlnE1dPaw8KIz-56" value="9.1创建退场需求指令" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="3p6pztjXlHPxdSNYyqhb-1">
+          <mxGeometry x="604" y="354" width="33" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
