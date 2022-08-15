@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-15T12:33:56.214Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="cVmQ6wNu8GUjsdr6HRJe" version="20.2.3" type="github" pages="36">
+<mxfile host="app.diagrams.net" modified="2022-08-15T12:37:54.980Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="uzijUCeoADFHaOK3IPkS" version="20.2.3" type="github" pages="36">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2249" dy="725" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -5243,19 +5243,19 @@
         <mxCell id="ozxw4Tf9-ZRfbqi_EiyP-0" />
         <mxCell id="ozxw4Tf9-ZRfbqi_EiyP-1" parent="ozxw4Tf9-ZRfbqi_EiyP-0" />
         <mxCell id="ozxw4Tf9-ZRfbqi_EiyP-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="ozxw4Tf9-ZRfbqi_EiyP-1">
-          <mxGeometry x="126" y="127" width="617" height="326" as="geometry" />
+          <mxGeometry x="177" y="127" width="566" height="301" as="geometry" />
         </mxCell>
         <mxCell id="j7962hEfcUr0pvRpcVGw-0" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ozxw4Tf9-ZRfbqi_EiyP-1">
           <mxGeometry x="199.5" y="169" width="248.5" height="97" as="geometry" />
         </mxCell>
         <mxCell id="ozxw4Tf9-ZRfbqi_EiyP-5" value="查询" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ozxw4Tf9-ZRfbqi_EiyP-1">
-          <mxGeometry x="341" y="199" width="92" height="41" as="geometry" />
+          <mxGeometry x="343.5" y="210" width="92" height="41" as="geometry" />
         </mxCell>
         <mxCell id="ozxw4Tf9-ZRfbqi_EiyP-8" value="创建" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ozxw4Tf9-ZRfbqi_EiyP-1">
-          <mxGeometry x="215" y="199" width="97" height="41" as="geometry" />
+          <mxGeometry x="217" y="210" width="97" height="41" as="geometry" />
         </mxCell>
         <mxCell id="ozxw4Tf9-ZRfbqi_EiyP-9" value="需求单" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ozxw4Tf9-ZRfbqi_EiyP-1">
-          <mxGeometry x="323" y="127" width="60" height="30" as="geometry" />
+          <mxGeometry x="424" y="127" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ozxw4Tf9-ZRfbqi_EiyP-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ozxw4Tf9-ZRfbqi_EiyP-1">
           <mxGeometry x="199" y="319" width="249" height="92" as="geometry" />
@@ -5268,8 +5268,8 @@
         <mxCell id="ozxw4Tf9-ZRfbqi_EiyP-15" value="录入变更记录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="ozxw4Tf9-ZRfbqi_EiyP-1">
           <mxGeometry x="453" y="337" width="74" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ozxw4Tf9-ZRfbqi_EiyP-16" value="通知需求单业务状态变更" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ozxw4Tf9-ZRfbqi_EiyP-1">
-          <mxGeometry x="469" y="222" width="120" height="41" as="geometry" />
+        <mxCell id="ozxw4Tf9-ZRfbqi_EiyP-16" value="接受需求单业务状态变更" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ozxw4Tf9-ZRfbqi_EiyP-1">
+          <mxGeometry x="469" y="225" width="120" height="41" as="geometry" />
         </mxCell>
         <mxCell id="ozxw4Tf9-ZRfbqi_EiyP-20" value="需求状态变更指令管理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="ozxw4Tf9-ZRfbqi_EiyP-1">
           <mxGeometry x="270" y="319" width="138" height="30" as="geometry" />
@@ -5277,7 +5277,7 @@
         <mxCell id="EbD2sxkG0opdnLUeZN6w-0" value="指标分析模块" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;dashed=1;" vertex="1" parent="ozxw4Tf9-ZRfbqi_EiyP-1">
           <mxGeometry x="606" y="169" width="120" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="V0yqCEamThRzQ9l_PIpj-0" value="监听需求单业务状态变更事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ozxw4Tf9-ZRfbqi_EiyP-1">
+        <mxCell id="V0yqCEamThRzQ9l_PIpj-0" value="通知平台需求单业务状态变更" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ozxw4Tf9-ZRfbqi_EiyP-1">
           <mxGeometry x="469" y="169" width="120" height="41" as="geometry" />
         </mxCell>
         <mxCell id="j7962hEfcUr0pvRpcVGw-1" value="需求指令管理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="ozxw4Tf9-ZRfbqi_EiyP-1">
@@ -5290,7 +5290,7 @@
           <mxGeometry x="338.5" y="358" width="97" height="41" as="geometry" />
         </mxCell>
         <mxCell id="j7962hEfcUr0pvRpcVGw-4" value="下发需求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ozxw4Tf9-ZRfbqi_EiyP-1">
-          <mxGeometry x="606" y="222" width="121" height="41" as="geometry" />
+          <mxGeometry x="606" y="225" width="121" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
