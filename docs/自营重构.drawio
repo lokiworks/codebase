@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-15T09:36:36.285Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Up7z1l6qZpNB2S5Pk2E6" version="20.2.3" type="github" pages="35">
+<mxfile host="app.diagrams.net" modified="2022-08-15T09:38:06.347Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="uWOZlJoG66SNT3w9A9RN" version="20.2.3" type="github" pages="35">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2249" dy="725" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3473,7 +3473,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="RlOkr6I8ClV39MngaK4H-1" value="需求单" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;align=center;" parent="1" vertex="1">
+        <mxCell id="RlOkr6I8ClV39MngaK4H-1" value="订单" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="60" y="120" width="466" height="926" as="geometry" />
         </mxCell>
         <mxCell id="RlOkr6I8ClV39MngaK4H-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="RlOkr6I8ClV39MngaK4H-1" vertex="1">
@@ -3764,7 +3764,7 @@
             <mxRectangle width="154" height="55" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RlOkr6I8ClV39MngaK4H-62" value="需求单明细" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;align=center;" parent="1" vertex="1">
+        <mxCell id="RlOkr6I8ClV39MngaK4H-62" value="订单明细" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="603" y="120" width="466" height="478" as="geometry" />
         </mxCell>
         <mxCell id="RlOkr6I8ClV39MngaK4H-63" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="RlOkr6I8ClV39MngaK4H-62" vertex="1">
@@ -3911,7 +3911,7 @@
             <mxRectangle width="154" height="56" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RlOkr6I8ClV39MngaK4H-108" value="需求单扩展属性" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;align=center;" parent="1" vertex="1">
+        <mxCell id="RlOkr6I8ClV39MngaK4H-108" value="订单扩展属性" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="603" y="655" width="466" height="367" as="geometry" />
         </mxCell>
         <mxCell id="RlOkr6I8ClV39MngaK4H-109" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="RlOkr6I8ClV39MngaK4H-108" vertex="1">
@@ -4022,7 +4022,7 @@
             <mxRectangle width="154" height="56" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RlOkr6I8ClV39MngaK4H-133" value="需求项" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;align=center;" parent="1" vertex="1">
+        <mxCell id="RlOkr6I8ClV39MngaK4H-133" value="订单项" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="60" y="1089" width="466" height="648" as="geometry" />
         </mxCell>
         <mxCell id="RlOkr6I8ClV39MngaK4H-134" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="RlOkr6I8ClV39MngaK4H-133" vertex="1">
