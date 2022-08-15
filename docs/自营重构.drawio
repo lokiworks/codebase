@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-15T08:20:11.840Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Y7e9w90bc3PISjcR2nLc" version="20.2.3" type="github" pages="33">
+<mxfile host="app.diagrams.net" modified="2022-08-15T08:21:39.115Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="YaIlU8vwtC5_WIvhWUHP" version="20.2.3" type="github" pages="33">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2249" dy="725" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4973,7 +4973,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Copy of Page-29" id="UuwrcNzKSKc_KjjhTlIe">
-    <mxGraphModel dx="1185" dy="604" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="725" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="3p6pztjXlHPxdSNYyqhb-0" />
         <mxCell id="3p6pztjXlHPxdSNYyqhb-1" parent="3p6pztjXlHPxdSNYyqhb-0" />
@@ -4987,6 +4987,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="340" y="160" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="-eJ19q-xlnE1dPaw8KIz-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.176;exitY=1.063;exitDx=0;exitDy=0;entryX=0.175;entryY=-0.009;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;startArrow=none;startFill=0;endArrow=open;endFill=0;strokeColor=#000000;exitPerimeter=0;" edge="1" parent="3p6pztjXlHPxdSNYyqhb-1" source="3p6pztjXlHPxdSNYyqhb-6" target="-eJ19q-xlnE1dPaw8KIz-0">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3p6pztjXlHPxdSNYyqhb-6" value="平台" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="3p6pztjXlHPxdSNYyqhb-1">
           <mxGeometry x="58" y="95" width="732" height="46" as="geometry" />
@@ -5242,6 +5245,9 @@
         </mxCell>
         <mxCell id="-eJ19q-xlnE1dPaw8KIz-71" value="12.1进场单&lt;br&gt;报停单&lt;br&gt;报修单&lt;br&gt;退场单&lt;br&gt;索赔单，&lt;br&gt;状态变更通知" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="3p6pztjXlHPxdSNYyqhb-1">
           <mxGeometry x="768" y="152.75" width="59" height="115.5" as="geometry" />
+        </mxCell>
+        <mxCell id="-eJ19q-xlnE1dPaw8KIz-73" value="13.0下发订单完成指令" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="3p6pztjXlHPxdSNYyqhb-1">
+          <mxGeometry x="150" y="205.5" width="34" height="44" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
