@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-12T14:28:13.131Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="HsyWHsrkB51xj8yzSP3L" version="20.2.3" type="github" pages="31">
+<mxfile host="app.diagrams.net" modified="2022-08-15T00:30:43.232Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="RegekV0EoJI3-61_djDU" version="20.2.3" type="github" pages="32">
   <diagram id="tFlNzeFDufjK3dBlxEK4" name="系统职责">
     <mxGraphModel dx="2249" dy="725" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -5105,6 +5105,32 @@
         </mxCell>
         <mxCell id="U1ulBJjOdonKBmHTed1J-12" value="在交付系统内部：&lt;span style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;交货地址、计划交货时间、货、&lt;/span&gt;&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;发货地&lt;/span&gt;&lt;span style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;、是否需要运输为主要信息，其他信息实际为交付工单中的信息，作为extra字段（json）存储&lt;/span&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;strokeColor=default;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="61" width="159" height="161" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="3BU1ItibOMcFLdrHpuej" name="Page-32">
+    <mxGraphModel dx="917" dy="506" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="j8FpE_EXx5M39nzray5y-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;endArrow=open;endFill=0;" edge="1" parent="1" source="j8FpE_EXx5M39nzray5y-2" target="j8FpE_EXx5M39nzray5y-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j8FpE_EXx5M39nzray5y-2" value="交付工单" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=default;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="224" y="194" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j8FpE_EXx5M39nzray5y-4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;endArrow=open;endFill=0;" edge="1" parent="1" source="j8FpE_EXx5M39nzray5y-3" target="j8FpE_EXx5M39nzray5y-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j8FpE_EXx5M39nzray5y-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#36393d;strokeWidth=1;fillColor=#ffff88;" vertex="1" parent="1">
+          <mxGeometry x="269.5" y="72" width="29" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="j8FpE_EXx5M39nzray5y-5" value="生成交付工单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="215" y="136" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j8FpE_EXx5M39nzray5y-6" value="人工或系统匹配装车工程师" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;strokeColor=default;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="224" y="316" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
