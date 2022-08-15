@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-15T13:44:10.475Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="XQKrqz8fzzyZndA3Uf6p" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-15T13:45:05.856Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="HLUtTXj2ZtxdEPmYhXOw" version="20.2.3" type="github">
   <diagram id="B3kgOfJoqGJ2eT8AgkZ6" name="Page-1">
     <mxGraphModel dx="627" dy="333" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -37,14 +37,14 @@
         <mxCell id="EtlgoZdPYqRWU7xBMrw1-10" value="工单状态：待分配-&amp;gt;已分配&lt;br&gt;操作：分派、改派" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="343" y="104" width="157" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="EtlgoZdPYqRWU7xBMrw1-14" value="交付需求单状态：待装车、待验机" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="307" y="266" width="283" height="16" as="geometry" />
-        </mxCell>
         <mxCell id="EtlgoZdPYqRWU7xBMrw1-15" value="谁来装车" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="434.5" y="180" width="28" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EtlgoZdPYqRWU7xBMrw1-16" value="找人装车" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="360" y="181" width="28" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EtlgoZdPYqRWU7xBMrw1-17" value="交付状态：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="371" y="256" width="73" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
