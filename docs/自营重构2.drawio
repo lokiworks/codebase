@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-16T12:46:00.104Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="0aNyk5KpR2G--vikQXzz" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-16T15:19:11.657Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="jE2jN2ry70vu6AEPuN6m" version="20.2.2" type="github">
   <diagram id="B3kgOfJoqGJ2eT8AgkZ6" name="Page-1">
-    <mxGraphModel dx="1146" dy="500" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1078" dy="485" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -59,7 +59,7 @@
         <mxCell id="EtlgoZdPYqRWU7xBMrw1-25" value="生成装车工单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="736" y="217" width="46" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EtlgoZdPYqRWU7xBMrw1-26" value="工作事项：线下装车，并将具体设备信息录入到系统中" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="EtlgoZdPYqRWU7xBMrw1-26" value="工作事项：线下装车，并将具体出库设备信息录入到系统中" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="756" y="133" width="157" height="38" as="geometry" />
         </mxCell>
         <mxCell id="EtlgoZdPYqRWU7xBMrw1-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=open;endFill=0;" parent="1" source="EtlgoZdPYqRWU7xBMrw1-30" target="EtlgoZdPYqRWU7xBMrw1-32" edge="1">
@@ -129,18 +129,6 @@
         </mxCell>
         <mxCell id="EtlgoZdPYqRWU7xBMrw1-57" value="合同签约" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1365.5" y="66" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="eebM-CeerCYaKGKTh03W-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="663" y="2" width="265" height="87" as="geometry" />
-        </mxCell>
-        <mxCell id="eebM-CeerCYaKGKTh03W-2" value="签到" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="768" y="2" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="eebM-CeerCYaKGKTh03W-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="948.5" y="2" width="265" height="87" as="geometry" />
-        </mxCell>
-        <mxCell id="eebM-CeerCYaKGKTh03W-4" value="签到" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1053.5" y="2" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
