@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-16T15:44:51.467Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="6UAK6gCIxlyWMCcZoquZ" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-16T15:47:43.314Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="RKrNocutXrGwEP90ia0U" version="20.2.2" type="github">
   <diagram id="B3kgOfJoqGJ2eT8AgkZ6" name="Page-1">
     <mxGraphModel dx="1581" dy="711" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -151,7 +151,7 @@
         <mxCell id="goCIA1izgEky2IV1ucE_-14" value="工序4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1287" y="190" width="39" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="goCIA1izgEky2IV1ucE_-16" value="将多到工序打包成一个工单，每道工序有它自己的生命周期，每道工序本事也是一个单据/凭证" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+        <mxCell id="goCIA1izgEky2IV1ucE_-16" value="将多道工序打包成一个工单，每道工序有它自己的生命周期，每道工序本事也是一个单据/凭证" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="1246" y="11" width="231" height="30" as="geometry" />
         </mxCell>
         <mxCell id="goCIA1izgEky2IV1ucE_-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="goCIA1izgEky2IV1ucE_-18" target="goCIA1izgEky2IV1ucE_-2">
