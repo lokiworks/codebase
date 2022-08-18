@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-17T03:08:08.241Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="aOXTJ2PXRlKOQzrnmUip" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-18T00:53:23.387Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="zX9yU6XJTiL9qFC-KtMX" version="20.2.4" type="github" pages="2">
   <diagram id="B3kgOfJoqGJ2eT8AgkZ6" name="Page-1">
     <mxGraphModel dx="1422" dy="725" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -145,7 +145,7 @@
         <mxCell id="goCIA1izgEky2IV1ucE_-12" value="工序3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1287" y="151.5" width="39" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="SAXbJyebcPuRpyutvXwI-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="goCIA1izgEky2IV1ucE_-13" target="SAXbJyebcPuRpyutvXwI-1">
+        <mxCell id="SAXbJyebcPuRpyutvXwI-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="goCIA1izgEky2IV1ucE_-13" target="SAXbJyebcPuRpyutvXwI-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="goCIA1izgEky2IV1ucE_-13" value="签收" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#FF3333;" parent="1" vertex="1">
@@ -172,8 +172,22 @@
         <mxCell id="goCIA1izgEky2IV1ucE_-28" value="验机&amp;amp;签收工单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="1312" y="45" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SAXbJyebcPuRpyutvXwI-1" value="如果审核的流程中仅仅针对合同信息，建议产品将验机、签收分离成两个大的状态：&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;待验机&lt;/b&gt;&lt;/font&gt;、&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;待签收&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="SAXbJyebcPuRpyutvXwI-1" value="如果审核的流程中仅仅针对合同信息，建议产品将验机、签收分离成两个大的状态：&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;待验机&lt;/b&gt;&lt;/font&gt;、&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;待签收&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1465" y="100" width="143" height="104" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="gpOsi4FiKirAq0keNe3O" name="Page-2">
+    <mxGraphModel dx="748" dy="382" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="A_KfX7VScEmldU7oBicr-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="261" width="345" height="186" as="geometry" />
+        </mxCell>
+        <mxCell id="A_KfX7VScEmldU7oBicr-2" value="需求单管理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="352" y="261" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
