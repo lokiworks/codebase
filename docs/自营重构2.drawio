@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-22T09:52:23.066Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="5xN7lxgndeKdmulUmt1A" version="20.2.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-08-22T12:49:17.734Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="pY4MY22hjacj8l1T8Reg" version="20.2.5" type="github" pages="4">
   <diagram id="B3kgOfJoqGJ2eT8AgkZ6" name="进场业务流程">
-    <mxGraphModel dx="1422" dy="725" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2382" dy="1231" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -520,10 +520,28 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LpXLzXQtXhp5t_x_UObB" name="事件驱动">
-    <mxGraphModel dx="1422" dy="725" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1134" dy="586" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Zu8abb_k7LuwBulwfGw7-1" value="事件驱动sdk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="235" y="403" width="226" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zu8abb_k7LuwBulwfGw7-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="Zu8abb_k7LuwBulwfGw7-3" target="Zu8abb_k7LuwBulwfGw7-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zu8abb_k7LuwBulwfGw7-3" value="插件包" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=none;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="235" y="536" width="226" height="163" as="geometry" />
+        </mxCell>
+        <mxCell id="Zu8abb_k7LuwBulwfGw7-6" value="前置发布hook" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="252" y="568" width="83" height="123" as="geometry" />
+        </mxCell>
+        <mxCell id="Zu8abb_k7LuwBulwfGw7-7" value="后置发布hook" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="568" width="83" height="123" as="geometry" />
+        </mxCell>
+        <mxCell id="Zu8abb_k7LuwBulwfGw7-8" value="后置任务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="366" y="604" width="69" height="22" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
