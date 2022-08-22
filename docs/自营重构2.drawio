@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-22T08:43:58.135Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="TTRBHG2OA-coxRquRrNl" version="20.2.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-08-22T08:47:03.630Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="KHc208z3x-hZ34IhBkR_" version="20.2.5" type="github" pages="4">
   <diagram id="B3kgOfJoqGJ2eT8AgkZ6" name="进场业务流程">
     <mxGraphModel dx="1422" dy="725" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -360,11 +360,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lBlu_qUQjzXMcRqfXPru" name="物流数模">
-    <mxGraphModel dx="981" dy="500" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="569" dy="290" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="5pfDBnXKAVG5DaRoPYwW-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;endArrow=open;endFill=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="fnwesbcO0Oet5Vu1vJKx-1" target="5pfDBnXKAVG5DaRoPYwW-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5pfDBnXKAVG5DaRoPYwW-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=open;endFill=0;startArrow=open;startFill=0;" edge="1" parent="1" source="fnwesbcO0Oet5Vu1vJKx-1" target="fnwesbcO0Oet5Vu1vJKx-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fnwesbcO0Oet5Vu1vJKx-1" value="物流需求单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
@@ -408,6 +411,12 @@
         </mxCell>
         <mxCell id="5pfDBnXKAVG5DaRoPYwW-15" value="合单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="233" y="374" width="51" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="5pfDBnXKAVG5DaRoPYwW-18" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="475" width="25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5pfDBnXKAVG5DaRoPYwW-19" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="271" y="475" width="25" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
