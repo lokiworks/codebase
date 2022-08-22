@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-22T05:34:21.663Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="ndJe36uZKtYMFavYq4ZB" version="20.2.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-08-22T06:36:11.289Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="nYkQ8e_dewsK2gX5KhMD" version="20.2.5" type="github" pages="3">
   <diagram id="B3kgOfJoqGJ2eT8AgkZ6" name="进场业务流程">
     <mxGraphModel dx="1422" dy="725" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -325,7 +325,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NBLHkKDOWp0Ea1ek1wTL" name="物流">
-    <mxGraphModel dx="701" dy="372" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="813" dy="414" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -349,6 +349,12 @@
         </mxCell>
         <mxCell id="JLOJ8ZkIo0P1xjazIOw--9" value="拆" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="283" y="418" width="37" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JLOJ8ZkIo0P1xjazIOw--13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="JLOJ8ZkIo0P1xjazIOw--12" target="JLOJ8ZkIo0P1xjazIOw--4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JLOJ8ZkIo0P1xjazIOw--12" value="关键信息：司机、车辆、具体的货物" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#FFFFFF;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="445" y="411" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
