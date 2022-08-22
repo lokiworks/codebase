@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-22T09:15:37.499Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="0oBDLfG3vglNKINl6dHT" version="20.2.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-08-22T09:21:07.972Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="YDGiihxWbqBlGsw7gEL8" version="20.2.5" type="github" pages="4">
   <diagram id="B3kgOfJoqGJ2eT8AgkZ6" name="进场业务流程">
     <mxGraphModel dx="1422" dy="725" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -360,7 +360,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lBlu_qUQjzXMcRqfXPru" name="物流数模">
-    <mxGraphModel dx="1497" dy="763" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2188" dy="1115" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -474,8 +474,8 @@
         <mxCell id="5pfDBnXKAVG5DaRoPYwW-45" value="物流司机调度" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="862" y="250" width="132" height="79" as="geometry" />
         </mxCell>
-        <mxCell id="5pfDBnXKAVG5DaRoPYwW-46" value="分单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="902.5" y="299" width="51" height="22" as="geometry" />
+        <mxCell id="5pfDBnXKAVG5DaRoPYwW-46" value="人工分单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="873" y="299" width="51" height="22" as="geometry" />
         </mxCell>
         <mxCell id="5pfDBnXKAVG5DaRoPYwW-48" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=14.615384615384615;endSize=3.7307692307692304;width=7.3076923076923075;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -521,6 +521,35 @@
         </mxCell>
         <mxCell id="5pfDBnXKAVG5DaRoPYwW-63" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1159" y="593" width="28" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5pfDBnXKAVG5DaRoPYwW-66" value="系统分单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="299" width="51" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="5pfDBnXKAVG5DaRoPYwW-67" value="" style="edgeStyle=orthogonalEdgeStyle;endArrow=none;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;startArrow=open;startFill=0;endFill=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=4;" edge="1" parent="1" source="5pfDBnXKAVG5DaRoPYwW-40" target="5pfDBnXKAVG5DaRoPYwW-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="688" y="835" as="sourcePoint" />
+            <mxPoint x="1290" y="732" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="697" y="816" />
+              <mxPoint x="1229" y="816" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5pfDBnXKAVG5DaRoPYwW-68" value="状态变更" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="912" y="782" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5pfDBnXKAVG5DaRoPYwW-70" value="" style="edgeStyle=orthogonalEdgeStyle;endArrow=none;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;startArrow=open;startFill=0;endFill=0;entryX=0.199;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=4;" edge="1" parent="1" target="5pfDBnXKAVG5DaRoPYwW-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="117.01500000000044" y="718.0000000000002" as="sourcePoint" />
+            <mxPoint x="648.39" y="718.0000000000002" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="117" y="816" />
+              <mxPoint x="506" y="816" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5pfDBnXKAVG5DaRoPYwW-71" value="状态变更" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="288" y="777" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
