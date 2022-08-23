@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-23T09:41:58.718Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Van6X3Xw_OFqr0OvzyeS" version="20.2.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-08-23T09:43:49.456Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="_ufc4amWadq-ANJSxTzO" version="20.2.6" type="github" pages="7">
   <diagram id="B3kgOfJoqGJ2eT8AgkZ6" name="进场业务流程">
     <mxGraphModel dx="2382" dy="1231" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -778,7 +778,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Copy of 物流用户管理" id="47itOmxWLqQdEslRUZ61">
-    <mxGraphModel dx="1422" dy="691" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1293" dy="628" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="JE1iiLk_qIhbEj7asfga-0" />
         <mxCell id="JE1iiLk_qIhbEj7asfga-1" parent="JE1iiLk_qIhbEj7asfga-0" />
@@ -826,6 +826,20 @@
         </mxCell>
         <mxCell id="2dMS8fqi9mYiLFSzjCaW-10" value="资源管理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="JE1iiLk_qIhbEj7asfga-1">
           <mxGeometry x="265" y="627" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2dMS8fqi9mYiLFSzjCaW-11" value="应用管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=none;" vertex="1" parent="JE1iiLk_qIhbEj7asfga-1">
+          <mxGeometry x="231" y="660" width="128" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="2dMS8fqi9mYiLFSzjCaW-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="JE1iiLk_qIhbEj7asfga-1" source="JE1iiLk_qIhbEj7asfga-2" target="2dMS8fqi9mYiLFSzjCaW-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2dMS8fqi9mYiLFSzjCaW-13" value="注册应用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2dMS8fqi9mYiLFSzjCaW-12">
+          <mxGeometry x="-0.2271" y="2" relative="1" as="geometry">
+            <mxPoint x="-6" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2dMS8fqi9mYiLFSzjCaW-14" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#36393d;fillColor=#ffff88;" vertex="1" parent="JE1iiLk_qIhbEj7asfga-1">
+          <mxGeometry x="85" y="481" width="34" height="34" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
