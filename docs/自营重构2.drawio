@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-23T08:04:23.328Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="n-HOo4B02H2CruhgcrOn" version="20.2.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-08-23T09:09:29.370Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="jlWOohqLj7y-V-xlwuEQ" version="20.2.6" type="github" pages="7">
   <diagram id="B3kgOfJoqGJ2eT8AgkZ6" name="进场业务流程">
     <mxGraphModel dx="2382" dy="1231" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -770,6 +770,32 @@
         </mxCell>
         <mxCell id="-opdQ4bwJsiXhw7p8r1y-13" value="资源" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="192" y="853" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-opdQ4bwJsiXhw7p8r1y-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="705" y="276" width="477" height="152" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Copy of 物流用户管理" id="47itOmxWLqQdEslRUZ61">
+    <mxGraphModel dx="1422" dy="691" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="JE1iiLk_qIhbEj7asfga-0" />
+        <mxCell id="JE1iiLk_qIhbEj7asfga-1" parent="JE1iiLk_qIhbEj7asfga-0" />
+        <mxCell id="JE1iiLk_qIhbEj7asfga-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="JE1iiLk_qIhbEj7asfga-1">
+          <mxGeometry x="171" y="278" width="477" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="JE1iiLk_qIhbEj7asfga-3" value="承运商管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=none;" vertex="1" parent="JE1iiLk_qIhbEj7asfga-1">
+          <mxGeometry x="208" y="356" width="175" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="JE1iiLk_qIhbEj7asfga-4" value="承运商人员管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=none;" vertex="1" parent="JE1iiLk_qIhbEj7asfga-1">
+          <mxGeometry x="436" y="356" width="175" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="JE1iiLk_qIhbEj7asfga-5" value="物流管理后台" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="JE1iiLk_qIhbEj7asfga-1">
+          <mxGeometry x="358" y="282" width="94" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JE1iiLk_qIhbEj7asfga-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="JE1iiLk_qIhbEj7asfga-1">
+          <mxGeometry x="171" y="584" width="477" height="152" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
