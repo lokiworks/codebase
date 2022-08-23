@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-23T04:12:48.057Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="dYcRTvuSCC4icsTejh84" version="20.2.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-08-23T04:13:58.562Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="eIPwJfEnTmHZEM5zKFAC" version="20.2.6" type="github" pages="6">
   <diagram id="B3kgOfJoqGJ2eT8AgkZ6" name="进场业务流程">
     <mxGraphModel dx="2382" dy="1231" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -708,11 +708,17 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="-opdQ4bwJsiXhw7p8r1y-1" value="承运商管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="149" y="172" width="175" height="48" as="geometry" />
+        <mxCell id="-opdQ4bwJsiXhw7p8r1y-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="48" y="279" width="477" height="152" as="geometry" />
         </mxCell>
-        <mxCell id="-opdQ4bwJsiXhw7p8r1y-2" value="承运商人员管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="377" y="172" width="175" height="48" as="geometry" />
+        <mxCell id="-opdQ4bwJsiXhw7p8r1y-1" value="承运商管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="85" y="357" width="175" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="-opdQ4bwJsiXhw7p8r1y-2" value="承运商人员管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="313" y="357" width="175" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="-opdQ4bwJsiXhw7p8r1y-4" value="物流管理后台" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="244" y="284" width="94" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
