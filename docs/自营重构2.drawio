@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-24T03:45:52.599Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="t7oNhgta-XSkDo90ps6U" version="20.2.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-08-24T03:46:31.531Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Cs_Fx3XFZAtjcCAmIq6Q" version="20.2.6" type="github" pages="8">
   <diagram id="B3kgOfJoqGJ2eT8AgkZ6" name="进场业务流程">
     <mxGraphModel dx="1422" dy="725" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -894,20 +894,17 @@
         <mxCell id="zKETrvVSRvicwDpTKG4a-10" value="系统" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="267" y="461" width="49" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="zKETrvVSRvicwDpTKG4a-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="zKETrvVSRvicwDpTKG4a-11" target="zKETrvVSRvicwDpTKG4a-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="zKETrvVSRvicwDpTKG4a-11" value="物流配送单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;sketch=0;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="417" y="380" width="276" height="122" as="geometry" />
         </mxCell>
         <mxCell id="zKETrvVSRvicwDpTKG4a-14" value="物流车辆+司机调度" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;sketch=0;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="791" y="380" width="276" height="122" as="geometry" />
+          <mxGeometry x="48" y="541" width="276" height="122" as="geometry" />
         </mxCell>
         <mxCell id="zKETrvVSRvicwDpTKG4a-16" value="人工" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;strokeColor=default;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="811" y="424" width="111" height="62" as="geometry" />
+          <mxGeometry x="68" y="585" width="111" height="62" as="geometry" />
         </mxCell>
         <mxCell id="zKETrvVSRvicwDpTKG4a-17" value="系统" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;strokeColor=default;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="945" y="424" width="111" height="62" as="geometry" />
+          <mxGeometry x="202" y="585" width="111" height="62" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
