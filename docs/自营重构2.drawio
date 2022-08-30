@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-30T03:34:49.204Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="ZUvkx0J1xh6ZevNUqbgT" version="20.2.7" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2022-08-30T03:58:36.975Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="oKb0qa7u5K62joo1eac5" version="20.2.7" type="github" pages="13">
   <diagram id="B3kgOfJoqGJ2eT8AgkZ6" name="进场业务流程">
     <mxGraphModel dx="1022" dy="436" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1297,24 +1297,56 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Ik59heD8PW6OD8kzkue9" name="车型匹配算法梳理">
-    <mxGraphModel dx="782" dy="402" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="652" dy="335" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="SvUGacnwbKaHyXQE5ncV-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;curved=1;" edge="1" parent="1" source="SvUGacnwbKaHyXQE5ncV-1" target="SvUGacnwbKaHyXQE5ncV-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SvUGacnwbKaHyXQE5ncV-1" value="获取推荐车型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="153" y="151" width="120" height="60" as="geometry" />
+        <mxCell id="SvUGacnwbKaHyXQE5ncV-7" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=open;endFill=0;" edge="1" parent="1" source="SvUGacnwbKaHyXQE5ncV-1" target="SvUGacnwbKaHyXQE5ncV-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SvUGacnwbKaHyXQE5ncV-1" value="获取推荐车型" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="191" y="159" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SvUGacnwbKaHyXQE5ncV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="SvUGacnwbKaHyXQE5ncV-2" target="SvUGacnwbKaHyXQE5ncV-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SvUGacnwbKaHyXQE5ncV-2" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="186.25" y="42" width="53.5" height="52" as="geometry" />
+          <mxGeometry x="224.25" y="50" width="53.5" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="SvUGacnwbKaHyXQE5ncV-4" value="捞取tms_recommend_truck表中的数据" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
-          <mxGeometry x="348" y="74" width="212" height="77" as="geometry" />
+        <mxCell id="SvUGacnwbKaHyXQE5ncV-4" value="捞取tms_recommend_truck表中的数据，按照车长进行顺序排序" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="386" y="82" width="125" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="SvUGacnwbKaHyXQE5ncV-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="SvUGacnwbKaHyXQE5ncV-6" target="SvUGacnwbKaHyXQE5ncV-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SvUGacnwbKaHyXQE5ncV-11" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SvUGacnwbKaHyXQE5ncV-10">
+          <mxGeometry x="-0.1804" relative="1" as="geometry">
+            <mxPoint x="35" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SvUGacnwbKaHyXQE5ncV-13" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="SvUGacnwbKaHyXQE5ncV-6" target="SvUGacnwbKaHyXQE5ncV-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SvUGacnwbKaHyXQE5ncV-6" value="需求数量是否超过100" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="201" y="289" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SvUGacnwbKaHyXQE5ncV-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="SvUGacnwbKaHyXQE5ncV-9" target="SvUGacnwbKaHyXQE5ncV-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SvUGacnwbKaHyXQE5ncV-9" value="使用推荐车型中长度靠后的2种车型" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="14" y="449" width="105" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="SvUGacnwbKaHyXQE5ncV-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="SvUGacnwbKaHyXQE5ncV-12" target="SvUGacnwbKaHyXQE5ncV-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SvUGacnwbKaHyXQE5ncV-12" value="使用推荐车型中长度靠后的2种车型" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="198.5" y="449" width="105" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="SvUGacnwbKaHyXQE5ncV-15" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="201" y="581" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
