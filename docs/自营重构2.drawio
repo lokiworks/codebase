@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-31T03:32:26.915Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="fBK_iqMZFr1pwj_qA_S0" version="20.2.7" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2022-08-31T03:36:21.167Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="-X0aLvtcWrLzoTKiy7Y9" version="20.2.7" type="github" pages="14">
   <diagram id="B3kgOfJoqGJ2eT8AgkZ6" name="进场业务流程">
     <mxGraphModel dx="782" dy="436" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -943,7 +943,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TdLJe_96DDx9dU2_-H96" name="物流系统">
-    <mxGraphModel dx="539" dy="301" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="920" dy="513" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1063,6 +1063,15 @@
           <mxGeometry x="895.0022222222221" y="353" as="geometry">
             <mxPoint x="-13" y="-73" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="S8HYFlhR7FuOOYBHiarC-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.325;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=block;startFill=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="S8HYFlhR7FuOOYBHiarC-18" target="HpVEQ_s_Zib_Cvza8JAM-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S8HYFlhR7FuOOYBHiarC-18" value="G7" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+          <mxGeometry x="385" y="812" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S8HYFlhR7FuOOYBHiarC-21" value="1、承运商、司机等主数据同步&lt;br&gt;2、物流需求单、运输单、子运输单据同步" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="476" y="725" width="252" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
