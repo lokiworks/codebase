@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-31T03:29:15.297Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Jf5B4gYnN5LvtcYzo2xz" version="20.2.7" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2022-08-31T03:30:34.350Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="DMTWR1U2kRAD3_gKJBTN" version="20.2.7" type="github" pages="14">
   <diagram id="B3kgOfJoqGJ2eT8AgkZ6" name="进场业务流程">
     <mxGraphModel dx="782" dy="436" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -943,7 +943,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TdLJe_96DDx9dU2_-H96" name="物流系统">
-    <mxGraphModel dx="782" dy="436" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="869" dy="484" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1041,6 +1041,15 @@
         </mxCell>
         <mxCell id="S8HYFlhR7FuOOYBHiarC-9" value="认证" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
           <mxGeometry x="1053" y="603" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S8HYFlhR7FuOOYBHiarC-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.901;entryY=0.19;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=block;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="S8HYFlhR7FuOOYBHiarC-12" target="HpVEQ_s_Zib_Cvza8JAM-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S8HYFlhR7FuOOYBHiarC-12" value="用户中心" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+          <mxGeometry x="1053" y="328" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S8HYFlhR7FuOOYBHiarC-14" value="承运商、司机用户注册、注销等调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="895.0022222222221" y="335" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
