@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-31T03:08:36.207Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="eEIOzi_k5gPHlth6V8VG" version="20.2.7" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2022-08-31T03:24:05.770Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="mUlTZh4R4rS6dBl19LXi" version="20.2.7" type="github" pages="14">
   <diagram id="B3kgOfJoqGJ2eT8AgkZ6" name="进场业务流程">
     <mxGraphModel dx="782" dy="436" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -943,7 +943,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TdLJe_96DDx9dU2_-H96" name="物流系统">
-    <mxGraphModel dx="1043" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="436" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -958,7 +958,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="HpVEQ_s_Zib_Cvza8JAM-2" value="客/货地图" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
-          <mxGeometry x="1016" y="386" width="120" height="40" as="geometry" />
+          <mxGeometry x="1053" y="386" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S8HYFlhR7FuOOYBHiarC-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1.003;exitY=0.454;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=block;endFill=1;" edge="1" parent="1" source="HpVEQ_s_Zib_Cvza8JAM-4" target="S8HYFlhR7FuOOYBHiarC-1">
           <mxGeometry relative="1" as="geometry" />
@@ -1002,7 +1002,7 @@
         </mxCell>
         <mxCell id="S8HYFlhR7FuOOYBHiarC-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.001;exitY=0.857;exitDx=0;exitDy=0;endArrow=block;endFill=1;exitPerimeter=0;" edge="1" parent="1" source="S8HYFlhR7FuOOYBHiarC-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="739" y="470" as="targetPoint" />
+            <mxPoint x="737" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="S8HYFlhR7FuOOYBHiarC-5" value="状态变更通知" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="S8HYFlhR7FuOOYBHiarC-4">
@@ -1011,7 +1011,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="S8HYFlhR7FuOOYBHiarC-1" value="工作流" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
-          <mxGeometry x="1016" y="436" width="120" height="40" as="geometry" />
+          <mxGeometry x="1053" y="436" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="S8HYFlhR7FuOOYBHiarC-3" value="创建工作流" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
           <mxGeometry x="880.0036018502884" y="436.00300677751045" as="geometry" />
@@ -1022,15 +1022,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="S8HYFlhR7FuOOYBHiarC-6" value="电签" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
-          <mxGeometry x="1016" y="547" width="120" height="40" as="geometry" />
+          <mxGeometry x="1053" y="547" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="S8HYFlhR7FuOOYBHiarC-8" value="生成、查询、预览、下载等调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="887.9954545454545" y="474" as="geometry">
+        <mxCell id="S8HYFlhR7FuOOYBHiarC-8" value="生成、进度查询、预览、确认签署、拒绝签署、下载等调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="901.9954545454545" y="476" as="geometry">
             <mxPoint x="-11" y="68" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="S8HYFlhR7FuOOYBHiarC-9" value="认证" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
-          <mxGeometry x="1016" y="603" width="120" height="40" as="geometry" />
+          <mxGeometry x="1053" y="603" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
