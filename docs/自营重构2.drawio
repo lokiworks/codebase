@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-31T03:51:19.737Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Q9k4NIbK5wi8NnGkzhwd" version="20.2.7" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2022-08-31T03:57:10.098Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="hg1m-LE60iOxpOJJJkmo" version="20.2.7" type="github" pages="14">
   <diagram id="B3kgOfJoqGJ2eT8AgkZ6" name="进场业务流程">
     <mxGraphModel dx="782" dy="436" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -943,7 +943,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TdLJe_96DDx9dU2_-H96" name="物流系统">
-    <mxGraphModel dx="869" dy="484" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="652" dy="363" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1079,19 +1079,33 @@
         <mxCell id="S8HYFlhR7FuOOYBHiarC-23" value="商品中心" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
           <mxGeometry x="87" y="392" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="S8HYFlhR7FuOOYBHiarC-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=block;endFill=1;" edge="1" parent="1" source="S8HYFlhR7FuOOYBHiarC-24">
+        <mxCell id="S8HYFlhR7FuOOYBHiarC-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=block;endFill=1;entryX=0.024;entryY=0.262;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="S8HYFlhR7FuOOYBHiarC-24" target="HpVEQ_s_Zib_Cvza8JAM-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="357" y="377" as="targetPoint" />
+            <mxPoint x="357" y="381" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="S8HYFlhR7FuOOYBHiarC-24" value="物流调度" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="341" y="47" width="30" height="60" as="geometry" />
+          <mxGeometry x="343" y="47" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S8HYFlhR7FuOOYBHiarC-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.477;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=block;endFill=1;" edge="1" parent="1" source="S8HYFlhR7FuOOYBHiarC-25" target="HpVEQ_s_Zib_Cvza8JAM-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="S8HYFlhR7FuOOYBHiarC-25" value="物流承运商" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="540" y="45" width="30" height="60" as="geometry" />
+          <mxGeometry x="519" y="47" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S8HYFlhR7FuOOYBHiarC-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.734;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=block;endFill=1;" edge="1" parent="1" source="S8HYFlhR7FuOOYBHiarC-26" target="HpVEQ_s_Zib_Cvza8JAM-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="S8HYFlhR7FuOOYBHiarC-26" value="物流司机" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="619" y="45" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S8HYFlhR7FuOOYBHiarC-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=block;endFill=1;" edge="1" parent="1" source="S8HYFlhR7FuOOYBHiarC-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="437" y="304" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S8HYFlhR7FuOOYBHiarC-31" value="物流承运商" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="422" y="47" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
