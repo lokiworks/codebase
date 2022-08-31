@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-31T03:24:05.770Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="mUlTZh4R4rS6dBl19LXi" version="20.2.7" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2022-08-31T03:24:26.452Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="_l-6d6Vf_LcJjMk4Vijg" version="20.2.7" type="github" pages="14">
   <diagram id="B3kgOfJoqGJ2eT8AgkZ6" name="进场业务流程">
     <mxGraphModel dx="782" dy="436" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1027,6 +1027,11 @@
         <mxCell id="S8HYFlhR7FuOOYBHiarC-8" value="生成、进度查询、预览、确认签署、拒绝签署、下载等调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
           <mxGeometry x="901.9954545454545" y="476" as="geometry">
             <mxPoint x="-11" y="68" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S8HYFlhR7FuOOYBHiarC-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=block;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="S8HYFlhR7FuOOYBHiarC-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="651" y="623" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="S8HYFlhR7FuOOYBHiarC-9" value="认证" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
