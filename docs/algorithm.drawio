@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T00:35:49.272Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="5C3kROfflgSw1Tdldioi" version="20.2.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-05T00:46:36.252Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Tsvo2E4IPRJVQAU0ozgF" version="20.2.8" type="github" pages="2">
   <diagram id="Gd7Hyvb9YNo9JDkE_sxB" name="algo">
     <mxGraphModel dx="782" dy="436" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -29,7 +29,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2h0tBtqogN7d-AHQfmF2" name="red-black-tree">
-    <mxGraphModel dx="652" dy="363" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="436" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -67,6 +67,9 @@
         </mxCell>
         <mxCell id="fbvIBAIcn0zFYdKSKiHI-11" value="z" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="253" y="248" width="47" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="fbvIBAIcn0zFYdKSKiHI-12" value="z.color = RED&lt;br&gt;违约的场景有：&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1.z is root, 属性2违反&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2.z.parent is red, 属性4违反&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="32" y="54.5" width="210" height="102" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
