@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-08T03:35:20.002Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="W3-6JMg1BRJeyamDykyN" version="20.2.8" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-09-08T03:36:35.632Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="oV9lahPGTZePHYpeCe9h" version="20.2.8" type="github" pages="15">
   <diagram id="B3kgOfJoqGJ2eT8AgkZ6" name="进场业务流程">
     <mxGraphModel dx="782" dy="436" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1562,7 +1562,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PHY4PydIwZwsGofls-b-" name="Page-15">
-    <mxGraphModel dx="1585" dy="1063" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1381" dy="949" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1658,6 +1658,12 @@
         </mxCell>
         <mxCell id="G-tcc5ETMa2A97oneY1Y-46" value="供应链链基于&lt;font color=&quot;#ff3333&quot;&gt;前台商品SPU&lt;/font&gt;搭建了一套库存管理系统" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-113" y="433" width="152" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G-tcc5ETMa2A97oneY1Y-48" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#FF3333;endArrow=open;endFill=0;strokeColor=#0000FF;" edge="1" parent="1" source="G-tcc5ETMa2A97oneY1Y-25" target="G-tcc5ETMa2A97oneY1Y-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G-tcc5ETMa2A97oneY1Y-49" value="1、查询型号，如果不存在则再设备中心登记新型号以及设备信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="393" y="316" width="181" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
