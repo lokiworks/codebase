@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-08T03:39:38.285Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="wfQ_TUAJ5DZGEEiErGIY" version="20.2.8" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2022-09-08T03:46:14.856Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="8RxPSsOz7nSg_U0DWCUX" version="20.2.8" type="github" pages="15">
   <diagram id="B3kgOfJoqGJ2eT8AgkZ6" name="进场业务流程">
     <mxGraphModel dx="782" dy="436" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1562,7 +1562,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PHY4PydIwZwsGofls-b-" name="Page-15">
-    <mxGraphModel dx="969" dy="718" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1585" dy="1063" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1669,7 +1669,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="G-tcc5ETMa2A97oneY1Y-41" value="实际在交易/交付/结算链路中一直使用的是前台商品的编码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-118" y="105" width="148" height="30" as="geometry" />
+          <mxGeometry x="-119" y="124" width="148" height="30" as="geometry" />
         </mxCell>
         <mxCell id="G-tcc5ETMa2A97oneY1Y-43" value="库存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="165.75" y="494.5" width="120" height="60" as="geometry" />
@@ -1688,6 +1688,12 @@
         </mxCell>
         <mxCell id="G-tcc5ETMa2A97oneY1Y-51" value="&lt;font color=&quot;#000000&quot;&gt;2、采购入库，库存数变更&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="326.5" y="490" width="181" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G-tcc5ETMa2A97oneY1Y-59" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;fontColor=#FF3333;endArrow=none;endFill=0;" edge="1" parent="1" source="G-tcc5ETMa2A97oneY1Y-58" target="G-tcc5ETMa2A97oneY1Y-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G-tcc5ETMa2A97oneY1Y-58" value="重点介绍下SPU的生成规则：&lt;br&gt;后台商品根据产品的&lt;font color=&quot;#ff3333&quot;&gt;关键信息&lt;/font&gt;：如品牌+型号，生成后台的SPU编码&lt;br&gt;前台商品根据产品的其他属性：如高空车的类型：剪叉+高度，生成了前台的SPU编码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="100.75" y="307" width="217" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
