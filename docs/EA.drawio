@@ -1,1 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2022-09-09T00:41:09.629Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Kw1skwrRLx3cQaGSE4Qj" version="20.3.0" type="github"><diagram id="_cv_2cD60kbQuKg7ILXj" name="Page-1">ddG9DoIwEADgp+kOrRGcEXVxYnBu6EmbFI6UGtCnF3IgNujSXL+7/l2ZyOrh7GSrr6jAMh6pgYkj4zxJ+ThO8CTYiT1B5YwiilYozAsI40UfRkE3G5FHtN60IZbYNFD6wKRz2Idld7QqgFZWsIGilHarN6O8Jk15svoFTKWXk+P9gTK1XIrnl3RaKuy/SORMZA7RU1QPGdipd2FfTn+yn4s5aPyPBWOw7j1Ogg8S+Rs=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-09T00:45:54.235Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="nKs4TUB3O-hf3EhtGa2o" version="20.3.0" type="github">
+  <diagram id="_cv_2cD60kbQuKg7ILXj" name="Page-1">
+    <mxGraphModel dx="745" dy="415" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="w-zfdpOzS3-bjVqiXcH4-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;" edge="1" parent="1" source="w-zfdpOzS3-bjVqiXcH4-1" target="w-zfdpOzS3-bjVqiXcH4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w-zfdpOzS3-bjVqiXcH4-1" value="确认订单" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="149" y="151" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w-zfdpOzS3-bjVqiXcH4-2" value="交付履约" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="358" y="151" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
