@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-09T06:08:56.614Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="_jy10T0iSccB349XxPx9" version="20.3.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-09-09T06:21:41.905Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="HZ9MawXzs1f7wsyDyVGu" version="20.3.0" type="github" pages="3">
   <diagram id="_cv_2cD60kbQuKg7ILXj" name="业务流程-01">
     <mxGraphModel dx="869" dy="484" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -81,10 +81,40 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FOWtBgsCqZ3gId9oFDNM" name="业务流程-物流-订单-02">
-    <mxGraphModel dx="1422" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="813" dy="455" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="aURLx6ZLT-YKwzews3jP-2" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;startArrow=none;startFill=0;endArrow=open;endFill=0;" edge="1" parent="1" source="XPrh-xxQ_1ZQsEMpbXUi-1" target="aURLx6ZLT-YKwzews3jP-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XPrh-xxQ_1ZQsEMpbXUi-1" value="已下单" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="174" y="313" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aURLx6ZLT-YKwzews3jP-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;startArrow=none;startFill=0;endArrow=open;endFill=0;" edge="1" parent="1" source="aURLx6ZLT-YKwzews3jP-1" target="aURLx6ZLT-YKwzews3jP-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aURLx6ZLT-YKwzews3jP-1" value="进行中" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="354" y="313" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aURLx6ZLT-YKwzews3jP-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;startArrow=none;startFill=0;endArrow=open;endFill=0;" edge="1" parent="1" source="aURLx6ZLT-YKwzews3jP-3" target="aURLx6ZLT-YKwzews3jP-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aURLx6ZLT-YKwzews3jP-3" value="已完成" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="543" y="313" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aURLx6ZLT-YKwzews3jP-5" value="已下单" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="174" y="419" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aURLx6ZLT-YKwzews3jP-11" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="715" y="318" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aURLx6ZLT-YKwzews3jP-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;startArrow=none;startFill=0;endArrow=open;endFill=0;" edge="1" parent="1" source="aURLx6ZLT-YKwzews3jP-12" target="XPrh-xxQ_1ZQsEMpbXUi-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aURLx6ZLT-YKwzews3jP-12" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="80" y="318" width="30" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
