@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-14T12:16:23.846Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="QOhqnK844QBRfW8cwQVC" version="20.3.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-14T12:17:16.100Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="oHUX6S_fayRd4NUXUJpI" version="20.3.0" type="github" pages="2">
   <diagram id="fTkGCCR2e1lhVUgZ3sJF" name="物流平台">
     <mxGraphModel dx="2188" dy="1225" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -203,7 +203,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FoF1zU-xeqWy2okw0u9h" name="订单中心">
-    <mxGraphModel dx="680" dy="379" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="978" dy="545" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -287,6 +287,9 @@
         <mxCell id="Px5TksTsaAV1ruD5c5Yp-68" value="业财" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="302.5" y="517" width="239" height="127" as="geometry" />
         </mxCell>
+        <mxCell id="Px5TksTsaAV1ruD5c5Yp-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.923;entryY=1.001;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;fillColor=#3399FF;" edge="1" parent="1" source="Px5TksTsaAV1ruD5c5Yp-69" target="Px5TksTsaAV1ruD5c5Yp-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Px5TksTsaAV1ruD5c5Yp-69" value="交付中心" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="570" y="517" width="239" height="127" as="geometry" />
         </mxCell>
@@ -295,6 +298,12 @@
         </mxCell>
         <mxCell id="Px5TksTsaAV1ruD5c5Yp-73" value="下发计价模型及结算政策" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="336" y="457" width="81" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Px5TksTsaAV1ruD5c5Yp-75" value="下发交付需求，如：进退场、报停、报修等" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="470" y="460" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Px5TksTsaAV1ruD5c5Yp-77" value="作业反馈" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="667" y="460" width="82" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
