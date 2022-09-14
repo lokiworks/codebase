@@ -1,17 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2022-09-14T06:49:16.881Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="PoaFjrjFZitneUzRGnjV" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-14T10:39:42.023Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="nNS4ljI87Fzt1OkDd900" version="20.3.0" type="github">
   <diagram id="WJOXv00hVuy9kRLdBPcV" name="Page-1">
-    <mxGraphModel dx="782" dy="436" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1564" dy="872" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="8NXl82Xmxk2-i6Ix3Uvn-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="195" y="90" width="373" height="355" as="geometry" />
-        </mxCell>
-        <mxCell id="8NXl82Xmxk2-i6Ix3Uvn-2" value="物流平台" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="328" y="99" width="120" height="22" as="geometry" />
+        <mxCell id="8NXl82Xmxk2-i6Ix3Uvn-1" value="物流平台" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="178" y="274" width="481" height="374" as="geometry" />
         </mxCell>
         <mxCell id="8NXl82Xmxk2-i6Ix3Uvn-3" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="211" y="131" width="112" height="174" as="geometry" />
+          <mxGeometry x="200" y="305" width="112" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="8NXl82Xmxk2-i6Ix3Uvn-4" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="364" y="305" width="112" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="8NXl82Xmxk2-i6Ix3Uvn-5" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="528" y="305" width="112" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="8NXl82Xmxk2-i6Ix3Uvn-6" value="供应链平台" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="178" y="112" width="261" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="8NXl82Xmxk2-i6Ix3Uvn-7" value="开工啦平台" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="459" y="112" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="8NXl82Xmxk2-i6Ix3Uvn-8" value="其他渠道" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="569" y="112" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="8NXl82Xmxk2-i6Ix3Uvn-9" value="进场" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="185" y="155" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8NXl82Xmxk2-i6Ix3Uvn-10" value="退场" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="256" y="155" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8NXl82Xmxk2-i6Ix3Uvn-11" value="调拨" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="327" y="155" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
