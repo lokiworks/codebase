@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-15T07:03:25.158Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="TUef_Rpk5blpLVLRjdeU" version="20.3.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-09-15T07:05:57.768Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="9Hq9tkQ7jDYyaRVlH6Yc" version="20.3.0" type="github" pages="3">
   <diagram id="fTkGCCR2e1lhVUgZ3sJF" name="物流平台">
     <mxGraphModel dx="782" dy="436" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -221,8 +221,8 @@
         </mxCell>
         <mxCell id="Px5TksTsaAV1ruD5c5Yp-56" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;strokeColor=none;fontColor=#000000;fillColor=#3399FF;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="867" y="266" as="sourcePoint" />
-            <mxPoint x="867" y="185" as="targetPoint" />
+            <mxPoint x="907" y="266" as="sourcePoint" />
+            <mxPoint x="907" y="185" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Px5TksTsaAV1ruD5c5Yp-57" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;strokeColor=none;fontColor=#000000;fillColor=#3399FF;" parent="1" edge="1">
@@ -235,61 +235,61 @@
           <mxGeometry x="194" y="215" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Px5TksTsaAV1ruD5c5Yp-59" value="作业反馈" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="768" y="213" width="88" height="30" as="geometry" />
+          <mxGeometry x="808" y="213" width="88" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Px5TksTsaAV1ruD5c5Yp-62" value="需求接收" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#3399FF;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="63" y="334" width="120" height="48" as="geometry" />
+          <mxGeometry x="56" y="337" width="120" height="48" as="geometry" />
         </mxCell>
         <mxCell id="Px5TksTsaAV1ruD5c5Yp-63" value="需求下发" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#3399FF;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="216" y="334" width="120" height="48" as="geometry" />
+          <mxGeometry x="216" y="337" width="120" height="48" as="geometry" />
         </mxCell>
         <mxCell id="Px5TksTsaAV1ruD5c5Yp-64" value="订单状态流转" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#3399FF;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="372" y="334" width="120" height="48" as="geometry" />
+          <mxGeometry x="387" y="337" width="120" height="48" as="geometry" />
         </mxCell>
         <mxCell id="Px5TksTsaAV1ruD5c5Yp-65" value="订单跟踪" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#3399FF;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="525" y="334" width="120" height="48" as="geometry" />
+          <mxGeometry x="558" y="337" width="120" height="48" as="geometry" />
         </mxCell>
         <mxCell id="Px5TksTsaAV1ruD5c5Yp-66" value="作业反馈" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#3399FF;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="674" y="334" width="120" height="48" as="geometry" />
+          <mxGeometry x="744" y="337" width="120" height="48" as="geometry" />
         </mxCell>
         <mxCell id="Px5TksTsaAV1ruD5c5Yp-68" value="业财" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="302.5" y="517" width="239" height="127" as="geometry" />
+          <mxGeometry x="35" y="547" width="400" height="127" as="geometry" />
         </mxCell>
         <mxCell id="Px5TksTsaAV1ruD5c5Yp-69" value="交付中心" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="570" y="517" width="239" height="127" as="geometry" />
+          <mxGeometry x="671" y="547" width="400" height="127" as="geometry" />
         </mxCell>
         <mxCell id="Px5TksTsaAV1ruD5c5Yp-73" value="下发计价规则及结算政策" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="336" y="457" width="81" height="30" as="geometry" />
+          <mxGeometry x="179" y="476" width="81" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Px5TksTsaAV1ruD5c5Yp-75" value="下发交付需求，如：进退场、报停、报修等" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="470" y="460" width="130" height="30" as="geometry" />
+          <mxGeometry x="633" y="481" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Px5TksTsaAV1ruD5c5Yp-77" value="作业反馈" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="667" y="460" width="82" height="30" as="geometry" />
+          <mxGeometry x="830" y="481" width="82" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ne-KpogNj8V4zXG1hk5a-2" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;strokeColor=none;fontColor=#000000;fillColor=#3399FF;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="431.37" y="435.4999999999999" as="sourcePoint" />
-            <mxPoint x="431.37" y="514.5" as="targetPoint" />
+            <mxPoint x="278.37" y="455.4999999999999" as="sourcePoint" />
+            <mxPoint x="278.37" y="534.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ne-KpogNj8V4zXG1hk5a-3" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;strokeColor=none;fontColor=#000000;fillColor=#3399FF;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="616" y="435.4999999999999" as="sourcePoint" />
-            <mxPoint x="616" y="514.5" as="targetPoint" />
+            <mxPoint x="779" y="456.4999999999999" as="sourcePoint" />
+            <mxPoint x="779" y="535.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ne-KpogNj8V4zXG1hk5a-4" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;strokeColor=none;fontColor=#000000;fillColor=#3399FF;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="749" y="511.0000000000001" as="sourcePoint" />
-            <mxPoint x="749" y="430" as="targetPoint" />
+            <mxPoint x="912" y="532.0000000000001" as="sourcePoint" />
+            <mxPoint x="912" y="451" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OpRpEy4FPkx-4Y387Oky-1" value="自有渠道" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="446" y="70" width="260" height="90" as="geometry" />
         </mxCell>
         <mxCell id="OpRpEy4FPkx-4Y387Oky-2" value="价格中心" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#3399FF;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="838" y="334" width="120" height="48" as="geometry" />
+          <mxGeometry x="920" y="337" width="120" height="48" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
