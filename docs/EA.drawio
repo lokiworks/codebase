@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-16T09:12:08.263Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="zcEoqbN1V1PmQRtlkiU1" version="20.3.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-09-16T09:14:22.038Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="XQIT2k_ZCGSmtHu07akV" version="20.3.0" type="github" pages="3">
   <diagram id="_cv_2cD60kbQuKg7ILXj" name="业务流程-01">
     <mxGraphModel dx="782" dy="436" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9,7 +9,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w-zfdpOzS3-bjVqiXcH4-1" value="确认订单" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+        <mxCell id="w-zfdpOzS3-bjVqiXcH4-1" value="确认订单" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#3399FF;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="93" y="215" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w-zfdpOzS3-bjVqiXcH4-2" value="交付履约" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
@@ -30,8 +30,13 @@
         <mxCell id="w-zfdpOzS3-bjVqiXcH4-10" value="库存" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="302" y="385" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="K5hXJr-74Bw6YyBn2vKO-1" value="平台" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="141" y="36" width="30" height="60" as="geometry" />
+        <mxCell id="K5hXJr-74Bw6YyBn2vKO-3" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="138" y="89" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K5hXJr-74Bw6YyBn2vKO-4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;" edge="1" source="K5hXJr-74Bw6YyBn2vKO-3" parent="1" target="w-zfdpOzS3-bjVqiXcH4-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="72" y="181" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
