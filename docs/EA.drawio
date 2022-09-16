@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-16T11:20:42.444Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="hX1cwKa9li_zQ3k8GhO-" version="20.3.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-09-16T11:24:09.646Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="8RhXtUQZo2L5s-PxUanf" version="20.3.0" type="github" pages="3">
   <diagram id="_cv_2cD60kbQuKg7ILXj" name="业务流程-01">
-    <mxGraphModel dx="1117" dy="623" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1203" dy="671" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -51,7 +51,7 @@
         <mxCell id="w-zfdpOzS3-bjVqiXcH4-9" value="&lt;font color=&quot;#000000&quot;&gt;交付监控&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF3333;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="489" y="54" width="80" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="w-zfdpOzS3-bjVqiXcH4-10" value="库存预占" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#3399FF;" parent="1" vertex="1">
+        <mxCell id="w-zfdpOzS3-bjVqiXcH4-10" value="预占库存" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#3399FF;" parent="1" vertex="1">
           <mxGeometry x="302" y="385" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K5hXJr-74Bw6YyBn2vKO-4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;exitX=0.188;exitY=0.992;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="KaoB-1NW3fZBHTvmu68--19" parent="1">
@@ -75,6 +75,9 @@
         <mxCell id="KaoB-1NW3fZBHTvmu68--6" value="选择交付方式" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#3399FF;" vertex="1" parent="1">
           <mxGeometry x="742" y="213" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="KaoB-1NW3fZBHTvmu68--27" value="6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#000000;fontColor=#FF3333;endArrow=open;endFill=0;fontStyle=1" edge="1" parent="1" source="KaoB-1NW3fZBHTvmu68--10" target="KaoB-1NW3fZBHTvmu68--26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="KaoB-1NW3fZBHTvmu68--10" value="生成物流订单" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#3399FF;" vertex="1" parent="1">
           <mxGeometry x="1010" y="213" width="120" height="60" as="geometry" />
         </mxCell>
@@ -89,6 +92,21 @@
         </mxCell>
         <mxCell id="KaoB-1NW3fZBHTvmu68--24" value="生成进场需求单" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#3399FF;" vertex="1" parent="1">
           <mxGeometry x="636" y="385" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KaoB-1NW3fZBHTvmu68--29" value="7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#000000;fontColor=#FF3333;endArrow=open;endFill=0;" edge="1" parent="1" source="KaoB-1NW3fZBHTvmu68--26" target="KaoB-1NW3fZBHTvmu68--28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KaoB-1NW3fZBHTvmu68--26" value="分派承运商" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="1207" y="213" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KaoB-1NW3fZBHTvmu68--31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#000000;fontColor=#FF3333;endArrow=open;endFill=0;" edge="1" parent="1" source="KaoB-1NW3fZBHTvmu68--28" target="KaoB-1NW3fZBHTvmu68--30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KaoB-1NW3fZBHTvmu68--28" value="选择司机" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="1399" y="213" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KaoB-1NW3fZBHTvmu68--30" value="生成运输单" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="1595" y="213" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
