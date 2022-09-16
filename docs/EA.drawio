@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-16T11:25:54.480Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="7pJEzkBHMfSD1cdVQXrp" version="20.3.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-09-16T11:33:42.417Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="4BWPhSDBB-308o1LDbs0" version="20.3.0" type="github" pages="3">
   <diagram id="_cv_2cD60kbQuKg7ILXj" name="业务流程-01">
-    <mxGraphModel dx="1564" dy="872" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1955" dy="1090" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -41,15 +41,6 @@
         </mxCell>
         <mxCell id="w-zfdpOzS3-bjVqiXcH4-2" value="选仓" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#3399FF;" parent="1" vertex="1">
           <mxGeometry x="302" y="215" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="w-zfdpOzS3-bjVqiXcH4-6" value="交付系统" style="ellipse;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#FFFFFF;verticalAlign=top;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="380" y="21" width="204" height="115" as="geometry" />
-        </mxCell>
-        <mxCell id="w-zfdpOzS3-bjVqiXcH4-7" value="&lt;font color=&quot;#000000&quot;&gt;计划管理&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF3333;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="404" y="54" width="80" height="31" as="geometry" />
-        </mxCell>
-        <mxCell id="w-zfdpOzS3-bjVqiXcH4-9" value="&lt;font color=&quot;#000000&quot;&gt;交付监控&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF3333;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="489" y="54" width="80" height="31" as="geometry" />
         </mxCell>
         <mxCell id="w-zfdpOzS3-bjVqiXcH4-10" value="预占库存" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#3399FF;" parent="1" vertex="1">
           <mxGeometry x="302" y="385" width="120" height="60" as="geometry" />
@@ -105,8 +96,19 @@
         <mxCell id="KaoB-1NW3fZBHTvmu68--28" value="选择司机" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#3399FF;" vertex="1" parent="1">
           <mxGeometry x="1399" y="213" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="F9qFxPYdYV3_8pbWxFyA-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000000;fontColor=#FF3333;endArrow=open;endFill=0;" edge="1" parent="1" source="KaoB-1NW3fZBHTvmu68--30" target="F9qFxPYdYV3_8pbWxFyA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F9qFxPYdYV3_8pbWxFyA-7" value="由xxx司机进行xxx需求&lt;br&gt;的配送及交付" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF3333;" vertex="1" connectable="0" parent="F9qFxPYdYV3_8pbWxFyA-6">
+          <mxGeometry x="0.4135" relative="1" as="geometry">
+            <mxPoint x="-18" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="KaoB-1NW3fZBHTvmu68--30" value="生成运输单" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#3399FF;" vertex="1" parent="1">
           <mxGeometry x="1595" y="213" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F9qFxPYdYV3_8pbWxFyA-2" value="发货仓的服务经理" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#000000;fontColor=#FF3333;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1486" y="22" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
