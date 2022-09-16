@@ -1,9 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-09-16T11:18:59.323Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Kg5u59vcQeHtVK1Lk8pO" version="20.3.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-09-16T11:20:42.444Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="hX1cwKa9li_zQ3k8GhO-" version="20.3.0" type="github" pages="3">
   <diagram id="_cv_2cD60kbQuKg7ILXj" name="业务流程-01">
-    <mxGraphModel dx="252" dy="141" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1117" dy="623" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KaoB-1NW3fZBHTvmu68--25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#FF3333;fontColor=#000000;endArrow=open;endFill=0;" edge="1" parent="1" source="KaoB-1NW3fZBHTvmu68--13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="695.8571428571429" y="384.6190621512277" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="KaoB-1NW3fZBHTvmu68--13" value="&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;交付策略&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#000000;fontColor=#FF3333;fillColor=#FFFFFF;align=center;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="512" y="168" width="368" height="138" as="geometry" />
         </mxCell>
@@ -81,6 +86,9 @@
         </mxCell>
         <mxCell id="KaoB-1NW3fZBHTvmu68--23" value="下发需求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="98" y="117" width="16" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="KaoB-1NW3fZBHTvmu68--24" value="生成进场需求单" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="636" y="385" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
