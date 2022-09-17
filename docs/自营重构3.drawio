@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-17T23:51:18.760Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="kx7CP7pQ68S3E4J-6SDx" version="20.3.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-09-17T23:54:57.458Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="91v_BLLJ7_AxeI6umgyF" version="20.3.2" type="github" pages="3">
   <diagram id="fTkGCCR2e1lhVUgZ3sJF" name="物流平台">
     <mxGraphModel dx="946" dy="534" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -475,6 +475,12 @@
         </mxCell>
         <mxCell id="69lSW7-DfMKuHvhPuGLL-106" value="1.3受理结果反馈" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="69lSW7-DfMKuHvhPuGLL-55">
           <mxGeometry x="624" y="135" width="22" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="69lSW7-DfMKuHvhPuGLL-108" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#000000;fontColor=#FF0000;endArrow=none;endFill=0;" edge="1" parent="69lSW7-DfMKuHvhPuGLL-55" source="69lSW7-DfMKuHvhPuGLL-107" target="69lSW7-DfMKuHvhPuGLL-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="69lSW7-DfMKuHvhPuGLL-107" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;该阶段即使库存不足也生单成功，可在实际履约前通过补货解决&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=0;fontColor=#000000;" vertex="1" parent="69lSW7-DfMKuHvhPuGLL-55">
+          <mxGeometry x="255" y="176" width="134" height="30" as="geometry" />
         </mxCell>
         <mxCell id="69lSW7-DfMKuHvhPuGLL-56" value="下发进场需求" style="shape=tableRow;horizontal=0;startSize=40;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;fillColor=none;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;rounded=0;glass=0;sketch=0;strokeColor=default;fontColor=#000000;" vertex="1" parent="69lSW7-DfMKuHvhPuGLL-47">
           <mxGeometry y="872" width="1968" height="819" as="geometry" />
