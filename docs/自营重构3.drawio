@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-17T23:07:35.489Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="el11ncajThobazsEaQlJ" version="20.3.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-09-17T23:11:54.225Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="w29XrztU-Mwg2Yczgt_z" version="20.3.2" type="github" pages="3">
   <diagram id="fTkGCCR2e1lhVUgZ3sJF" name="物流平台">
     <mxGraphModel dx="946" dy="534" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -301,7 +301,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-N6Tzi53YWvToaHH_Mnk" name="业务流">
-    <mxGraphModel dx="1113" dy="853" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="901" dy="690" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -322,16 +322,6 @@
         <mxCell id="aOiOoymby4WoBzUVC6b4-22" value="1.0订单需求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="168" y="180" width="22" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="aOiOoymby4WoBzUVC6b4-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#B3B3B3;strokeWidth=3;startArrow=none;startFill=0;endArrow=block;endFill=1;entryX=1;entryY=0.767;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="aOiOoymby4WoBzUVC6b4-15" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="608" y="319" as="sourcePoint" />
-            <mxPoint x="283" y="322" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="542" y="319" />
-              <mxPoint x="412" y="319" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="aOiOoymby4WoBzUVC6b4-33" value="1.1 请求决策供货仓" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="382" y="257" width="109" height="30" as="geometry" />
         </mxCell>
@@ -341,7 +331,7 @@
         <mxCell id="69lSW7-DfMKuHvhPuGLL-25" value="交付中心" style="swimlane;rounded=0;glass=0;sketch=0;strokeColor=#36393d;fillColor=#cce5ff;startSize=36;swimlaneHead=1;swimlaneBody=1;horizontal=1;noLabel=0;portConstraintRotation=0;perimeter=rectanglePerimeter;container=0;" vertex="1" parent="1">
           <mxGeometry x="608" y="218" width="282" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="69lSW7-DfMKuHvhPuGLL-31" value="供货仓调度决策模块" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=none;" vertex="1" parent="69lSW7-DfMKuHvhPuGLL-25">
+        <mxCell id="69lSW7-DfMKuHvhPuGLL-31" value="供货仓调度决策模块&lt;br&gt;（人工或系统）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=none;" vertex="1" parent="69lSW7-DfMKuHvhPuGLL-25">
           <mxGeometry x="14" y="54" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="69lSW7-DfMKuHvhPuGLL-32" value="资产中心" style="swimlane;rounded=0;glass=0;sketch=0;strokeColor=#36393d;fillColor=#cce5ff;startSize=36;swimlaneHead=1;swimlaneBody=1;horizontal=1;noLabel=0;portConstraintRotation=0;perimeter=rectanglePerimeter;container=0;" vertex="1" parent="1">
@@ -349,6 +339,9 @@
         </mxCell>
         <mxCell id="69lSW7-DfMKuHvhPuGLL-33" value="库存模块" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=none;" vertex="1" parent="69lSW7-DfMKuHvhPuGLL-32">
           <mxGeometry x="14" y="54" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="69lSW7-DfMKuHvhPuGLL-46" value="仓库模块" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=none;" vertex="1" parent="69lSW7-DfMKuHvhPuGLL-32">
+          <mxGeometry x="148" y="54" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="69lSW7-DfMKuHvhPuGLL-34" value="物流中心" style="swimlane;rounded=0;glass=0;sketch=0;strokeColor=#36393d;fillColor=#cce5ff;startSize=36;swimlaneHead=1;swimlaneBody=1;horizontal=1;noLabel=0;portConstraintRotation=0;perimeter=rectanglePerimeter;container=0;" vertex="1" parent="1">
           <mxGeometry x="1158" y="218" width="282" height="200" as="geometry" />
@@ -361,13 +354,13 @@
             <mxPoint x="608" y="398" as="sourcePoint" />
             <mxPoint x="291.9999999999999" y="330.02" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="569" y="398" />
-              <mxPoint x="569" y="632" />
+              <mxPoint x="587" y="398" />
+              <mxPoint x="587" y="632" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="69lSW7-DfMKuHvhPuGLL-41" value="1.3 单仓库存数据查询" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=0;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="464" y="582" width="98" height="47" as="geometry" />
+        <mxCell id="69lSW7-DfMKuHvhPuGLL-41" value="1.3 库存及仓库信息查询" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="448" y="582" width="135" height="47" as="geometry" />
         </mxCell>
         <mxCell id="69lSW7-DfMKuHvhPuGLL-42" style="rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;strokeColor=#B3B3B3;strokeWidth=3;startArrow=none;startFill=0;endArrow=block;endFill=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="69lSW7-DfMKuHvhPuGLL-25" target="69lSW7-DfMKuHvhPuGLL-34">
           <mxGeometry relative="1" as="geometry">
@@ -377,6 +370,12 @@
         </mxCell>
         <mxCell id="69lSW7-DfMKuHvhPuGLL-43" value="1.4 发货仓与收获地运费测算" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="942" y="231" width="162" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="69lSW7-DfMKuHvhPuGLL-45" value="" style="endArrow=none;html=1;rounded=0;sketch=0;strokeColor=#B3B3B3;strokeWidth=3;endFill=0;startArrow=block;startFill=1;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="aOiOoymby4WoBzUVC6b4-15" target="69lSW7-DfMKuHvhPuGLL-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="404" y="335" as="sourcePoint" />
+            <mxPoint x="564" y="335" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
