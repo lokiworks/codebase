@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-18T12:52:42.095Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="46q0b3U34Vd6R4oLAz4I" version="20.3.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-09-18T12:54:21.826Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="3xv-pKhYC4UEuSDSDNqx" version="20.3.2" type="github" pages="3">
   <diagram id="fTkGCCR2e1lhVUgZ3sJF" name="物流平台">
     <mxGraphModel dx="946" dy="534" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -301,7 +301,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-N6Tzi53YWvToaHH_Mnk" name="业务流">
-    <mxGraphModel dx="1196" dy="668" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1849" dy="1033" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -557,6 +557,9 @@
             <mxPoint x="394.0000000000002" y="116" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="TaFu5wgOlqoG-L57U47R-36" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;strokeWidth=1;endArrow=none;endFill=0;" edge="1" parent="69lSW7-DfMKuHvhPuGLL-59" source="TaFu5wgOlqoG-L57U47R-18" target="TaFu5wgOlqoG-L57U47R-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="TaFu5wgOlqoG-L57U47R-18" value="物流中心" style="swimlane;rounded=0;glass=0;sketch=0;strokeColor=#36393d;fillColor=#cce5ff;startSize=36;swimlaneHead=1;swimlaneBody=1;horizontal=1;noLabel=0;portConstraintRotation=0;perimeter=rectanglePerimeter;container=0;" vertex="1" parent="69lSW7-DfMKuHvhPuGLL-59">
           <mxGeometry x="1258" y="236" width="282" height="200" as="geometry" />
         </mxCell>
@@ -612,6 +615,9 @@
         </mxCell>
         <mxCell id="TaFu5wgOlqoG-L57U47R-34" value="2.13 基于子运输单号生成司机的交付任务待办" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="69lSW7-DfMKuHvhPuGLL-59">
           <mxGeometry x="1413" y="511" width="70" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="TaFu5wgOlqoG-L57U47R-35" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;一个子运输单对应多个交付任务&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=0;fontColor=#000000;" vertex="1" parent="69lSW7-DfMKuHvhPuGLL-59">
+          <mxGeometry x="1643" y="369" width="203" height="133" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
