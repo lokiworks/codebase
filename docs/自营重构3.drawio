@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-23T04:03:31.888Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="yctXKuathWvBIAluhqN-" version="20.3.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-09-23T04:37:07.637Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="t4A7QjfQAUt67oKomaWt" version="20.3.3" type="github" pages="5">
   <diagram id="fTkGCCR2e1lhVUgZ3sJF" name="物流平台">
     <mxGraphModel dx="1102" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -697,11 +697,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZeqabV58we3zh2pebueD" name="物流模块图">
-    <mxGraphModel dx="1574" dy="830" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="958" dy="505" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Ul36X3n6mvARQfB9jN-a-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ul36X3n6mvARQfB9jN-a-9" value="承运商管理" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="60" y="515" width="456" height="338" as="geometry" />
         </mxCell>
         <mxCell id="Ul36X3n6mvARQfB9jN-a-10" value="承运商" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;fontStyle=1;verticalAlign=top;" vertex="1" parent="1">
@@ -713,14 +713,8 @@
         <mxCell id="Ul36X3n6mvARQfB9jN-a-12" value="车辆" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;fontStyle=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="363" y="554" width="101" height="132" as="geometry" />
         </mxCell>
-        <mxCell id="Ul36X3n6mvARQfB9jN-a-14" value="承运商管理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="269" y="515" width="84" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Ul36X3n6mvARQfB9jN-a-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ul36X3n6mvARQfB9jN-a-15" value="报价管理" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="538" y="515" width="409" height="337" as="geometry" />
-        </mxCell>
-        <mxCell id="Ul36X3n6mvARQfB9jN-a-20" value="报价管理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="635" y="515" width="84" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ul36X3n6mvARQfB9jN-a-21" value="对客价格测算" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;fontStyle=1;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="561" y="554" width="101" height="41" as="geometry" />
@@ -737,7 +731,7 @@
         <mxCell id="Ul36X3n6mvARQfB9jN-a-27" value="物流（客户）订单" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="60" y="156" width="265" height="337" as="geometry" />
         </mxCell>
-        <mxCell id="Ul36X3n6mvARQfB9jN-a-28" value="物流调度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ul36X3n6mvARQfB9jN-a-28" value="物流调度" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="388" y="156" width="265" height="337" as="geometry" />
         </mxCell>
         <mxCell id="Ul36X3n6mvARQfB9jN-a-30" value="物流（承运商）运单" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
@@ -755,10 +749,10 @@
         <mxCell id="Ul36X3n6mvARQfB9jN-a-38" value="物流交付" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;fontStyle=1;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="1128" y="235" width="101" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="Ul36X3n6mvARQfB9jN-a-40" value="对内时效配置管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;fontStyle=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="Ul36X3n6mvARQfB9jN-a-40" value="对内时效配置管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;fontStyle=0;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="1048.5" y="561" width="101" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="Ul36X3n6mvARQfB9jN-a-41" value="作业间隔" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;fontStyle=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="Ul36X3n6mvARQfB9jN-a-41" value="作业间隔" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;fontStyle=0;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="1170" y="561" width="101" height="41" as="geometry" />
         </mxCell>
         <mxCell id="Ul36X3n6mvARQfB9jN-a-42" value="车型满载配置管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;fontStyle=1;verticalAlign=middle;" vertex="1" parent="1">
@@ -773,23 +767,23 @@
         <mxCell id="Ul36X3n6mvARQfB9jN-a-45" value="物流运费价格管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;fontStyle=1;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="822" y="649" width="101" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="Ul36X3n6mvARQfB9jN-a-47" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ul36X3n6mvARQfB9jN-a-47" value="财务" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1375" y="512" width="265" height="337" as="geometry" />
         </mxCell>
-        <mxCell id="Ul36X3n6mvARQfB9jN-a-48" value="计费&amp;amp;结算&amp;amp;开票" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1469" y="515" width="84" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Ul36X3n6mvARQfB9jN-a-49" value="时效统计分析" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;fontStyle=1;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="Ul36X3n6mvARQfB9jN-a-49" value="时效统计分析" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;fontStyle=0;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="1046" y="636" width="101" height="41" as="geometry" />
-        </mxCell>
-        <mxCell id="Ul36X3n6mvARQfB9jN-a-50" value="合同管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;fontStyle=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="80" y="706" width="386" height="88" as="geometry" />
-        </mxCell>
-        <mxCell id="Ul36X3n6mvARQfB9jN-a-52" value="合同管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;fontStyle=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="561" y="711" width="366" height="88" as="geometry" />
         </mxCell>
         <mxCell id="Ul36X3n6mvARQfB9jN-a-53" value="合同管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;fontStyle=1;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="772" y="308" width="224" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="Ul36X3n6mvARQfB9jN-a-56" value="计费" style="rounded=0;labelBorderColor=none;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1406" y="569" width="101" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="Ul36X3n6mvARQfB9jN-a-57" value="账单" style="rounded=0;labelBorderColor=none;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1406" y="639.5" width="101" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="Ul36X3n6mvARQfB9jN-a-58" value="开票" style="rounded=0;labelBorderColor=none;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1406" y="715" width="101" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
