@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-23T05:06:24.568Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="6ki_G2_TbqzIj1r_OrkP" version="20.3.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-09-23T05:07:16.245Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="HV8lIjQ4_QF4Bu9CzGJ5" version="20.3.3" type="github" pages="5">
   <diagram id="fTkGCCR2e1lhVUgZ3sJF" name="物流平台">
     <mxGraphModel dx="1102" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -697,7 +697,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZeqabV58we3zh2pebueD" name="物流模块图">
-    <mxGraphModel dx="2764" dy="640" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2986" dy="768" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -705,7 +705,7 @@
           <mxGeometry x="-1150" y="25" width="2151" height="1305" as="geometry" />
         </mxCell>
         <mxCell id="Ul36X3n6mvARQfB9jN-a-9" value="承运商管理" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-1110" y="650" width="456" height="433" as="geometry" />
+          <mxGeometry x="-1110" y="650" width="456" height="338" as="geometry" />
         </mxCell>
         <mxCell id="Ul36X3n6mvARQfB9jN-a-10" value="承运商" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;fontStyle=0;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="-1090" y="689" width="101" height="132" as="geometry" />
@@ -730,6 +730,14 @@
         </mxCell>
         <mxCell id="Ul36X3n6mvARQfB9jN-a-27" value="物流订单" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="-665" y="194" width="265" height="337" as="geometry" />
+        </mxCell>
+        <mxCell id="Ul36X3n6mvARQfB9jN-a-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="Ul36X3n6mvARQfB9jN-a-28" target="Ul36X3n6mvARQfB9jN-a-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ul36X3n6mvARQfB9jN-a-99" value="查询承运商、车辆等信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ul36X3n6mvARQfB9jN-a-98">
+          <mxGeometry x="0.2075" y="3" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Ul36X3n6mvARQfB9jN-a-28" value="物流调度" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="-172" y="191" width="392" height="337" as="geometry" />
@@ -786,7 +794,7 @@
           <mxGeometry x="812" y="305" width="120" height="37" as="geometry" />
         </mxCell>
         <mxCell id="Ul36X3n6mvARQfB9jN-a-60" value="（物流）公共基础" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-635" y="1154" width="1584" height="211" as="geometry" />
+          <mxGeometry x="-1109" y="1106" width="1584" height="211" as="geometry" />
         </mxCell>
         <mxCell id="Ul36X3n6mvARQfB9jN-a-63" value="（集团信息化）公共基础能力" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-753" y="1496" width="1762" height="252" as="geometry" />
