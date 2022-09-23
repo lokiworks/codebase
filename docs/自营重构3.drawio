@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-23T05:07:16.245Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="HV8lIjQ4_QF4Bu9CzGJ5" version="20.3.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-09-23T05:34:16.207Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="OsaYk5oulRbc3BiD4DZz" version="20.3.3" type="github" pages="5">
   <diagram id="fTkGCCR2e1lhVUgZ3sJF" name="物流平台">
     <mxGraphModel dx="1102" dy="581" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -697,7 +697,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZeqabV58we3zh2pebueD" name="物流模块图">
-    <mxGraphModel dx="2986" dy="768" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2865" dy="698" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -797,7 +797,7 @@
           <mxGeometry x="-1109" y="1106" width="1584" height="211" as="geometry" />
         </mxCell>
         <mxCell id="Ul36X3n6mvARQfB9jN-a-63" value="（集团信息化）公共基础能力" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-753" y="1496" width="1762" height="252" as="geometry" />
+          <mxGeometry x="-1159" y="1496" width="2168" height="252" as="geometry" />
         </mxCell>
         <mxCell id="Ul36X3n6mvARQfB9jN-a-66" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rounded=0;labelBackgroundColor=none;labelBorderColor=none;rotation=-90;fillColor=#f5f5f5;fontColor=#333333;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="-531" y="1379" width="128" height="70" as="geometry" />
@@ -877,6 +877,24 @@
         </mxCell>
         <mxCell id="Ul36X3n6mvARQfB9jN-a-97" value="签约" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;fontStyle=0;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="-942.5" y="834" width="101" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="Ul36X3n6mvARQfB9jN-a-100" value="aPaaS" style="rounded=0;labelBorderColor=none;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1053" y="1618" width="101" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="Ul36X3n6mvARQfB9jN-a-101" value="工作流" style="rounded=0;labelBorderColor=none;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-919" y="1618" width="101" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="Ul36X3n6mvARQfB9jN-a-102" value="消息通知" style="rounded=0;labelBorderColor=none;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-777" y="1618" width="101" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="Ul36X3n6mvARQfB9jN-a-103" value="ID生成器" style="rounded=0;labelBorderColor=none;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-649" y="1618" width="101" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="Ul36X3n6mvARQfB9jN-a-104" value="单点登录" style="rounded=0;labelBorderColor=none;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-521" y="1618" width="101" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="Ul36X3n6mvARQfB9jN-a-105" value="资源权限管理" style="rounded=0;labelBorderColor=none;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-385" y="1618" width="101" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
