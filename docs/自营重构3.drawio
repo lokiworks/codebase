@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-26T09:50:12.699Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="GKcyzPXzzlTgnyKYbsvr" version="20.3.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-09-26T09:52:18.456Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="OriqVR3l7oJqm7UksKyu" version="20.3.6" type="github" pages="5">
   <diagram id="fTkGCCR2e1lhVUgZ3sJF" name="物流平台">
     <mxGraphModel dx="1635" dy="866" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -697,7 +697,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZeqabV58we3zh2pebueD" name="物流模块图">
-    <mxGraphModel dx="3887" dy="1467" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6715" dy="2509" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1076,14 +1076,16 @@
         <mxCell id="lnaOSyqmwcnA70HMCSxB-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.086;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;fontColor=#000000;startArrow=none;startFill=0;endArrow=open;endFill=0;" edge="1" parent="1" source="sSGRMk6Fm2FBdKJYHNc9-145" target="lnaOSyqmwcnA70HMCSxB-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lnaOSyqmwcnA70HMCSxB-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.146;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;fontColor=#000000;startArrow=none;startFill=0;endArrow=open;endFill=0;" edge="1" parent="1" source="sSGRMk6Fm2FBdKJYHNc9-145" target="lnaOSyqmwcnA70HMCSxB-3">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="lnaOSyqmwcnA70HMCSxB-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.766;exitY=1.005;exitDx=0;exitDy=0;strokeWidth=1;fontColor=#000000;startArrow=none;startFill=0;endArrow=open;endFill=0;exitPerimeter=0;" edge="1" parent="1" source="sSGRMk6Fm2FBdKJYHNc9-145">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1756" y="18" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="lnaOSyqmwcnA70HMCSxB-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.357;exitY=1.002;exitDx=0;exitDy=0;entryX=0.099;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;fontColor=#000000;startArrow=open;startFill=0;endArrow=none;endFill=0;exitPerimeter=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" source="sSGRMk6Fm2FBdKJYHNc9-145" target="lnaOSyqmwcnA70HMCSxB-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sSGRMk6Fm2FBdKJYHNc9-145" value="&lt;b&gt;供应链平台&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="-2108" y="-856" width="450" height="150" as="geometry" />
+          <mxGeometry x="-2101" y="-853" width="450" height="150" as="geometry" />
         </mxCell>
         <mxCell id="sSGRMk6Fm2FBdKJYHNc9-146" value="&lt;b&gt;开工啦平台（商户）&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="-1400" y="-853" width="450" height="150" as="geometry" />
@@ -1109,9 +1111,9 @@
         <mxCell id="lnaOSyqmwcnA70HMCSxB-11" value="1.1&lt;br&gt;返回物流计划单号" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#000000;labelPosition=center;verticalLabelPosition=middle;" vertex="1" parent="1">
           <mxGeometry x="-1974" y="-395" width="20" height="136" as="geometry" />
         </mxCell>
-        <mxCell id="lnaOSyqmwcnA70HMCSxB-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.165;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;fontColor=#000000;startArrow=open;startFill=0;endArrow=none;endFill=0;exitX=0.908;exitY=0.997;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" source="sSGRMk6Fm2FBdKJYHNc9-145" target="lnaOSyqmwcnA70HMCSxB-3">
+        <mxCell id="lnaOSyqmwcnA70HMCSxB-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.165;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;fontColor=#000000;startArrow=open;startFill=0;endArrow=none;endFill=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" target="lnaOSyqmwcnA70HMCSxB-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1760.5" y="-696" as="sourcePoint" />
+            <mxPoint x="-1687" y="-702" as="sourcePoint" />
             <mxPoint x="-1761.3980000000001" y="27.999999999999773" as="targetPoint" />
           </mxGeometry>
         </mxCell>
