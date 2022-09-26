@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-26T09:42:07.982Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="e0b5HbA6HfWri7vmw2YO" version="20.3.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-09-26T09:45:15.517Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="6iKO88qWZNVbGSpc8YeU" version="20.3.6" type="github" pages="5">
   <diagram id="fTkGCCR2e1lhVUgZ3sJF" name="物流平台">
     <mxGraphModel dx="1635" dy="866" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -697,7 +697,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZeqabV58we3zh2pebueD" name="物流模块图">
-    <mxGraphModel dx="4585" dy="1647" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3927" dy="1507" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1271,6 +1271,18 @@
         </mxCell>
         <mxCell id="lnaOSyqmwcnA70HMCSxB-77" value="创建" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;fontStyle=0;verticalAlign=middle;" vertex="1" parent="lnaOSyqmwcnA70HMCSxB-75">
           <mxGeometry x="16" y="37.25" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lnaOSyqmwcnA70HMCSxB-78" value="验机管理" style="swimlane;rounded=0;labelBackgroundColor=none;labelBorderColor=none;html=0;swimlaneLine=1;swimlaneBody=1;swimlaneHead=1;horizontal=1;connectable=1;allowArrows=1;dropTarget=1;collapsible=0;startSize=24;" vertex="1" parent="1">
+          <mxGeometry x="1032" y="934.5" width="245" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="lnaOSyqmwcnA70HMCSxB-79" value="查看验机结果" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;fontStyle=0;verticalAlign=middle;" vertex="1" parent="lnaOSyqmwcnA70HMCSxB-78">
+          <mxGeometry x="78" y="37.25" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lnaOSyqmwcnA70HMCSxB-80" value="创建" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;fontStyle=0;verticalAlign=middle;" vertex="1" parent="lnaOSyqmwcnA70HMCSxB-78">
+          <mxGeometry x="8" y="37.25" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lnaOSyqmwcnA70HMCSxB-81" value="查看验机项" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;fontStyle=0;verticalAlign=middle;" vertex="1" parent="lnaOSyqmwcnA70HMCSxB-78">
+          <mxGeometry x="160.5" y="37.25" width="80.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
