@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-26T06:21:33.771Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="I-aZWKL-sIP9Aw42tzJ5" version="20.3.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-09-26T06:29:48.857Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="8_DC5ozOsD4LJIQEIgPX" version="20.3.6" type="github" pages="5">
   <diagram id="fTkGCCR2e1lhVUgZ3sJF" name="物流平台">
     <mxGraphModel dx="1635" dy="866" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -697,7 +697,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZeqabV58we3zh2pebueD" name="物流模块图">
-    <mxGraphModel dx="4116" dy="2035" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3415" dy="1664" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1094,11 +1094,6 @@
         <mxCell id="lnaOSyqmwcnA70HMCSxB-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.086;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;fontColor=#000000;startArrow=none;startFill=0;endArrow=open;endFill=0;" edge="1" parent="1" source="sSGRMk6Fm2FBdKJYHNc9-145" target="lnaOSyqmwcnA70HMCSxB-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lnaOSyqmwcnA70HMCSxB-5" value="创建物流计划单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="lnaOSyqmwcnA70HMCSxB-4">
-          <mxGeometry x="-0.0701" y="2" relative="1" as="geometry">
-            <mxPoint x="-57" y="12" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="lnaOSyqmwcnA70HMCSxB-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.146;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;fontColor=#000000;startArrow=none;startFill=0;endArrow=open;endFill=0;" edge="1" parent="1" source="sSGRMk6Fm2FBdKJYHNc9-145" target="lnaOSyqmwcnA70HMCSxB-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -1119,6 +1114,12 @@
         </mxCell>
         <mxCell id="lnaOSyqmwcnA70HMCSxB-2" value="渠道" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-2280" y="-800" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lnaOSyqmwcnA70HMCSxB-8" value="创&lt;br&gt;建&lt;br&gt;物&lt;br&gt;流&lt;br&gt;订&lt;br&gt;单&lt;br&gt;（&lt;br&gt;携&lt;br&gt;带&lt;br&gt;物&lt;br&gt;流&lt;br&gt;计&lt;br&gt;划&lt;br&gt;单&lt;br&gt;号&lt;br&gt;）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#000000;labelPosition=center;verticalLabelPosition=middle;" vertex="1" parent="1">
+          <mxGeometry x="-1802" y="-466" width="31" height="332" as="geometry" />
+        </mxCell>
+        <mxCell id="lnaOSyqmwcnA70HMCSxB-9" value="1.0&lt;br&gt;创建物流计划单" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#000000;labelPosition=center;verticalLabelPosition=middle;" vertex="1" parent="1">
+          <mxGeometry x="-2022" y="-397" width="20" height="118" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
