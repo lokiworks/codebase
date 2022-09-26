@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-26T00:15:14.181Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="xiDkqPW-BH_K4i934zeM" version="20.3.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-09-26T00:21:03.180Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="hIxi0ldAXHbQOzsc4y5u" version="20.3.6" type="github" pages="5">
   <diagram id="fTkGCCR2e1lhVUgZ3sJF" name="物流平台">
     <mxGraphModel dx="906" dy="384" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -697,7 +697,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZeqabV58we3zh2pebueD" name="物流模块图">
-    <mxGraphModel dx="2986" dy="1937" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2438" dy="1621" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -944,13 +944,28 @@
           <mxGeometry x="186" y="446.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sSGRMk6Fm2FBdKJYHNc9-34" value="运费测算管理" style="swimlane;rounded=0;labelBackgroundColor=none;labelBorderColor=none;html=0;swimlaneLine=1;swimlaneBody=1;swimlaneHead=1;horizontal=1;connectable=1;allowArrows=1;dropTarget=1;collapsible=0;startSize=24;" vertex="1" parent="1">
-          <mxGeometry x="286" y="425" width="150" height="100" as="geometry" />
+          <mxGeometry x="15" y="418" width="150" height="87" as="geometry" />
         </mxCell>
         <mxCell id="sSGRMk6Fm2FBdKJYHNc9-35" value="对客" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;fontStyle=0;verticalAlign=middle;" vertex="1" parent="sSGRMk6Fm2FBdKJYHNc9-34">
           <mxGeometry x="13" y="39" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sSGRMk6Fm2FBdKJYHNc9-36" value="对商" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;fontStyle=0;verticalAlign=middle;" vertex="1" parent="sSGRMk6Fm2FBdKJYHNc9-34">
           <mxGeometry x="83" y="39" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sSGRMk6Fm2FBdKJYHNc9-39" value="账单管理" style="swimlane;rounded=0;labelBackgroundColor=none;labelBorderColor=none;html=0;swimlaneLine=1;swimlaneBody=1;swimlaneHead=1;horizontal=1;connectable=1;allowArrows=1;dropTarget=1;collapsible=0;startSize=24;" vertex="1" parent="1">
+          <mxGeometry x="614" y="450" width="150" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="sSGRMk6Fm2FBdKJYHNc9-40" value="创建" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;fontStyle=0;verticalAlign=middle;" vertex="1" parent="sSGRMk6Fm2FBdKJYHNc9-39">
+          <mxGeometry x="13" y="39" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sSGRMk6Fm2FBdKJYHNc9-42" value="查看" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;fontStyle=0;verticalAlign=middle;" vertex="1" parent="sSGRMk6Fm2FBdKJYHNc9-39">
+          <mxGeometry x="85" y="39" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sSGRMk6Fm2FBdKJYHNc9-43" value="调整" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;fontStyle=0;verticalAlign=middle;" vertex="1" parent="sSGRMk6Fm2FBdKJYHNc9-39">
+          <mxGeometry x="13" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sSGRMk6Fm2FBdKJYHNc9-44" value="导出" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;fontStyle=0;verticalAlign=middle;" vertex="1" parent="sSGRMk6Fm2FBdKJYHNc9-39">
+          <mxGeometry x="85" y="80" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
