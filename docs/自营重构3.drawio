@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-26T11:53:37.375Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="UdqKisAVAJ_dMtfirTmE" version="20.3.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-09-26T11:56:36.041Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="HeqLBM3huDLsYTrkYI5s" version="20.3.6" type="github" pages="5">
   <diagram id="fTkGCCR2e1lhVUgZ3sJF" name="物流平台">
     <mxGraphModel dx="1635" dy="866" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1203,16 +1203,16 @@
           <mxGeometry x="854" y="509.25" width="363" height="79.75" as="geometry" />
         </mxCell>
         <mxCell id="lnaOSyqmwcnA70HMCSxB-45" value="创建" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;fontStyle=0;verticalAlign=middle;" vertex="1" parent="lnaOSyqmwcnA70HMCSxB-44">
-          <mxGeometry x="18.499999999999886" y="38" width="60" height="30" as="geometry" />
+          <mxGeometry x="5.999999999999886" y="38" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lnaOSyqmwcnA70HMCSxB-46" value="修改" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;fontStyle=0;verticalAlign=middle;" vertex="1" parent="lnaOSyqmwcnA70HMCSxB-44">
-          <mxGeometry x="98" y="38" width="60" height="30" as="geometry" />
+          <mxGeometry x="75" y="38" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lnaOSyqmwcnA70HMCSxB-47" value="完结" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;fontStyle=0;verticalAlign=middle;" vertex="1" parent="lnaOSyqmwcnA70HMCSxB-44">
-          <mxGeometry x="281" y="38" width="60" height="30" as="geometry" />
+          <mxGeometry x="213" y="38" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lnaOSyqmwcnA70HMCSxB-49" value="查询" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;fontStyle=0;verticalAlign=middle;" vertex="1" parent="lnaOSyqmwcnA70HMCSxB-44">
-          <mxGeometry x="188" y="38" width="60" height="30" as="geometry" />
+          <mxGeometry x="143" y="38" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lnaOSyqmwcnA70HMCSxB-51" value="运输单状态管理" style="swimlane;rounded=0;labelBackgroundColor=none;labelBorderColor=none;html=0;swimlaneLine=1;swimlaneBody=1;swimlaneHead=1;horizontal=1;connectable=1;allowArrows=1;dropTarget=1;collapsible=0;startSize=24;" vertex="1" parent="1">
           <mxGeometry x="854" y="652" width="162.5" height="91" as="geometry" />
@@ -1315,6 +1315,12 @@
         </mxCell>
         <mxCell id="lnaOSyqmwcnA70HMCSxB-91" value="单号生成器" style="rounded=0;labelBorderColor=none;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="-111.5" y="2148" width="101" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="lnaOSyqmwcnA70HMCSxB-99" value="作废" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;fontStyle=0;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="265.5" y="676" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lnaOSyqmwcnA70HMCSxB-100" value="作废" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;fontStyle=0;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1141" y="547" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
