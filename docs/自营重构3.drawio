@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-26T00:32:42.691Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="s9K4UufBYT-G91og0gVH" version="20.3.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-09-26T00:40:21.457Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="O1MDwJHFEB75jF2IlRjb" version="20.3.6" type="github" pages="5">
   <diagram id="fTkGCCR2e1lhVUgZ3sJF" name="物流平台">
     <mxGraphModel dx="906" dy="384" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -697,7 +697,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZeqabV58we3zh2pebueD" name="物流模块图">
-    <mxGraphModel dx="4674" dy="2449" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2608" dy="1537" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1011,6 +1011,27 @@
         </mxCell>
         <mxCell id="sSGRMk6Fm2FBdKJYHNc9-69" value="减免明细" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;fontStyle=0;verticalAlign=middle;" vertex="1" parent="sSGRMk6Fm2FBdKJYHNc9-67">
           <mxGeometry x="84" y="41" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sSGRMk6Fm2FBdKJYHNc9-70" value="承运商管理" style="swimlane;rounded=0;labelBackgroundColor=none;labelBorderColor=none;html=0;swimlaneLine=1;swimlaneBody=1;swimlaneHead=1;horizontal=1;connectable=1;allowArrows=1;dropTarget=1;collapsible=0;startSize=24;" vertex="1" parent="1">
+          <mxGeometry x="-1505" y="704" width="150" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="sSGRMk6Fm2FBdKJYHNc9-71" value="入驻" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;fontStyle=0;verticalAlign=middle;" vertex="1" parent="sSGRMk6Fm2FBdKJYHNc9-70">
+          <mxGeometry x="10" y="39" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sSGRMk6Fm2FBdKJYHNc9-72" value="查看" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;fontStyle=0;verticalAlign=middle;" vertex="1" parent="sSGRMk6Fm2FBdKJYHNc9-70">
+          <mxGeometry x="82" y="39" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sSGRMk6Fm2FBdKJYHNc9-73" value="修改" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;fontStyle=0;verticalAlign=middle;" vertex="1" parent="sSGRMk6Fm2FBdKJYHNc9-70">
+          <mxGeometry x="10" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sSGRMk6Fm2FBdKJYHNc9-75" value="审核" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;fontStyle=0;verticalAlign=middle;" vertex="1" parent="sSGRMk6Fm2FBdKJYHNc9-70">
+          <mxGeometry x="82" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sSGRMk6Fm2FBdKJYHNc9-76" value="导入" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;fontStyle=0;verticalAlign=middle;" vertex="1" parent="sSGRMk6Fm2FBdKJYHNc9-70">
+          <mxGeometry x="10" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sSGRMk6Fm2FBdKJYHNc9-77" value="导出" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;fontStyle=0;verticalAlign=middle;" vertex="1" parent="sSGRMk6Fm2FBdKJYHNc9-70">
+          <mxGeometry x="82" y="120" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
