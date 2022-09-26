@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-26T03:55:32.957Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="KLn3x3WMyYKPdh1XHcqE" version="20.3.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-09-26T03:56:06.599Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="jyFEWPJgP36dyFqnvXrG" version="20.3.6" type="github" pages="5">
   <diagram id="fTkGCCR2e1lhVUgZ3sJF" name="物流平台">
     <mxGraphModel dx="906" dy="384" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -701,6 +701,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="sSGRMk6Fm2FBdKJYHNc9-141" value="&lt;b&gt;物流调度&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="400" y="9.5" width="468" height="301.5" as="geometry" />
+        </mxCell>
         <mxCell id="sSGRMk6Fm2FBdKJYHNc9-134" value="合同制客户下单" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="sSGRMk6Fm2FBdKJYHNc9-133" target="Ul36X3n6mvARQfB9jN-a-27">
           <mxGeometry x="-0.2767" y="16" relative="1" as="geometry">
             <mxPoint as="offset" />
@@ -894,19 +897,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="sSGRMk6Fm2FBdKJYHNc9-26" value="运输单管理" style="swimlane;rounded=0;labelBackgroundColor=none;labelBorderColor=none;html=0;swimlaneLine=1;swimlaneBody=1;swimlaneHead=1;horizontal=1;connectable=1;allowArrows=1;dropTarget=1;collapsible=0;startSize=24;" vertex="1" parent="1">
-          <mxGeometry x="401" y="267" width="150" height="100" as="geometry" />
+          <mxGeometry x="437" y="163.5" width="150" height="100" as="geometry" />
         </mxCell>
         <mxCell id="sSGRMk6Fm2FBdKJYHNc9-31" value="子运输单状态变更通知" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="sSGRMk6Fm2FBdKJYHNc9-29" target="sSGRMk6Fm2FBdKJYHNc9-26">
           <mxGeometry x="-0.0091" y="-15" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="731" y="230" />
-              <mxPoint x="476" y="230" />
+              <mxPoint x="767" y="126.5" />
+              <mxPoint x="512" y="126.5" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sSGRMk6Fm2FBdKJYHNc9-29" value="子运输单管理" style="swimlane;rounded=0;labelBackgroundColor=none;labelBorderColor=none;html=0;swimlaneLine=1;swimlaneBody=1;swimlaneHead=1;horizontal=1;connectable=1;allowArrows=1;dropTarget=1;collapsible=0;startSize=24;" vertex="1" parent="1">
-          <mxGeometry x="656" y="267" width="150" height="100" as="geometry" />
+          <mxGeometry x="692" y="163.5" width="150" height="100" as="geometry" />
         </mxCell>
         <mxCell id="sSGRMk6Fm2FBdKJYHNc9-32" value="车型匹配" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;fontStyle=0;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="186" y="446.5" width="60" height="30" as="geometry" />
