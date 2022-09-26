@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-26T00:01:13.574Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="hGOGuYvc2eDjaz0dKhtB" version="20.3.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-09-26T00:05:31.168Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="b8LTnYXO-2rpLuoCTBH0" version="20.3.6" type="github" pages="5">
   <diagram id="fTkGCCR2e1lhVUgZ3sJF" name="物流平台">
     <mxGraphModel dx="906" dy="384" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -697,7 +697,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZeqabV58we3zh2pebueD" name="物流模块图">
-    <mxGraphModel dx="2764" dy="1809" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3319" dy="2129" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -727,9 +727,6 @@
         </mxCell>
         <mxCell id="Ul36X3n6mvARQfB9jN-a-27" value="&lt;b&gt;物流订单&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="-793" y="9.5" width="450" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="Ul36X3n6mvARQfB9jN-a-28" value="物流调度" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="-172" y="191" width="450" height="300" as="geometry" />
         </mxCell>
         <mxCell id="Ul36X3n6mvARQfB9jN-a-30" value="物流（承运商）运单" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="380" y="188" width="313" height="337" as="geometry" />
@@ -807,27 +804,27 @@
           <mxGeometry x="-1144" y="1" width="101" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ul36X3n6mvARQfB9jN-a-82" value="拼单" style="swimlane;rounded=0;labelBackgroundColor=none;labelBorderColor=none;html=0;swimlaneLine=1;swimlaneBody=1;swimlaneHead=1;horizontal=1;connectable=1;allowArrows=1;dropTarget=1;collapsible=0;startSize=24;" parent="1" vertex="1">
-          <mxGeometry x="-157" y="265" width="130" height="151" as="geometry" />
+          <mxGeometry x="-173" y="46" width="150" height="250" as="geometry" />
         </mxCell>
         <mxCell id="Ul36X3n6mvARQfB9jN-a-83" value="自动" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;fontStyle=0;verticalAlign=middle;dashed=1;" parent="Ul36X3n6mvARQfB9jN-a-82" vertex="1">
-          <mxGeometry x="35" y="55.25" width="60" height="30" as="geometry" />
+          <mxGeometry x="40" y="81.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ul36X3n6mvARQfB9jN-a-84" value="人工" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;fontStyle=0;verticalAlign=middle;" parent="Ul36X3n6mvARQfB9jN-a-82" vertex="1">
-          <mxGeometry x="35" y="95" width="60" height="30" as="geometry" />
+          <mxGeometry x="40" y="137.75" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ul36X3n6mvARQfB9jN-a-85" value="派单" style="swimlane;rounded=0;labelBackgroundColor=none;labelBorderColor=none;html=0;swimlaneLine=1;swimlaneBody=1;swimlaneHead=1;horizontal=1;connectable=1;allowArrows=1;dropTarget=1;collapsible=0;startSize=24;" parent="1" vertex="1">
-          <mxGeometry x="62" y="265" width="130" height="200" as="geometry" />
+          <mxGeometry x="60" y="46" width="150" height="250" as="geometry" />
         </mxCell>
         <mxCell id="Ul36X3n6mvARQfB9jN-a-86" value="自动" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;fontStyle=0;verticalAlign=middle;dashed=1;" parent="Ul36X3n6mvARQfB9jN-a-85" vertex="1">
-          <mxGeometry x="14.5" y="53.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="37.5" y="81.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ul36X3n6mvARQfB9jN-a-87" value="人工" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;fontStyle=0;verticalAlign=middle;" parent="Ul36X3n6mvARQfB9jN-a-85" vertex="1">
-          <mxGeometry x="14.5" y="113" width="60" height="30" as="geometry" />
+          <mxGeometry x="37.5" y="137.75" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ul36X3n6mvARQfB9jN-a-89" value="" style="endArrow=open;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;" parent="1" source="Ul36X3n6mvARQfB9jN-a-82" target="Ul36X3n6mvARQfB9jN-a-85" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-81" y="160" as="sourcePoint" />
-            <mxPoint x="-31" y="110" as="targetPoint" />
+            <mxPoint x="-105" y="-26" as="sourcePoint" />
+            <mxPoint x="-55" y="-76" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ul36X3n6mvARQfB9jN-a-93" value="司机管理" style="swimlane;rounded=0;labelBackgroundColor=none;labelBorderColor=none;html=0;swimlaneLine=1;swimlaneBody=1;swimlaneHead=1;horizontal=1;connectable=1;allowArrows=1;dropTarget=1;collapsible=0;startSize=24;" parent="1" vertex="1">
@@ -919,6 +916,9 @@
         </mxCell>
         <mxCell id="sSGRMk6Fm2FBdKJYHNc9-20" value="追加" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;fontStyle=0;verticalAlign=middle;" vertex="1" parent="sSGRMk6Fm2FBdKJYHNc9-18">
           <mxGeometry x="6" y="42" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sSGRMk6Fm2FBdKJYHNc9-25" value="运距测算" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;fontStyle=0;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-226.5" y="433" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
