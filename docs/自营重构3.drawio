@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-27T11:19:52.522Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="tzgLnE5s3wUOfv0ccePa" version="20.3.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-09-27T11:21:00.094Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="9wzjavRiRRRmirmRLdNl" version="20.3.6" type="github" pages="5">
   <diagram id="fTkGCCR2e1lhVUgZ3sJF" name="物流平台">
     <mxGraphModel dx="1022" dy="436" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -697,7 +697,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZeqabV58we3zh2pebueD" name="物流模块图">
-    <mxGraphModel dx="3609" dy="2259" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3825" dy="2236" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1343,6 +1343,9 @@
         </mxCell>
         <mxCell id="qOAqPDQxxx3TETmtYrVO-3" value="人工" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=default;fontStyle=0;verticalAlign=middle;" vertex="1" parent="qOAqPDQxxx3TETmtYrVO-1">
           <mxGeometry x="40" y="76.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qOAqPDQxxx3TETmtYrVO-14" value="运距测算" style="swimlane;rounded=0;labelBackgroundColor=none;labelBorderColor=none;html=0;swimlaneLine=1;swimlaneBody=1;swimlaneHead=1;horizontal=1;connectable=1;allowArrows=1;dropTarget=1;collapsible=0;startSize=24;" vertex="1" parent="1">
+          <mxGeometry x="-709" y="1037" width="100.5" height="132" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
