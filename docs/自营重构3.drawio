@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-27T11:07:49.334Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="bTjZJKfjYUSWGewNeIZl" version="20.3.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-09-27T11:08:43.944Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="zFxZRa9cH8Ddgc4ZrSXc" version="20.3.6" type="github" pages="5">
   <diagram id="fTkGCCR2e1lhVUgZ3sJF" name="物流平台">
     <mxGraphModel dx="1022" dy="436" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -697,7 +697,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZeqabV58we3zh2pebueD" name="物流模块图">
-    <mxGraphModel dx="2306" dy="1532" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2436" dy="1605" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -797,9 +797,9 @@
           <mxGeometry x="37.5" y="137.75" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ul36X3n6mvARQfB9jN-a-89" value="派单流程" style="endArrow=open;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endFill=0;" parent="1" source="Ul36X3n6mvARQfB9jN-a-82" edge="1">
-          <mxGeometry x="-0.3426" y="37" width="50" height="50" relative="1" as="geometry">
+          <mxGeometry x="0.0798" y="13" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-282.5" y="415.5" as="sourcePoint" />
-            <mxPoint x="-120" y="557" as="targetPoint" />
+            <mxPoint x="-118" y="553" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -1288,6 +1288,16 @@
         </mxCell>
         <mxCell id="EOYjWHldhtHg8SvWCAWS-24" value="物流运费价格管理" style="swimlane;rounded=0;labelBackgroundColor=none;labelBorderColor=none;html=0;swimlaneLine=1;swimlaneBody=1;swimlaneHead=1;horizontal=1;connectable=1;allowArrows=1;dropTarget=1;collapsible=0;startSize=24;" parent="1" vertex="1">
           <mxGeometry x="-707" y="1184" width="100.5" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="qOAqPDQxxx3TETmtYrVO-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="qOAqPDQxxx3TETmtYrVO-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-118" y="688" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qOAqPDQxxx3TETmtYrVO-5" value="派单流程" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qOAqPDQxxx3TETmtYrVO-4">
+          <mxGeometry x="-0.1895" y="1" relative="1" as="geometry">
+            <mxPoint x="10" y="-10" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="qOAqPDQxxx3TETmtYrVO-1" value="拆单" style="swimlane;rounded=0;labelBackgroundColor=none;labelBorderColor=none;html=0;swimlaneLine=1;swimlaneBody=1;swimlaneHead=1;horizontal=1;connectable=1;allowArrows=1;dropTarget=1;collapsible=0;startSize=24;" vertex="1" parent="1">
           <mxGeometry x="-350.5" y="631.75" width="150" height="113.25" as="geometry" />
