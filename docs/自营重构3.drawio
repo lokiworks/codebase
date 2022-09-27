@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-27T11:49:38.161Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="zjnY6S5BAjGwfrbHZKWC" version="20.3.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-09-27T11:51:57.720Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="xXNzWxZdHm3qm6qcvU59" version="20.3.6" type="github" pages="5">
   <diagram id="fTkGCCR2e1lhVUgZ3sJF" name="物流平台">
     <mxGraphModel dx="1022" dy="436" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -697,7 +697,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZeqabV58we3zh2pebueD" name="物流模块图">
-    <mxGraphModel dx="2962" dy="720" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3017" dy="750" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -749,11 +749,12 @@
             <mxPoint x="-86" y="-54" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qOAqPDQxxx3TETmtYrVO-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;exitX=0.154;exitY=1.001;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="sSGRMk6Fm2FBdKJYHNc9-37" target="Ul36X3n6mvARQfB9jN-a-15">
+        <mxCell id="qOAqPDQxxx3TETmtYrVO-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;exitX=0.154;exitY=1.001;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="sSGRMk6Fm2FBdKJYHNc9-37" target="Ul36X3n6mvARQfB9jN-a-15">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-502" y="1395" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-256" y="1309" />
-              <mxPoint x="-579" y="1309" />
+              <mxPoint x="-502" y="1309" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -795,11 +796,13 @@
             <mxPoint x="55" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qOAqPDQxxx3TETmtYrVO-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="Ul36X3n6mvARQfB9jN-a-27" target="Ul36X3n6mvARQfB9jN-a-24">
+        <mxCell id="qOAqPDQxxx3TETmtYrVO-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.168;exitY=0.999;exitDx=0;exitDy=0;endArrow=open;endFill=0;exitPerimeter=0;entryX=0.734;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ul36X3n6mvARQfB9jN-a-27" target="Ul36X3n6mvARQfB9jN-a-23">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-832" y="1400" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-676" y="1344" />
-              <mxPoint x="-121" y="1344" />
+              <mxPoint x="-826" y="1344" />
+              <mxPoint x="-825" y="1344" />
+              <mxPoint x="-825" y="1401" />
             </Array>
           </mxGeometry>
         </mxCell>
