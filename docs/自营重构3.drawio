@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-28T03:14:52.264Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="CIQNe-BcBV8CtYPENUXo" version="20.3.7" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-09-28T03:34:54.596Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Ba0OYlAypov_ymMqVjfS" version="20.3.7" type="github" pages="7">
   <diagram id="fTkGCCR2e1lhVUgZ3sJF" name="物流平台">
     <mxGraphModel dx="924" dy="500" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1470,12 +1470,27 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_kYdHkHq_Vh2p-0mw1zN" name="物流运输单状态">
-    <mxGraphModel dx="499" dy="270" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="684" dy="370" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="9lSHlUCMv2fgwkioqtWA-1" value="已创建" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="212" width="120" height="60" as="geometry" />
+          <mxGeometry x="201" y="216" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fZ6Zg-qfUjdlEjdG6r4y-1" value="待签约" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="321" y="216" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fZ6Zg-qfUjdlEjdG6r4y-2" value="已签约&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E5%BE%85%E7%AD%BE%E7%BA%A6%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22308%22%20y%3D%22212%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="441" y="216" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fZ6Zg-qfUjdlEjdG6r4y-3" value="进行中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="209" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fZ6Zg-qfUjdlEjdG6r4y-4" value="已完成" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="653" y="209" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fZ6Zg-qfUjdlEjdG6r4y-5" value="已作废" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="573" y="274" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
