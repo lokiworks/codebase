@@ -4,21 +4,9 @@
     layout: false,
     routes: [
       {
+        name: 'login',
         path: '/user/login',
-        layout: false,
-        name:'login',
-        component: './user/Login', // 相对路径从src/pages开始找起
-      },
-      {
-        path:'/user',
-        redirect: '/user/login',
-      },
-      {
-        name: 'register-result',
-        icon:'smile',
-        path: '/user/register-result',
-        component:'./user/register-result',
-
+        component: './user/Login',
       },
       {
         component: './404',
@@ -36,7 +24,6 @@
     name: 'admin',
     icon: 'crown',
     access: 'canAdmin',
-    component: './Admin',
     routes: [
       {
         path: '/admin/sub-page',
@@ -54,6 +41,12 @@
     icon: 'table',
     path: '/list',
     component: './TableList',
+  },
+  {
+    path:'/new',
+    name:'new',
+    icon:'smile',
+    component:'./NewPage',
   },
   {
     path: '/',

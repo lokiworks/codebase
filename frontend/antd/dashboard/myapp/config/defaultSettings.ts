@@ -1,7 +1,5 @@
-import { Settings as LayoutSettings } from '@ant-design/pro-layout';
+import { Settings as LayoutSettings } from '@ant-design/pro-components';
 
-
-// type ProSettings = PureSettings & RenderSetting;
 const Settings: LayoutSettings & {
   pwa?: boolean;
   logo?: string;
@@ -14,9 +12,9 @@ const Settings: LayoutSettings & {
   fixedHeader: false,
   fixSiderbar: true,
   colorWeak: false,
-  title: '交易管理平台',
+  title: 'Ant Design Pro',
   pwa: false,
-  logo: 'logo.svg',
+  logo: 'https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg',
   iconfontUrl: '',
 };
 
