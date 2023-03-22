@@ -51,6 +51,13 @@ export default [
     path: '/list',
     component: './TableList',
   },
+    // newPage
+    {
+      name: 'NewPage',
+      icon: 'smile',
+      path: '/newPage',
+      component: './NewPage',
+    },
   {
     path: '/',
     redirect: '/welcome',
@@ -60,4 +67,5 @@ export default [
     layout: false,
     component: './404',
   },
+
 ];
