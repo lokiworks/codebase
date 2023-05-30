@@ -1,11 +1,52 @@
 import { login } from "@/services/ant-design-pro/api";
 import { useEmotionCss } from "@ant-design/use-emotion-css";
-import { Helmet, history, useIntl, useModel } from "@umijs/max";
-import { message } from "antd";
+import { FormattedMessage, Helmet, history, useIntl, useModel } from "@umijs/max";
+import { Alert, Tabs, message } from "antd";
 import Settings from '../../../../config/defaultSettings';
 import { useState } from "react";
 import { flushSync } from "react-dom";
-import { LoginForm } from "@ant-design/pro-components";
+import { LoginForm, ProFormText } from "@ant-design/pro-components";
+import { AlipayCircleOutlined, LockOutlined, TaobaoCircleOutlined, UserOutlined, WeiboCircleOutlined } from "@ant-design/icons";
+
+
+
+const ActionIcons = () => {
+    const langClassName = useEmotionCss(({ token }) => {
+        return {
+            marginLeft: '8px',
+            color: 'rgba(0,0,0,0.2)',
+            fontSize: '24px',
+            verticalAlign: 'middle',
+            cursor: 'pointer',
+            transition: 'color 0.3s',
+            '&:hover': {
+                color: token.colorPrimaryActive,
+            }
+        }
+    });
+
+    return (
+        <>
+            <AlipayCircleOutlined key="AlipayCircleOutlined" className={langClassName} />
+            <TaobaoCircleOutlined key="TaobaoCircleOutlined" className={langClassName} />
+            <WeiboCircleOutlined key="WeiboCircleOutlined" className={langClassName} />
+        </>
+    )
+};
+
+const LoginMessage: React.FC<{ content: string; }> = ({ content }) => {
+    return (
+        <Alert
+            style={{ marginBottom: 24, }}
+            message={content}
+            type='error'
+            showIcon
+        />
+
+    );
+};
+
+
 
 const Login: React.FC = () => {
 
@@ -82,15 +123,102 @@ const Login: React.FC = () => {
 
             </Helmet>
 
-            <LoginForm contentStyle={{            minWidth: 280,
-            maxWidth: '75vw',}}
-            logo={<img alt="logo" src="/logo.svg" />}
-            title="Ant Design"
-            
+            <LoginForm
+                contentStyle={{
+                    minWidth: 280,
+                    maxWidth: '75vw',
+                }}
+                logo={<img alt="logo" src="/logo.svg" />}
+                title="XXX管理系统"
+                subTitle={intl.formatMessage({ id: 'pages.layouts.userLayout.title' })}
+                initialValues={{ autoLogin: true }}
+                actions={[
+                    <FormattedMessage
+                        key="loginWith"
+                        id="pages.login.loginWith"
+                        defaultMessage="其他登录方式"
+                    />,
+                    <ActionIcons key="icons" />,
+                ]}
+                onFinish={async (values) => {
+                    await handleSubmit(values as API.LoginParams);
+                }}
             >
+                <Tabs
+                    activeKey={type}
+                    onChange={setType}
+                    centered
+                    items={
+                        [
+                            {
+                                key: 'account',
+                                label: intl.formatMessage({
+                                    id: 'pages.login.accountLogin.tab',
+                                    defaultMessage: '账户密码登录',
+                                }),
+                            },
+                            {
+                                key: 'mobile',
+                                label: intl.formatMessage({
+                                    id: 'pages.login.phoneLogin.tab',
+                                    defaultMessage: '手机号登录',
+                                })
+                            },
+                        ]
+                    }
+                />
+
+                {
+                    status === 'error' && loginType === 'account' && (
+                        <LoginMessage content={intl.formatMessage({
+                            id: 'pages.login.accountLogin.errorMessage',
+                            defaultMessage: '账户或密码错误(admin/ant.design)'
+                        })}
+                        />
+                    )}
+
+
+                {
+                    type === 'account' && (
+                        <>
+
+                            <ProFormText
+                                name="username"
+                                fieldProps={{
+                                    size: 'large', prefix: <UserOutlined />,
+                                }}
+                                placeholder={intl.formatMessage({ id: 'pages.login.username.placeholder', defaultMessage: '用户名: admin or user' })}
+                                rules={[
+                                    {
+                                        required: true,
+                                        message: (<FormattedMessage id="pages.login.username.required" defaultMessage="请输入用户名!" />),
+                                    },
+                                ]}
+
+                            />
+
+                            <ProFormText.Password
+                                name="password"
+                                fieldProps={{ size: 'large', prefix: <LockOutlined />, }}
+                                placeholder={intl.formatMessage({ id: 'pages.login.password.placeholder', defaultMessage: '密码: ant.design' })}
+                                rules={
+                                    [
+                                        {
+                                            required: true,
+                                            message: (<FormattedMessage id="pages.login.password.required" defaultMessage="请输入密码！" />),
+                                        },
+                                    ]
+                                }
+                            />
+
+                        </>
+                    )
+                }
+
+                
 
             </LoginForm>
-            
+
         </div>
 
     );
