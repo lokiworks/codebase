@@ -4,6 +4,20 @@ import { request } from "@umijs/max";
 import { Button, Dropdown, Space, Table, Tag } from "antd";
 import { useRef } from "react";
 
+
+// 声明函数及其别名
+export const waitTimePromise = async (time: number = 1000) => {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            resolve(true);
+        }, time);
+    });
+};
+
+export const waitTime = waitTimePromise;
+
+
+
 type GithubIssueItem = {
     url: string;
     id: number;
