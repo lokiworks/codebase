@@ -51,13 +51,21 @@ export default [
     path: '/list',
     component: './TableList',
   },
-    // newPage
-    {
-      name: 'NewPage',
-      icon: 'smile',
-      path: '/newPage',
-      component: './NewPage',
-    },
+  // newPage
+  {
+    name: 'NewPage',
+    icon: 'smile',
+    path: '/newPage',
+    component: './NewPage',
+  },
+
+   // newPage2
+   {
+    name: 'NewPage2',
+    icon: 'smile',
+    path: '/newPage2',
+    component: './NewPage2',
+  },
   {
     path: '/',
     redirect: '/welcome',
