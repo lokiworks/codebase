@@ -14,7 +14,7 @@ require (
 	github.com/stretchr/testify v1.2.1
 	github.com/tsuyoshiwada/go-gitcmd v0.0.0-20180205145712-5f1f5f9475df
 	github.com/urfave/cli v1.20.0
-	golang.org/x/sys v0.0.0-20180202135801-37707fdb30a5 // indirect
+	golang.org/x/sys v0.1.0 // indirect
 	gopkg.in/AlecAivazis/survey.v1 v1.4.2
 	gopkg.in/kyokomi/emoji.v1 v1.0.0-20161123144355-7e06b236c489
 	gopkg.in/yaml.v2 v2.2.8
